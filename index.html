@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estudar é Fácil! · 4º Ano</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --dark:    #1A1A2E;
+    --amarelo: #FFD93D;
+    --bg:      #F8F6FF;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--dark);
+    padding: 32px 24px 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      45deg, transparent, transparent 24px,
+      rgba(255,255,255,.025) 24px, rgba(255,255,255,.025) 48px
+    );
+  }
+  header::after {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #FF6B9D, #FFD93D, #06D6A0, #118AB2, #845EC2);
+  }
+  .header-emoji {
+    font-size: 3.2rem;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-8px); }
+  }
+  header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.2rem;
+    color: var(--amarelo);
+    letter-spacing: 1px;
+    position: relative;
+  }
+  header p {
+    color: rgba(255,255,255,.55);
+    font-size: .95rem;
+    margin-top: 6px;
+    position: relative;
+  }
+  .turma-badge {
+    display: inline-block;
+    margin-top: 12px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.15);
+    color: rgba(255,255,255,.7);
+    font-size: .82rem;
+    font-weight: 800;
+    padding: 4px 16px;
+    border-radius: 50px;
+    position: relative;
+    letter-spacing: .5px;
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 36px 20px 60px;
+  }
+
+  .section-label {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.1rem;
+    color: #aaa;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: .85rem;
+  }
+
+  /* ── CARDS GRID ── */
+  .materias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 22px;
+  }
+
+  /* ── MATERIA CARD ── */
+  .materia-card {
+    border-radius: 24px;
+    padding: 30px 28px 26px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 0 rgba(0,0,0,.13);
+    transition: transform .2s, box-shadow .2s;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+  .materia-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 0 rgba(0,0,0,.13);
+  }
+  .materia-card::after {
+    content: '';
+    position: absolute;
+    bottom: -30px; right: -30px;
+    width: 120px; height: 120px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.1);
+  }
+  .materia-card::before {
+    content: '';
+    position: absolute;
+    top: -20px; left: -20px;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.06);
+  }
+
+  /* cores por matéria */
+  .card-portugues  { background: linear-gradient(135deg, #1A1A2E 0%, #2D2B55 100%); }
+  .card-ciencias   { background: linear-gradient(135deg, #0D2B1F 0%, #1A5C3A 100%); }
+  .card-em-breve   { background: linear-gradient(135deg, #2a2a2a 0%, #3d3d3d 100%); cursor: default; }
+  .card-em-breve:hover { transform: none; box-shadow: 0 8px 0 rgba(0,0,0,.13); }
+
+  .card-icon-big {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 14px;
+    position: relative;
+    line-height: 1;
+  }
+  .card-materia-nome {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 6px;
+    position: relative;
+    text-shadow: 0 2px 8px rgba(0,0,0,.3);
+  }
+  .card-materia-desc {
+    font-size: .9rem;
+    color: rgba(255,255,255,.65);
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  /* chips de unidades/tópicos */
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 22px;
+    position: relative;
+  }
+  .chip {
+    background: rgba(255,255,255,.15);
+    color: white;
+    font-size: .78rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 50px;
+    letter-spacing: .3px;
+  }
+  .chip.destaque {
+    background: rgba(255,255,255,.28);
+  }
+
+  /* botão acessar */
+  .btn-acessar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,.95);
+    border-radius: 50px;
+    padding: 10px 22px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: background .15s;
+    text-decoration: none;
+  }
+  .card-portugues  .btn-acessar { color: #1A1A2E; }
+  .card-ciencias   .btn-acessar { color: #0D2B1F; }
+
+  .btn-acessar:hover { background: white; }
+  .btn-seta { font-size: 1.1rem; transition: transform .2s; }
+  .materia-card:hover .btn-seta { transform: translateX(4px); }
+
+  /* em breve */
+  .em-breve-tag {
+    position: absolute;
+    top: 18px; right: 18px;
+    background: rgba(255,255,255,.12);
+    color: rgba(255,255,255,.5);
+    font-size: .75rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    padding: 28px 24px 32px;
+    color: #bbb;
+    font-size: .82rem;
+    font-weight: 700;
+  }
+  .footer-credito {
+    margin-bottom: 16px;
+  }
+  .disclaimer {
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0,.04);
+    border: 1px solid #e0e0e0;
+    border-radius: 14px;
+    padding: 14px 18px;        /* ← mais espaço interno horizontal */
+    font-size: .78rem;
+    font-weight: 600;
+    color: #aaa;
+    line-height: 1.8;
+    text-align: center;
+  }
+  .disclaimer-titulo {
+    display: block;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: .85rem;
+    color: #999;
+    margin-bottom: 10px;
+    letter-spacing: .3px;
+  }
+
+  @media (max-width: 500px) {
+    header h1 { font-size: 1.7rem; }
+    .header-emoji { font-size: 2.5rem; }
+    .materias-grid { grid-template-columns: 1fr; }
+    .card-materia-nome { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="header-emoji">🎒</span>
+  <h1>Estudar é Fácil!</h1>
+  <p>Flash Cards e Exercícios para Memorização</p>
+  <div class="turma-badge">📚 4º Ano · CSANL</div>
+</header>
+
+<main>
+  <div class="section-label">📂 Escolha a matéria</div>
+
+  <div class="materias-grid">
+
+    <!-- PORTUGUÊS -->
+    <a class="materia-card card-portugues" href="flashcards_portugues.html">
+      <span class="card-icon-big">📝</span>
+      <div class="card-materia-nome">Português</div>
+      <div class="card-materia-desc">Flash cards + Quiz com dificuldade progressiva</div>
+      <div class="chips">
+        <span class="chip destaque">📗 1 unidade disponível</span>
+      </div>
+      <span class="btn-acessar">
+        Estudar agora <span class="btn-seta">→</span>
+      </span>
+    </a>
+
+    <!-- CIÊNCIAS -->
+    <a class="materia-card card-ciencias" href="flashcards_ciencias.html">
+      <span class="card-icon-big">🔬</span>
+      <div class="card-materia-nome">Ciências</div>
+      <div class="card-materia-desc">Flash cards + Quiz com dificuldade progressiva</div>
+      <div class="chips">
+        <span class="chip destaque">📗 1 unidade disponível</span>
+      </div>
+      <span class="btn-acessar">
+        Estudar agora <span class="btn-seta">→</span>
+      </span>
+    </a>
+
+    <!-- EM BREVE 1 -->
+    <div class="materia-card card-em-breve">
+      <div class="em-breve-tag">Em breve</div>
+      <span class="card-icon-big">🔢</span>
+      <div class="card-materia-nome" style="color:rgba(255,255,255,.35)">Matemática</div>
+      <div class="card-materia-desc" style="color:rgba(255,255,255,.2)">Conteúdo em preparação</div>
+      <div class="chips">
+        <span class="chip" style="opacity:.3">Em breve</span>
+      </div>
+    </div>
+
+    <!-- EM BREVE 2 -->
+    <div class="materia-card card-em-breve">
+      <div class="em-breve-tag">Em breve</div>
+      <span class="card-icon-big">🌍</span>
+      <div class="card-materia-nome" style="color:rgba(255,255,255,.35)">Geografia</div>
+      <div class="card-materia-desc" style="color:rgba(255,255,255,.2)">Conteúdo em preparação</div>
+      <div class="chips">
+        <span class="chip" style="opacity:.3">Em breve</span>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-credito">B.H · 4º Ano · Turma A · CSANL</div>
+  <div class="disclaimer">
+    <span class="disclaimer-titulo">⚠️ Aviso importante</span>
+    Este site foi criado de forma voluntária e independente por um pai, com o único objetivo de ajudar o seu filho a estudar de maneira lúdica e acessível. Foi compartilhado com a turma por boa vontade, sem qualquer obrigação de continuidade ou atualização. Não possui vínculo oficial com a escola, professores ou editoras dos livros didáticos mencionados. O conteúdo é baseado no material escolar e tem caráter estritamente informal — podem ocorrer imprecisões ou erros, e o criador não assume nenhuma responsabilidade legal sobre o que está aqui disponibilizado. Em caso de dúvidas sobre o conteúdo oficial da matéria, consulte sempre o professor responsável.
+  </div>
+</footer>
+
+</body>
+</html>

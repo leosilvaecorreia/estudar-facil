@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Cards de Ciências</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --amarelo: #FFD93D;
+    --laranja: #FF6B35;
+    --verde:   #06D6A0;
+    --azul:    #118AB2;
+    --roxo:    #845EC2;
+    --rosa:    #FF6B9D;
+    --bg:      #F0FFF8;
+    --dark:    #1A1A2E;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  header {
+    background: var(--dark);
+    padding: 18px 24px 14px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      45deg, transparent, transparent 20px,
+      rgba(255,255,255,.03) 20px, rgba(255,255,255,.03) 40px
+    );
+  }
+  header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    color: #06D6A0;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  header p {
+    color: rgba(255,255,255,.6);
+    font-size: .9rem;
+    margin-top: 4px;
+    position: relative;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 16px 0;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .2s;
+    background: white;
+    color: var(--dark);
+    box-shadow: 0 3px 0 rgba(0,0,0,.12);
+  }
+  .tab-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(0,0,0,.12); }
+  .tab-btn.active { color: white; transform: translateY(-2px); }
+  .tab-btn[data-tab="unidade1"].active { background: #06D6A0; border-color: #06D6A0; }
+  .tab-btn[data-tab="quiz"].active     { background: var(--roxo); border-color: var(--roxo); }
+  .tab-btn[data-tab="resumo"].active   { background: #555; border-color: #555; }
+
+  .section { display: none; padding: 24px 16px 40px; max-width: 860px; margin: 0 auto; }
+  .section.active { display: block; animation: fadeIn .3s ease; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+
+  .sec-title {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .sec-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 50px;
+    font-size: .85rem;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
+
+  /* ── CARDS COLORIDOS (encontro vocálico) ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    border-radius: 20px;
+    padding: 22px 20px 20px;
+    position: relative;
+    box-shadow: 0 6px 0 rgba(0,0,0,.15);
+    transition: transform .2s, box-shadow .2s;
+    overflow: hidden;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 0 rgba(0,0,0,.15); }
+  .card::after {
+    content: '';
+    position: absolute; bottom: -20px; right: -20px;
+    width: 80px; height: 80px; border-radius: 50%;
+    background: rgba(255,255,255,.12);
+  }
+  .card-icon { font-size: 2.2rem; margin-bottom: 8px; display: block; line-height: 1; }
+  .card-name {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.4rem; color: white; margin-bottom: 6px;
+    text-shadow: 0 2px 4px rgba(0,0,0,.2);
+  }
+  .card-rule {
+    font-size: .88rem; color: rgba(255,255,255,.95);
+    font-weight: 700; line-height: 1.5; margin-bottom: 12px;
+    background: rgba(0,0,0,.18); border-radius: 10px; padding: 8px 10px;
+  }
+  .card-examples { display: flex; flex-direction: column; gap: 5px; }
+
+  /* linha de exemplo dentro do card colorido */
+  .ex {
+    background: rgba(255,255,255,.96);
+    border-radius: 10px; padding: 7px 10px;
+    font-size: .92rem; font-weight: 700; color: var(--dark);
+    display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap;
+  }
+  /* letras que queremos destacar: sempre em vermelho forte */
+  .hl { color: #D9230F; font-size: 1.05rem; font-weight: 900; }
+  /* texto explicativo pequeno */
+  .info { font-size: .76rem; color: #777; font-weight: 600; }
+
+  .c-azul     { background: linear-gradient(135deg, #118AB2, #0078A0); }
+  .c-roxo     { background: linear-gradient(135deg, #845EC2, #6A45A8); }
+  .c-vermelho { background: linear-gradient(135deg, #EF476F, #D02F56); }
+
+  /* ── CAIXA DE DICA ── */
+  .dica-card {
+    background: var(--dark); border-radius: 20px;
+    padding: 20px 22px; margin-top: 20px;
+    box-shadow: 0 6px 0 rgba(0,0,0,.2);
+  }
+  .dica-card h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #06D6A0; font-size: 1.1rem; margin-bottom: 12px;
+  }
+  .dica-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 10px;
+  }
+  .dica-item {
+    background: rgba(255,255,255,.07); border-radius: 12px;
+    padding: 10px 12px; color: rgba(255,255,255,.88);
+    font-size: .88rem; line-height: 1.5;
+  }
+  .dica-item strong {
+    display: block; color: #06D6A0;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem; margin-bottom: 4px;
+  }
+
+  /* tabela comparativa */
+  .comp-table { width: 100%; border-collapse: collapse; font-size: .9rem; color: white; margin-top: 12px; }
+  .comp-table th { padding: 9px 12px; background: rgba(255,255,255,.12); text-align: left; font-family: 'Fredoka One', cursive; font-weight: 400; font-size: .95rem; }
+  .comp-table td { padding: 8px 12px; border-top: 1px solid rgba(255,255,255,.1); vertical-align: middle; }
+  .comp-table tr:nth-child(even) td { background: rgba(255,255,255,.04); }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 50px; font-weight: 800; font-size: .82rem; color: white; }
+
+  /* ── NÚMERO DE SÍLABAS ── */
+  .sil-card {
+    background: white; border-radius: 20px; padding: 20px;
+    box-shadow: 0 5px 0 rgba(0,0,0,.08);
+    border-top: 6px solid #ccc;
+    transition: transform .2s;
+  }
+  .sil-card:hover { transform: translateY(-3px); }
+  .sil-card.mono { border-color: #FFB800; }
+  .sil-card.dis  { border-color: #2EC4B6; }
+  .sil-card.tris { border-color: var(--azul); }
+  .sil-card.poli { border-color: var(--rosa); }
+
+  .sil-titulo {
+    font-family: 'Fredoka One', cursive; font-size: 1.3rem; margin-bottom: 4px;
+  }
+  .sil-card.mono .sil-titulo { color: #CC8800; }
+  .sil-card.dis  .sil-titulo { color: #1BA89E; }
+  .sil-card.tris .sil-titulo { color: var(--azul); }
+  .sil-card.poli .sil-titulo { color: #D4508A; }
+
+  .sil-regra {
+    font-size: .85rem; color: #666; font-weight: 700;
+    margin-bottom: 12px; padding-bottom: 10px;
+    border-bottom: 1px dashed #eee;
+  }
+  .sil-ex {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 5px 0; border-bottom: 1px solid #f5f5f5;
+    font-size: .92rem; font-weight: 700; color: var(--dark);
+  }
+  .sil-ex:last-child { border-bottom: none; }
+  .sil-sep { font-size: .8rem; color: #bbb; font-weight: 600; }
+
+  /* ── SÍLABA TÔNICA ── */
+  .ton-card {
+    border-radius: 20px; padding: 22px 20px 20px;
+    box-shadow: 0 6px 0 rgba(0,0,0,.15);
+    overflow: hidden; position: relative;
+    transition: transform .2s;
+  }
+  .ton-card:hover { transform: translateY(-4px); }
+  .ton-card::after {
+    content: ''; position: absolute; bottom: -20px; right: -20px;
+    width: 80px; height: 80px; border-radius: 50%; background: rgba(255,255,255,.1);
+  }
+  .ton-card.oxi  { background: linear-gradient(135deg, #FF6B35, #E5501A); }
+  .ton-card.para { background: linear-gradient(135deg, #2EC4B6, #1BA89E); }
+  .ton-card.pro  { background: linear-gradient(135deg, #845EC2, #6A45A8); }
+
+  .ton-icon { font-size: 2.2rem; display: block; margin-bottom: 6px; }
+  .ton-nome {
+    font-family: 'Fredoka One', cursive; font-size: 1.4rem; color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,.2); margin-bottom: 6px;
+  }
+  .ton-regra {
+    background: rgba(0,0,0,.18); border-radius: 10px;
+    padding: 8px 10px; margin-bottom: 12px;
+    font-size: .88rem; font-weight: 700;
+    color: rgba(255,255,255,.95); line-height: 1.5;
+  }
+  .ton-ex {
+    background: rgba(255,255,255,.96); border-radius: 10px;
+    padding: 7px 10px; margin-bottom: 5px;
+    font-size: .92rem; font-weight: 700; color: var(--dark);
+    display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap;
+  }
+  /* sílaba tônica em vermelho */
+  .ton-hl { color: #D9230F; font-size: 1.05rem; font-weight: 900; }
+  .ton-info { font-size: .76rem; color: #777; font-weight: 600; }
+
+  /* ── QUIZ ── */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;
+    background: white; border-radius: 14px; padding: 14px 16px;
+    box-shadow: 0 3px 0 rgba(0,0,0,.06); font-size: .88rem; font-weight: 700;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+
+  .quiz-word {
+    background: white; border-radius: 20px; padding: 18px 20px;
+    box-shadow: 0 4px 0 rgba(0,0,0,.07); margin-bottom: 12px;
+    display: grid; grid-template-columns: 1fr auto;
+    align-items: start; gap: 12px;
+  }
+  .quiz-word h3 { font-family: 'Fredoka One', cursive; font-size: 1.6rem; color: var(--dark); }
+  .quiz-sep { font-size: .9rem; color: #aaa; font-weight: 600; margin-top: 2px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag { display: inline-block; padding: 3px 12px; border-radius: 50px; font-size: .82rem; font-weight: 800; color: white; }
+  .tag-silaba   { background: #2EC4B6; }
+  .tag-tonica   { background: var(--laranja); }
+  .tag-encontro { background: var(--azul); }
+  .tag-none     { background: #ccc; color: #666; }
+
+  .reveal-btn {
+    font-family: 'Fredoka One', cursive; padding: 9px 18px;
+    border: none; border-radius: 50px; cursor: pointer; font-size: .95rem;
+    background: var(--dark); color: white; white-space: nowrap;
+    box-shadow: 0 3px 0 rgba(0,0,0,.22); transition: all .15s; align-self: center;
+  }
+  .reveal-btn:hover { transform: translateY(-2px); }
+  .reveal-btn.shown { background: var(--roxo); }
+
+  .answer-box {
+    display: none; background: #f2f0ff; border-radius: 12px;
+    padding: 10px 14px; margin-top: 10px;
+    font-size: .9rem; font-weight: 700; color: var(--dark);
+    grid-column: 1 / -1; line-height: 2;
+  }
+  .answer-box.visible { display: block; animation: fadeIn .2s; }
+
+  @media(max-width:500px) {
+    header h1 { font-size: 1.5rem; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .quiz-word { grid-template-columns: 1fr; }
+    .reveal-btn { width: 100%; text-align: center; margin-top: 8px; }
+  }
+
+  .c-verde   { background: linear-gradient(135deg, #06D6A0, #02A87E); }
+  .c-terra   { background: linear-gradient(135deg, #C77D3A, #A86020); }
+  .c-indigo  { background: linear-gradient(135deg, #4361EE, #3451D1); }
+  .c-rosa    { background: linear-gradient(135deg, #FF6B9D, #E5507E); }
+  .c-laranja { background: linear-gradient(135deg, #FF6B35, #E5501A); }
+
+  /* quiz ciencias */
+  .quiz-shell { background: white; border-radius: 24px; padding: 28px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); }
+  .prog-bar-wrap { background: #eee; border-radius: 50px; height: 10px; margin-bottom: 6px; overflow: hidden; }
+  .prog-bar-fill { height: 100%; border-radius: 50px; background: linear-gradient(90deg,#06D6A0,#118AB2); transition: width .4s ease; }
+  .prog-label { font-size:.82rem; color:#aaa; font-weight:700; text-align:right; margin-bottom:20px; }
+  .score-bar { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+  .score-pill { background:#0D2B1F; color:#06D6A0; font-family:'Fredoka One',cursive; font-size:1rem; padding:5px 16px; border-radius:50px; }
+  .opcoes { display:flex; flex-direction:column; gap:10px; margin-bottom:20px; }
+  .opcao-btn { font-family:'Nunito',sans-serif; font-size:.95rem; font-weight:700; padding:13px 18px; border-radius:14px; border:3px solid #e8e8e8; background:white; color:#1A1A2E; cursor:pointer; text-align:left; transition:all .15s; line-height:1.4; }
+  .opcao-btn:hover:not(:disabled) { border-color:#06D6A0; background:#f0fff8; transform:translateX(4px); }
+  .opcao-btn.correta { background:#d4f7e7; border-color:#06D6A0; color:#0a5c3a; }
+  .opcao-btn.errada  { background:#fde8e8; border-color:#EF476F; color:#7a1a2e; }
+  .opcao-btn:disabled { cursor:default; transform:none; }
+  .feedback-box { border-radius:14px; padding:12px 16px; font-size:.92rem; font-weight:700; line-height:1.5; margin-bottom:16px; display:none; animation:fadeIn .25s; }
+  .feedback-box.acerto { background:#d4f7e7; color:#0a5c3a; }
+  .feedback-box.erro   { background:#fde8e8; color:#7a1a2e; }
+  .feedback-box.show   { display:block; }
+  .btn-proximo { font-family:'Fredoka One',cursive; font-size:1.1rem; width:100%; padding:14px; border:none; border-radius:14px; background:#02A87E; color:white; cursor:pointer; box-shadow:0 4px 0 #017a5c; transition:all .15s; display:none; }
+  .btn-proximo:hover { transform:translateY(-2px); }
+  .btn-proximo.show { display:block; animation:fadeIn .2s; }
+  .resultado-shell { background:white; border-radius:24px; padding:32px 24px; box-shadow:0 6px 0 rgba(0,0,0,.08); text-align:center; }
+  .resultado-emoji { font-size:4rem; margin-bottom:8px; }
+  .resultado-titulo { font-family:'Fredoka One',cursive; font-size:1.8rem; color:#1A1A2E; margin-bottom:6px; }
+  .resultado-placar { font-size:3rem; font-family:'Fredoka One',cursive; color:#02A87E; margin:10px 0 4px; }
+  .resultado-sub { font-size:.9rem; color:#888; font-weight:600; margin-bottom:24px; }
+  .btn-reiniciar { font-family:'Fredoka One',cursive; font-size:1.05rem; padding:13px 28px; border:none; border-radius:50px; background:#02A87E; color:white; cursor:pointer; box-shadow:0 4px 0 #017a5c; transition:all .15s; margin-bottom:28px; }
+  .btn-reiniciar:hover { transform:translateY(-2px); }
+  .revisao-titulo { font-family:'Fredoka One',cursive; font-size:1.2rem; color:#1A1A2E; margin-bottom:14px; text-align:left; }
+  .revisao-card { background:#f0fff8; border-radius:16px; padding:16px 18px; margin-bottom:10px; text-align:left; border-left:5px solid #06D6A0; }
+  .revisao-word { font-family:'Fredoka One',cursive; font-size:1.1rem; color:#1A1A2E; margin-bottom:6px; }
+  .revisao-resp { font-size:.88rem; font-weight:700; color:#444; margin-bottom:3px; }
+  .revisao-resp span { color:#02A87E; }
+
+
+  /* ── BOTÃO HOME ── */
+  .btn-home {
+    position: fixed;
+    top: 14px; left: 14px;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.2);
+    color: rgba(255,255,255,.7);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: .8rem;
+    padding: 6px 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 999;
+    transition: background .2s, color .2s;
+  }
+  .btn-home:hover {
+    background: rgba(255,255,255,.18);
+    color: white;
+  }
+
+  /* ── RESUMO / IMPRESSÃO ── */
+  .resumo-controles {
+    background: white; border-radius: 20px;
+    padding: 24px; margin-bottom: 24px;
+    box-shadow: 0 4px 0 rgba(0,0,0,.07);
+  }
+  .resumo-controles h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.1rem; color: var(--dark);
+    margin-bottom: 14px;
+  }
+  .check-lista { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .check-item {
+    display: flex; align-items: center; gap: 10px;
+    font-weight: 700; font-size: .95rem; color: var(--dark); cursor: pointer;
+  }
+  .check-item input[type=checkbox] { width: 20px; height: 20px; cursor: pointer; accent-color: #06D6A0; }
+  .btn-imprimir {
+    font-family: 'Fredoka One', cursive; font-size: 1.05rem;
+    padding: 13px 28px; border: none; border-radius: 50px;
+    background: #02A87E; color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #017a5c; transition: all .15s;
+  }
+  .btn-imprimir:hover { transform: translateY(-2px); }
+  .resumo-preview {
+    background: white; border-radius: 20px;
+    padding: 32px; box-shadow: 0 4px 0 rgba(0,0,0,.07);
+    font-size: .92rem; color: #222; line-height: 1.8;
+  }
+  .resumo-preview h2 {
+    font-family: 'Fredoka One', cursive; font-size: 1.4rem; color: var(--dark);
+    margin: 0 0 6px; border-bottom: 3px solid #06D6A0; padding-bottom: 6px;
+  }
+  .resumo-preview h3 {
+    font-family: 'Fredoka One', cursive; font-size: 1.1rem; color: #02A87E; margin: 20px 0 6px;
+  }
+  .resumo-preview p { margin-bottom: 8px; }
+  .resumo-preview ul { padding-left: 20px; margin-bottom: 8px; }
+  .resumo-preview li { margin-bottom: 4px; }
+  @media print {
+    body * { visibility: hidden; }
+    .area-impressao, .area-impressao * { visibility: visible; }
+    .area-impressao {
+      position: fixed; top: 0; left: 0;
+      width: 100%; padding: 24px 32px;
+      font-family: Arial, sans-serif; font-size: 11pt; color: #000; line-height: 1.7;
+    }
+    .area-impressao h1 {
+      font-size: 16pt; text-align: center;
+      border-bottom: 2px solid #000; padding-bottom: 6px; margin-bottom: 16px;
+    }
+    .area-impressao h2 {
+      font-size: 13pt; margin: 18px 0 4px;
+      border-bottom: 1px solid #ccc; padding-bottom: 3px;
+    }
+    .area-impressao h3 { font-size: 11pt; margin: 12px 0 2px; }
+    .area-impressao p, .area-impressao li { font-size: 10.5pt; }
+    .area-impressao ul { padding-left: 18px; }
+    .area-impressao .rodape-impressao {
+      margin-top: 32px; font-size: 8pt; color: #999;
+      text-align: center; border-top: 1px solid #eee; padding-top: 8px;
+    }
+  }
+
+</style>
+</head>
+<body>
+<a class="btn-home" href="index.html">← Home</a>
+
+
+<header>
+  <h1>🔬 Flash Cards de Ciências</h1>
+  <p>Unidade 1 · Microrganismos · 4º Ano</p>
+</header>
+
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="unidade1">📗 Unidade 1</button>
+  <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
+  <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
+</div>
+
+<!-- ════════════════════════════════════════════
+     TAB 1 — UNIDADE 1 (todo o conteúdo junto)
+════════════════════════════════════════════ -->
+<div class="section active" id="tab-unidade1">
+
+  <!-- ── BLOCO 1: O QUE SÃO ── -->
+  <div class="sec-title">
+    🦠 O que são microrganismos?
+    <span class="sec-badge" style="background:#06D6A0">Conceitos básicos</span>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="card c-verde">
+      <span class="card-icon">🦠</span>
+      <div class="card-name">Microrganismos</div>
+      <div class="card-rule">Seres vivos muito pequenos, visíveis apenas com microscópio. Também chamados de "micro-organismos".</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">Micro</span> = pequeno <span class="info">→ precisam de microscópio</span></div>
+        <div class="ex">Invisíveis <span class="info">→ olho nu não enxerga</span></div>
+        <div class="ex">Estão em todo lugar <span class="info">→ ar, água, solo, corpo</span></div>
+      </div>
+    </div>
+
+    <div class="card c-azul">
+      <span class="card-icon">🔤</span>
+      <div class="card-name">Por que "micro"?</div>
+      <div class="card-rule">"Micro" vem do grego e significa PEQUENO. São tão minúsculos que milhares caberiam na ponta de um alfinete!</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">micro</span> + organismo <span class="info">→ ser vivo pequeno</span></div>
+        <div class="ex">Precisam de <span class="hl">microscópio</span> <span class="info">→ para observar</span></div>
+      </div>
+    </div>
+
+    <div class="card c-roxo">
+      <span class="card-icon">🔬</span>
+      <div class="card-name">Como observar?</div>
+      <div class="card-rule">Com o MICROSCÓPIO! Podemos preparar lâminas e ver bolor, água de lagoa com protozoários, etc.</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">Microscópio</span> <span class="info">→ amplia muito</span></div>
+        <div class="ex">Lâmina com bolor <span class="info">→ fungo visível</span></div>
+        <div class="ex">Água de lagoa <span class="info">→ protozoários</span></div>
+      </div>
+    </div>
+
+  </div><!-- /cards-grid -->
+
+  <!-- ── BLOCO 2: TIPOS ── -->
+  <div class="sec-title" style="margin-top:32px">
+    🔍 Tipos de Microrganismos
+    <span class="sec-badge" style="background:var(--azul)">Bactéria · Fungo · Protozoário · Vírus · Alga</span>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="card c-verde">
+      <span class="card-icon">🟢</span>
+      <div class="card-name">Bactérias</div>
+      <div class="card-rule">1 célula só. Formas de bolinha, bastão ou espiral. Podem ser boas ou ruins!</div>
+      <div class="card-examples">
+        <div class="ex">✅ Boas: <span class="hl">iogurte</span>, queijo <span class="info">→ fermentam leite</span></div>
+        <div class="ex">❌ Ruins: <span class="hl">doenças</span> <span class="info">→ algumas causam infecção</span></div>
+        <div class="ex">Forma: <span class="hl">bolinha</span>, bastão, espiral</div>
+      </div>
+    </div>
+
+    <div class="card c-terra">
+      <span class="card-icon">🍄</span>
+      <div class="card-name">Fungos</div>
+      <div class="card-rule">Fungos microscópicos: leveduras e bolores. Úteis e prejudiciais ao mesmo tempo!</div>
+      <div class="card-examples">
+        <div class="ex">✅ <span class="hl">Pão crescer</span> <span class="info">→ levedura</span></div>
+        <div class="ex">✅ <span class="hl">Penicilina</span> <span class="info">→ remédio importante</span></div>
+        <div class="ex">❌ <span class="hl">Micoses</span>, bolor no pão</div>
+      </div>
+    </div>
+
+    <div class="card c-azul">
+      <span class="card-icon">💧</span>
+      <div class="card-name">Protozoários</div>
+      <div class="card-rule">1 célula que se MEXE (como a ameba). Vivem na água ou no corpo de animais.</div>
+      <div class="card-examples">
+        <div class="ex">Exemplo: <span class="hl">ameba</span> <span class="info">→ se move</span></div>
+        <div class="ex">❌ <span class="hl">Amebíase</span> <span class="info">→ doença</span></div>
+        <div class="ex">❌ <span class="hl">Malária</span> <span class="info">→ transmitida por mosquito</span></div>
+      </div>
+    </div>
+
+    <div class="card c-rosa">
+      <span class="card-icon">⚠️</span>
+      <div class="card-name">Vírus</div>
+      <div class="card-rule">Não são células! Só vivem e se multiplicam DENTRO de células de outros seres vivos.</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">Não é célula</span> <span class="info">→ único entre os 4</span></div>
+        <div class="ex">❌ Gripe, <span class="hl">dengue</span>, catapora</div>
+        <div class="ex">Precisa de <span class="hl">hospedeiro</span> <span class="info">→ para se multiplicar</span></div>
+      </div>
+    </div>
+
+    <div class="card c-indigo">
+      <span class="card-icon">🌊</span>
+      <div class="card-name">Algas (unicelulares)</div>
+      <div class="card-rule">Algumas algas são microrganismos! Fazem fotossíntese e produzem muito oxigênio.</div>
+      <div class="card-examples">
+        <div class="ex">✅ <span class="hl">Fotossíntese</span> <span class="info">→ usa luz solar</span></div>
+        <div class="ex">✅ Produzem <span class="hl">oxigênio</span> <span class="info">→ +50% do planeta!</span></div>
+        <div class="ex">Vivem na <span class="hl">água</span> <span class="info">→ oceanos e lagos</span></div>
+      </div>
+    </div>
+
+  </div><!-- /cards-grid -->
+
+  <!-- tabela comparativa -->
+  <div class="dica-card" style="margin-top:20px">
+    <h3>📊 Os 4 tipos principais — lado a lado</h3>
+    <table style="width:100%;border-collapse:collapse;font-size:.88rem;color:white;margin-top:12px">
+      <thead>
+        <tr>
+          <th style="padding:9px 12px;background:rgba(255,255,255,.12);text-align:left;font-family:'Fredoka One',cursive;font-weight:400">Tipo</th>
+          <th style="padding:9px 12px;background:rgba(255,255,255,.12);text-align:left;font-family:'Fredoka One',cursive;font-weight:400">É célula?</th>
+          <th style="padding:9px 12px;background:rgba(255,255,255,.12);text-align:left;font-family:'Fredoka One',cursive;font-weight:400">Exemplo útil</th>
+          <th style="padding:9px 12px;background:rgba(255,255,255,.12);text-align:left;font-family:'Fredoka One',cursive;font-weight:400">Doença</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)"><span style="background:#06D6A0;padding:2px 10px;border-radius:50px;font-weight:800;font-size:.82rem">Bactéria</span></td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">✅ 1 célula</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Iogurte, queijo</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Infecções</td>
+        </tr>
+        <tr style="background:rgba(255,255,255,.04)">
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)"><span style="background:#C77D3A;padding:2px 10px;border-radius:50px;font-weight:800;font-size:.82rem">Fungo</span></td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">✅ célula(s)</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Pão, penicilina</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Micoses</td>
+        </tr>
+        <tr>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)"><span style="background:#118AB2;padding:2px 10px;border-radius:50px;font-weight:800;font-size:.82rem">Protozoário</span></td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">✅ 1 célula</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">—</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Malária, amebíase</td>
+        </tr>
+        <tr style="background:rgba(255,255,255,.04)">
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)"><span style="background:#FF6B9D;padding:2px 10px;border-radius:50px;font-weight:800;font-size:.82rem">Vírus</span></td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">❌ Não é célula</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">—</td>
+          <td style="padding:8px 12px;border-top:1px solid rgba(255,255,255,.1)">Gripe, dengue</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ── BLOCO 3: AMBIENTE ── -->
+  <div class="sec-title" style="margin-top:32px">
+    🌿 Microrganismos e o Ambiente
+    <span class="sec-badge" style="background:#C77D3A">Decomposição · Oxigênio · Bons x Ruins</span>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="card c-verde">
+      <span class="card-icon">♻️</span>
+      <div class="card-name">O que fazem de bom?</div>
+      <div class="card-rule">Muitos microrganismos ajudam a natureza e a nossa vida!</div>
+      <div class="card-examples">
+        <div class="ex">♻️ <span class="hl">Decompõem</span> lixo e folhas <span class="info">→ reciclam</span></div>
+        <div class="ex">🌱 Ajudam <span class="hl">plantas</span> a crescer</div>
+        <div class="ex">🧀 Fazem <span class="hl">alimentos</span> <span class="info">→ queijo, iogurte, pão</span></div>
+        <div class="ex">💊 Produzem <span class="hl">remédios</span> <span class="info">→ penicilina</span></div>
+      </div>
+    </div>
+
+    <div class="card c-azul">
+      <span class="card-icon">💨</span>
+      <div class="card-name">Quem produz oxigênio?</div>
+      <div class="card-rule">As ALGAS MICROSCÓPICAS do plâncton nos oceanos e lagos fazem fotossíntese e liberam muito oxigênio!</div>
+      <div class="card-examples">
+        <div class="ex">Algas fazem <span class="hl">fotossíntese</span> <span class="info">→ usam luz solar</span></div>
+        <div class="ex">Liberam <span class="hl">oxigênio</span> <span class="info">→ para o ar</span></div>
+        <div class="ex"><span class="hl">+50%</span> do O₂ do planeta <span class="info">→ vem delas!</span></div>
+      </div>
+    </div>
+
+    <div class="card c-indigo">
+      <span class="card-icon">🌍</span>
+      <div class="card-name">Por que as algas são importantes?</div>
+      <div class="card-rule">Os oceanos são o "pulmão da Terra"! Mais da metade do oxigênio do planeta vem das algas microscópicas.</div>
+      <div class="card-examples">
+        <div class="ex">Vivem na <span class="hl">água</span> <span class="info">→ oceanos e lagos</span></div>
+        <div class="ex"><span class="hl">Fotossíntese</span> <span class="info">→ sol + água + CO₂</span></div>
+        <div class="ex">Sem elas: <span class="hl">menos oxigênio</span> <span class="info">→ para respirar</span></div>
+      </div>
+    </div>
+
+    <div class="card c-laranja">
+      <span class="card-icon">⚖️</span>
+      <div class="card-name">Bons x Ruins</div>
+      <div class="card-rule">Nem todos os microrganismos são perigosos! A maioria é útil ou inofensiva.</div>
+      <div class="card-examples">
+        <div class="ex">✅ <span class="hl">Bons:</span> iogurte, pão, remédios, O₂</div>
+        <div class="ex">❌ <span class="hl">Ruins:</span> gripe, diarreia, micoses</div>
+        <div class="ex">A <span class="hl">maioria</span> é inofensiva ou útil!</div>
+      </div>
+    </div>
+
+  </div><!-- /cards-grid -->
+
+  <div class="dica-card" style="margin-top:20px">
+    <h3>💡 Para não esquecer!</h3>
+    <div class="dica-grid">
+      <div class="dica-item">
+        <strong>Micro = Pequeno</strong>
+        Microrganismos são seres vivos tão pequenos que só o microscópio consegue mostrá-los.
+      </div>
+      <div class="dica-item">
+        <strong>Vírus ≠ Célula</strong>
+        Dos 4 tipos, só o vírus não é célula. Ele precisa entrar em outro ser vivo para se multiplicar.
+      </div>
+      <div class="dica-item">
+        <strong>Pulmão da Terra</strong>
+        As algas microscópicas produzem mais de 50% do oxigênio do planeta — mais que todas as florestas!
+      </div>
+      <div class="dica-item">
+        <strong>Decompositores</strong>
+        Bactérias e fungos "comem" matéria morta e devolvem nutrientes ao solo. Essenciais para a natureza!
+      </div>
+    </div>
+  </div>
+
+</div><!-- /tab-unidade1 -->
+
+<!-- ════════════════════════════════════════════
+     TAB 2 — QUIZ
+════════════════════════════════════════════ -->
+<div class="section" id="tab-quiz">
+  <div class="sec-title">
+    ⭐ Quiz!
+    <span class="sec-badge" style="background:var(--roxo)">15 perguntas · Dificuldade progressiva</span>
+  </div>
+  <div id="quiz-area"></div>
+</div>
+
+<script>
+// ── TABS
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab === 'quiz') iniciarQuiz();
+  });
+});
+
+// ── BANCO DE PERGUNTAS
+const banco = [
+  { n:1, q:"O que são microrganismos?", c:"Seres vivos muito pequenos, visíveis só com microscópio", d:["Animais pequenos visíveis a olho nu","Plantas que vivem na água","Minerais encontrados no solo"], exp:"Microrganismos são seres vivos tão pequenos que só o microscópio consegue mostrá-los." },
+  { n:1, q:"O que significa 'micro' em microrganismo?", c:"Pequeno", d:["Grande","Invisível","Perigoso"], exp:"'Micro' vem do grego e significa pequeno." },
+  { n:1, q:"Com o que observamos microrganismos?", c:"Microscópio", d:["Lupa","Binóculo","Olho nu"], exp:"O microscópio amplia muito mais que uma lupa e permite ver os microrganismos." },
+  { n:1, q:"Os vírus são células?", c:"Não — vírus não são células", d:["Sim, têm 1 célula","Sim, têm várias células","São metade célula"], exp:"Vírus são únicos: não são células. Precisam entrar em outros seres vivos para se multiplicar." },
+  { n:1, q:"Qual destes é um tipo de microrganismo?", c:"Bactéria", d:["Formiga","Planta","Peixe"], exp:"Bactéria é um dos principais tipos de microrganismos do 4º ano." },
+  { n:2, q:"Qual microrganismo ajuda a fazer iogurte e queijo?", c:"Bactérias", d:["Vírus","Protozoários","Algas"], exp:"Certas bactérias fermentam o leite, transformando-o em iogurte e queijo." },
+  { n:2, q:"Qual microrganismo faz o pão crescer?", c:"Fungo (levedura)", d:["Bactéria","Vírus","Protozoário"], exp:"A levedura é um fungo microscópico que produz gás ao se alimentar, fazendo a massa crescer." },
+  { n:2, q:"A malária é causada por qual tipo de microrganismo?", c:"Protozoário", d:["Vírus","Bactéria","Fungo"], exp:"A malária é causada pelo protozoário Plasmodium, transmitido pelo mosquito." },
+  { n:2, q:"A gripe é causada por qual tipo de microrganismo?", c:"Vírus", d:["Bactéria","Fungo","Protozoário"], exp:"Gripe, resfriado, catapora e dengue são causados por vírus." },
+  { n:2, q:"O que as algas microscópicas produzem de essencial para a vida?", c:"Gás oxigênio", d:["Gás carbônico","Água pura","Açúcar"], exp:"As algas fazem fotossíntese e liberam oxigênio — mais da metade do O₂ do planeta vem delas!" },
+  { n:3, q:"Qual combinação descreve corretamente as bactérias?", c:"1 célula · Podem ser boas ou ruins · Formas de bolinha ou bastão", d:["Não têm células · Só causam doenças · Vivem apenas na água","Várias células · Sempre prejudiciais · Só vivem no solo","1 célula · Sempre fazem fotossíntese · Produzem oxigênio"], exp:"Bactérias têm 1 célula, formas variadas e podem ser úteis (iogurte) ou causar doenças." },
+  { n:3, q:"Por que os oceanos são chamados de 'pulmão da Terra'?", c:"Porque as algas microscópicas produzem mais da metade do oxigênio do planeta", d:["Porque os peixes respiram muito oxigênio","Porque a água do mar filtra o ar","Porque as bactérias do mar produzem oxigênio"], exp:"As algas do plâncton fazem fotossíntese em enorme escala, produzindo mais da metade do O₂ da Terra." },
+  { n:3, q:"Qual afirmação sobre vírus está CORRETA?", c:"Não são células e só se multiplicam dentro de outros seres vivos", d:["São células com 1 núcleo e vivem no solo","São fungos que causam infecções na pele","São bactérias muito pequenas que vivem na água"], exp:"Vírus não são células. Precisam entrar em células de outros organismos para se reproduzir." },
+  { n:3, q:"O que os microrganismos decompositores fazem na natureza?", c:"Quebram matéria morta e devolvem nutrientes ao solo", d:["Produzem oxigênio por fotossíntese","Causam doenças nas plantas","Filtram a água dos rios"], exp:"Bactérias e fungos decompositores reciclam matéria orgânica, devolvendo nutrientes ao solo." },
+  { n:3, q:"Qual é a combinação correta sobre fungos microscópicos?", c:"Fazem o pão crescer · Produzem penicilina · Podem causar micoses", d:["Causam malária · Vivem só na água · Não têm células","Produzem oxigênio · Fazem fotossíntese · Vivem nos oceanos","São iguais aos vírus · Não têm células · Causam dengue"], exp:"Fungos microscópicos (leveduras/bolores) têm usos benéficos (pão, penicilina) mas também causam micoses." },
+];
+
+function embaralhar(arr) {
+  const a=[...arr];
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
+
+function buildPerguntas() {
+  const n1=embaralhar(banco.filter(q=>q.n===1));
+  const n2=embaralhar(banco.filter(q=>q.n===2));
+  const n3=embaralhar(banco.filter(q=>q.n===3));
+  return [...n1.slice(0,5),...n2.slice(0,5),...n3.slice(0,5)].map(q=>({...q,opcoes:embaralhar([q.c,...q.d])}));
+}
+
+const frases=["🎉 Arrasou!","🔥 Isso aí!","⭐ Muito bem!","💪 Mandou bem!","🚀 Continue assim!","😎 Show!","✨ Perfeito!","🏆 Excelente!","👏 Parabéns!","🌿 Boa, cientista!"];
+function frase(){return frases[Math.floor(Math.random()*frases.length)];}
+function nivelLabel(n){return n===1?'🟢 Nível fácil':n===2?'🟡 Nível médio':'🔴 Nível difícil';}
+
+let perguntas=[],idx=0,acertos=0,erros=[];
+
+function iniciarQuiz(){
+  perguntas=buildPerguntas();idx=0;acertos=0;erros=[];renderPergunta();
+}
+
+function escapar(s){return s.replace(/\\/g,'\\\\').replace(/'/g,"\'");}
+
+function renderPergunta(){
+  const area=document.getElementById('quiz-area');
+  if(idx>=perguntas.length){renderResultado();return;}
+  const q=perguntas[idx],total=perguntas.length,pct=Math.round(idx/total*100);
+  area.innerHTML=`
+    <div class="quiz-shell">
+      <div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${pct}%"></div></div>
+      <div class="prog-label">${idx+1} de ${total} · ${nivelLabel(q.n)}</div>
+      <div class="score-bar">
+        <div style="font-size:.88rem;font-weight:700;color:#aaa">Acertos</div>
+        <div class="score-pill">⭐ ${acertos}</div>
+      </div>
+      <div style="font-size:1rem;font-weight:800;color:#1A1A2E;text-align:center;margin-bottom:16px;line-height:1.4">${q.q}</div>
+      <div class="opcoes">
+        ${q.opcoes.map(o=>`<button class="opcao-btn" onclick="responder(this,'${escapar(o)}','${escapar(q.c)}')">${o}</button>`).join('')}
+      </div>
+      <div class="feedback-box" id="feedback"></div>
+      <button class="btn-proximo" id="btn-prox" onclick="avancar()">Próxima →</button>
+    </div>`;
+}
+
+function responder(btn,escolha,certo){
+  document.querySelectorAll('.opcao-btn').forEach(b=>b.disabled=true);
+  const fb=document.getElementById('feedback'),prox=document.getElementById('btn-prox'),q=perguntas[idx];
+  if(escolha===certo){
+    acertos++;btn.classList.add('correta');
+    fb.className='feedback-box acerto show';
+    fb.innerHTML=`${frase()} ${q.exp}`;
+  } else {
+    btn.classList.add('errada');
+    document.querySelectorAll('.opcao-btn').forEach(b=>{if(b.textContent.trim()===certo)b.classList.add('correta');});
+    fb.className='feedback-box erro show';
+    fb.innerHTML=`❌ <b>Errou.</b> A resposta certa é <b>${certo}</b>. ${q.exp}`;
+    erros.push(q);
+  }
+  prox.classList.add('show');
+}
+
+function avancar(){idx++;renderPergunta();}
+
+function renderResultado(){
+  const area=document.getElementById('quiz-area'),total=perguntas.length,pct=Math.round(acertos/total*100);
+  let emoji='🌟',msg='Incrível! Você é fera em Ciências!';
+  if(pct<50){emoji='💪';msg='Continue praticando, você vai melhorar!';}
+  else if(pct<70){emoji='😊';msg='Bom trabalho! Revise os erros e tente de novo.';}
+  else if(pct<90){emoji='🎉';msg='Muito bem! Quase perfeito!';}
+  const vistas=new Set();
+  const unicas=erros.filter(q=>{if(vistas.has(q.q))return false;vistas.add(q.q);return true;});
+  const revisao=unicas.length>0
+    ?`<div class="revisao-titulo">📖 Revise estas perguntas:</div>${unicas.map(q=>`
+        <div class="revisao-card">
+          <div class="revisao-word">${q.q}</div>
+          <div class="revisao-resp">✅ Resposta: <span>${q.c}</span></div>
+          <div class="revisao-resp" style="font-weight:600;color:#888">${q.exp}</div>
+        </div>`).join('')}`
+    :`<div style="color:#06D6A0;font-weight:800;font-size:1rem;margin-top:8px">🏆 Nenhum erro! Incrível!</div>`;
+  area.innerHTML=`
+    <div class="resultado-shell">
+      <div class="resultado-emoji">${emoji}</div>
+      <div class="resultado-titulo">${msg}</div>
+      <div class="resultado-placar">${acertos}<span style="font-size:1.6rem;color:#bbb"> / ${total}</span></div>
+      <div class="resultado-sub">${pct}% de acertos</div>
+      <button class="btn-reiniciar" onclick="iniciarQuiz()">🔄 Jogar de novo</button>
+      ${revisao}
+    </div>`;
+}
+</script>
+
+<!-- ════════════════════════════════════════════
+     TAB — RESUMO PARA IMPRESSÃO (CIÊNCIAS)
+════════════════════════════════════════════ -->
+<div class="section" id="tab-resumo">
+  <div class="sec-title">
+    🖨️ Resumo para Impressão
+    <span class="sec-badge" style="background:#555">Selecione o que imprimir</span>
+  </div>
+
+  <div class="resumo-controles">
+    <h3>📋 O que incluir na impressão?</h3>
+    <div class="check-lista">
+      <label class="check-item">
+        <input type="checkbox" id="chk-resumo" checked onchange="atualizarPreview()">
+        📖 Resumo da matéria (explicações + exemplos)
+      </label>
+      <label class="check-item" style="opacity:.45; pointer-events:none">
+        <input type="checkbox" disabled>
+        ✏️ Exercícios <span style="font-size:.78rem;color:#aaa;font-weight:600">(em breve)</span>
+      </label>
+      <label class="check-item" style="opacity:.45; pointer-events:none">
+        <input type="checkbox" disabled>
+        ✅ Gabarito <span style="font-size:.78rem;color:#aaa;font-weight:600">(em breve)</span>
+      </label>
+    </div>
+    <button class="btn-imprimir" onclick="imprimir()">🖨️ Abrir impressão</button>
+  </div>
+
+  <div class="resumo-preview" id="resumo-preview-tela"></div>
+  <div class="area-impressao" id="area-impressao" style="display:none"></div>
+</div>
+
+<script>
+const resumoCiencias = `
+<h1>Resumo de Ciências · Unidade 1 · 4º Ano</h1>
+
+<h2>🦠 O que são Microrganismos?</h2>
+<p>Microrganismos são <strong>seres vivos muito pequenos</strong>, invisíveis a olho nu. Só conseguimos vê-los com o <strong>microscópio</strong>. Também chamados de micro-organismos.</p>
+<ul>
+  <li><strong>"Micro"</strong> vem do grego e significa <strong>pequeno</strong>.</li>
+  <li>Estão em todo lugar: no ar, na água, no solo e até no nosso corpo.</li>
+  <li>Observamos com <strong>microscópio</strong>, preparando lâminas (ex: bolor, água de lagoa).</li>
+</ul>
+
+<h2>🔍 Tipos de Microrganismos</h2>
+
+<h3>Bactérias</h3>
+<p>Microrganismos com <strong>1 célula</strong>. Formas de bolinha, bastão ou espiral.</p>
+<ul>
+  <li>✅ Boas: fazem iogurte e queijo (fermentam o leite)</li>
+  <li>❌ Ruins: algumas causam doenças</li>
+</ul>
+
+<h3>Fungos</h3>
+<p>Fungos microscópicos: <strong>leveduras</strong> e <strong>bolores</strong>.</p>
+<ul>
+  <li>✅ Bons: fazem o pão crescer (levedura) e produzem penicilina (remédio)</li>
+  <li>❌ Ruins: causam micoses e bolor nos alimentos</li>
+</ul>
+
+<h3>Protozoários</h3>
+<p>Microrganismos com <strong>1 célula que se mexe</strong> (ex: ameba). Vivem na água ou em animais.</p>
+<ul>
+  <li>❌ Causam doenças: amebíase, malária</li>
+</ul>
+
+<h3>Vírus</h3>
+<p>Os vírus são únicos: <strong>não são células!</strong> Só se multiplicam dentro de células de outros seres vivos.</p>
+<ul>
+  <li>❌ Causam: gripe, resfriado, catapora, dengue</li>
+</ul>
+
+<h3>Algas Unicelulares</h3>
+<p>Algumas algas são microrganismos. Fazem <strong>fotossíntese</strong> e produzem oxigênio.</p>
+<ul>
+  <li>✅ Mais de 50% do oxigênio do planeta vem delas!</li>
+</ul>
+
+<h2>🌿 Microrganismos e o Ambiente</h2>
+
+<h3>O que fazem de bom?</h3>
+<ul>
+  <li>♻️ <strong>Decompõem</strong> matéria morta e devolvem nutrientes ao solo</li>
+  <li>🌱 Ajudam plantas a crescer</li>
+  <li>🧀 Produzem alimentos (iogurte, queijo, pão)</li>
+  <li>💊 Produzem remédios (penicilina)</li>
+  <li>💨 Algas produzem gás oxigênio por fotossíntese</li>
+</ul>
+
+<h3>Por que os oceanos são o "pulmão da Terra"?</h3>
+<p>As <strong>algas microscópicas do plâncton</strong> vivem nos oceanos e lagos. Elas fazem fotossíntese usando a luz do sol e liberam oxigênio para o ar. Produzem <strong>mais da metade do oxigênio do planeta</strong> — mais do que todas as florestas juntas!</p>
+
+<h3>Microrganismos Bons x Ruins</h3>
+<ul>
+  <li>✅ <strong>Bons:</strong> iogurte, queijo, pão, penicilina, oxigênio, decomposição</li>
+  <li>❌ <strong>Ruins:</strong> gripe, dengue, malária, amebíase, micoses</li>
+  <li>⚠️ A <strong>maioria</strong> dos microrganismos é inofensiva ou útil!</li>
+</ul>
+`;
+
+function getConteudo() {
+  const incResume = document.getElementById('chk-resumo')?.checked;
+  let html = '';
+  if (incResume) html += resumoCiencias;
+  return html || '<p style="color:#aaa;text-align:center">Selecione pelo menos uma opção acima.</p>';
+}
+
+function atualizarPreview() {
+  const preview = document.getElementById('resumo-preview-tela');
+  if (preview) preview.innerHTML = getConteudo();
+}
+
+function imprimir() {
+  const area = document.getElementById('area-impressao');
+  area.style.display = 'block';
+  area.innerHTML = getConteudo() + '<div class="rodape-impressao">Flash Cards de Ciências · Unidade 1 · 4º Ano · CSANL</div>';
+  window.print();
+  area.style.display = 'none';
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  if (btn.dataset.tab === 'resumo') {
+    btn.addEventListener('click', () => setTimeout(atualizarPreview, 50));
+  }
+});
+</script>
+
+</body>
+</html>
