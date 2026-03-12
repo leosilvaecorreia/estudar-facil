@@ -141,6 +141,7 @@
   /* cores por matéria */
   .card-portugues  { background: linear-gradient(135deg, #1A1A2E 0%, #2D2B55 100%); }
   .card-ciencias   { background: linear-gradient(135deg, #0D2B1F 0%, #1A5C3A 100%); }
+  .card-matematica { background: linear-gradient(135deg, #3D1A00 0%, #7A3410 100%); }
   .card-em-breve   { background: linear-gradient(135deg, #2a2a2a 0%, #3d3d3d 100%); cursor: default; }
   .card-em-breve:hover { transform: none; box-shadow: 0 8px 0 rgba(0,0,0,.13); }
 
@@ -207,6 +208,7 @@
   }
   .card-portugues  .btn-acessar { color: #1A1A2E; }
   .card-ciencias   .btn-acessar { color: #0D2B1F; }
+  .card-matematica .btn-acessar { color: #3D1A00; }
 
   .btn-acessar:hover { background: white; }
   .btn-seta { font-size: 1.1rem; transition: transform .2s; }
@@ -242,18 +244,18 @@
     background: rgba(0,0,0,.04);
     border: 1px solid #e0e0e0;
     border-radius: 14px;
-    padding: 14px 18px;        /* ← mais espaço interno horizontal */
+    padding: 22px 40px;        /* ← mais espaço interno horizontal */
     font-size: .78rem;
     font-weight: 600;
     color: #aaa;
     line-height: 1.8;
-    text-align: center;
+    text-align: left;
   }
   .disclaimer-titulo {
     display: block;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    font-size: .85rem;
+    font-size: .95rem;
     color: #999;
     margin-bottom: 10px;
     letter-spacing: .3px;
@@ -272,7 +274,7 @@
 <header>
   <span class="header-emoji">🎒</span>
   <h1>Estudar é Fácil!</h1>
-  <p>Flash Cards e Exercícios para Memorização</p>
+  <p>Flash Cards e Quiz para o miniteste</p>
   <div class="turma-badge">📚 4º Ano · CSANL</div>
 </header>
 
@@ -307,16 +309,18 @@
       </span>
     </a>
 
-    <!-- EM BREVE 1 -->
-    <div class="materia-card card-em-breve">
-      <div class="em-breve-tag">Em breve</div>
+    <!-- MATEMÁTICA -->
+    <a class="materia-card card-matematica" href="flashcards_matematica.html">
       <span class="card-icon-big">🔢</span>
-      <div class="card-materia-nome" style="color:rgba(255,255,255,.35)">Matemática</div>
-      <div class="card-materia-desc" style="color:rgba(255,255,255,.2)">Conteúdo em preparação</div>
+      <div class="card-materia-nome">Matemática</div>
+      <div class="card-materia-desc">Flash cards + Quiz com dificuldade progressiva</div>
       <div class="chips">
-        <span class="chip" style="opacity:.3">Em breve</span>
+        <span class="chip destaque">📗 2 unidades disponíveis</span>
       </div>
-    </div>
+      <span class="btn-acessar">
+        Estudar agora <span class="btn-seta">→</span>
+      </span>
+    </a>
 
     <!-- EM BREVE 2 -->
     <div class="materia-card card-em-breve">
@@ -333,7 +337,7 @@
 </main>
 
 <footer>
-  <div class="footer-credito">B.H · 4º Ano · Turma A · CSANL</div>
+  <div class="footer-credito">Feito com ❤️ para o 4º Ano · CSANL</div>
   <div class="disclaimer">
     <span class="disclaimer-titulo">⚠️ Aviso importante</span>
     Este site foi criado de forma voluntária e independente por um pai, com o único objetivo de ajudar o seu filho a estudar de maneira lúdica e acessível. Foi compartilhado com a turma por boa vontade, sem qualquer obrigação de continuidade ou atualização. Não possui vínculo oficial com a escola, professores ou editoras dos livros didáticos mencionados. O conteúdo é baseado no material escolar e tem caráter estritamente informal — podem ocorrer imprecisões ou erros, e o criador não assume nenhuma responsabilidade legal sobre o que está aqui disponibilizado. Em caso de dúvidas sobre o conteúdo oficial da matéria, consulte sempre o professor responsável.
