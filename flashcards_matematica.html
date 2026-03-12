@@ -554,20 +554,45 @@
   .alerta-box .alerta-txt strong { display: block; font-family: 'Fredoka One', cursive; font-size: 1rem; margin-bottom: 3px; }
 
   @media print {
-    body * { visibility:hidden; }
-    .area-impressao, .area-impressao * { visibility:visible; }
-    .area-impressao { position:fixed; top:0; left:0; width:100%; padding:24px 32px; font-family:Arial,sans-serif; font-size:11pt; color:#000; line-height:1.7; }
-    .area-impressao h1 { font-size:16pt; text-align:center; border-bottom:2px solid #000; padding-bottom:6px; margin-bottom:16px; }
-    .area-impressao h2 { font-size:13pt; margin:18px 0 4px; border-bottom:1px solid #ccc; padding-bottom:3px; }
-    .area-impressao h3 { font-size:11pt; margin:12px 0 2px; }
-    .area-impressao p, .area-impressao li { font-size:10.5pt; }
-    .area-impressao ul { padding-left:18px; }
-    .area-impressao table { width:100%; border-collapse:collapse; font-size:10pt; margin:8px 0; }
-    .area-impressao th { background:#eee!important; padding:6px 10px; text-align:left; }
-    .area-impressao td { padding:5px 10px; border-bottom:1px solid #eee; }
-    .area-impressao .rodape-impressao { margin-top:32px; font-size:8pt; color:#999; text-align:center; border-top:1px solid #eee; padding-top:8px; }
+    /* oculta tudo, mostra só a área de impressão */
+    body { visibility: hidden; margin: 0; padding: 0; background: white; }
+    .area-impressao {
+      visibility: visible;
+      position: absolute; top: 0; left: 0;
+      width: 100%; padding: 14px 26px;
+      font-family: Arial, sans-serif; font-size: 10pt;
+      color: #000; line-height: 1.6; background: white;
+    }
+    .area-impressao * { visibility: visible; }
+    .print-cabecalho {
+      text-align: center; margin-bottom: 10px;
+      padding-bottom: 6px; border-bottom: 2px solid #000;
+      font-size: 9.5pt; line-height: 1.9;
+    }
+    .print-cabecalho .titulo-folha { font-size: 12pt; font-weight: bold; display: block; }
+    h2 { font-size: 10.5pt; margin: 12px 0 4px; font-weight: bold;
+         break-after: avoid; page-break-after: avoid; }
+    .questao { margin-bottom: 10px; break-inside: avoid; page-break-inside: avoid; }
+    .questao p { margin: 2px 0; }
+    .linha-resp    { border-bottom: 1px solid #000; display: block; margin: 4px 0 7px; height: 14px; }
+    .linha-resp-lg { border-bottom: 1px solid #000; display: block; margin: 4px 0 7px; height: 14px; width: 100%; }
+    .bloco-contas  { break-inside: avoid; page-break-inside: avoid; margin: 5px 0 8px; }
+    .grid-contas-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 5px; }
+    .grid-contas-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-top: 5px; }
+    .caixa-conta   { border: 1px solid #888; min-height: 80px; padding: 5px 7px; font-size: 9.5pt;
+                     break-inside: avoid; page-break-inside: avoid; }
+    .bloco-tabuada { break-inside: avoid; page-break-inside: avoid; margin: 5px 0; }
+    .tabuada-2col  { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 20px; }
+    .tabuada-linha { display: grid; grid-template-columns: 120px 1fr; border-bottom: 1px solid #ddd; padding: 3px 0; font-size: 9.5pt; }
+    .tabuada-linha.header { font-weight: bold; border-bottom: 2px solid #000; }
+    .desafio-box   { border: 1px solid #aaa; padding: 7px 10px; margin: 6px 0;
+                     break-inside: avoid; page-break-inside: avoid; }
+    .gabarito-section { margin-top: 14px; padding-top: 8px; border-top: 2px dashed #aaa; }
+    .gabarito-section h2 { font-size: 9.5pt; margin-bottom: 4px; }
+    .gab-grid  { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 14px; font-size: 8pt; }
+    .rodape-impressao { margin-top: 16px; font-size: 7.5pt; color: #888;
+                        text-align: center; border-top: 1px solid #ddd; padding-top: 4px; }
   }
-
   @media(max-width:500px) {
     header h1 { font-size:1.5rem; }
     .tabuada-grid { grid-template-columns: repeat(2,1fr); }
@@ -1144,26 +1169,18 @@
 ══════════════════════════════════════ -->
 <div class="section" id="tab-resumo">
   <div class="sec-title">
-    🖨️ Resumo para Impressão
-    <span class="sec-badge" style="background:#555">Selecione o que imprimir</span>
+    🖨️ Folha de Exercícios
+    <span class="sec-badge" style="background:#555">Revisão para o teste</span>
   </div>
   <div class="resumo-controles">
-    <h3>📋 O que incluir na impressão?</h3>
+    <h3>📋 Opções de impressão</h3>
     <div class="check-lista">
       <label class="check-item">
-        <input type="checkbox" id="chk-resumo" checked onchange="atualizarPreview()">
-        📖 Resumo da matéria (explicações + exemplos)
-      </label>
-      <label class="check-item" style="opacity:.45;pointer-events:none">
-        <input type="checkbox" disabled>
-        ✏️ Exercícios <span style="font-size:.78rem;color:#aaa;font-weight:600">(em breve)</span>
-      </label>
-      <label class="check-item" style="opacity:.45;pointer-events:none">
-        <input type="checkbox" disabled>
-        ✅ Gabarito <span style="font-size:.78rem;color:#aaa;font-weight:600">(em breve)</span>
+        <input type="checkbox" id="chk-gabarito" onchange="atualizarPreview()">
+        ✅ Incluir gabarito
       </label>
     </div>
-    <button class="btn-imprimir" onclick="imprimir()">🖨️ Abrir impressão</button>
+    <button class="btn-imprimir" onclick="imprimir()">🖨️ Imprimir folha de exercícios</button>
   </div>
   <div class="resumo-preview" id="resumo-preview-tela"></div>
   <div class="area-impressao" id="area-impressao" style="display:none"></div>
@@ -1461,87 +1478,148 @@ function voltarConfig(){
 // ══════════════════════════════════════
 //  RESUMO
 // ══════════════════════════════════════
-const resumoMatematica = `
-<h1>Resumo de Matemática · 4º Ano</h1>
+function gerarFolha(comGabarito) {
+  const gab = comGabarito;
+  const gabHtml = gab ? `
+<div class="gabarito-section">
+  <h2>GABARITO</h2>
+  <div class="gab-grid">
+    <div><b>1a)</b> 2 classes &middot; 5 ordens &middot; 5 alg. &rarr; oitenta e quatro mil, quinhentos e sete</div>
+    <div><b>1b)</b> 2 classes &middot; 6 ordens &middot; 6 alg. &rarr; 2 C.milhar + 6 D.milhar + 1 U.milhar + 3 cent. + 4 dez. + 0 unid.</div>
+    <div><b>1c)</b> 53 mil &rarr; cinquenta e tr&ecirc;s mil</div>
+    <div><b>1d)</b> 640 &rarr; DCXL</div>
+    <div><b>1e)</b> Centenas de milhar &rarr; 300.000</div>
+    <div><b>1f)</b> 4&ordf; ordem = unidades de milhar &rarr; 8.000</div>
+    <div><b>1g)</b> 261.340 &gt; 84.507</div>
+    <div><b>2a)</b> 5&ordf; ordem = dezenas de milhar &rarr; 80.000</div>
+    <div><b>2b)</b> 3&ordf; ordem = centenas &rarr; 400</div>
+    <div><b>2c)</b> ordens 1&ordf; e 4&ordf; &rarr; maior valor: 4&ordf; (U.milhar) = 7.000</div>
+    <div><b>2d)</b> 74.280 &gt; 47.820 &gt; 42.870 &gt; 28.740</div>
+    <div><b>3a)</b> quadrag&eacute;simo lugar</div>
+    <div><b>3b)</b> vig&eacute;simo sexto lugar</div>
+    <div><b>3c)</b> vig&eacute;simo nono lugar</div>
+    <div><b>3d)</b> quinto lugar</div>
+    <div><b>3e)</b> primeiro lugar</div>
+    <div><b>3f)</b> d&eacute;cimo segundo lugar</div>
+    <div><b>4a)</b> quarenta e sete mil, trezentos e vinte</div>
+    <div><b>4b)</b> cento e oito mil e cinquenta</div>
+    <div><b>4c)</b> quinhentos e sessenta mil e quatro</div>
+    <div><b>4d)</b> trezentos mil e duzentos</div>
+    <div><b>5a)</b> 23.082 &nbsp; <b>5b)</b> 100.544 &nbsp; <b>5c)</b> 84 &nbsp; <b>5d)</b> 135</div>
+    <div><b>5e)</b> 42.003 &nbsp; <b>5f)</b> 36.227</div>
+    <div><b>6a)</b> XLVII &nbsp; <b>6b)</b> CXCII &nbsp; <b>6c)</b> DCXL &nbsp; <b>6d)</b> MMXXIV</div>
+    <div><b>6e)</b> 34 &nbsp; <b>6f)</b> 89 &nbsp; <b>6g)</b> 1.450 &nbsp; <b>6h)</b> 2.024</div>
+    <div><b>7)</b> 9&middot;18&middot;27&middot;36&middot;45&middot;54&middot;63&middot;72&middot;81&middot;90</div>
+  </div>
+</div>` : '';
 
-<h2>✖️ Tabuada</h2>
-<p>A tabuada é a base de toda a multiplicação. Vale a pena decorar!</p>
+  return `
+<div class="print-cabecalho">
+  <span class="titulo-folha">Revis&atilde;o &mdash; Matem&aacute;tica &middot; 4&ordm; Ano</span>
+  Aluno(a): ________________________________________________ &nbsp;&nbsp; N&ordm;: ___ &nbsp;&nbsp; Data: ___/___/2026
+</div>
 
-<h3>🪄 Macetes importantes</h3>
-<ul>
-  <li><strong>Tabuada do 2:</strong> é o mesmo que somar o número com ele mesmo. Ex: 7×2 = 7+7 = 14</li>
-  <li><strong>Tabuada do 5:</strong> o resultado sempre termina em 0 ou 5. Ex: 6×5 = 30 · 7×5 = 35</li>
-  <li><strong>Tabuada do 9:</strong> a soma dos algarismos do resultado sempre dá 9! Ex: 9×8 = 72 → 7+2 = 9</li>
-  <li><strong>Tabuada do 10:</strong> é só adicionar um zero. Ex: 7×10 = 70</li>
-  <li><strong>Ordem inversa (comutatividade):</strong> a ordem dos fatores não muda o produto! Se você sabe 6×8 = 48, então 8×6 = 48 também.</li>
-  <li><strong>Tabuada do 4:</strong> multiplique por 2 duas vezes. Ex: 7×4 = 14×2 = 28</li>
-  <li><strong>Tabuada do 8:</strong> multiplique por 2 três vezes. Ex: 5×8 = 10 → 20 → 40</li>
-</ul>
+<h2>1 &ndash; Complete.</h2>
+<div class="questao">
+  <p>a) O n&uacute;mero <b>84.507</b> possui _____ classes, _____ ordens e _____ algarismos. Escreva por extenso:</p>
+  <span class="linha-resp-lg"></span>
+  <p>b) O n&uacute;mero <b>261.340</b> possui _____ classes, _____ ordens e _____ algarismos. Decomponha em unidades de cada ordem:</p>
+  <span class="linha-resp-lg"></span>
+  <p>c) Qual &eacute; a 2&ordf; classe do n&uacute;mero <b>53.918</b>? ___________. Escreva essa classe por extenso: _______________________</p>
+  <p>d) Qual &eacute; a 1&ordf; classe do n&uacute;mero <b>135.640</b>? ___________. Escreva em algarismos romanos: ___________</p>
+  <p>e) No n&uacute;mero <b>373.031</b>, o algarismo 3 aparece em diferentes ordens. Em que ordem ele possui o maior valor posicional? ____________. Qual &eacute; esse valor? ____________</p>
+  <p>f) Qual &eacute; o valor posicional do algarismo que ocupa a 4&ordf; ordem no n&uacute;mero <b>208.756</b>? ____________</p>
+  <p>g) Organize em ordem decrescente os n&uacute;meros: 261.340 &nbsp;&nbsp; 84.507. &nbsp; Use o sinal &gt;:</p>
+  <span class="linha-resp"></span>
+</div>
 
-<h3>📋 Tabela rápida (os resultados mais difíceis)</h3>
-<table>
-  <thead><tr><th>Conta</th><th>Resultado</th><th>Conta</th><th>Resultado</th></tr></thead>
-  <tbody>
-    <tr><td>6 × 7</td><td>42</td><td>7 × 8</td><td>56</td></tr>
-    <tr><td>6 × 8</td><td>48</td><td>7 × 9</td><td>63</td></tr>
-    <tr><td>6 × 9</td><td>54</td><td>8 × 9</td><td>72</td></tr>
-    <tr><td>7 × 7</td><td>49</td><td>9 × 9</td><td>81</td></tr>
-  </tbody>
-</table>
+<h2>2 &ndash; Valor posicional e ordem dos algarismos.</h2>
+<div class="questao">
+  <p>a) No n&uacute;mero <b>384.072</b>, qual &eacute; o valor posicional do algarismo na 5&ordf; ordem? ____________</p>
+  <p>b) No n&uacute;mero <b>147.456</b>, qual &eacute; o valor posicional do algarismo na 3&ordf; ordem? ____________</p>
+  <p>c) No n&uacute;mero <b>724.173</b>, o algarismo 7 aparece duas vezes. Em que ordens? ___________. Qual tem o maior valor posicional? ___________. Quanto vale? ____________</p>
+  <p>d) Organize em ordem decrescente: &nbsp; 74.280 &nbsp;&nbsp; 42.870 &nbsp;&nbsp; 28.740 &nbsp;&nbsp; 47.820</p>
+  <span class="linha-resp-lg"></span>
+</div>
 
-<h2>🏛️ Algarismos Romanos</h2>
-<p>Os romanos usavam letras para representar números. Ainda usamos hoje em livros, séculos e relógios!</p>
+<h2>3 &ndash; Complete com n&uacute;meros que indiquem ordem. Escreva por extenso.</h2>
+<div class="questao">
+  <p><b>Participaram de um concurso de soletração 40 alunos.</b></p>
+  <p>a) Marcos foi o &uacute;ltimo colocado. Ele chegou em ___________________________ lugar.</p>
+  <p>b) Ana chegou logo ap&oacute;s o vig&eacute;simo quinto colocado. Ela chegou em ___________________________ lugar.</p>
+  <p>c) Pedro chegou tr&ecirc;s posi&ccedil;&otilde;es antes do trig&eacute;simo segundo colocado. Ele chegou em ___________________________ lugar.</p>
+  <p>d) Quatro alunos chegaram antes de Carla. Ela chegou em ___________________________ lugar.</p>
+  <p>e) O campe&atilde;o chegou em ___________________________ lugar.</p>
+  <p>f) A escola ficou em 12&ordm; lugar no ranking regional. Escreva esse ordinal por extenso: ___________________________</p>
+</div>
 
-<h3>Os 7 símbolos principais</h3>
-<table>
-  <thead><tr><th>Símbolo</th><th>Valor</th><th>Símbolo</th><th>Valor</th></tr></thead>
-  <tbody>
-    <tr><td>I</td><td>1</td><td>L</td><td>50</td></tr>
-    <tr><td>V</td><td>5</td><td>C</td><td>100</td></tr>
-    <tr><td>X</td><td>10</td><td>D</td><td>500</td></tr>
-    <tr><td>M</td><td>1000</td><td></td><td></td></tr>
-  </tbody>
-</table>
+<h2>4 &ndash; Escreva os n&uacute;meros por extenso.</h2>
+<div class="questao">
+  <p>a) 47.320 &ndash; ____________________________________________________________________</p>
+  <p>b) 108.050 &ndash; ___________________________________________________________________</p>
+  <p>c) 560.004 &ndash; ___________________________________________________________________</p>
+  <p>d) 300.200 &ndash; ___________________________________________________________________</p>
+</div>
 
-<h3>Regras essenciais</h3>
-<ul>
-  <li><strong>Adição:</strong> símbolo menor DEPOIS do maior = soma. Ex: VI = 5+1 = 6 · XI = 10+1 = 11</li>
-  <li><strong>Subtração:</strong> símbolo menor ANTES do maior = subtrai. Ex: IV = 5−1 = 4 · IX = 10−1 = 9</li>
-  <li><strong>Máximo 3 iguais seguidos:</strong> III = 3 ✅ · IIII = ❌ (usa IV)</li>
-</ul>
+<h2>5 &ndash; Arme e efetue as opera&ccedil;&otilde;es.</h2>
+<div class="bloco-contas">
+  <div class="grid-contas-4">
+    <div class="caixa-conta"><p>a) 3.847 &times; 6 =</p></div>
+    <div class="caixa-conta"><p>b) 25.136 &times; 4 =</p></div>
+    <div class="caixa-conta"><p>c) 672 &divide; 8 =</p></div>
+    <div class="caixa-conta"><p>d) 945 &divide; 7 =</p></div>
+  </div>
+  <div class="grid-contas-2">
+    <div class="caixa-conta"><p>e) 24.358 + 17.645 =</p></div>
+    <div class="caixa-conta"><p>f) 83.012 &minus; 46.785 =</p></div>
+  </div>
+</div>
 
-<h3>Tabela 1 a 20</h3>
-<table>
-  <thead><tr><th>Romano</th><th>Valor</th><th>Romano</th><th>Valor</th><th>Romano</th><th>Valor</th><th>Romano</th><th>Valor</th></tr></thead>
-  <tbody>
-    <tr><td>I</td><td>1</td><td>VI</td><td>6</td><td>XI</td><td>11</td><td>XVI</td><td>16</td></tr>
-    <tr><td>II</td><td>2</td><td>VII</td><td>7</td><td>XII</td><td>12</td><td>XVII</td><td>17</td></tr>
-    <tr><td>III</td><td>3</td><td>VIII</td><td>8</td><td>XIII</td><td>13</td><td>XVIII</td><td>18</td></tr>
-    <tr><td>IV</td><td>4</td><td>IX</td><td>9</td><td>XIV</td><td>14</td><td>XIX</td><td>19</td></tr>
-    <tr><td>V</td><td>5</td><td>X</td><td>10</td><td>XV</td><td>15</td><td>XX</td><td>20</td></tr>
-  </tbody>
-</table>
+<h2>6 &ndash; Algarismos Romanos.</h2>
+<div class="questao">
+  <p>Escreva em algarismos romanos:</p>
+  <p>a) 47 &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; b) 192 &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; c) 640 &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; d) 2024 &rarr; _________</p>
+  <p style="margin-top:6px">Escreva em n&uacute;meros:</p>
+  <p>e) XXXIV &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; f) LXXXIX &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; g) MCDL &rarr; _________ &nbsp;&nbsp;&nbsp;&nbsp; h) MMXXIV &rarr; _________</p>
+</div>
 
-<h3>Macete para decorar a ordem</h3>
-<p><em>"I Vim com Xícara Leitosa, Cinquenta Diabinhos e Mil"</em><br>
-I (1) · V (5) · X (10) · L (50) · C (100) · D (500) · M (1000)</p>
-`;
+<h2>7 &ndash; Complete a tabuada do 9.</h2>
+<div class="bloco-tabuada">
+  <div class="tabuada-2col">
+    <div>
+      <div class="tabuada-linha header"><span>Opera&ccedil;&atilde;o</span><span>Resultado</span></div>
+      <div class="tabuada-linha"><span>9 &times; 1 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 2 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 3 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 4 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 5 =</span><span></span></div>
+    </div>
+    <div>
+      <div class="tabuada-linha header"><span>Opera&ccedil;&atilde;o</span><span>Resultado</span></div>
+      <div class="tabuada-linha"><span>9 &times; 6 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 7 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 8 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 9 =</span><span></span></div>
+      <div class="tabuada-linha"><span>9 &times; 10 =</span><span></span></div>
+    </div>
+  </div>
+</div>
 
-function getConteudo(){
-  return document.getElementById('chk-resumo')?.checked
-    ? resumoMatematica
-    : '<p style="color:#aaa;text-align:center">Selecione pelo menos uma opção acima.</p>';
-}
+${gabHtml}
+`;}
+
 function atualizarPreview(){
-  const p=document.getElementById('resumo-preview-tela');
-  if(p) p.innerHTML=getConteudo();
+  const comGab = document.getElementById('chk-gabarito')?.checked || false;
+  const p = document.getElementById('resumo-preview-tela');
+  if(p) p.innerHTML = gerarFolha(comGab);
 }
 function imprimir(){
-  const area=document.getElementById('area-impressao');
-  area.style.display='block';
-  area.innerHTML=getConteudo()+'<div class="rodape-impressao">Flash Cards de Matemática · 4º Ano · CSANL</div>';
+  const comGab = document.getElementById('chk-gabarito')?.checked || false;
+  const area = document.getElementById('area-impressao');
+  area.style.display = 'block';
+  area.innerHTML = gerarFolha(comGab) + '<div class="rodape-impressao">Revis&atilde;o &middot; Matem&aacute;tica &middot; 4&ordm; Ano &middot; CSANL</div>';
   window.print();
-  area.style.display='none';
+  area.style.display = 'none';
 }
 </script>
 </body>
