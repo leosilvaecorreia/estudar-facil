@@ -62,6 +62,8 @@
   .tab-btn.active { color: white; transform: translateY(-2px); }
   .tab-btn[data-tab="tabuada"].active  { background: var(--tab1); border-color: var(--tab1); }
   .tab-btn[data-tab="romanos"].active  { background: var(--tab2); border-color: var(--tab2); }
+  .tab-btn[data-tab="classes"].active  { background: #16A085; border-color: #16A085; }
+  .tab-btn[data-tab="ordinais"].active  { background: var(--rosa); border-color: var(--rosa); }
   .tab-btn[data-tab="quiz"].active     { background: var(--roxo); border-color: var(--roxo); }
   .tab-btn[data-tab="resumo"].active   { background: #555; border-color: #555; }
 
@@ -102,20 +104,33 @@
     margin-bottom: 24px;
   }
   .tabuada-card {
-    background: white; border-radius: 22px;
-    padding: 22px 18px; box-shadow: 0 5px 0 rgba(0,0,0,.09);
-    border-top: 6px solid;
+    border-radius: 20px;
+    padding: 22px 20px 20px;
+    position: relative;
+    box-shadow: 0 6px 0 rgba(0,0,0,.2);
+    transition: transform .2s, box-shadow .2s;
+    overflow: hidden;
+  }
+  .tabuada-card:hover { transform: translateY(-4px); box-shadow: 0 10px 0 rgba(0,0,0,.2); }
+  .tabuada-card::after {
+    content: '';
+    position: absolute; bottom: -20px; right: -20px;
+    width: 80px; height: 80px; border-radius: 50%;
+    background: rgba(255,255,255,.12);
   }
   .tabuada-card-titulo {
-    font-family: 'Fredoka One', cursive; font-size: 1.4rem;
-    text-align: center; margin-bottom: 14px;
+    font-family: 'Fredoka One', cursive; font-size: 1.5rem;
+    text-align: center; margin-bottom: 14px; color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,.2);
   }
   .tab-linha {
-    display: flex; align-items: center; justify-content: center; gap: 6px;
-    padding: 6px 10px; border-radius: 10px;
-    font-size: .95rem; font-weight: 800; margin-bottom: 4px;
+    background: rgba(255,255,255,.92);
+    border-radius: 10px; padding: 6px 12px;
+    font-size: .93rem; font-weight: 700; color: var(--dark);
+    display: flex; align-items: center; justify-content: center;
+    gap: 8px; margin-bottom: 5px;
   }
-  .tab-linha .op { color: rgba(0,0,0,.4); font-size: .9rem; }
+  .tab-linha .op { color: #555; font-size: .9rem; }
   .tab-linha .res { font-family: 'Fredoka One', cursive; font-size: 1.1rem; }
 
   /* macetes section */
@@ -377,6 +392,167 @@
   .revisao-titulo { font-family:'Fredoka One',cursive; font-size:1.15rem; color:var(--dark); margin-bottom:12px; text-align:left; }
   .revisao-card { background:#fff8f0; border-radius:14px; padding:14px 16px; margin-bottom:10px; text-align:left; border-left:5px solid var(--tab1); font-size:.9rem; font-weight:700; }
 
+
+  /* ════════════════════════
+     CLASSES E ORDENS
+     Verde #1B6B3A = Milhares · Azul #1A4971 = Unidades Simples
+  ════════════════════════ */
+  .classes-tabela-wrap {
+    background: white; border-radius: 18px;
+    padding: 20px 20px 0; box-shadow: 0 7px 0 rgba(0,0,0,.14);
+    margin-bottom: 20px; overflow-x: auto;
+  }
+  .classes-tabela-wrap > h3 {
+    font-family: 'Fredoka One', cursive; font-size: 1.1rem;
+    margin-bottom: 14px; color: var(--dark);
+  }
+  .tab-classe {
+    width: 100%; border-collapse: collapse; font-size: .9rem; font-weight: 700;
+  }
+  /* ── Linha 1: nome da classe ─ fundo escuro sólido */
+  .th-classe-2 {
+    background: #1B6B3A; color: white; padding: 11px 10px;
+    font-family: 'Fredoka One', cursive; font-size: 1rem; text-align: center;
+    border-right: 2px solid #155430;
+  }
+  .th-classe-1 {
+    background: #1A4971; color: white; padding: 11px 10px;
+    font-family: 'Fredoka One', cursive; font-size: 1rem; text-align: center;
+  }
+  /* ── Linha 2: nome da ordem ─ mesma cor, um pouco mais clara */
+  .th-ordem-c2 {
+    background: #23875A; color: #D8F5E8; font-size: .78rem; font-weight: 800;
+    padding: 8px 6px; text-align: center; line-height: 1.4;
+    border-right: 1px solid #1B6B3A; border-top: 1px solid #1B6B3A;
+  }
+  .th-ordem-c1 {
+    background: #225D8E; color: #D0E8FA; font-size: .78rem; font-weight: 800;
+    padding: 8px 6px; text-align: center; line-height: 1.4;
+    border-right: 1px solid #1A4971; border-top: 1px solid #1A4971;
+  }
+  /* ── Linha 3: C / D / U ─ ainda mais clara, texto escuro da cor */
+  .td-letra-c2 {
+    background: #A8DBBE; color: #0E3D20;
+    font-family: 'Fredoka One', cursive; font-size: 1.25rem;
+    padding: 9px 6px; text-align: center;
+    border-right: 1px solid #7EC9A0; border-top: 1px solid #23875A;
+  }
+  .td-letra-c1 {
+    background: #A0CCEC; color: #0D2D45;
+    font-family: 'Fredoka One', cursive; font-size: 1.25rem;
+    padding: 9px 6px; text-align: center;
+    border-right: 1px solid #78B4DF; border-top: 1px solid #225D8E;
+  }
+  /* ── Linha 4: valor base (100.000…) ─ leve, quase branco com toque da cor */
+  .td-base-c2 {
+    background: #E4F7ED; color: #2D6645; font-size: .78rem;
+    padding: 5px 6px; text-align: center;
+    border-right: 1px solid #B8DEC9; border-top: 1px solid #A8DBBE;
+  }
+  .td-base-c1 {
+    background: #DCEEF8; color: #1E4A6A; font-size: .78rem;
+    padding: 5px 6px; text-align: center;
+    border-right: 1px solid #B0D4ED; border-top: 1px solid #A0CCEC;
+  }
+  /* ── Linha 5: dígito do exemplo ─ volta escuro, número branco grande */
+  .td-dig-c2 {
+    background: #1B6B3A; color: white;
+    font-family: 'Fredoka One', cursive; font-size: 1.7rem;
+    padding: 14px 6px; text-align: center;
+    border-right: 2px solid #155430; border-top: 1px solid #E4F7ED;
+  }
+  .td-dig-c1 {
+    background: #1A4971; color: white;
+    font-family: 'Fredoka One', cursive; font-size: 1.7rem;
+    padding: 14px 6px; text-align: center;
+    border-right: 1px solid #133858; border-top: 1px solid #DCEEF8;
+  }
+
+  /* ── Cards de decomposição ─ fundo cinza-escuro neutro para separar da página */
+  .decomp-card {
+    border-radius: 18px; margin-bottom: 16px; overflow: hidden;
+    box-shadow: 0 7px 0 rgba(0,0,0,.18);
+  }
+  .decomp-card-header {
+    padding: 13px 20px;
+    font-family: 'Fredoka One', cursive; font-size: 1.05rem; color: white;
+  }
+  .decomp-card-body {
+    background: white; padding: 18px 20px;
+  }
+  .decomp-exemplo {
+    border-radius: 12px; padding: 14px 16px; margin-bottom: 10px;
+    border-left: 4px solid;
+  }
+  .decomp-exemplo.ex-milhar { background: #EEF9F2; border-color: #1B6B3A; }
+  .decomp-exemplo.ex-unid   { background: #EAF3FB; border-color: #1A4971; }
+  .decomp-exemplo.ex-misto  { background: #F2EEF9; border-color: #6B3FA0; }
+  .decomp-numero {
+    font-family: 'Fredoka One', cursive; font-size: 1.5rem;
+    color: var(--dark); margin-bottom: 8px;
+  }
+  .decomp-linha { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+  .decomp-chip {
+    padding: 5px 14px; border-radius: 50px;
+    font-weight: 800; font-size: .88rem; color: white;
+  }
+  .chip-ordens  { background: #1B6B3A; }
+  .chip-classes { background: #1A4971; }
+  .chip-alg     { background: #6B3FA0; }
+  .decomp-extenso {
+    font-size: .87rem; font-weight: 700; color: #555;
+    margin-top: 4px; line-height: 1.6;
+  }
+  .ordem-chip {
+    display: inline-flex; flex-direction: column; align-items: center;
+    border-radius: 10px; padding: 8px 12px; margin: 3px; min-width: 68px;
+    border-bottom: 3px solid;
+  }
+  .ordem-chip.oc-milhar { background: #D6EFE2; border-color: #1B6B3A; }
+  .ordem-chip.oc-unid   { background: #D0E8F5; border-color: #1A4971; }
+  .oc-valor { font-family: 'Fredoka One', cursive; font-size: 1.15rem; }
+  .ordem-chip.oc-milhar .oc-valor { color: #1B6B3A; }
+  .ordem-chip.oc-unid   .oc-valor { color: #1A4971; }
+  .oc-nome  { font-size: .7rem; font-weight: 800; color: #888; margin-top: 2px; }
+
+  /* ════════════════════════
+     CARDINAIS E ORDINAIS
+  ════════════════════════ */
+  .ordinais-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px; margin-bottom: 20px;
+  }
+  .ordinais-card {
+    background: white; border-radius: 20px;
+    padding: 20px 18px; box-shadow: 0 5px 0 rgba(0,0,0,.08);
+  }
+  .ordinais-card h3 {
+    font-family: 'Fredoka One', cursive; font-size: 1.05rem;
+    margin-bottom: 14px; padding-bottom: 8px;
+    border-bottom: 3px solid; display: flex; align-items: center; gap: 8px;
+  }
+  .ord-linha {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 10px; border-radius: 10px;
+    margin-bottom: 5px; font-size: .92rem;
+  }
+  .ord-linha:nth-child(even) { background: #f8f9fa; }
+  .ord-num {
+    font-family: 'Fredoka One', cursive; font-size: 1rem;
+    min-width: 32px; text-align: center;
+  }
+  .ord-cardinal { font-weight: 700; color: #555; min-width: 90px; }
+  .ord-ordinal  { font-weight: 800; color: var(--dark); }
+  .ord-abrev    { font-size: .78rem; color: #aaa; font-weight: 700; margin-left: auto; }
+
+  .alerta-box {
+    border-radius: 16px; padding: 16px 18px; margin-bottom: 14px;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .alerta-box .alerta-ico { font-size: 1.4rem; flex-shrink: 0; }
+  .alerta-box .alerta-txt { font-size: .9rem; font-weight: 700; line-height: 1.6; }
+  .alerta-box .alerta-txt strong { display: block; font-family: 'Fredoka One', cursive; font-size: 1rem; margin-bottom: 3px; }
+
   @media print {
     body * { visibility:hidden; }
     .area-impressao, .area-impressao * { visibility:visible; }
@@ -405,12 +581,14 @@
 
 <header>
   <h1>🔢 Flash Cards de Matemática</h1>
-  <p>Tabuada · Algarismos Romanos · 4º Ano</p>
+  <p>Tabuada · Romanos · Classes · Ordinais · 4º Ano</p>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" data-tab="tabuada">✖️ Tabuada</button>
   <button class="tab-btn" data-tab="romanos">🏛️ Algarismos Romanos</button>
+  <button class="tab-btn" data-tab="classes">🏛️ Classes e Ordens</button>
+  <button class="tab-btn" data-tab="ordinais">🔢 Cardinais e Ordinais</button>
   <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
   <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
 </div>
@@ -425,130 +603,130 @@
   </div>
 
   <div class="tabuadas-scroll">
-    <div class="tabuada-card" style="border-color:#E63946">
-      <div class="tabuada-card-titulo" style="color:#E63946">Tabuada do 2</div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 1 =</span><span class="res" style="color:#E63946">2</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 2 =</span><span class="res" style="color:#E63946">4</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 3 =</span><span class="res" style="color:#E63946">6</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 4 =</span><span class="res" style="color:#E63946">8</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 5 =</span><span class="res" style="color:#E63946">10</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 6 =</span><span class="res" style="color:#E63946">12</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 7 =</span><span class="res" style="color:#E63946">14</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 8 =</span><span class="res" style="color:#E63946">16</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 9 =</span><span class="res" style="color:#E63946">18</span></div>
-      <div class="tab-linha" style="background:#E6394615"><span class="op">2 × 10 =</span><span class="res" style="color:#E63946">20</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#EF476F,#D02F56);box-shadow:0 6px 0 #7B241C;">
+      <div class="tabuada-card-titulo">Tabuada do 2</div>
+      <div class="tab-linha" ><span class="op">2 × 1 =</span><span class="res" style="color:#EF476F">2</span></div>
+      <div class="tab-linha" ><span class="op">2 × 2 =</span><span class="res" style="color:#EF476F">4</span></div>
+      <div class="tab-linha" ><span class="op">2 × 3 =</span><span class="res" style="color:#EF476F">6</span></div>
+      <div class="tab-linha" ><span class="op">2 × 4 =</span><span class="res" style="color:#EF476F">8</span></div>
+      <div class="tab-linha" ><span class="op">2 × 5 =</span><span class="res" style="color:#EF476F">10</span></div>
+      <div class="tab-linha" ><span class="op">2 × 6 =</span><span class="res" style="color:#EF476F">12</span></div>
+      <div class="tab-linha" ><span class="op">2 × 7 =</span><span class="res" style="color:#EF476F">14</span></div>
+      <div class="tab-linha" ><span class="op">2 × 8 =</span><span class="res" style="color:#EF476F">16</span></div>
+      <div class="tab-linha" ><span class="op">2 × 9 =</span><span class="res" style="color:#EF476F">18</span></div>
+      <div class="tab-linha" ><span class="op">2 × 10 =</span><span class="res" style="color:#EF476F">20</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#FF6B35">
-      <div class="tabuada-card-titulo" style="color:#FF6B35">Tabuada do 3</div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 1 =</span><span class="res" style="color:#FF6B35">3</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 2 =</span><span class="res" style="color:#FF6B35">6</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 3 =</span><span class="res" style="color:#FF6B35">9</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 4 =</span><span class="res" style="color:#FF6B35">12</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 5 =</span><span class="res" style="color:#FF6B35">15</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 6 =</span><span class="res" style="color:#FF6B35">18</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 7 =</span><span class="res" style="color:#FF6B35">21</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 8 =</span><span class="res" style="color:#FF6B35">24</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 9 =</span><span class="res" style="color:#FF6B35">27</span></div>
-      <div class="tab-linha" style="background:#FF6B3515"><span class="op">3 × 10 =</span><span class="res" style="color:#FF6B35">30</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#FF6B35,#E05520);box-shadow:0 6px 0 #9A6000;">
+      <div class="tabuada-card-titulo">Tabuada do 3</div>
+      <div class="tab-linha" ><span class="op">3 × 1 =</span><span class="res" style="color:#FF6B35">3</span></div>
+      <div class="tab-linha" ><span class="op">3 × 2 =</span><span class="res" style="color:#FF6B35">6</span></div>
+      <div class="tab-linha" ><span class="op">3 × 3 =</span><span class="res" style="color:#FF6B35">9</span></div>
+      <div class="tab-linha" ><span class="op">3 × 4 =</span><span class="res" style="color:#FF6B35">12</span></div>
+      <div class="tab-linha" ><span class="op">3 × 5 =</span><span class="res" style="color:#FF6B35">15</span></div>
+      <div class="tab-linha" ><span class="op">3 × 6 =</span><span class="res" style="color:#FF6B35">18</span></div>
+      <div class="tab-linha" ><span class="op">3 × 7 =</span><span class="res" style="color:#FF6B35">21</span></div>
+      <div class="tab-linha" ><span class="op">3 × 8 =</span><span class="res" style="color:#FF6B35">24</span></div>
+      <div class="tab-linha" ><span class="op">3 × 9 =</span><span class="res" style="color:#FF6B35">27</span></div>
+      <div class="tab-linha" ><span class="op">3 × 10 =</span><span class="res" style="color:#FF6B35">30</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#FFB800">
-      <div class="tabuada-card-titulo" style="color:#FFB800">Tabuada do 4</div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 1 =</span><span class="res" style="color:#FFB800">4</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 2 =</span><span class="res" style="color:#FFB800">8</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 3 =</span><span class="res" style="color:#FFB800">12</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 4 =</span><span class="res" style="color:#FFB800">16</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 5 =</span><span class="res" style="color:#FFB800">20</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 6 =</span><span class="res" style="color:#FFB800">24</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 7 =</span><span class="res" style="color:#FFB800">28</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 8 =</span><span class="res" style="color:#FFB800">32</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 9 =</span><span class="res" style="color:#FFB800">36</span></div>
-      <div class="tab-linha" style="background:#FFB80015"><span class="op">4 × 10 =</span><span class="res" style="color:#FFB800">40</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#FFB800,#E0A000);box-shadow:0 6px 0 #7D6608;">
+      <div class="tabuada-card-titulo">Tabuada do 4</div>
+      <div class="tab-linha" ><span class="op">4 × 1 =</span><span class="res" style="color:#CC8800">4</span></div>
+      <div class="tab-linha" ><span class="op">4 × 2 =</span><span class="res" style="color:#CC8800">8</span></div>
+      <div class="tab-linha" ><span class="op">4 × 3 =</span><span class="res" style="color:#CC8800">12</span></div>
+      <div class="tab-linha" ><span class="op">4 × 4 =</span><span class="res" style="color:#CC8800">16</span></div>
+      <div class="tab-linha" ><span class="op">4 × 5 =</span><span class="res" style="color:#CC8800">20</span></div>
+      <div class="tab-linha" ><span class="op">4 × 6 =</span><span class="res" style="color:#CC8800">24</span></div>
+      <div class="tab-linha" ><span class="op">4 × 7 =</span><span class="res" style="color:#CC8800">28</span></div>
+      <div class="tab-linha" ><span class="op">4 × 8 =</span><span class="res" style="color:#CC8800">32</span></div>
+      <div class="tab-linha" ><span class="op">4 × 9 =</span><span class="res" style="color:#CC8800">36</span></div>
+      <div class="tab-linha" ><span class="op">4 × 10 =</span><span class="res" style="color:#CC8800">40</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#06D6A0">
-      <div class="tabuada-card-titulo" style="color:#06D6A0">Tabuada do 5</div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 1 =</span><span class="res" style="color:#06D6A0">5</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 2 =</span><span class="res" style="color:#06D6A0">10</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 3 =</span><span class="res" style="color:#06D6A0">15</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 4 =</span><span class="res" style="color:#06D6A0">20</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 5 =</span><span class="res" style="color:#06D6A0">25</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 6 =</span><span class="res" style="color:#06D6A0">30</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 7 =</span><span class="res" style="color:#06D6A0">35</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 8 =</span><span class="res" style="color:#06D6A0">40</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 9 =</span><span class="res" style="color:#06D6A0">45</span></div>
-      <div class="tab-linha" style="background:#06D6A015"><span class="op">5 × 10 =</span><span class="res" style="color:#06D6A0">50</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#06D6A0,#04B085);box-shadow:0 6px 0 #0B3D19;">
+      <div class="tabuada-card-titulo">Tabuada do 5</div>
+      <div class="tab-linha" ><span class="op">5 × 1 =</span><span class="res" style="color:#04B085">5</span></div>
+      <div class="tab-linha" ><span class="op">5 × 2 =</span><span class="res" style="color:#04B085">10</span></div>
+      <div class="tab-linha" ><span class="op">5 × 3 =</span><span class="res" style="color:#04B085">15</span></div>
+      <div class="tab-linha" ><span class="op">5 × 4 =</span><span class="res" style="color:#04B085">20</span></div>
+      <div class="tab-linha" ><span class="op">5 × 5 =</span><span class="res" style="color:#04B085">25</span></div>
+      <div class="tab-linha" ><span class="op">5 × 6 =</span><span class="res" style="color:#04B085">30</span></div>
+      <div class="tab-linha" ><span class="op">5 × 7 =</span><span class="res" style="color:#04B085">35</span></div>
+      <div class="tab-linha" ><span class="op">5 × 8 =</span><span class="res" style="color:#04B085">40</span></div>
+      <div class="tab-linha" ><span class="op">5 × 9 =</span><span class="res" style="color:#04B085">45</span></div>
+      <div class="tab-linha" ><span class="op">5 × 10 =</span><span class="res" style="color:#04B085">50</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#118AB2">
-      <div class="tabuada-card-titulo" style="color:#118AB2">Tabuada do 6</div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 1 =</span><span class="res" style="color:#118AB2">6</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 2 =</span><span class="res" style="color:#118AB2">12</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 3 =</span><span class="res" style="color:#118AB2">18</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 4 =</span><span class="res" style="color:#118AB2">24</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 5 =</span><span class="res" style="color:#118AB2">30</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 6 =</span><span class="res" style="color:#118AB2">36</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 7 =</span><span class="res" style="color:#118AB2">42</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 8 =</span><span class="res" style="color:#118AB2">48</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 9 =</span><span class="res" style="color:#118AB2">54</span></div>
-      <div class="tab-linha" style="background:#118AB215"><span class="op">6 × 10 =</span><span class="res" style="color:#118AB2">60</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#118AB2,#0078A0);box-shadow:0 6px 0 #0E3460;">
+      <div class="tabuada-card-titulo">Tabuada do 6</div>
+      <div class="tab-linha" ><span class="op">6 × 1 =</span><span class="res" style="color:#118AB2">6</span></div>
+      <div class="tab-linha" ><span class="op">6 × 2 =</span><span class="res" style="color:#118AB2">12</span></div>
+      <div class="tab-linha" ><span class="op">6 × 3 =</span><span class="res" style="color:#118AB2">18</span></div>
+      <div class="tab-linha" ><span class="op">6 × 4 =</span><span class="res" style="color:#118AB2">24</span></div>
+      <div class="tab-linha" ><span class="op">6 × 5 =</span><span class="res" style="color:#118AB2">30</span></div>
+      <div class="tab-linha" ><span class="op">6 × 6 =</span><span class="res" style="color:#118AB2">36</span></div>
+      <div class="tab-linha" ><span class="op">6 × 7 =</span><span class="res" style="color:#118AB2">42</span></div>
+      <div class="tab-linha" ><span class="op">6 × 8 =</span><span class="res" style="color:#118AB2">48</span></div>
+      <div class="tab-linha" ><span class="op">6 × 9 =</span><span class="res" style="color:#118AB2">54</span></div>
+      <div class="tab-linha" ><span class="op">6 × 10 =</span><span class="res" style="color:#118AB2">60</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#845EC2">
-      <div class="tabuada-card-titulo" style="color:#845EC2">Tabuada do 7</div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 1 =</span><span class="res" style="color:#845EC2">7</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 2 =</span><span class="res" style="color:#845EC2">14</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 3 =</span><span class="res" style="color:#845EC2">21</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 4 =</span><span class="res" style="color:#845EC2">28</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 5 =</span><span class="res" style="color:#845EC2">35</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 6 =</span><span class="res" style="color:#845EC2">42</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 7 =</span><span class="res" style="color:#845EC2">49</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 8 =</span><span class="res" style="color:#845EC2">56</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 9 =</span><span class="res" style="color:#845EC2">63</span></div>
-      <div class="tab-linha" style="background:#845EC215"><span class="op">7 × 10 =</span><span class="res" style="color:#845EC2">70</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#845EC2,#6A45A8);box-shadow:0 6px 0 #4A235A;">
+      <div class="tabuada-card-titulo">Tabuada do 7</div>
+      <div class="tab-linha" ><span class="op">7 × 1 =</span><span class="res" style="color:#7050B8">7</span></div>
+      <div class="tab-linha" ><span class="op">7 × 2 =</span><span class="res" style="color:#7050B8">14</span></div>
+      <div class="tab-linha" ><span class="op">7 × 3 =</span><span class="res" style="color:#7050B8">21</span></div>
+      <div class="tab-linha" ><span class="op">7 × 4 =</span><span class="res" style="color:#7050B8">28</span></div>
+      <div class="tab-linha" ><span class="op">7 × 5 =</span><span class="res" style="color:#7050B8">35</span></div>
+      <div class="tab-linha" ><span class="op">7 × 6 =</span><span class="res" style="color:#7050B8">42</span></div>
+      <div class="tab-linha" ><span class="op">7 × 7 =</span><span class="res" style="color:#7050B8">49</span></div>
+      <div class="tab-linha" ><span class="op">7 × 8 =</span><span class="res" style="color:#7050B8">56</span></div>
+      <div class="tab-linha" ><span class="op">7 × 9 =</span><span class="res" style="color:#7050B8">63</span></div>
+      <div class="tab-linha" ><span class="op">7 × 10 =</span><span class="res" style="color:#7050B8">70</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#FF6B9D">
-      <div class="tabuada-card-titulo" style="color:#FF6B9D">Tabuada do 8</div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 1 =</span><span class="res" style="color:#FF6B9D">8</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 2 =</span><span class="res" style="color:#FF6B9D">16</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 3 =</span><span class="res" style="color:#FF6B9D">24</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 4 =</span><span class="res" style="color:#FF6B9D">32</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 5 =</span><span class="res" style="color:#FF6B9D">40</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 6 =</span><span class="res" style="color:#FF6B9D">48</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 7 =</span><span class="res" style="color:#FF6B9D">56</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 8 =</span><span class="res" style="color:#FF6B9D">64</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 9 =</span><span class="res" style="color:#FF6B9D">72</span></div>
-      <div class="tab-linha" style="background:#FF6B9D15"><span class="op">8 × 10 =</span><span class="res" style="color:#FF6B9D">80</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#2EC4B6,#1BA89E);box-shadow:0 6px 0 #07473A;">
+      <div class="tabuada-card-titulo">Tabuada do 8</div>
+      <div class="tab-linha" ><span class="op">8 × 1 =</span><span class="res" style="color:#1BA89E">8</span></div>
+      <div class="tab-linha" ><span class="op">8 × 2 =</span><span class="res" style="color:#1BA89E">16</span></div>
+      <div class="tab-linha" ><span class="op">8 × 3 =</span><span class="res" style="color:#1BA89E">24</span></div>
+      <div class="tab-linha" ><span class="op">8 × 4 =</span><span class="res" style="color:#1BA89E">32</span></div>
+      <div class="tab-linha" ><span class="op">8 × 5 =</span><span class="res" style="color:#1BA89E">40</span></div>
+      <div class="tab-linha" ><span class="op">8 × 6 =</span><span class="res" style="color:#1BA89E">48</span></div>
+      <div class="tab-linha" ><span class="op">8 × 7 =</span><span class="res" style="color:#1BA89E">56</span></div>
+      <div class="tab-linha" ><span class="op">8 × 8 =</span><span class="res" style="color:#1BA89E">64</span></div>
+      <div class="tab-linha" ><span class="op">8 × 9 =</span><span class="res" style="color:#1BA89E">72</span></div>
+      <div class="tab-linha" ><span class="op">8 × 10 =</span><span class="res" style="color:#1BA89E">80</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#C77D3A">
-      <div class="tabuada-card-titulo" style="color:#C77D3A">Tabuada do 9</div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 1 =</span><span class="res" style="color:#C77D3A">9</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 2 =</span><span class="res" style="color:#C77D3A">18</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 3 =</span><span class="res" style="color:#C77D3A">27</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 4 =</span><span class="res" style="color:#C77D3A">36</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 5 =</span><span class="res" style="color:#C77D3A">45</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 6 =</span><span class="res" style="color:#C77D3A">54</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 7 =</span><span class="res" style="color:#C77D3A">63</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 8 =</span><span class="res" style="color:#C77D3A">72</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 9 =</span><span class="res" style="color:#C77D3A">81</span></div>
-      <div class="tab-linha" style="background:#C77D3A15"><span class="op">9 × 10 =</span><span class="res" style="color:#C77D3A">90</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#FF6B9D,#D4508A);box-shadow:0 6px 0 #6E2C00;">
+      <div class="tabuada-card-titulo">Tabuada do 9</div>
+      <div class="tab-linha" ><span class="op">9 × 1 =</span><span class="res" style="color:#D4508A">9</span></div>
+      <div class="tab-linha" ><span class="op">9 × 2 =</span><span class="res" style="color:#D4508A">18</span></div>
+      <div class="tab-linha" ><span class="op">9 × 3 =</span><span class="res" style="color:#D4508A">27</span></div>
+      <div class="tab-linha" ><span class="op">9 × 4 =</span><span class="res" style="color:#D4508A">36</span></div>
+      <div class="tab-linha" ><span class="op">9 × 5 =</span><span class="res" style="color:#D4508A">45</span></div>
+      <div class="tab-linha" ><span class="op">9 × 6 =</span><span class="res" style="color:#D4508A">54</span></div>
+      <div class="tab-linha" ><span class="op">9 × 7 =</span><span class="res" style="color:#D4508A">63</span></div>
+      <div class="tab-linha" ><span class="op">9 × 8 =</span><span class="res" style="color:#D4508A">72</span></div>
+      <div class="tab-linha" ><span class="op">9 × 9 =</span><span class="res" style="color:#D4508A">81</span></div>
+      <div class="tab-linha" ><span class="op">9 × 10 =</span><span class="res" style="color:#D4508A">90</span></div>
       
     </div>
-    <div class="tabuada-card" style="border-color:#4361EE">
-      <div class="tabuada-card-titulo" style="color:#4361EE">Tabuada do 10</div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 1 =</span><span class="res" style="color:#4361EE">10</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 2 =</span><span class="res" style="color:#4361EE">20</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 3 =</span><span class="res" style="color:#4361EE">30</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 4 =</span><span class="res" style="color:#4361EE">40</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 5 =</span><span class="res" style="color:#4361EE">50</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 6 =</span><span class="res" style="color:#4361EE">60</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 7 =</span><span class="res" style="color:#4361EE">70</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 8 =</span><span class="res" style="color:#4361EE">80</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 9 =</span><span class="res" style="color:#4361EE">90</span></div>
-      <div class="tab-linha" style="background:#4361EE15"><span class="op">10 × 10 =</span><span class="res" style="color:#4361EE">100</span></div>
+    <div class="tabuada-card" style="background:linear-gradient(135deg,#4361EE,#2945CC);box-shadow:0 6px 0 #4A0E0A;">
+      <div class="tabuada-card-titulo">Tabuada do 10</div>
+      <div class="tab-linha" ><span class="op">10 × 1 =</span><span class="res" style="color:#4361EE">10</span></div>
+      <div class="tab-linha" ><span class="op">10 × 2 =</span><span class="res" style="color:#4361EE">20</span></div>
+      <div class="tab-linha" ><span class="op">10 × 3 =</span><span class="res" style="color:#4361EE">30</span></div>
+      <div class="tab-linha" ><span class="op">10 × 4 =</span><span class="res" style="color:#4361EE">40</span></div>
+      <div class="tab-linha" ><span class="op">10 × 5 =</span><span class="res" style="color:#4361EE">50</span></div>
+      <div class="tab-linha" ><span class="op">10 × 6 =</span><span class="res" style="color:#4361EE">60</span></div>
+      <div class="tab-linha" ><span class="op">10 × 7 =</span><span class="res" style="color:#4361EE">70</span></div>
+      <div class="tab-linha" ><span class="op">10 × 8 =</span><span class="res" style="color:#4361EE">80</span></div>
+      <div class="tab-linha" ><span class="op">10 × 9 =</span><span class="res" style="color:#4361EE">90</span></div>
+      <div class="tab-linha" ><span class="op">10 × 10 =</span><span class="res" style="color:#4361EE">100</span></div>
       
     </div>
   </div>
@@ -560,7 +738,7 @@
   <div class="macetes-section">
 
     <div class="macete-box" style="border-color:#C77D3A">
-      <h4 style="color:#C77D3A">✋ Tabuada do 9 com os dedos</h4>
+      <h4 >✋ Tabuada do 9 com os dedos</h4>
       <p>Coloque as duas mãos abertas na frente de você, com os dedos numerados de 1 a 10 da esquerda para a direita.<br><br>
       Para calcular <b>9 × algum número</b>: abaixe o dedo desse número.<br>
       Os dedos levantados à <b>esquerda</b> do dedo abaixado = primeira parte do resultado.<br>
@@ -572,7 +750,7 @@
     </div>
 
     <div class="macete-box" style="border-color:#4361EE">
-      <h4 style="color:#4361EE">0️⃣ Tabuada do 10 — é só colocar um zero!</h4>
+      <h4 >0️⃣ Tabuada do 10 — é só colocar um zero!</h4>
       <p>Qualquer número multiplicado por 10 fica igual com um zero no final.</p>
       <span class="ex" style="background:#4361EE18;color:#4361EE">3 × 10 = 30</span>
       <span class="ex" style="background:#4361EE18;color:#4361EE">7 × 10 = 70</span>
@@ -580,7 +758,7 @@
     </div>
 
     <div class="macete-box" style="border-color:#06D6A0">
-      <h4 style="color:#06D6A0">5️⃣ Tabuada do 5 — olha o final!</h4>
+      <h4 >5️⃣ Tabuada do 5 — olha o final!</h4>
       <p>O resultado sempre termina em <b>0</b> ou <b>5</b>. Simples assim!<br>
       Número par × 5 → termina em 0 &nbsp;·&nbsp; Número ímpar × 5 → termina em 5</p>
       <span class="ex" style="background:#06D6A018;color:#06D6A0">4 × 5 = 20</span>
@@ -590,7 +768,7 @@
     </div>
 
     <div class="macete-box" style="border-color:#845EC2">
-      <h4 style="color:#845EC2">🔄 Trocar a ordem dá no mesmo!</h4>
+      <h4 >🔄 Trocar a ordem dá no mesmo!</h4>
       <p>Na multiplicação, não importa a ordem dos números — o resultado é sempre igual!<br>
       Isso significa que se você já sabe uma conta, já sabe a inversa de graça. 🎉</p>
       <span class="ex" style="background:#845EC218;color:#845EC2">6 × 8 = 48 &nbsp;→&nbsp; 8 × 6 = 48</span>
@@ -613,7 +791,7 @@
   <div class="romano-grande">
     
     <div class="romanos-linha">
-      <div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">I</span><span class="r-val">1</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">II</span><span class="r-val">2</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">III</span><span class="r-val">3</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">IV</span><span class="r-val">4</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">V</span><span class="r-val">5</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">VI</span><span class="r-val">6</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">VII</span><span class="r-val">7</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">VIII</span><span class="r-val">8</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" style="color:#E63946">IX</span><span class="r-val">9</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">X</span><span class="r-val">10</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">XX</span><span class="r-val">20</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">XXX</span><span class="r-val">30</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">XL</span><span class="r-val">40</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">L</span><span class="r-val">50</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">LX</span><span class="r-val">60</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">LXX</span><span class="r-val">70</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">LXXX</span><span class="r-val">80</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" style="color:#FF6B35">XC</span><span class="r-val">90</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">C</span><span class="r-val">100</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">CC</span><span class="r-val">200</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">CCC</span><span class="r-val">300</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">CD</span><span class="r-val">400</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">D</span><span class="r-val">500</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">DC</span><span class="r-val">600</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">DCC</span><span class="r-val">700</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">DCCC</span><span class="r-val">800</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" style="color:#118AB2">CM</span><span class="r-val">900</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" style="color:#845EC2">M</span><span class="r-val">1000</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" style="color:#845EC2">MM</span><span class="r-val">2000</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" style="color:#845EC2">MMM</span><span class="r-val">3000</span></div>
+      <div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >I</span><span class="r-val">1</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >II</span><span class="r-val">2</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >III</span><span class="r-val">3</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >IV</span><span class="r-val">4</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >V</span><span class="r-val">5</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >VI</span><span class="r-val">6</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >VII</span><span class="r-val">7</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >VIII</span><span class="r-val">8</span></div><div class="romano-item" style="border-color:#E63946;background:#E6394610"><span class="r-sim" >IX</span><span class="r-val">9</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >X</span><span class="r-val">10</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >XX</span><span class="r-val">20</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >XXX</span><span class="r-val">30</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >XL</span><span class="r-val">40</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >L</span><span class="r-val">50</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >LX</span><span class="r-val">60</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >LXX</span><span class="r-val">70</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >LXXX</span><span class="r-val">80</span></div><div class="romano-item" style="border-color:#FF6B35;background:#FF6B3510"><span class="r-sim" >XC</span><span class="r-val">90</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >C</span><span class="r-val">100</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >CC</span><span class="r-val">200</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >CCC</span><span class="r-val">300</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >CD</span><span class="r-val">400</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >D</span><span class="r-val">500</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >DC</span><span class="r-val">600</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >DCC</span><span class="r-val">700</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >DCCC</span><span class="r-val">800</span></div><div class="romano-item" style="border-color:#118AB2;background:#118AB210"><span class="r-sim" >CM</span><span class="r-val">900</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" >M</span><span class="r-val">1000</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" >MM</span><span class="r-val">2000</span></div><div class="romano-item" style="border-color:#845EC2;background:#845EC210"><span class="r-sim" >MMM</span><span class="r-val">3000</span></div>
     </div>
   </div>
 
@@ -650,6 +828,266 @@
         Para escrever qualquer número, combine os grupos:<br>
         <em>2024 = MM + XX + IV = MMXXIV</em>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════
+     TAB — CLASSES E ORDENS
+══════════════════════════════════════ -->
+<div class="section" id="tab-classes">
+  <div class="sec-title">
+    🏛️ Classes e Ordens
+    <span class="sec-badge" style="background:#16A085">1ª e 2ª Classe · 6 ordens</span>
+  </div>
+
+  <!-- tabela principal -->
+  <div class="classes-tabela-wrap">
+    <h3>📊 Tabela de Classes e Ordens</h3>
+    <table class="tab-classe">
+      <thead>
+        <tr>
+          <th class="th-classe-2" colspan="3">2ª Classe — Milhares</th>
+          <th class="th-classe-1" colspan="3">1ª Classe — Unidades Simples</th>
+        </tr>
+        <tr>
+          <th class="th-ordem-c2">6ª Ordem<br>Centenas de<br>Milhar</th>
+          <th class="th-ordem-c2">5ª Ordem<br>Dezenas de<br>Milhar</th>
+          <th class="th-ordem-c2">4ª Ordem<br>Unidades de<br>Milhar</th>
+          <th class="th-ordem-c1">3ª Ordem<br>Centenas</th>
+          <th class="th-ordem-c1">2ª Ordem<br>Dezenas</th>
+          <th class="th-ordem-c1">1ª Ordem<br>Unidades</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-letra-c2">C</td>
+          <td class="td-letra-c2">D</td>
+          <td class="td-letra-c2">U</td>
+          <td class="td-letra-c1">C</td>
+          <td class="td-letra-c1">D</td>
+          <td class="td-letra-c1">U</td>
+        </tr>
+        <tr>
+          <td class="td-base-c2">100.000</td>
+          <td class="td-base-c2">10.000</td>
+          <td class="td-base-c2">1.000</td>
+          <td class="td-base-c1">100</td>
+          <td class="td-base-c1">10</td>
+          <td class="td-base-c1">1</td>
+        </tr>
+        <tr>
+          <td class="td-dig-c2">3</td>
+          <td class="td-dig-c2">4</td>
+          <td class="td-dig-c2">7</td>
+          <td class="td-dig-c1">2</td>
+          <td class="td-dig-c1">0</td>
+          <td class="td-dig-c1">5</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="text-align:center;margin-top:12px;font-size:.85rem;font-weight:700;color:#888">
+      Exemplo: <strong style="color:var(--dark)">347.205</strong> — três centenas e quarenta e sete mil, duzentos e cinco
+    </p>
+  </div>
+
+  <!-- contagem de ordens e algarismos -->
+  <div class="decomp-card">
+    <div class="decomp-card-header" style="background:#1A5C38">🔢 Quantas ordens e algarismos tem o número?</div>
+    <div class="decomp-card-body">
+      <div class="decomp-exemplo ex-misto">
+        <div class="decomp-numero">347.205</div>
+        <div class="decomp-linha">
+          <span class="decomp-chip chip-alg">6 algarismos</span>
+          <span class="decomp-chip chip-ordens">6 ordens</span>
+          <span class="decomp-chip chip-classes">2 classes</span>
+        </div>
+        <div class="decomp-extenso">A quantidade de ordens = quantidade de algarismos. Cada algarismo ocupa uma ordem!</div>
+      </div>
+      <div class="decomp-exemplo ex-misto">
+        <div class="decomp-numero">8.043</div>
+        <div class="decomp-linha">
+          <span class="decomp-chip chip-alg">4 algarismos</span>
+          <span class="decomp-chip chip-ordens">4 ordens</span>
+          <span class="decomp-chip chip-classes">2 classes</span>
+        </div>
+        <div class="decomp-extenso">O zero ocupa uma ordem mesmo sem valor!<br>8.043 → U.Milhar · Centenas · Dezenas · Unidades = 4 ordens.</div>
+      </div>
+      <div class="decomp-exemplo ex-misto">
+        <div class="decomp-numero">72.900</div>
+        <div class="decomp-linha">
+          <span class="decomp-chip chip-alg">5 algarismos</span>
+          <span class="decomp-chip chip-ordens">5 ordens</span>
+          <span class="decomp-chip chip-classes">2 classes</span>
+        </div>
+        <div class="decomp-extenso">Os zeros do final também contam como ordens!</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- decomposição em unidades -->
+  <div class="decomp-card">
+    <div class="decomp-card-header" style="background:#14486E">✂️ Decomposição em Unidades e Ordens</div>
+    <div class="decomp-card-body">
+      <div class="decomp-exemplo ex-milhar">
+        <div class="decomp-numero">347.205</div>
+        <div class="decomp-linha">
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">3</span><span class="oc-nome">C. de Milhar</span></span>
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">4</span><span class="oc-nome">D. de Milhar</span></span>
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">7</span><span class="oc-nome">U. de Milhar</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">2</span><span class="oc-nome">Centenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">0</span><span class="oc-nome">Dezenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">5</span><span class="oc-nome">Unidades</span></span>
+        </div>
+        <div class="decomp-extenso">3 centenas de milhar + 4 dezenas de milhar + 7 unidades de milhar + 2 centenas + 0 dezenas + 5 unidades</div>
+      </div>
+      <div class="decomp-exemplo ex-unid">
+        <div class="decomp-numero">25.630</div>
+        <div class="decomp-linha">
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">2</span><span class="oc-nome">D. de Milhar</span></span>
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">5</span><span class="oc-nome">U. de Milhar</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">6</span><span class="oc-nome">Centenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">3</span><span class="oc-nome">Dezenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">0</span><span class="oc-nome">Unidades</span></span>
+        </div>
+        <div class="decomp-extenso">2 dezenas de milhar + 5 unidades de milhar + 6 centenas + 3 dezenas + 0 unidades</div>
+      </div>
+      <div class="decomp-exemplo ex-milhar">
+        <div class="decomp-numero">109.070</div>
+        <div class="decomp-linha">
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">1</span><span class="oc-nome">C. de Milhar</span></span>
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">0</span><span class="oc-nome">D. de Milhar</span></span>
+          <span class="ordem-chip oc-milhar"><span class="oc-valor">9</span><span class="oc-nome">U. de Milhar</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">0</span><span class="oc-nome">Centenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">7</span><span class="oc-nome">Dezenas</span></span>
+          <span class="ordem-chip oc-unid"><span class="oc-valor">0</span><span class="oc-nome">Unidades</span></span>
+        </div>
+        <div class="decomp-extenso">1 centena de milhar + 0 dezenas de milhar + 9 unidades de milhar + 0 centenas + 7 dezenas + 0 unidades</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- dica final -->
+  <div class="dica-card">
+    <h3>💡 Macetes rápidos</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Contar ordens</strong>Conte os algarismos da direita para a esquerda: 1ª=unidades, 2ª=dezenas, 3ª=centenas, 4ª=unid. de milhar...</div>
+      <div class="dica-item"><strong>Ponto separa classes</strong>O ponto (.) separa a 2ª da 1ª classe. Ex: 45.320 → classe dos milhares | classe das unidades simples.</div>
+      <div class="dica-item"><strong>Zeros contam!</strong>O zero ocupa uma ordem mesmo sem valor. 50.004 tem 5 ordens e 2 classes.</div>
+      <div class="dica-item"><strong>Número de classes</strong>1–3 algarismos = 1 classe. 4–6 algarismos = 2 classes. 7–9 algarismos = 3 classes.</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════
+     TAB — CARDINAIS E ORDINAIS
+══════════════════════════════════════ -->
+<div class="section" id="tab-ordinais">
+  <div class="sec-title">
+    🔢 Cardinais e Ordinais
+    <span class="sec-badge" style="background:var(--rosa)">Escrever por extenso · Foco em Ordinais</span>
+  </div>
+
+  <!-- alertas importantes -->
+  <div class="alerta-box" style="background:#fff0f8;border-left:5px solid var(--rosa)">
+    <div class="alerta-ico">📌</div>
+    <div class="alerta-txt" style="color:#b03060">
+      <strong>O que é número ordinal?</strong>
+      Indica uma <b>posição ou ordem</b> em uma sequência. Ex: 1º lugar, 2ª fila, 3º andar.
+      Sempre tem o símbolo <b>º</b> (masculino) ou <b>ª</b> (feminino) após o número.
+    </div>
+  </div>
+  <div class="alerta-box" style="background:#f0f8ff;border-left:5px solid var(--azul)">
+    <div class="alerta-ico">📌</div>
+    <div class="alerta-txt" style="color:#1a5276">
+      <strong>Ordinal concorda com o gênero!</strong>
+      <b>Masculino:</b> primeiro, segundo, terceiro... &nbsp;|&nbsp; <b>Feminino:</b> primeira, segunda, terceira...
+    </div>
+  </div>
+
+  <div class="ordinais-grid">
+    <!-- 1 a 10 -->
+    <div class="ordinais-card">
+      <h3 style="color:var(--rosa);border-color:var(--rosa)">🔢 1º ao 10º</h3>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">1</span><span class="ord-cardinal">Um / Uma</span><span class="ord-ordinal">primeiro / primeira</span><span class="ord-abrev">1º / 1ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">2</span><span class="ord-cardinal">Dois / Duas</span><span class="ord-ordinal">segundo / segunda</span><span class="ord-abrev">2º / 2ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">3</span><span class="ord-cardinal">Três</span><span class="ord-ordinal">terceiro / terceira</span><span class="ord-abrev">3º / 3ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">4</span><span class="ord-cardinal">Quatro</span><span class="ord-ordinal">quarto / quarta</span><span class="ord-abrev">4º / 4ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">5</span><span class="ord-cardinal">Cinco</span><span class="ord-ordinal">quinto / quinta</span><span class="ord-abrev">5º / 5ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">6</span><span class="ord-cardinal">Seis</span><span class="ord-ordinal">sexto / sexta</span><span class="ord-abrev">6º / 6ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">7</span><span class="ord-cardinal">Sete</span><span class="ord-ordinal">sétimo / sétima</span><span class="ord-abrev">7º / 7ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">8</span><span class="ord-cardinal">Oito</span><span class="ord-ordinal">oitavo / oitava</span><span class="ord-abrev">8º / 8ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">9</span><span class="ord-cardinal">Nove</span><span class="ord-ordinal">nono / nona</span><span class="ord-abrev">9º / 9ª</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:var(--rosa)">10</span><span class="ord-cardinal">Dez</span><span class="ord-ordinal">décimo / décima</span><span class="ord-abrev">10º / 10ª</span></div>
+    </div>
+
+    <!-- 11 a 20 -->
+    <div class="ordinais-card">
+      <h3 style="color:#845EC2;border-color:#845EC2">🔢 11º ao 20º</h3>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">11</span><span class="ord-cardinal">Onze</span><span class="ord-ordinal">décimo primeiro</span><span class="ord-abrev">11º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">12</span><span class="ord-cardinal">Doze</span><span class="ord-ordinal">décimo segundo</span><span class="ord-abrev">12º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">13</span><span class="ord-cardinal">Treze</span><span class="ord-ordinal">décimo terceiro</span><span class="ord-abrev">13º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">14</span><span class="ord-cardinal">Catorze</span><span class="ord-ordinal">décimo quarto</span><span class="ord-abrev">14º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">15</span><span class="ord-cardinal">Quinze</span><span class="ord-ordinal">décimo quinto</span><span class="ord-abrev">15º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">16</span><span class="ord-cardinal">Dezesseis</span><span class="ord-ordinal">décimo sexto</span><span class="ord-abrev">16º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">17</span><span class="ord-cardinal">Dezessete</span><span class="ord-ordinal">décimo sétimo</span><span class="ord-abrev">17º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">18</span><span class="ord-cardinal">Dezoito</span><span class="ord-ordinal">décimo oitavo</span><span class="ord-abrev">18º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">19</span><span class="ord-cardinal">Dezenove</span><span class="ord-ordinal">décimo nono</span><span class="ord-abrev">19º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#845EC2">20</span><span class="ord-cardinal">Vinte</span><span class="ord-ordinal">vigésimo / vigésima</span><span class="ord-abrev">20º / 20ª</span></div>
+    </div>
+
+    <!-- dezenas -->
+    <div class="ordinais-card">
+      <h3 style="color:#2471A3;border-color:#2471A3">🔟 Dezenas ordinais</h3>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">10º</span><span class="ord-cardinal">Dez</span><span class="ord-ordinal">décimo</span><span class="ord-abrev">10º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">20º</span><span class="ord-cardinal">Vinte</span><span class="ord-ordinal">vigésimo</span><span class="ord-abrev">20º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">30º</span><span class="ord-cardinal">Trinta</span><span class="ord-ordinal">trigésimo</span><span class="ord-abrev">30º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">40º</span><span class="ord-cardinal">Quarenta</span><span class="ord-ordinal">quadragésimo</span><span class="ord-abrev">40º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">50º</span><span class="ord-cardinal">Cinquenta</span><span class="ord-ordinal">quinquagésimo</span><span class="ord-abrev">50º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">60º</span><span class="ord-cardinal">Sessenta</span><span class="ord-ordinal">sexagésimo</span><span class="ord-abrev">60º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">70º</span><span class="ord-cardinal">Setenta</span><span class="ord-ordinal">septuagésimo</span><span class="ord-abrev">70º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">80º</span><span class="ord-cardinal">Oitenta</span><span class="ord-ordinal">octogésimo</span><span class="ord-abrev">80º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">90º</span><span class="ord-cardinal">Noventa</span><span class="ord-ordinal">nonagésimo</span><span class="ord-abrev">90º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#2471A3">100º</span><span class="ord-cardinal">Cem</span><span class="ord-ordinal">centésimo</span><span class="ord-abrev">100º</span></div>
+    </div>
+
+    <!-- compostos importantes -->
+    <div class="ordinais-card">
+      <h3 style="color:#1E8449;border-color:#1E8449">🔗 Compostos (os mais pedidos)</h3>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">21º</span><span class="ord-cardinal">Vinte e um</span><span class="ord-ordinal">vigésimo primeiro</span><span class="ord-abrev">21º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">22º</span><span class="ord-cardinal">Vinte e dois</span><span class="ord-ordinal">vigésimo segundo</span><span class="ord-abrev">22º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">30º</span><span class="ord-cardinal">Trinta</span><span class="ord-ordinal">trigésimo</span><span class="ord-abrev">30º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">31º</span><span class="ord-cardinal">Trinta e um</span><span class="ord-ordinal">trigésimo primeiro</span><span class="ord-abrev">31º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">42º</span><span class="ord-cardinal">Quarenta e dois</span><span class="ord-ordinal">quadragésimo segundo</span><span class="ord-abrev">42º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">50º</span><span class="ord-cardinal">Cinquenta</span><span class="ord-ordinal">quinquagésimo</span><span class="ord-abrev">50º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">100º</span><span class="ord-cardinal">Cem</span><span class="ord-ordinal">centésimo</span><span class="ord-abrev">100º</span></div>
+      <div class="ord-linha"><span class="ord-num" style="color:#1E8449">1000º</span><span class="ord-cardinal">Mil</span><span class="ord-ordinal">milésimo</span><span class="ord-abrev">1000º</span></div>
+    </div>
+  </div>
+
+  <!-- dica de uso no dia a dia -->
+  <div class="dica-card">
+    <h3>💡 Onde usamos ordinais no dia a dia?</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>🏆 Competições</strong>Ela chegou em 1º lugar. O time ficou em 3º lugar no campeonato.</div>
+      <div class="dica-item"><strong>🏢 Andares</strong>Moro no 5º andar. A reunião é na 2ª sala à direita.</div>
+      <div class="dica-item"><strong>📅 Datas</strong>Dia 1º de janeiro. O 2º semestre começa em julho.</div>
+      <div class="dica-item"><strong>📚 Séries escolares</strong>Estou no 4º ano. Minha irmã está na 6ª série.</div>
+      <div class="dica-item"><strong>🏛️ Séculos</strong>Século XXI = vigésimo primeiro século. Século XIX = décimo nono.</div>
+      <div class="dica-item"><strong>🎖️ Posições</strong>O 7º colocado ganhou medalha. Ela foi a 1ª a terminar a prova.</div>
+    </div>
+  </div>
+
+  <!-- alerta sobre º/ª -->
+  <div class="alerta-box" style="background:#fffbea;border-left:5px solid #F1C40F;margin-top:4px">
+    <div class="alerta-ico">⚠️</div>
+    <div class="alerta-txt" style="color:#7D6608">
+      <strong>Cuidado com º e ª!</strong>
+      <b>1º</b> = primeiro (masc.) &nbsp;·&nbsp; <b>1ª</b> = primeira (fem.)<br>
+      O símbolo fica <b>sobrescrito</b> (pequeno e acima): 3º, não 3o.<br>
+      <b>Para compor:</b> vigésimo terceiro (23º) — os dois termos vão para o ordinal!
     </div>
   </div>
 </div>
@@ -743,6 +1181,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
     if (btn.dataset.tab === 'quiz')   mostrarConfig();
     if (btn.dataset.tab === 'resumo') setTimeout(atualizarPreview, 50);
+    if (!['quiz'].includes(btn.dataset.tab) && jogando) { clearInterval(timerJogo); jogando=false; }
   });
 });
 
