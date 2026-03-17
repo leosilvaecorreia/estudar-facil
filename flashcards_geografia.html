@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Cards de Geografia</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --amarelo: #FFD93D;
+    --laranja: #FF6B35;
+    --verde:   #06D6A0;
+    --azul:    #118AB2;
+    --roxo:    #845EC2;
+    --rosa:    #FF6B9D;
+    --bg:      #F0F7FF;
+    --dark:    #1A1A2E;
+    --t1: #0D7377; /* orientação — verde-água escuro */
+    --t2: #2471A3; /* planeta      — azul */
+    --t3: #1E8449; /* america       — verde */
+    --t4: #117A65; /* brasil        — verde escuro */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Nunito', sans-serif; background: var(--bg); min-height: 100vh; overflow-x: hidden; }
+
+  /* HOME BUTTON */
+  .btn-home {
+    position: fixed; top: 14px; left: 14px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2);
+    color: rgba(255,255,255,.7); font-family: 'Nunito', sans-serif;
+    font-weight: 800; font-size: .8rem; padding: 6px 14px;
+    border-radius: 50px; cursor: pointer; text-decoration: none;
+    display: flex; align-items: center; gap: 5px; z-index: 999;
+    transition: background .2s, color .2s;
+  }
+  .btn-home:hover { background: rgba(255,255,255,.18); color: white; }
+
+  /* HEADER */
+  header {
+    background: var(--dark); padding: 18px 24px 14px;
+    text-align: center; position: relative; overflow: hidden;
+  }
+  header::before {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(45deg, transparent, transparent 20px,
+      rgba(255,255,255,.03) 20px, rgba(255,255,255,.03) 40px);
+  }
+  header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: var(--amarelo); letter-spacing: 1px; position: relative; }
+  header p { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
+
+  /* TABS */
+  .tabs { display: flex; justify-content: center; gap: 8px; padding: 20px 16px 0; flex-wrap: wrap; }
+  .tab-btn {
+    font-family: 'Fredoka One', cursive; font-size: 1rem;
+    padding: 10px 20px; border: 3px solid transparent;
+    border-radius: 50px; cursor: pointer; transition: all .2s;
+    background: white; color: var(--dark); box-shadow: 0 3px 0 rgba(0,0,0,.12);
+  }
+  .tab-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(0,0,0,.12); }
+  .tab-btn.active { color: white; transform: translateY(-2px); }
+  .tab-btn[data-tab="orientacao"].active { background: var(--t1); border-color: var(--t1); }
+  .tab-btn[data-tab="planeta"].active    { background: var(--t2); border-color: var(--t2); }
+  .tab-btn[data-tab="america"].active    { background: var(--t3); border-color: var(--t3); }
+  .tab-btn[data-tab="brasil"].active     { background: var(--t4); border-color: var(--t4); }
+  .tab-btn[data-tab="quiz"].active       { background: var(--roxo); border-color: var(--roxo); }
+  .tab-btn[data-tab="resumo"].active     { background: #555; border-color: #555; }
+
+  /* SECTIONS */
+  .section { display: none; padding: 24px 16px 40px; max-width: 900px; margin: 0 auto; }
+  .section.active { display: block; animation: fadeIn .3s ease; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+
+  .sec-title {
+    font-family: 'Fredoka One', cursive; font-size: 1.5rem;
+    margin-bottom: 20px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .sec-badge {
+    display: inline-block; padding: 4px 14px; border-radius: 50px;
+    font-size: .85rem; color: white; font-family: 'Nunito', sans-serif; font-weight: 700;
+  }
+
+  /* CARDS COLORIDOS (padrão português) */
+  .cards-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px;
+  }
+  .card {
+    border-radius: 20px; padding: 22px 20px 20px;
+    position: relative; box-shadow: 0 6px 0 rgba(0,0,0,.15);
+    transition: transform .2s, box-shadow .2s; overflow: hidden;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 0 rgba(0,0,0,.15); }
+  .card::after {
+    content: ''; position: absolute; bottom: -20px; right: -20px;
+    width: 80px; height: 80px; border-radius: 50%; background: rgba(255,255,255,.12);
+  }
+  .card-icon { font-size: 2.2rem; margin-bottom: 8px; display: block; line-height: 1; }
+  .card-name { font-family: 'Fredoka One', cursive; font-size: 1.3rem; color: white; margin-bottom: 6px; text-shadow: 0 2px 4px rgba(0,0,0,.2); }
+  .card-rule { font-size: .88rem; color: rgba(255,255,255,.95); font-weight: 700; line-height: 1.5; margin-bottom: 10px; background: rgba(0,0,0,.18); border-radius: 10px; padding: 8px 10px; }
+  .card-examples { display: flex; flex-direction: column; gap: 5px; }
+  .ex { background: rgba(255,255,255,.96); border-radius: 10px; padding: 7px 10px; font-size: .9rem; font-weight: 700; color: var(--dark); }
+  .hl { font-weight: 900; font-size: 1rem; }
+
+  /* paleta de cards */
+  .c-verde-agua { background: linear-gradient(135deg, #0D7377, #09555A); }
+  .c-azul       { background: linear-gradient(135deg, #118AB2, #0078A0); }
+  .c-verde      { background: linear-gradient(135deg, #1E8449, #155C32); }
+  .c-laranja    { background: linear-gradient(135deg, #FF6B35, #E05520); }
+  .c-roxo       { background: linear-gradient(135deg, #845EC2, #6A45A8); }
+  .c-rosa       { background: linear-gradient(135deg, #FF6B9D, #D4508A); }
+  .c-amarelo    { background: linear-gradient(135deg, #CC8800, #A06800); }
+  .c-vermelho   { background: linear-gradient(135deg, #EF476F, #D02F56); }
+  .c-indigo     { background: linear-gradient(135deg, #4361EE, #2945CC); }
+  .c-marrom     { background: linear-gradient(135deg, #8B4513, #6B3410); }
+
+  /* DICA CARD (fundo escuro) */
+  .dica-card {
+    background: var(--dark); border-radius: 20px;
+    padding: 20px 22px; margin-top: 20px; box-shadow: 0 6px 0 rgba(0,0,0,.2);
+  }
+  .dica-card h3 { font-family: 'Fredoka One', cursive; color: var(--amarelo); font-size: 1.1rem; margin-bottom: 12px; }
+  .dica-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+  .dica-item { background: rgba(255,255,255,.07); border-radius: 12px; padding: 12px 14px; color: rgba(255,255,255,.88); font-size: .88rem; line-height: 1.6; }
+  .dica-item strong { display: block; color: var(--amarelo); font-family: 'Fredoka One', cursive; font-size: 1rem; margin-bottom: 4px; }
+
+  /* INFO CARD (fundo branco com borda) */
+  .info-card {
+    background: white; border-radius: 20px;
+    padding: 22px 22px; margin-bottom: 18px;
+    box-shadow: 0 5px 0 rgba(0,0,0,.08);
+  }
+  .info-card h3 { font-family: 'Fredoka One', cursive; font-size: 1.15rem; margin-bottom: 12px; }
+  .info-card p { font-size: .92rem; font-weight: 700; line-height: 1.7; color: #333; }
+
+  /* TABELA INFO */
+  .tabela-info { width: 100%; border-collapse: collapse; font-size: .9rem; font-weight: 700; margin-top: 8px; }
+  .tabela-info th { padding: 8px 12px; text-align: left; color: white; font-family: 'Fredoka One', cursive; }
+  .tabela-info td { padding: 8px 12px; border-bottom: 2px solid #f0f0f0; color: #333; }
+  .tabela-info tr:last-child td { border-bottom: none; }
+  .tabela-info tr:nth-child(even) td { background: #f9f9f9; }
+
+  /* SVG ILUSTRAÇÕES */
+  .ilustracao-wrap { display: flex; justify-content: center; margin: 16px 0; }
+  .ilustracao-wrap svg { max-width: 100%; height: auto; }
+
+  /* LISTA COLORIDA */
+  .lista-colorida { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+  .lista-colorida li {
+    display: flex; align-items: center; gap: 10px;
+    background: white; border-radius: 12px; padding: 10px 14px;
+    box-shadow: 0 3px 0 rgba(0,0,0,.06); font-weight: 700; font-size: .92rem;
+  }
+  .lista-colorida li .dot {
+    width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0;
+  }
+
+  /* ─── ROSA DOS VENTOS SVG ─── */
+
+  .img-wrap {
+    display: flex; justify-content: center; margin: 16px 0;
+  }
+  .img-wrap img {
+    max-width: 100%; height: auto; border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.15);
+  }
+  .img-wrap.sm img  { max-width: 260px; }
+  .img-wrap.md img  { max-width: 380px; }
+  .img-wrap.lg img  { max-width: 520px; }
+  .img-credito {
+    text-align: center; font-size: .72rem; color: #aaa;
+    font-weight: 600; margin-top: 4px; margin-bottom: 12px;
+  }
+
+
+  /* ─── HEMISFERIOS ─── */
+  .hemisferios-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;
+  }
+  @media(max-width:550px) { .hemisferios-grid { grid-template-columns: 1fr; } }
+
+  .hemi-card {
+    border-radius: 18px; padding: 20px 18px;
+    box-shadow: 0 5px 0 rgba(0,0,0,.12);
+    position: relative; overflow: hidden;
+  }
+  .hemi-card::after {
+    content: ''; position: absolute; bottom: -15px; right: -15px;
+    width: 70px; height: 70px; border-radius: 50%; background: rgba(255,255,255,.1);
+  }
+  .hemi-card h3 { font-family: 'Fredoka One', cursive; font-size: 1.2rem; color: white; margin-bottom: 8px; }
+  .hemi-card p { font-size: .88rem; font-weight: 700; color: rgba(255,255,255,.9); line-height: 1.6; }
+  .hemi-card ul { margin-top: 8px; padding-left: 0; list-style: none; }
+  .hemi-card ul li { font-size: .86rem; font-weight: 700; color: rgba(255,255,255,.85); padding: 2px 0; }
+  .hemi-card ul li::before { content: '→ '; }
+
+  /* ─── QUIZ (padrão português) ─── */
+  .quiz-shell { background: white; border-radius: 24px; padding: 28px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); }
+  .prog-bar-wrap { background: #eee; border-radius: 50px; height: 10px; margin-bottom: 6px; overflow: hidden; }
+  .prog-bar-fill { height: 100%; border-radius: 50px; background: linear-gradient(90deg, var(--t3), var(--azul)); transition: width .4s ease; }
+  .prog-label { font-size: .82rem; color: #aaa; font-weight: 700; text-align: right; margin-bottom: 20px; }
+  .score-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .score-pill { background: var(--dark); color: var(--amarelo); font-family: 'Fredoka One', cursive; font-size: 1rem; padding: 5px 16px; border-radius: 50px; }
+  .quiz-palavra { text-align: center; margin: 10px 0 24px; }
+  .quiz-palavra .word-big { font-family: 'Fredoka One', cursive; font-size: 2rem; color: var(--dark); line-height: 1.2; }
+  .quiz-categoria { display: inline-block; margin-top: 6px; font-size: .85rem; font-weight: 800; color: white; padding: 4px 14px; border-radius: 50px; }
+  .quiz-pergunta { font-size: 1rem; font-weight: 800; color: var(--dark); text-align: center; margin-bottom: 16px; line-height: 1.4; }
+  .opcoes { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .opcao-btn {
+    font-family: 'Nunito', sans-serif; font-size: .97rem; font-weight: 700;
+    padding: 13px 18px; border-radius: 14px; border: 3px solid #e8e8e8;
+    background: white; color: var(--dark); cursor: pointer; text-align: left;
+    transition: all .15s; line-height: 1.3;
+  }
+  .opcao-btn:hover:not(:disabled) { border-color: var(--t3); background: #f0faf5; transform: translateX(4px); }
+  .opcao-btn.correta { background: #d4f7e7; border-color: #06D6A0; color: #0a5c3a; }
+  .opcao-btn.errada  { background: #fde8e8; border-color: #EF476F; color: #7a1a2e; }
+  .opcao-btn:disabled { cursor: default; transform: none; }
+  .feedback-box { border-radius: 14px; padding: 12px 16px; font-size: .92rem; font-weight: 700; line-height: 1.5; margin-bottom: 16px; display: none; animation: fadeIn .25s; }
+  .feedback-box.acerto { background: #d4f7e7; color: #0a5c3a; }
+  .feedback-box.erro   { background: #fde8e8; color: #7a1a2e; }
+  .feedback-box.show   { display: block; }
+  .btn-proximo {
+    font-family: 'Fredoka One', cursive; font-size: 1.1rem;
+    width: 100%; padding: 14px; border: none; border-radius: 14px;
+    background: var(--t3); color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #155C32; transition: all .15s; display: none;
+  }
+  .btn-proximo:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #155C32; }
+  .btn-proximo.show  { display: block; animation: fadeIn .2s; }
+  .resultado-shell { background: white; border-radius: 24px; padding: 32px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); text-align: center; }
+  .resultado-emoji { font-size: 4rem; margin-bottom: 8px; }
+  .resultado-titulo { font-family: 'Fredoka One', cursive; font-size: 1.8rem; color: var(--dark); margin-bottom: 6px; }
+  .resultado-placar { font-size: 3rem; font-family: 'Fredoka One', cursive; color: var(--t3); margin: 10px 0 4px; }
+  .resultado-sub { font-size: .9rem; color: #888; font-weight: 600; margin-bottom: 24px; }
+  .btn-reiniciar {
+    font-family: 'Fredoka One', cursive; font-size: 1.05rem;
+    padding: 13px 28px; border: none; border-radius: 50px;
+    background: var(--t3); color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #155C32; transition: all .15s; margin-bottom: 28px;
+  }
+  .btn-reiniciar:hover { transform: translateY(-2px); }
+  .revisao-titulo { font-family: 'Fredoka One', cursive; font-size: 1.2rem; color: var(--dark); margin-bottom: 14px; text-align: left; }
+  .revisao-card { background: #f0faf5; border-radius: 16px; padding: 16px 18px; margin-bottom: 10px; text-align: left; border-left: 5px solid var(--t3); }
+  .revisao-word { font-family: 'Fredoka One', cursive; font-size: 1.2rem; color: var(--dark); margin-bottom: 6px; }
+  .revisao-linha { font-size: .88rem; font-weight: 700; color: #444; margin-bottom: 3px; }
+  .revisao-linha span { color: var(--t3); }
+
+  /* RESUMO */
+  .resumo-controles { background: white; border-radius: 20px; padding: 24px; margin-bottom: 24px; box-shadow: 0 4px 0 rgba(0,0,0,.07); }
+  .resumo-controles h3 { font-family: 'Fredoka One', cursive; font-size: 1.1rem; color: var(--dark); margin-bottom: 14px; }
+  .check-lista { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+  .check-item { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: .95rem; cursor: pointer; }
+  .check-item input { width: 18px; height: 18px; cursor: pointer; }
+  .btn-imprimir {
+    font-family: 'Fredoka One', cursive; font-size: 1rem;
+    padding: 12px 28px; border: none; border-radius: 50px;
+    background: #555; color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #333; transition: all .15s;
+  }
+  .btn-imprimir:hover { transform: translateY(-2px); }
+  .resumo-preview { background: white; border-radius: 20px; padding: 28px; box-shadow: 0 4px 0 rgba(0,0,0,.07); font-size: .92rem; color: #222; line-height: 1.8; }
+  .resumo-preview h2 { font-family: 'Fredoka One', cursive; font-size: 1.4rem; color: var(--dark); margin: 0 0 6px; border-bottom: 3px solid var(--t3); padding-bottom: 6px; }
+  .resumo-preview h3 { font-family: 'Fredoka One', cursive; font-size: 1.1rem; color: var(--t3); margin: 20px 0 6px; }
+  .resumo-preview p { margin-bottom: 8px; }
+  .resumo-preview ul { padding-left: 20px; margin-bottom: 8px; }
+  .resumo-preview li { margin-bottom: 4px; }
+
+  @media print {
+    body { visibility: hidden; margin: 0; padding: 0; background: white; }
+    .area-impressao { visibility: visible; position: absolute; top: 0; left: 0; width: 100%; padding: 20px 32px; font-family: Arial, sans-serif; font-size: 10.5pt; color: #000; line-height: 1.7; }
+    .area-impressao * { visibility: visible; }
+    .area-impressao h1 { font-size: 15pt; text-align: center; border-bottom: 2px solid #000; padding-bottom: 6px; margin-bottom: 14px; }
+    .area-impressao h2 { font-size: 12pt; margin: 16px 0 4px; border-bottom: 1px solid #ccc; padding-bottom: 3px; }
+    .area-impressao h3 { font-size: 10.5pt; margin: 10px 0 2px; }
+    .area-impressao ul { padding-left: 18px; }
+    .area-impressao table { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin: 6px 0; }
+    .area-impressao th { background: #eee !important; padding: 5px 10px; text-align: left; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .area-impressao td { padding: 4px 10px; border-bottom: 1px solid #eee; }
+    .area-impressao .rodape-impressao { margin-top: 28px; font-size: 8pt; color: #999; text-align: center; border-top: 1px solid #eee; padding-top: 6px; }
+  }
+  @media(max-width:500px) {
+    header h1 { font-size: 1.5rem; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .resultado-placar { font-size: 2.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<a class="btn-home" href="index.html">← Home</a>
+
+<header>
+  <h1>🌍 Flash Cards de Geografia</h1>
+  <p>Orientação · Planeta Terra · América · Brasil · 4º Ano</p>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="orientacao">🧭 Orientação</button>
+  <button class="tab-btn" data-tab="planeta">🌍 Planeta Terra</button>
+  <button class="tab-btn" data-tab="america">🌎 América</button>
+  <button class="tab-btn" data-tab="brasil">🇧🇷 Brasil</button>
+  <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
+  <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 1 — ORIENTAÇÃO
+══════════════════════════════════════ -->
+<div class="section active" id="tab-orientacao">
+  <div class="sec-title">🧭 Orientação
+    <span class="sec-badge" style="background:var(--t1)">Rosa dos Ventos · Linhas Imaginárias</span>
+  </div>
+
+  <!-- Rosa dos Ventos SVG -->
+  <div class="info-card">
+    <h3 style="color:var(--t1)">🌹 Rosa dos Ventos</h3>
+    <p style="margin-bottom:14px">A Rosa dos Ventos é um instrumento que indica as direções no espaço. Tem <strong>4 pontos cardeais</strong> e <strong>4 pontos colaterais</strong>.</p>
+    <div class="img-wrap sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Rosa_dos_Ventos.svg/640px-Rosa_dos_Ventos.svg.png"
+           alt="Rosa dos Ventos" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (domínio público)</p>
+  </div>
+
+  <!-- Cards pontos cardeais e colaterais -->
+  <div class="cards-grid" style="margin-bottom:20px">
+    <div class="card c-vermelho">
+      <span class="card-icon">⬆️</span>
+      <div class="card-name">Norte (N)</div>
+      <div class="card-rule">Ponto cardinal principal. Direção do Polo Norte.</div>
+      <div class="card-examples">
+        <div class="ex">☀️ O Sol nasce no <span class="hl" style="color:#EF476F">Leste</span> e se põe no <span class="hl" style="color:#118AB2">Oeste</span></div>
+        <div class="ex">Para encontrar o Norte: de costas para o Sul, braço direito = Leste</div>
+      </div>
+    </div>
+    <div class="card c-verde-agua">
+      <span class="card-icon">⬇️</span>
+      <div class="card-name">Sul (S)</div>
+      <div class="card-rule">Oposto ao Norte. Direção do Polo Sul.</div>
+      <div class="card-examples">
+        <div class="ex">Na sombra ao meio-dia: a sombra aponta para o <span class="hl" style="color:#0D7377">Norte</span></div>
+        <div class="ex">Estrela do Sul guia navegadores no hemisfério sul</div>
+      </div>
+    </div>
+    <div class="card c-azul">
+      <span class="card-icon">➡️</span>
+      <div class="card-name">Leste / Este (L/E)</div>
+      <div class="card-rule">Onde o Sol nasce. Também chamado de "Oriente" ou "Este".</div>
+      <div class="card-examples">
+        <div class="ex">O Sol <span class="hl" style="color:#118AB2">nasce</span> no Leste todo dia</div>
+        <div class="ex">Também chamado de <span class="hl" style="color:#118AB2">Este (E)</span> ou Oriente</div>
+      </div>
+    </div>
+    <div class="card c-verde">
+      <span class="card-icon">⬅️</span>
+      <div class="card-name">Oeste (O)</div>
+      <div class="card-rule">Onde o Sol se põe. Também chamado de "Ocidente".</div>
+      <div class="card-examples">
+        <div class="ex">O Sol <span class="hl" style="color:#1E8449">se põe</span> no Oeste todo dia</div>
+        <div class="ex">Também chamado de <span class="hl" style="color:#1E8449">Ocidente</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cards-grid" style="margin-bottom:20px">
+    <div class="card c-indigo">
+      <span class="card-icon">↗️</span>
+      <div class="card-name">Nordeste (NE)</div>
+      <div class="card-rule">Entre o Norte e o Leste. Ponto colateral.</div>
+    </div>
+    <div class="card c-azul">
+      <span class="card-icon">↘️</span>
+      <div class="card-name">Sudeste (SE)</div>
+      <div class="card-rule">Entre o Sul e o Leste. Ponto colateral.</div>
+    </div>
+    <div class="card c-verde-agua">
+      <span class="card-icon">↙️</span>
+      <div class="card-name">Sudoeste (SO)</div>
+      <div class="card-rule">Entre o Sul e o Oeste. Ponto colateral.</div>
+    </div>
+    <div class="card c-roxo">
+      <span class="card-icon">↖️</span>
+      <div class="card-name">Noroeste (NO)</div>
+      <div class="card-rule">Entre o Norte e o Oeste. Ponto colateral.</div>
+    </div>
+  </div>
+
+  <!-- Linhas imaginárias -->
+  <div class="info-card">
+    <h3 style="color:#C0392B">🌐 Linha do Equador</h3>
+    <p>A <strong>Linha do Equador</strong> é uma linha imaginária que divide a Terra em dois hemisférios: <strong>Norte</strong> e <strong>Sul</strong>. Ela fica bem no meio do planeta, a igual distância dos dois polos. É a linha de <strong>latitude 0°</strong>.</p>
+    <div class="img-wrap md">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Equator_and_Prime_Meridian.svg/640px-Equator_and_Prime_Meridian.svg.png"
+           alt="Linha do Equador dividindo hemisférios Norte e Sul" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (CC BY-SA)</p>
+    <p>O Brasil é cruzado pela Linha do Equador no seu extremo norte, pela região do Amapá.</p>
+  </div>
+
+  <div class="info-card">
+    <h3 style="color:#117A65">🌐 Meridiano de Greenwich</h3>
+    <p>O <strong>Meridiano de Greenwich</strong> é uma linha imaginária vertical que divide a Terra em dois hemisférios: <strong>Leste</strong> e <strong>Oeste</strong>. Passa pela cidade de <strong>Greenwich, na Inglaterra</strong>. É a linha de <strong>longitude 0°</strong>.</p>
+    <div class="img-wrap md">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Equator_and_Prime_Meridian.svg/640px-Equator_and_Prime_Meridian.svg.png"
+           alt="Meridiano de Greenwich dividindo hemisférios Leste e Oeste" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (CC BY-SA)</p>
+    <p>O Brasil fica quase todo no <strong>Hemisfério Oeste</strong> (a oeste do Meridiano de Greenwich).</p>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 Como não confundir!</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Cardinais (4)</strong>Norte, Sul, Leste, Oeste — os 4 principais, como os braços de uma cruz.</div>
+      <div class="dica-item"><strong>Colaterais (4)</strong>NE, SE, SO, NO — ficam entre os cardinais, nas diagonais.</div>
+      <div class="dica-item"><strong>Linha do Equador</strong>Horizontal — divide Norte e Sul. Latitude 0°. Passa pelo Amapá no Brasil.</div>
+      <div class="dica-item"><strong>Meridiano de Greenwich</strong>Vertical — divide Leste e Oeste. Longitude 0°. Passa pela Inglaterra.</div>
+      <div class="dica-item"><strong>Macete Norte/Sul</strong>Norte = para cima nos mapas. Sul = para baixo. Leste = Sol nasce. Oeste = Sol se põe.</div>
+      <div class="dica-item"><strong>Macete colaterais</strong>Sempre diga o cardinal N ou S primeiro! Nordeste, Sudeste, Sudoeste, Noroeste.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 2 — PLANETA TERRA
+══════════════════════════════════════ -->
+<div class="section" id="tab-planeta">
+  <div class="sec-title">🌍 Planeta Terra
+    <span class="sec-badge" style="background:var(--t2)">Hemisférios · Continentes · Oceanos</span>
+  </div>
+
+  <!-- Hemisférios -->
+  <div class="sec-title" style="font-size:1.1rem;margin-bottom:12px">🌐 Os Hemisférios</div>
+  <div class="hemisferios-grid">
+    <div class="hemi-card" style="background:linear-gradient(135deg,#EF476F,#C0392B)">
+      <h3>🔴 Hemisfério Norte</h3>
+      <p>Parte de cima da Terra, acima da Linha do Equador.</p>
+      <ul>
+        <li>Europa, América do Norte</li>
+        <li>Maior parte da Ásia</li>
+        <li>Norte da África</li>
+        <li>Maior parte do Brasil fica no Sul</li>
+      </ul>
+    </div>
+    <div class="hemi-card" style="background:linear-gradient(135deg,#118AB2,#0D6B8F)">
+      <h3>🔵 Hemisfério Sul</h3>
+      <p>Parte de baixo da Terra, abaixo da Linha do Equador.</p>
+      <ul>
+        <li>América do Sul (quase toda)</li>
+        <li>Oceania, Antártida</li>
+        <li>Sul da África</li>
+        <li>O Brasil fica <b>quase todo</b> aqui!</li>
+      </ul>
+    </div>
+    <div class="hemi-card" style="background:linear-gradient(135deg,#1E8449,#145C32)">
+      <h3>🟢 Hemisfério Oeste</h3>
+      <p>À esquerda do Meridiano de Greenwich.</p>
+      <ul>
+        <li>Toda a América</li>
+        <li>Parte da Europa e África</li>
+        <li>O Brasil fica todo aqui!</li>
+      </ul>
+    </div>
+    <div class="hemi-card" style="background:linear-gradient(135deg,#845EC2,#6A45A8)">
+      <h3>🟣 Hemisfério Leste</h3>
+      <p>À direita do Meridiano de Greenwich.</p>
+      <ul>
+        <li>Europa, África, Ásia</li>
+        <li>Oceania</li>
+        <li>Greenwich fica na Inglaterra</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Continentes -->
+  <div class="info-card" style="margin-top:20px">
+    <h3 style="color:var(--t2)">🗺️ Os 6 Continentes</h3>
+    <div class="img-wrap lg">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Physical_Map_of_the_World_%282021%29.svg/640px-Physical_Map_of_the_World_%282021%29.svg.png"
+           alt="Mapa-múndi com os continentes" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (domínio público)</p>
+    <ul class="lista-colorida">
+      <li><span class="dot" style="background:#EF476F"></span><strong>América</strong> — maior extensão Norte-Sul; dividida em América do Norte, Central e do Sul</li>
+      <li><span class="dot" style="background:#FF6B35"></span><strong>Europa</strong> — menor continente, muito populoso; onde fica Portugal, Espanha, França...</li>
+      <li><span class="dot" style="background:#FFD93D"></span><strong>África</strong> — segundo maior; cruzado pelo Equador; berço da humanidade</li>
+      <li><span class="dot" style="background:#06D6A0"></span><strong>Ásia</strong> — maior continente do mundo; mais da metade da população da Terra</li>
+      <li><span class="dot" style="background:#118AB2"></span><strong>Oceania</strong> — menor e mais isolado; inclui Austrália e ilhas do Pacífico</li>
+      <li><span class="dot" style="background:#845EC2"></span><strong>Antártida</strong> — ao redor do Polo Sul; coberta de gelo; sem habitantes permanentes</li>
+    </ul>
+  </div>
+
+  <!-- Oceanos -->
+  <div class="info-card">
+    <h3 style="color:var(--azul)">🌊 Os 5 Oceanos</h3>
+    <table class="tabela-info">
+      <thead><tr style="background:var(--azul)"><th>Oceano</th><th>Curiosidade</th></tr></thead>
+      <tbody>
+        <tr><td>🌊 <strong>Pacífico</strong></td><td>O maior do mundo — cobre quase 1/3 da superfície da Terra</td></tr>
+        <tr><td>🌊 <strong>Atlântico</strong></td><td>Banha o Brasil a leste; separa América da Europa e África</td></tr>
+        <tr><td>🌊 <strong>Índico</strong></td><td>Entre África, Ásia e Oceania</td></tr>
+        <tr><td>🌊 <strong>Ártico</strong></td><td>Em torno do Polo Norte; coberto de gelo no inverno</td></tr>
+        <tr><td>🌊 <strong>Antártico</strong></td><td>Em torno da Antártida; o mais frio</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 Macetes para não esquecer</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>6 continentes</strong>América · Europa · África · Ásia · Oceania · Antártida</div>
+      <div class="dica-item"><strong>5 oceanos</strong>Pacífico · Atlântico · Índico · Ártico · Antártico</div>
+      <div class="dica-item"><strong>Maior continente</strong>Ásia 🏆</div>
+      <div class="dica-item"><strong>Maior oceano</strong>Pacífico 🏆</div>
+      <div class="dica-item"><strong>Brasil banhado por</strong>Oceano Atlântico (a leste)</div>
+      <div class="dica-item"><strong>Hemisfério do Brasil</strong>Quase todo no Hemisfério Sul e inteiramente no Hemisfério Oeste.</div>
+      <div class="dica-item"><strong>Hemisfério da África</strong>Nos 4 hemisférios! A Linha do Equador e o Meridiano de Greenwich cruzam a África — ela fica no Norte, Sul, Leste e Oeste.</div>
+      <div class="dica-item"><strong>Acima do Equador</strong>Hemisfério Norte. Abaixo do Equador: Hemisfério Sul.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 3 — AMÉRICA
+══════════════════════════════════════ -->
+<div class="section" id="tab-america">
+  <div class="sec-title">🌎 América
+    <span class="sec-badge" style="background:var(--t3)">Divisão · América do Sul</span>
+  </div>
+
+  <div class="info-card">
+    <h3 style="color:var(--t3)">🗺️ Divisão da América</h3>
+    <p style="margin-bottom:12px">A América é dividida em <strong>3 partes</strong>:</p>
+    <div class="cards-grid">
+      <div class="card c-laranja">
+        <span class="card-icon">🇺🇸</span>
+        <div class="card-name">América do Norte</div>
+        <div class="card-rule">Países: Canadá, Estados Unidos e México (+ outros menores)</div>
+        <div class="card-examples">
+          <div class="ex">Capital dos EUA: <span class="hl" style="color:#FF6B35">Washington D.C.</span></div>
+        </div>
+      </div>
+      <div class="card c-amarelo">
+        <span class="card-icon">🌴</span>
+        <div class="card-name">América Central</div>
+        <div class="card-rule">Istmo que liga Norte ao Sul + ilhas do Caribe</div>
+        <div class="card-examples">
+          <div class="ex">Inclui: <span class="hl" style="color:#CC8800">Cuba, Jamaica, Haiti</span> e mais</div>
+        </div>
+      </div>
+      <div class="card c-verde">
+        <span class="card-icon">🇧🇷</span>
+        <div class="card-name">América do Sul</div>
+        <div class="card-rule">12 países; o Brasil é o maior deles</div>
+        <div class="card-examples">
+          <div class="ex">O Brasil ocupa <span class="hl" style="color:#1E8449">quase metade</span> da América do Sul</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- América do Sul -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t3)">🌎 Os 12 países da América do Sul</h3>
+    <div class="img-wrap md">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mapa_pol%C3%ADtico_Am%C3%A9rica_do_Sul.svg/640px-Mapa_pol%C3%ADtico_Am%C3%A9rica_do_Sul.svg.png"
+           alt="Mapa político da América do Sul" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (CC BY-SA)</p>
+    <table class="tabela-info">
+      <thead><tr style="background:var(--t3)"><th>País</th><th>Capital</th><th>Curiosidade</th></tr></thead>
+      <tbody>
+        <tr><td>🇧🇷 <strong>Brasil</strong></td><td>Brasília</td><td>Maior país da América do Sul</td></tr>
+        <tr><td>🇦🇷 Argentina</td><td>Buenos Aires</td><td>2º maior; faz fronteira com o Brasil ao sul</td></tr>
+        <tr><td>🇨🇱 Chile</td><td>Santiago</td><td>País mais longo e estreito do mundo</td></tr>
+        <tr><td>🇨🇴 Colômbia</td><td>Bogotá</td><td>Único país com costa no Pacífico e no Atlântico</td></tr>
+        <tr><td>🇵🇪 Peru</td><td>Lima</td><td>Lar de Machu Picchu e do rio Amazonas (nascente)</td></tr>
+        <tr><td>🇻🇪 Venezuela</td><td>Caracas</td><td>Maior reserva de petróleo do mundo</td></tr>
+        <tr><td>🇧🇴 Bolívia</td><td>Sucre / La Paz</td><td>País sem saída para o mar</td></tr>
+        <tr><td>🇵🇾 Paraguai</td><td>Assunção</td><td>País sem saída para o mar; faz fronteira com o Brasil</td></tr>
+        <tr><td>🇺🇾 Uruguai</td><td>Montevidéu</td><td>Menor país da América do Sul</td></tr>
+        <tr><td>🇪🇨 Equador</td><td>Quito</td><td>Cruzado pela Linha do Equador (deu nome ao país!)</td></tr>
+        <tr><td>🇬🇾 Guiana</td><td>Georgetown</td><td>Único país da América do Sul com inglês oficial</td></tr>
+        <tr><td>🇸🇷 Suriname</td><td>Paramaribo</td><td>Menor país da América do Sul em área</td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px;font-size:.85rem;color:#888;font-weight:700">* Guiana Francesa (território francês) também fica na América do Sul.</p>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 O que saber sobre a América do Sul</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>12 países</strong>Brasil, Argentina, Chile, Colômbia, Peru, Venezuela, Bolívia, Paraguai, Uruguai, Equador, Guiana e Suriname.</div>
+      <div class="dica-item"><strong>País mais extenso</strong>Brasil — ocupa quase 50% do território sul-americano.</div>
+      <div class="dica-item"><strong>Banhada por</strong>Oceano Atlântico (leste) e Pacífico (oeste).</div>
+      <div class="dica-item"><strong>Rio mais extenso</strong>Amazonas — nasce no Peru e deságua no Brasil.</div>
+      <div class="dica-item"><strong>Cordilheira dos Andes</strong>A maior cordilheira do mundo fica no lado oeste, do Chile ao Venezuela.</div>
+      <div class="dica-item"><strong>Sem saída para o mar</strong>Bolívia e Paraguai são os únicos países sem litoral.</div>
+      <div class="dica-item"><strong>NÃO fazem fronteira com o Brasil</strong>Chile e Equador são os únicos países da América do Sul que NÃO fazem fronteira com o Brasil.</div>
+      <div class="dica-item"><strong>Fazem fronteira com o Brasil</strong>10 países: Argentina, Bolívia, Colômbia, Guiana, Guiana Francesa, Paraguai, Peru, Suriname, Uruguai e Venezuela.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 4 — BRASIL
+══════════════════════════════════════ -->
+<div class="section" id="tab-brasil">
+  <div class="sec-title">🇧🇷 Brasil
+    <span class="sec-badge" style="background:var(--t4)">Regiões · Sudeste</span>
+  </div>
+
+  <!-- 5 regiões -->
+  <div class="info-card">
+    <h3 style="color:var(--t4)">🗺️ As 5 Regiões do Brasil</h3>
+    <p style="margin-bottom:14px">O Brasil é dividido pelo IBGE em <strong>5 grandes regiões</strong>, cada uma com características próprias de clima, vegetação, cultura e economia.</p>
+    <div class="img-wrap md">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Brasil_regioes_color_name.svg/640px-Brasil_regioes_color_name.svg.png"
+           alt="Mapa das 5 regiões do Brasil" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (CC BY-SA)</p>
+    <div class="cards-grid">
+      <div class="card" style="background:linear-gradient(135deg,#138D75,#0E6655)">
+        <span class="card-icon">🌿</span>
+        <div class="card-name">Norte</div>
+        <div class="card-rule">7 estados · maior região · floresta amazônica</div>
+        <div class="card-examples">
+          <div class="ex">AM, PA, RR, AP, AC, RO, TO</div>
+          <div class="ex">Capital da região: <span class="hl" style="color:#138D75">Manaus (AM)</span></div>
+        </div>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#E67E22,#CA6F1E)">
+        <span class="card-icon">☀️</span>
+        <div class="card-name">Nordeste</div>
+        <div class="card-rule">9 estados · semiárido · litoral extenso</div>
+        <div class="card-examples">
+          <div class="ex">MA, PI, CE, RN, PB, PE, AL, SE, BA</div>
+          <div class="ex">Maior cidade: <span class="hl" style="color:#E67E22">Salvador (BA)</span></div>
+        </div>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#2471A3,#1A5276)">
+        <span class="card-icon">🌾</span>
+        <div class="card-name">Centro-Oeste</div>
+        <div class="card-rule">4 estados (+ DF) · cerrado · agronegócio</div>
+        <div class="card-examples">
+          <div class="ex">MT, MS, GO + DF (Brasília)</div>
+          <div class="ex">Capital do Brasil: <span class="hl" style="color:#2471A3">Brasília (DF)</span></div>
+        </div>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#EF476F,#C0392B)">
+        <span class="card-icon">🏙️</span>
+        <div class="card-name">Sudeste</div>
+        <div class="card-rule">4 estados · mais populoso · maior PIB</div>
+        <div class="card-examples">
+          <div class="ex">SP, RJ, MG, ES</div>
+          <div class="ex">Maior cidade: <span class="hl" style="color:#EF476F">São Paulo (SP)</span></div>
+        </div>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#6C3483,#5B2C6F)">
+        <span class="card-icon">🌲</span>
+        <div class="card-name">Sul</div>
+        <div class="card-rule">3 estados · mais frio · colonização europeia</div>
+        <div class="card-examples">
+          <div class="ex">PR, SC, RS</div>
+          <div class="ex">Pode nevar! Região mais fria do Brasil</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Região Sudeste em detalhe -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:#C0392B">🏙️ Região Sudeste — em detalhe</h3>
+    <p style="margin-bottom:12px">O Sudeste é a região <strong>mais desenvolvida</strong> e <strong>mais populosa</strong> do Brasil. Tem 4 estados:</p>
+    <div class="img-wrap sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Regi%C3%A3o_Sudeste.png/640px-Regi%C3%A3o_Sudeste.png"
+           alt="Mapa da Região Sudeste do Brasil" loading="lazy">
+    </div>
+    <p class="img-credito">Imagem: Wikimedia Commons (CC BY-SA)</p>
+    <table class="tabela-info">
+      <thead><tr style="background:#C0392B"><th>Estado</th><th>Capital</th><th>Destaque</th></tr></thead>
+      <tbody>
+        <tr><td>🟨 <strong>São Paulo (SP)</strong></td><td>São Paulo</td><td>Maior cidade do Brasil e da América do Sul; maior PIB</td></tr>
+        <tr><td>🔵 <strong>Rio de Janeiro (RJ)</strong></td><td>Rio de Janeiro</td><td>Ex-capital do Brasil; Cristo Redentor; Carnaval famoso</td></tr>
+        <tr><td>🟥 <strong>Minas Gerais (MG)</strong></td><td>Belo Horizonte</td><td>Maior estado do Sudeste em área; minério de ferro</td></tr>
+        <tr><td>🟩 <strong>Espírito Santo (ES)</strong></td><td>Vitória</td><td>Menor estado do Sudeste; banhado pelo Atlântico</td></tr>
+      </tbody>
+    </table>
+    <div class="dica-grid" style="margin-top:14px">
+      <div class="dica-item" style="background:#ffeaea;border-radius:12px;padding:10px 14px">
+        <strong style="color:#C0392B">Banhado pelo</strong>
+        <span style="color:#333;font-size:.88rem;font-weight:700">Oceano Atlântico — SP, RJ e ES têm litoral. MG não tem litoral.</span>
+      </div>
+      <div class="dica-item" style="background:#ffeaea;border-radius:12px;padding:10px 14px">
+        <strong style="color:#C0392B">Fronteiras do RJ</strong>
+        <span style="color:#333;font-size:.88rem;font-weight:700">O Rio de Janeiro faz fronteira com 3 estados: <b>Minas Gerais</b> (norte/noroeste), <b>Espírito Santo</b> (nordeste) e <b>São Paulo</b> (oeste). Todos do Sudeste!</span>
+      </div>
+      <div class="dica-item" style="background:#ffeaea;border-radius:12px;padding:10px 14px">
+        <strong style="color:#C0392B">Clima</strong>
+        <span style="color:#333;font-size:.88rem;font-weight:700">Tropical (quente e úmido). SP e MG têm inverno mais frio nas serras.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 Macetes das regiões</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Norte (7 estados)</strong>AM · PA · RR · AP · AC · RO · TO — maior região, menor população relativa.</div>
+      <div class="dica-item"><strong>Nordeste (9 estados)</strong>MA · PI · CE · RN · PB · PE · AL · SE · BA — mais estados!</div>
+      <div class="dica-item"><strong>Centro-Oeste (4)</strong>MT · MS · GO · DF — Brasília fica aqui.</div>
+      <div class="dica-item"><strong>Sudeste (4)</strong>SP · RJ · MG · ES — mais rico e populoso.</div>
+      <div class="dica-item"><strong>Sul (3 estados)</strong>PR · SC · RS — menor região em número de estados.</div>
+      <div class="dica-item"><strong>MG sem litoral</strong>Minas Gerais é o único estado do Sudeste sem saída para o mar.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 5 — QUIZ
+══════════════════════════════════════ -->
+<div class="section" id="tab-quiz">
+  <div class="sec-title">⭐ Quiz de Geografia
+    <span class="sec-badge" style="background:var(--roxo)">20 perguntas · Dificuldade progressiva</span>
+  </div>
+  <div id="quiz-area"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 6 — RESUMO
+══════════════════════════════════════ -->
+<div class="section" id="tab-resumo">
+  <div class="sec-title">🖨️ Resumo para Impressão
+    <span class="sec-badge" style="background:#555">Selecione o que imprimir</span>
+  </div>
+  <div class="resumo-controles">
+    <h3>📋 O que incluir na impressão?</h3>
+    <div class="check-lista">
+      <label class="check-item"><input type="checkbox" id="chk-orientacao" checked onchange="atualizarPreview()"> 🧭 Orientação (Rosa dos Ventos + Linhas Imaginárias)</label>
+      <label class="check-item"><input type="checkbox" id="chk-planeta" checked onchange="atualizarPreview()"> 🌍 Planeta Terra (Hemisférios + Continentes + Oceanos)</label>
+      <label class="check-item"><input type="checkbox" id="chk-america" checked onchange="atualizarPreview()"> 🌎 América (Divisão + América do Sul)</label>
+      <label class="check-item"><input type="checkbox" id="chk-brasil" checked onchange="atualizarPreview()"> 🇧🇷 Brasil (Regiões + Sudeste)</label>
+    </div>
+    <button class="btn-imprimir" onclick="imprimir()">🖨️ Abrir impressão</button>
+  </div>
+  <div class="resumo-preview" id="resumo-preview-tela"></div>
+  <div class="area-impressao" id="area-impressao" style="display:none"></div>
+</div>
+
+<style>
+/* Quiz inline styles extra */
+@media(max-width:500px) {
+  .quiz-palavra .word-big { font-size: 1.5rem; }
+  .resultado-placar { font-size: 2.4rem; }
+}
+</style>
+
+<script>
+// ══════════════════════════════════════
+//  TABS
+// ══════════════════════════════════════
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab === 'quiz')   iniciarQuiz();
+    if (btn.dataset.tab === 'resumo') setTimeout(atualizarPreview, 50);
+  });
+});
+
+// ══════════════════════════════════════
+//  BANCO DE PERGUNTAS
+// ══════════════════════════════════════
+const perguntas_banco = [
+  // ORIENTAÇÃO
+  { tema:'🧭 Rosa dos Ventos', cor:'#0D7377',
+    pergunta:'Quantos pontos cardeais existem na Rosa dos Ventos?',
+    certo:'4', opcoes:['2','3','4','8'],
+    exp:'São 4 pontos cardeais: Norte, Sul, Leste e Oeste.' },
+  { tema:'🧭 Rosa dos Ventos', cor:'#0D7377',
+    pergunta:'Em que direção o Sol nasce?',
+    certo:'Leste', opcoes:['Norte','Sul','Leste','Oeste'],
+    exp:'O Sol sempre nasce no Leste (Oriente) e se põe no Oeste (Ocidente).' },
+  { tema:'🧭 Rosa dos Ventos', cor:'#0D7377',
+    pergunta:'Qual destes é um ponto COLATERAL da Rosa dos Ventos?',
+    certo:'Nordeste', opcoes:['Norte','Sul','Nordeste','Leste'],
+    exp:'Nordeste (NE) é colateral — fica entre o Norte e o Leste.' },
+  { tema:'🧭 Rosa dos Ventos', cor:'#0D7377',
+    pergunta:'Quantos pontos colaterais existem na Rosa dos Ventos?',
+    certo:'4', opcoes:['2','4','6','8'],
+    exp:'São 4 pontos colaterais: NE, SE, SO e NO.' },
+  { tema:'🌐 Linhas Imaginárias', cor:'#117A65',
+    pergunta:'A Linha do Equador divide a Terra em quais hemisférios?',
+    certo:'Norte e Sul', opcoes:['Leste e Oeste','Norte e Sul','Superior e Inferior','Grande e Pequeno'],
+    exp:'A Linha do Equador é horizontal e divide a Terra em Hemisfério Norte e Sul.' },
+  { tema:'🌐 Linhas Imaginárias', cor:'#117A65',
+    pergunta:'O Meridiano de Greenwich passa por qual país?',
+    certo:'Inglaterra', opcoes:['França','Brasil','Estados Unidos','Inglaterra'],
+    exp:'O Meridiano de Greenwich passa pela cidade de Greenwich, na Inglaterra, e tem longitude 0°.' },
+  { tema:'🌐 Linhas Imaginárias', cor:'#117A65',
+    pergunta:'O Meridiano de Greenwich divide a Terra em quais hemisférios?',
+    certo:'Leste e Oeste', opcoes:['Norte e Sul','Leste e Oeste','Tropical e Polar','Superior e Inferior'],
+    exp:'O Meridiano de Greenwich é vertical e divide a Terra em Hemisfério Leste e Hemisfério Oeste.' },
+  { tema:'🌐 Linhas Imaginárias', cor:'#117A65',
+    pergunta:'Em qual hemisfério o Brasil está localizado em relação ao Meridiano de Greenwich?',
+    certo:'Hemisfério Oeste', opcoes:['Hemisfério Leste','Hemisfério Oeste','Ambos','Nenhum'],
+    exp:'O Brasil fica inteiramente a oeste do Meridiano de Greenwich, no Hemisfério Oeste.' },
+  // PLANETA
+  { tema:'🌍 Continentes', cor:'#2471A3',
+    pergunta:'Qual é o maior continente do mundo?',
+    certo:'Ásia', opcoes:['África','América','Ásia','Europa'],
+    exp:'A Ásia é o maior continente, com mais da metade da população mundial.' },
+  { tema:'🌍 Continentes', cor:'#2471A3',
+    pergunta:'Quantos continentes existem?',
+    certo:'6', opcoes:['4','5','6','7'],
+    exp:'São 6 continentes: América, Europa, África, Ásia, Oceania e Antártida.' },
+  { tema:'🌊 Oceanos', cor:'#118AB2',
+    pergunta:'Qual é o maior oceano do mundo?',
+    certo:'Pacífico', opcoes:['Atlântico','Índico','Pacífico','Ártico'],
+    exp:'O Oceano Pacífico é o maior, cobrindo quase 1/3 da superfície da Terra.' },
+  { tema:'🌊 Oceanos', cor:'#118AB2',
+    pergunta:'Qual oceano banha o Brasil a leste?',
+    certo:'Atlântico', opcoes:['Pacífico','Índico','Atlântico','Ártico'],
+    exp:'O Oceano Atlântico banha a costa leste do Brasil.' },
+  // AMÉRICA
+  { tema:'🌎 América', cor:'#1E8449',
+    pergunta:'Em quantas partes a América é dividida?',
+    certo:'3', opcoes:['2','3','4','5'],
+    exp:'A América é dividida em 3: América do Norte, América Central e América do Sul.' },
+  { tema:'🌎 América do Sul', cor:'#1E8449',
+    pergunta:'Quantos países tem a América do Sul?',
+    certo:'12', opcoes:['10','11','12','13'],
+    exp:'A América do Sul tem 12 países: Brasil, Argentina, Chile, Colômbia, Peru, Venezuela, Bolívia, Paraguai, Uruguai, Equador, Guiana e Suriname.' },
+  { tema:'🌎 América do Sul', cor:'#1E8449',
+    pergunta:'Qual é o maior país da América do Sul?',
+    certo:'Brasil', opcoes:['Argentina','Chile','Brasil','Peru'],
+    exp:'O Brasil é o maior país da América do Sul, ocupando quase metade do território.' },
+  { tema:'🌎 América do Sul', cor:'#1E8449',
+    pergunta:'Quais países da América do Sul não têm saída para o mar?',
+    certo:'Bolívia e Paraguai', opcoes:['Uruguai e Paraguai','Bolívia e Paraguai','Peru e Equador','Argentina e Chile'],
+    exp:'Bolívia e Paraguai são os únicos países da América do Sul sem litoral (sem saída para o mar).' },
+  // BRASIL
+  { tema:'🇧🇷 Regiões do Brasil', cor:'#117A65',
+    pergunta:'Em quantas regiões o Brasil é dividido?',
+    certo:'5', opcoes:['3','4','5','6'],
+    exp:'O Brasil é dividido em 5 regiões: Norte, Nordeste, Centro-Oeste, Sudeste e Sul.' },
+  { tema:'🇧🇷 Regiões do Brasil', cor:'#117A65',
+    pergunta:'Qual região do Brasil tem mais estados?',
+    certo:'Nordeste', opcoes:['Norte','Nordeste','Sudeste','Sul'],
+    exp:'O Nordeste tem 9 estados (o maior número): MA, PI, CE, RN, PB, PE, AL, SE e BA.' },
+  { tema:'🏙️ Região Sudeste', cor:'#C0392B',
+    pergunta:'Quantos estados tem a Região Sudeste do Brasil?',
+    certo:'4', opcoes:['3','4','5','6'],
+    exp:'O Sudeste tem 4 estados: São Paulo, Rio de Janeiro, Minas Gerais e Espírito Santo.' },
+  { tema:'🏙️ Região Sudeste', cor:'#C0392B',
+    pergunta:'Qual estado do Sudeste NÃO tem litoral (costa marítima)?',
+    certo:'Minas Gerais', opcoes:['São Paulo','Rio de Janeiro','Minas Gerais','Espírito Santo'],
+    exp:'Minas Gerais é o único estado do Sudeste sem litoral — fica no interior do Brasil.' },
+  // HEMISFÉRIOS APROFUNDADOS
+  { tema:'🌐 Hemisférios', cor:'#117A65',
+    pergunta:'Qual hemisfério fica ACIMA da Linha do Equador?',
+    certo:'Hemisfério Norte', opcoes:['Hemisfério Norte','Hemisfério Sul','Hemisfério Leste','Hemisfério Oeste'],
+    exp:'A Linha do Equador divide o planeta: acima dela fica o Hemisfério Norte, abaixo o Hemisfério Sul.' },
+  { tema:'🌐 Hemisférios', cor:'#117A65',
+    pergunta:'Em quais hemisférios o Brasil está localizado?',
+    certo:'Sul e Oeste', opcoes:['Norte e Leste','Sul e Leste','Sul e Oeste','Norte e Oeste'],
+    exp:'O Brasil fica quase todo no Hemisfério Sul (abaixo do Equador) e inteiramente no Hemisfério Oeste (a oeste de Greenwich).' },
+  { tema:'🌐 Hemisférios', cor:'#117A65',
+    pergunta:'Em quais hemisférios a África está localizada?',
+    certo:'Norte, Sul, Leste e Oeste', opcoes:['Só no Hemisfério Leste','Só no Hemisfério Norte','Norte, Sul, Leste e Oeste','Sul e Leste'],
+    exp:'A África é cruzada tanto pela Linha do Equador (Norte e Sul) quanto pelo Meridiano de Greenwich (Leste e Oeste), então fica nos 4 hemisférios!' },
+  // FRONTEIRAS
+  { tema:'🌎 Fronteiras', cor:'#1E8449',
+    pergunta:'Qual destes países NÃO faz fronteira com o Brasil?',
+    certo:'Chile', opcoes:['Argentina','Chile','Bolívia','Peru'],
+    exp:'O Chile não faz fronteira com o Brasil. O Brasil faz fronteira com 10 dos 12 países da América do Sul — só Chile e Equador ficam de fora.' },
+  { tema:'🌎 Fronteiras', cor:'#1E8449',
+    pergunta:'Qual outro país da América do Sul também NÃO faz fronteira com o Brasil?',
+    certo:'Equador', opcoes:['Colômbia','Equador','Uruguai','Venezuela'],
+    exp:'Chile e Equador são os únicos países da América do Sul que não fazem fronteira com o Brasil.' },
+  { tema:'🌎 Fronteiras', cor:'#1E8449',
+    pergunta:'Com quantos países da América do Sul o Brasil faz fronteira?',
+    certo:'10', opcoes:['8','9','10','11'],
+    exp:'O Brasil faz fronteira com 10 países: Argentina, Bolívia, Colômbia, Guiana, Guiana Francesa, Paraguai, Peru, Suriname, Uruguai e Venezuela.' },
+  // ESTADOS QUE FAZEM FRONTEIRA COM O RJ
+  { tema:'🏙️ Região Sudeste', cor:'#C0392B',
+    pergunta:'Quais estados fazem fronteira com o Rio de Janeiro?',
+    certo:'MG, ES e SP', opcoes:['MG e SP','MG, ES e SP','SP e ES','MG, SP, ES e BA'],
+    exp:'O Rio de Janeiro faz fronteira com Minas Gerais (norte e noroeste), Espírito Santo (norte) e São Paulo (oeste).' },
+  { tema:'🏙️ Região Sudeste', cor:'#C0392B',
+    pergunta:'O Rio de Janeiro faz fronteira com algum estado fora do Sudeste?',
+    certo:'Não, só com MG, ES e SP', opcoes:['Sim, com a Bahia','Sim, com o Paraná','Não, só com MG, ES e SP','Sim, com Mato Grosso do Sul'],
+    exp:'O RJ faz fronteira apenas com estados do Sudeste: Minas Gerais, Espírito Santo e São Paulo.' },
+];
+
+function embaralhar(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const frases = ['🎉 Arrasou!','🔥 Isso aí!','⭐ Muito bem!','💪 Mandou bem!','🚀 Continue assim!','😎 Show!','✨ Perfeito!','🏆 Excelente!','👏 Parabéns!','🎯 Na mosca!'];
+function frasAleatoria() { return frases[Math.floor(Math.random() * frases.length)]; }
+
+let perguntas = [], idx = 0, acertos = 0, erros = [];
+
+function iniciarQuiz() {
+  perguntas = embaralhar(perguntas_banco);
+  idx = 0; acertos = 0; erros = [];
+  renderPergunta();
+}
+
+function nivelLabel(i, total) {
+  const pct = i / total;
+  if (pct < 0.35) return '🟢 Fácil';
+  if (pct < 0.7)  return '🟡 Médio';
+  return '🔴 Difícil';
+}
+
+function escapar(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function renderPergunta() {
+  const area = document.getElementById('quiz-area');
+  if (idx >= perguntas.length) { renderResultado(); return; }
+  const q = perguntas[idx];
+  const total = perguntas.length;
+  const pct = Math.round((idx / total) * 100);
+  const opcEmbaralhadas = embaralhar(q.opcoes);
+
+  area.innerHTML = `
+    <div class="quiz-shell">
+      <div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${pct}%"></div></div>
+      <div class="prog-label">${idx + 1} de ${total} · ${nivelLabel(idx, total)}</div>
+      <div class="score-bar">
+        <div style="font-size:.88rem;font-weight:700;color:#aaa">Acertos</div>
+        <div class="score-pill">⭐ ${acertos}</div>
+      </div>
+      <div class="quiz-palavra">
+        <div class="word-big">${q.pergunta}</div>
+        <span class="quiz-categoria" style="background:${q.cor}">${q.tema}</span>
+      </div>
+      <div class="opcoes">
+        ${opcEmbaralhadas.map(o => `<button class="opcao-btn" onclick="responder(this,'${escapar(o)}','${escapar(q.certo)}')">${o}</button>`).join('')}
+      </div>
+      <div class="feedback-box" id="feedback"></div>
+      <button class="btn-proximo" id="btn-prox" onclick="avancar()">Próxima →</button>
+    </div>
+  `;
+}
+
+function responder(btn, escolha, certo) {
+  document.querySelectorAll('.opcao-btn').forEach(b => b.disabled = true);
+  const fb   = document.getElementById('feedback');
+  const prox = document.getElementById('btn-prox');
+  const q    = perguntas[idx];
+  if (escolha === certo) {
+    acertos++;
+    btn.classList.add('correta');
+    fb.className = 'feedback-box acerto show';
+    fb.innerHTML = `${frasAleatoria()} ${q.exp}`;
+  } else {
+    btn.classList.add('errada');
+    document.querySelectorAll('.opcao-btn').forEach(b => {
+      if (b.textContent.trim() === certo) b.classList.add('correta');
+    });
+    fb.className = 'feedback-box erro show';
+    fb.innerHTML = `❌ <b>Errou.</b> A resposta certa é <b>${certo}</b>. ${q.exp}`;
+    erros.push(q);
+  }
+  prox.classList.add('show');
+}
+
+function avancar() { idx++; renderPergunta(); }
+
+function renderResultado() {
+  const area  = document.getElementById('quiz-area');
+  const total = perguntas.length;
+  const pct   = Math.round((acertos / total) * 100);
+  let emoji = '🌟', msg = 'Incrível! Você é craque em Geografia!';
+  if (pct < 50)      { emoji = '💪'; msg = 'Continue praticando, você vai melhorar!'; }
+  else if (pct < 70) { emoji = '😊'; msg = 'Bom trabalho! Revise os erros e tente de novo.'; }
+  else if (pct < 90) { emoji = '🎉'; msg = 'Muito bem! Quase perfeito!'; }
+
+  let revisaoHtml = '';
+  if (erros.length > 0) {
+    const vistas = new Set();
+    const unicas = erros.filter(q => { if(vistas.has(q.pergunta)) return false; vistas.add(q.pergunta); return true; });
+    revisaoHtml = `
+      <div class="revisao-titulo">📖 Revise estas questões:</div>
+      ${unicas.map(q => `
+        <div class="revisao-card">
+          <div class="revisao-word" style="font-size:1rem">${q.pergunta}</div>
+          <div class="revisao-linha">✅ Resposta certa: <span>${q.certo}</span></div>
+          <div class="revisao-linha">💡 <span>${q.exp}</span></div>
+        </div>
+      `).join('')}
+    `;
+  } else {
+    revisaoHtml = `<div style="color:#06D6A0;font-weight:800;font-size:1rem;margin-top:8px">🏆 Nenhum erro! Incrível!</div>`;
+  }
+
+  area.innerHTML = `
+    <div class="resultado-shell">
+      <div class="resultado-emoji">${emoji}</div>
+      <div class="resultado-titulo">${msg}</div>
+      <div class="resultado-placar">${acertos}/${total}</div>
+      <div class="resultado-sub">${pct}% de acertos</div>
+      <button class="btn-reiniciar" onclick="iniciarQuiz()">🔄 Jogar de novo</button>
+      ${revisaoHtml}
+    </div>
+  `;
+}
+
+// ══════════════════════════════════════
+//  RESUMO
+// ══════════════════════════════════════
+const secoes = {
+  orientacao: `
+<h2>🧭 Orientação</h2>
+<h3>Rosa dos Ventos</h3>
+<ul>
+  <li><b>Pontos cardeais (4):</b> Norte (N), Sul (S), Leste (L), Oeste (O)</li>
+  <li><b>Pontos colaterais (4):</b> Nordeste (NE), Sudeste (SE), Sudoeste (SO), Noroeste (NO)</li>
+  <li>O Sol nasce no Leste e se põe no Oeste</li>
+</ul>
+<h3>Linha do Equador</h3>
+<p>Linha imaginária horizontal · latitude 0° · divide a Terra em Hemisfério Norte e Hemisfério Sul · cruza o Brasil pelo Amapá</p>
+<h3>Meridiano de Greenwich</h3>
+<p>Linha imaginária vertical · longitude 0° · passa pela Inglaterra · divide a Terra em Hemisfério Leste e Hemisfério Oeste · o Brasil fica no Hemisfério Oeste</p>`,
+
+  planeta: `
+<h2>🌍 Planeta Terra</h2>
+<h3>Hemisférios</h3>
+<ul>
+  <li><b>Norte e Sul</b> → divididos pela Linha do Equador</li>
+  <li><b>Leste e Oeste</b> → divididos pelo Meridiano de Greenwich</li>
+  <li>O Brasil está quase todo no Hemisfério Sul e todo no Hemisfério Oeste</li>
+</ul>
+<h3>Os 6 Continentes</h3>
+<p>América · Europa · África · Ásia · Oceania · Antártida</p>
+<ul><li>Maior continente: Ásia</li></ul>
+<h3>Os 5 Oceanos</h3>
+<p>Pacífico · Atlântico · Índico · Ártico · Antártico</p>
+<ul>
+  <li>Maior oceano: Pacífico</li>
+  <li>O Brasil é banhado pelo Oceano Atlântico</li>
+</ul>`,
+
+  america: `
+<h2>🌎 América</h2>
+<h3>Divisão da América (3 partes)</h3>
+<ul>
+  <li><b>América do Norte:</b> Canadá, EUA, México</li>
+  <li><b>América Central:</b> istmo + ilhas do Caribe (Cuba, Jamaica...)</li>
+  <li><b>América do Sul:</b> 12 países; o Brasil é o maior</li>
+</ul>
+<h3>América do Sul — 12 países</h3>
+<p>Brasil · Argentina · Chile · Colômbia · Peru · Venezuela · Bolívia · Paraguai · Uruguai · Equador · Guiana · Suriname</p>
+<ul>
+  <li>Sem litoral: Bolívia e Paraguai</li>
+  <li>NÃO fazem fronteira com o Brasil: Chile e Equador</li>
+  <li>Fazem fronteira com o Brasil: 10 países (todos exceto Chile e Equador)</li>
+  <li>Maior país: Brasil (quase 50% do território)</li>
+  <li>Banhada pelo Oceano Atlântico (leste) e Pacífico (oeste)</li>
+</ul>`,
+
+  brasil: `
+<h2>🇧🇷 Brasil — Divisão Regional</h2>
+<h3>As 5 Regiões</h3>
+<table>
+  <thead><tr><th>Região</th><th>Nº de Estados</th><th>Estados</th></tr></thead>
+  <tbody>
+    <tr><td>Norte</td><td>7</td><td>AM, PA, RR, AP, AC, RO, TO</td></tr>
+    <tr><td>Nordeste</td><td>9</td><td>MA, PI, CE, RN, PB, PE, AL, SE, BA</td></tr>
+    <tr><td>Centro-Oeste</td><td>4 (+DF)</td><td>MT, MS, GO + DF</td></tr>
+    <tr><td>Sudeste</td><td>4</td><td>SP, RJ, MG, ES</td></tr>
+    <tr><td>Sul</td><td>3</td><td>PR, SC, RS</td></tr>
+  </tbody>
+</table>
+<h3>Região Sudeste</h3>
+<ul>
+  <li>4 estados: São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo</li>
+  <li>Região mais populosa e com maior PIB do Brasil</li>
+  <li>MG é o único estado do Sudeste sem litoral</li>
+  <li>Fronteiras do RJ: Minas Gerais, Espírito Santo e São Paulo (todos do Sudeste)</li>
+  <li>Maior cidade do Brasil: São Paulo (SP)</li>
+</ul>`,
+};
+
+function getConteudo() {
+  let html = '';
+  if (document.getElementById('chk-orientacao')?.checked) html += secoes.orientacao;
+  if (document.getElementById('chk-planeta')?.checked)    html += secoes.planeta;
+  if (document.getElementById('chk-america')?.checked)    html += secoes.america;
+  if (document.getElementById('chk-brasil')?.checked)     html += secoes.brasil;
+  return html || '<p style="color:#aaa;text-align:center">Selecione pelo menos uma opção acima.</p>';
+}
+
+function atualizarPreview() {
+  const p = document.getElementById('resumo-preview-tela');
+  if (p) p.innerHTML = getConteudo();
+}
+
+function imprimir() {
+  const area = document.getElementById('area-impressao');
+  area.style.display = 'block';
+  area.innerHTML = '<h1>Resumo de Geografia · 4º Ano</h1>' + getConteudo() + '<div class="rodape-impressao">Flash Cards de Geografia · 4º Ano · CSANL</div>';
+  window.print();
+  area.style.display = 'none';
+}
+</script>
+</body>
+</html>
