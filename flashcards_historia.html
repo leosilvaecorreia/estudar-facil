@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flash Cards de História</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --amarelo: #FFD93D;
+    --laranja: #FF6B35;
+    --verde:   #06D6A0;
+    --azul:    #118AB2;
+    --roxo:    #845EC2;
+    --rosa:    #FF6B9D;
+    --bg:      #FFF6EE;
+    --dark:    #1A1A2E;
+    --t1: #8B4513;  /* primeiros humanos — marrom terra */
+    --t2: #C0392B;  /* nômades — vermelho */
+    --t3: #1E8449;  /* sedentários — verde */
+    --t4: #2471A3;  /* rotas — azul */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Nunito', sans-serif; background: var(--bg); min-height: 100vh; overflow-x: hidden; }
+
+  .btn-home {
+    position: fixed; top: 14px; left: 14px;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.2);
+    color: rgba(255,255,255,.7); font-family: 'Nunito', sans-serif;
+    font-weight: 800; font-size: .8rem; padding: 6px 14px;
+    border-radius: 50px; cursor: pointer; text-decoration: none;
+    display: flex; align-items: center; gap: 5px; z-index: 999;
+    transition: background .2s, color .2s;
+  }
+  .btn-home:hover { background: rgba(255,255,255,.18); color: white; }
+
+  header {
+    background: var(--dark); padding: 18px 24px 14px;
+    text-align: center; position: relative; overflow: hidden;
+  }
+  header::before {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(45deg, transparent, transparent 20px,
+      rgba(255,255,255,.03) 20px, rgba(255,255,255,.03) 40px);
+  }
+  header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: var(--amarelo); letter-spacing: 1px; position: relative; }
+  header p  { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
+
+  .tabs { display: flex; justify-content: center; gap: 8px; padding: 20px 16px 0; flex-wrap: wrap; }
+  .tab-btn {
+    font-family: 'Fredoka One', cursive; font-size: 1rem;
+    padding: 10px 20px; border: 3px solid transparent;
+    border-radius: 50px; cursor: pointer; transition: all .2s;
+    background: white; color: var(--dark); box-shadow: 0 3px 0 rgba(0,0,0,.12);
+  }
+  .tab-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(0,0,0,.12); }
+  .tab-btn.active { color: white; transform: translateY(-2px); }
+  .tab-btn[data-tab="origem"].active  { background: var(--t1); border-color: var(--t1); }
+  .tab-btn[data-tab="nomades"].active { background: var(--t2); border-color: var(--t2); }
+  .tab-btn[data-tab="sedent"].active  { background: var(--t3); border-color: var(--t3); }
+  .tab-btn[data-tab="rotas"].active   { background: var(--t4); border-color: var(--t4); }
+  .tab-btn[data-tab="quiz"].active    { background: var(--roxo); border-color: var(--roxo); }
+  .tab-btn[data-tab="resumo"].active  { background: #555; border-color: #555; }
+
+  .section { display: none; padding: 24px 16px 40px; max-width: 900px; margin: 0 auto; }
+  .section.active { display: block; animation: fadeIn .3s ease; }
+  @keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:none; } }
+
+  .sec-title {
+    font-family: 'Fredoka One', cursive; font-size: 1.5rem;
+    margin-bottom: 20px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  .sec-badge {
+    display: inline-block; padding: 4px 14px; border-radius: 50px;
+    font-size: .85rem; color: white; font-family: 'Nunito', sans-serif; font-weight: 700;
+  }
+
+  /* CARDS COLORIDOS */
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; margin-bottom: 20px; }
+  .card {
+    border-radius: 20px; padding: 22px 20px 20px;
+    position: relative; box-shadow: 0 6px 0 rgba(0,0,0,.15);
+    transition: transform .2s, box-shadow .2s; overflow: hidden;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 0 rgba(0,0,0,.15); }
+  .card::after {
+    content: ''; position: absolute; bottom: -20px; right: -20px;
+    width: 80px; height: 80px; border-radius: 50%; background: rgba(255,255,255,.12);
+  }
+  .card-icon  { font-size: 2.2rem; margin-bottom: 8px; display: block; line-height: 1; }
+  .card-name  { font-family: 'Fredoka One', cursive; font-size: 1.3rem; color: white; margin-bottom: 6px; text-shadow: 0 2px 4px rgba(0,0,0,.2); }
+  .card-rule  { font-size: .88rem; color: rgba(255,255,255,.95); font-weight: 700; line-height: 1.5; margin-bottom: 10px; background: rgba(0,0,0,.18); border-radius: 10px; padding: 8px 10px; }
+  .card-examples { display: flex; flex-direction: column; gap: 5px; }
+  .ex { background: rgba(255,255,255,.96); border-radius: 10px; padding: 7px 10px; font-size: .88rem; font-weight: 700; color: var(--dark); }
+  .hl { font-weight: 900; }
+
+  /* paleta */
+  .c-marrom   { background: linear-gradient(135deg,#8B4513,#6B3410); }
+  .c-marrom2  { background: linear-gradient(135deg,#A0522D,#7B3F22); }
+  .c-laranja  { background: linear-gradient(135deg,#FF6B35,#E05520); }
+  .c-vermelho { background: linear-gradient(135deg,#C0392B,#922B21); }
+  .c-amarelo  { background: linear-gradient(135deg,#CC8800,#A06800); }
+  .c-verde    { background: linear-gradient(135deg,#1E8449,#155C32); }
+  .c-verde2   { background: linear-gradient(135deg,#117A65,#0E6655); }
+  .c-azul     { background: linear-gradient(135deg,#118AB2,#0078A0); }
+  .c-azul2    { background: linear-gradient(135deg,#2471A3,#1A5276); }
+  .c-roxo     { background: linear-gradient(135deg,#845EC2,#6A45A8); }
+  .c-cinza    { background: linear-gradient(135deg,#5D6D7E,#4A5568); }
+  .c-ocre     { background: linear-gradient(135deg,#C0873A,#9A6620); }
+
+  /* INFO CARD */
+  .info-card {
+    background: white; border-radius: 20px;
+    padding: 22px 22px; margin-bottom: 18px;
+    box-shadow: 0 5px 0 rgba(0,0,0,.08);
+  }
+  .info-card h3 { font-family: 'Fredoka One', cursive; font-size: 1.15rem; margin-bottom: 12px; }
+  .info-card p  { font-size: .92rem; font-weight: 700; line-height: 1.8; color: #333; margin-bottom: 8px; }
+  .info-card p:last-child { margin-bottom: 0; }
+
+  /* DICA CARD */
+  .dica-card { background: var(--dark); border-radius: 20px; padding: 20px 22px; margin-top: 20px; box-shadow: 0 6px 0 rgba(0,0,0,.2); }
+  .dica-card h3 { font-family: 'Fredoka One', cursive; color: var(--amarelo); font-size: 1.1rem; margin-bottom: 12px; }
+  .dica-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+  .dica-item { background: rgba(255,255,255,.07); border-radius: 12px; padding: 12px 14px; color: rgba(255,255,255,.88); font-size: .88rem; line-height: 1.6; }
+  .dica-item strong { display: block; color: var(--amarelo); font-family: 'Fredoka One', cursive; font-size: 1rem; margin-bottom: 4px; }
+
+  /* DEFINIÇÃO DESTAQUE */
+  .def-box {
+    border-radius: 14px; padding: 14px 18px; margin-bottom: 14px;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .def-box .def-ico { font-size: 1.5rem; flex-shrink: 0; }
+  .def-box .def-txt { font-size: .9rem; font-weight: 700; line-height: 1.6; color: #222; }
+  .def-box .def-txt strong { font-family: 'Fredoka One', cursive; font-size: 1rem; display: block; margin-bottom: 2px; }
+
+  /* LINHA DO TEMPO */
+  .timeline { position: relative; padding: 10px 0 10px 32px; margin: 16px 0; }
+  .timeline::before { content:''; position:absolute; left:10px; top:0; bottom:0; width:3px; background: linear-gradient(180deg,#8B4513,#C0392B,#1E8449); border-radius:3px; }
+  .tl-item { position: relative; margin-bottom: 20px; }
+  .tl-item:last-child { margin-bottom: 0; }
+  .tl-dot {
+    position: absolute; left: -27px; top: 4px;
+    width: 18px; height: 18px; border-radius: 50%;
+    border: 3px solid white; box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  }
+  .tl-data { font-family: 'Fredoka One', cursive; font-size: .85rem; margin-bottom: 2px; }
+  .tl-desc { font-size: .88rem; font-weight: 700; line-height: 1.5; color: #333; }
+
+  /* LISTA */
+  .lista-ok { list-style: none; display: flex; flex-direction: column; gap: 8px; margin: 10px 0; }
+  .lista-ok li { display: flex; align-items: flex-start; gap: 8px; font-size: .9rem; font-weight: 700; line-height: 1.5; color: #333; }
+  .lista-ok li::before { content: '→'; font-weight: 900; flex-shrink: 0; margin-top: 1px; }
+
+  /* QUIZ */
+  .quiz-shell { background: white; border-radius: 24px; padding: 28px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); }
+  .prog-bar-wrap { background: #eee; border-radius: 50px; height: 10px; margin-bottom: 6px; overflow: hidden; }
+  .prog-bar-fill { height: 100%; border-radius: 50px; background: linear-gradient(90deg,#8B4513,#C0392B); transition: width .4s ease; }
+  .prog-label { font-size: .82rem; color: #aaa; font-weight: 700; text-align: right; margin-bottom: 20px; }
+  .score-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .score-pill { background: var(--dark); color: var(--amarelo); font-family: 'Fredoka One', cursive; font-size: 1rem; padding: 5px 16px; border-radius: 50px; }
+  .quiz-palavra { text-align: center; margin: 10px 0 24px; }
+  .quiz-palavra .word-big { font-family: 'Fredoka One', cursive; font-size: 1.7rem; color: var(--dark); line-height: 1.3; }
+  .quiz-categoria { display: inline-block; margin-top: 6px; font-size: .85rem; font-weight: 800; color: white; padding: 4px 14px; border-radius: 50px; }
+  .quiz-pergunta { font-size: 1rem; font-weight: 800; color: var(--dark); text-align: center; margin-bottom: 16px; line-height: 1.4; }
+  .opcoes { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+  .opcao-btn {
+    font-family: 'Nunito', sans-serif; font-size: .97rem; font-weight: 700;
+    padding: 13px 18px; border-radius: 14px; border: 3px solid #e8e8e8;
+    background: white; color: var(--dark); cursor: pointer; text-align: left;
+    transition: all .15s; line-height: 1.3;
+  }
+  .opcao-btn:hover:not(:disabled) { border-color: var(--t1); background: #fff8f4; transform: translateX(4px); }
+  .opcao-btn.correta { background: #d4f7e7; border-color: #06D6A0; color: #0a5c3a; }
+  .opcao-btn.errada  { background: #fde8e8; border-color: #EF476F; color: #7a1a2e; }
+  .opcao-btn:disabled { cursor: default; transform: none; }
+  .feedback-box { border-radius: 14px; padding: 12px 16px; font-size: .92rem; font-weight: 700; line-height: 1.5; margin-bottom: 16px; display: none; animation: fadeIn .25s; }
+  .feedback-box.acerto { background: #d4f7e7; color: #0a5c3a; }
+  .feedback-box.erro   { background: #fde8e8; color: #7a1a2e; }
+  .feedback-box.show   { display: block; }
+  .btn-proximo {
+    font-family: 'Fredoka One', cursive; font-size: 1.1rem;
+    width: 100%; padding: 14px; border: none; border-radius: 14px;
+    background: var(--t1); color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #5a2d0c; transition: all .15s; display: none;
+  }
+  .btn-proximo:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #5a2d0c; }
+  .btn-proximo.show  { display: block; animation: fadeIn .2s; }
+  .resultado-shell { background: white; border-radius: 24px; padding: 32px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); text-align: center; }
+  .resultado-emoji  { font-size: 4rem; margin-bottom: 8px; }
+  .resultado-titulo { font-family: 'Fredoka One', cursive; font-size: 1.8rem; color: var(--dark); margin-bottom: 6px; }
+  .resultado-placar { font-size: 3rem; font-family: 'Fredoka One', cursive; color: var(--t1); margin: 10px 0 4px; }
+  .resultado-sub    { font-size: .9rem; color: #888; font-weight: 600; margin-bottom: 24px; }
+  .btn-reiniciar {
+    font-family: 'Fredoka One', cursive; font-size: 1.05rem;
+    padding: 13px 28px; border: none; border-radius: 50px;
+    background: var(--t1); color: white; cursor: pointer;
+    box-shadow: 0 4px 0 #5a2d0c; transition: all .15s; margin-bottom: 28px;
+  }
+  .btn-reiniciar:hover { transform: translateY(-2px); }
+  .revisao-titulo { font-family: 'Fredoka One', cursive; font-size: 1.2rem; color: var(--dark); margin-bottom: 14px; text-align: left; }
+  .revisao-card   { background: #fff8f0; border-radius: 16px; padding: 16px 18px; margin-bottom: 10px; text-align: left; border-left: 5px solid var(--t1); }
+  .revisao-word   { font-family: 'Fredoka One', cursive; font-size: 1.1rem; color: var(--dark); margin-bottom: 6px; }
+  .revisao-linha  { font-size: .88rem; font-weight: 700; color: #444; margin-bottom: 3px; }
+  .revisao-linha span { color: var(--t1); }
+
+  /* RESUMO */
+  .resumo-controles { background:white; border-radius:20px; padding:24px; margin-bottom:24px; box-shadow:0 4px 0 rgba(0,0,0,.07); }
+  .resumo-controles h3 { font-family:'Fredoka One',cursive; font-size:1.1rem; color:var(--dark); margin-bottom:14px; }
+  .check-lista { display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
+  .check-item { display:flex; align-items:center; gap:10px; font-weight:700; font-size:.95rem; cursor:pointer; }
+  .check-item input { width:18px; height:18px; cursor:pointer; }
+  .btn-imprimir {
+    font-family:'Fredoka One',cursive; font-size:1rem;
+    padding:12px 28px; border:none; border-radius:50px;
+    background:#555; color:white; cursor:pointer;
+    box-shadow:0 4px 0 #333; transition:all .15s;
+  }
+  .btn-imprimir:hover { transform:translateY(-2px); }
+  .resumo-preview { background:white; border-radius:20px; padding:28px; box-shadow:0 4px 0 rgba(0,0,0,.07); font-size:.92rem; color:#222; line-height:1.8; }
+  .resumo-preview h2 { font-family:'Fredoka One',cursive; font-size:1.4rem; color:var(--dark); margin:0 0 6px; border-bottom:3px solid var(--t1); padding-bottom:6px; }
+  .resumo-preview h3 { font-family:'Fredoka One',cursive; font-size:1.1rem; color:var(--t1); margin:18px 0 6px; }
+  .resumo-preview p  { margin-bottom:8px; }
+  .resumo-preview ul { padding-left:20px; margin-bottom:8px; }
+  .resumo-preview li { margin-bottom:4px; }
+
+  @media print {
+    body { visibility:hidden; margin:0; padding:0; background:white; }
+    .area-impressao { visibility:visible; position:absolute; top:0; left:0; width:100%; padding:20px 32px; font-family:Arial,sans-serif; font-size:10.5pt; color:#000; line-height:1.7; }
+    .area-impressao * { visibility:visible; }
+    .area-impressao h1 { font-size:15pt; text-align:center; border-bottom:2px solid #000; padding-bottom:6px; margin-bottom:14px; }
+    .area-impressao h2 { font-size:12pt; margin:14px 0 4px; border-bottom:1px solid #ccc; padding-bottom:3px; }
+    .area-impressao h3 { font-size:10.5pt; margin:10px 0 2px; }
+    .area-impressao ul { padding-left:18px; }
+    .area-impressao .rodape-impressao { margin-top:28px; font-size:8pt; color:#999; text-align:center; border-top:1px solid #eee; padding-top:6px; }
+  }
+  @media(max-width:500px) {
+    header h1 { font-size:1.5rem; }
+    .cards-grid { grid-template-columns:1fr; }
+    .resultado-placar { font-size:2.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<a class="btn-home" href="index.html">← Home</a>
+
+<header>
+  <h1>🏛️ Flash Cards de História</h1>
+  <p>Primeiros Humanos · Nômades · Sedentários · Rotas · 4º Ano</p>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="origem">🦴 Origem</button>
+  <button class="tab-btn" data-tab="nomades">🚶 Nômades</button>
+  <button class="tab-btn" data-tab="sedent">🌾 Sedentários</button>
+  <button class="tab-btn" data-tab="rotas">🗺️ Rotas</button>
+  <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
+  <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 1 — ORIGEM
+══════════════════════════════════════ -->
+<div class="section active" id="tab-origem">
+  <div class="sec-title">🦴 Primeiros Humanos
+    <span class="sec-badge" style="background:var(--t1)">Origem · Hominídeos · Homo sapiens</span>
+  </div>
+
+  <!-- Linha do tempo SVG -->
+  <div class="info-card">
+    <h3 style="color:var(--t1)">⏳ Linha do Tempo da Humanidade</h3>
+    <div style="overflow-x:auto">
+      <svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto">
+        <!-- trilho -->
+        <line x1="40" y1="100" x2="660" y2="100" stroke="#ddd" stroke-width="4" stroke-linecap="round"/>
+        <!-- segmentos coloridos -->
+        <line x1="40"  y1="100" x2="160" y2="100" stroke="#8B4513" stroke-width="6" stroke-linecap="round"/>
+        <line x1="160" y1="100" x2="340" y2="100" stroke="#C0392B" stroke-width="6" stroke-linecap="round"/>
+        <line x1="340" y1="100" x2="520" y2="100" stroke="#E67E22" stroke-width="6" stroke-linecap="round"/>
+        <line x1="520" y1="100" x2="660" y2="100" stroke="#1E8449" stroke-width="6" stroke-linecap="round"/>
+        <!-- pontos -->
+        <circle cx="40"  cy="100" r="12" fill="#8B4513" stroke="white" stroke-width="3"/>
+        <circle cx="160" cy="100" r="12" fill="#C0392B" stroke="white" stroke-width="3"/>
+        <circle cx="340" cy="100" r="12" fill="#E67E22" stroke="white" stroke-width="3"/>
+        <circle cx="520" cy="100" r="12" fill="#2471A3" stroke="white" stroke-width="3"/>
+        <circle cx="660" cy="100" r="12" fill="#1E8449" stroke="white" stroke-width="3"/>
+        <!-- emojis nos pontos -->
+        <text x="40"  y="106" text-anchor="middle" font-size="12">🌍</text>
+        <text x="160" y="106" text-anchor="middle" font-size="12">🦴</text>
+        <text x="340" y="106" text-anchor="middle" font-size="12">🚶</text>
+        <text x="520" y="106" text-anchor="middle" font-size="12">🔥</text>
+        <text x="660" y="106" text-anchor="middle" font-size="12">🌾</text>
+        <!-- labels acima -->
+        <text x="40"  y="72" text-anchor="middle" font-family="Fredoka One,sans-serif" font-size="11" font-weight="800" fill="#8B4513">3,5 bilhões</text>
+        <text x="40"  y="85" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#888" font-weight="700">vida na Terra</text>
+        <text x="160" y="72" text-anchor="middle" font-family="Fredoka One,sans-serif" font-size="11" font-weight="800" fill="#C0392B">5 milhões</text>
+        <text x="160" y="85" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#888" font-weight="700">hominídeos</text>
+        <text x="340" y="72" text-anchor="middle" font-family="Fredoka One,sans-serif" font-size="11" font-weight="800" fill="#E67E22">200 mil</text>
+        <text x="340" y="85" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#888" font-weight="700">Homo sapiens</text>
+        <text x="520" y="72" text-anchor="middle" font-family="Fredoka One,sans-serif" font-size="11" font-weight="800" fill="#2471A3">70–11 mil</text>
+        <text x="520" y="85" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#888" font-weight="700">chega à América</text>
+        <text x="660" y="72" text-anchor="middle" font-family="Fredoka One,sans-serif" font-size="11" font-weight="800" fill="#1E8449">10 mil</text>
+        <text x="660" y="85" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#888" font-weight="700">sedentarismo</text>
+        <!-- labels abaixo -->
+        <text x="40"  y="125" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#8B4513" font-weight="800">anos atrás</text>
+        <text x="160" y="125" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#C0392B" font-weight="800">anos atrás</text>
+        <text x="340" y="125" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#E67E22" font-weight="800">anos atrás</text>
+        <text x="520" y="125" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#2471A3" font-weight="800">anos atrás</text>
+        <text x="660" y="125" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#1E8449" font-weight="800">anos atrás</text>
+        <!-- legenda direcional -->
+        <text x="350" y="175" text-anchor="middle" font-family="Nunito,sans-serif" font-size="11" fill="#aaa" font-weight="700">← mais antigo · · · · · · · · · · · · · · · · · · · · · · · · · mais recente →</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Cards principais -->
+  <div class="cards-grid">
+    <div class="card c-marrom">
+      <span class="card-icon">🌍</span>
+      <div class="card-name">Berço da Humanidade</div>
+      <div class="card-rule">A África é chamada de "berço da humanidade" porque foi lá que surgiram os primeiros hominídeos.</div>
+      <div class="card-examples">
+        <div class="ex">Hominídeos surgiram na <span class="hl">África</span> há <span class="hl">5 milhões</span> de anos</div>
+        <div class="ex">Evidências: fósseis e análises arqueológicas</div>
+      </div>
+    </div>
+    <div class="card c-marrom2">
+      <span class="card-icon">🦴</span>
+      <div class="card-name">Hominídeos</div>
+      <div class="card-rule">Ancestrais extintos dos seres humanos. Foram se transformando ao longo de milhares de anos.</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">Lucy</span>: esqueleto encontrado na Etiópia — viveu há ~3 mi de anos</div>
+        <div class="ex">Foram evoluindo até virarem o ser humano moderno</div>
+      </div>
+    </div>
+    <div class="card c-vermelho">
+      <span class="card-icon">🧠</span>
+      <div class="card-name">Homo sapiens</div>
+      <div class="card-rule">"Homem que sabe" — nome científico do ser humano moderno. Surgiu há cerca de 200 mil anos.</div>
+      <div class="card-examples">
+        <div class="ex">Muito mais parecido com os seres humanos de <span class="hl">hoje</span></div>
+        <div class="ex">Resultado de milhares de anos de evolução</div>
+      </div>
+    </div>
+    <div class="card c-cinza">
+      <span class="card-icon">🔬</span>
+      <div class="card-name">Teoria da Evolução</div>
+      <div class="card-rule">Os seres humanos descenderiam de antepassados muito diferentes, que foram evoluindo e se adaptando ao meio.</div>
+      <div class="card-examples">
+        <div class="ex">Evolução = mudanças ao longo de <span class="hl">milhares de anos</span></div>
+        <div class="ex">Cada geração ficava mais adaptada ao ambiente</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vestígios e documentos -->
+  <div class="info-card">
+    <h3 style="color:var(--t1)">📜 Vestígios e Documentos Históricos</h3>
+    <p>Para estudar os primeiros humanos, os cientistas usam dois tipos de registros:</p>
+    <div class="cards-grid" style="margin-top:12px;margin-bottom:0">
+      <div class="card c-azul2">
+        <span class="card-icon">📱</span>
+        <div class="card-name">Registros Modernos</div>
+        <div class="card-rule">Existem hoje em grande quantidade e raramente se perdem.</div>
+        <div class="card-examples">
+          <div class="ex">Fotos, vídeos, jornais, roupas, músicas, brinquedos, moradias</div>
+        </div>
+      </div>
+      <div class="card c-marrom">
+        <span class="card-icon">&#129704;</span>
+        <div class="card-name">Vestígios Antigos</div>
+        <div class="card-rule">Registros pré-históricos que resistiram ao tempo — muito mais difíceis de encontrar.</div>
+        <div class="card-examples">
+          <div class="ex">Esqueletos, pegadas, utensílios, pinturas rupestres, fósseis</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 Palavras-chave para não esquecer</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Hominídeo</strong>Ancestral extinto dos seres humanos. Surgiu na África há 5 milhões de anos.</div>
+      <div class="dica-item"><strong>Homo sapiens</strong>"Homem que sabe" — o ser humano moderno, surgido há cerca de 200 mil anos.</div>
+      <div class="dica-item"><strong>Fóssil</strong>Resto ou marca de ser vivo (osso, pegada, dente) preservado em rochas por milhões de anos — principal prova da existência dos primeiros humanos.</div>
+      <div class="dica-item"><strong>Arqueologia</strong>Ciência que estuda povos do passado por meio de vestígios materiais como ferramentas, ossos e construções.</div>
+      <div class="dica-item"><strong>Arqueólogo</strong>Cientista que faz escavações e analisa objetos do passado para entender como as pessoas viviam.</div>
+      <div class="dica-item"><strong>Ancestrais</strong>Pessoas que viveram antes de nós e das quais descendemos — nossos antepassados.</div>
+      <div class="dica-item"><strong>Teoria</strong>Conhecimento científico elaborado com base na verificação e validação de várias hipóteses.</div>
+      <div class="dica-item"><strong>Lucy</strong>Esqueleto de hominídea fêmea encontrado na Etiópia — viveu há ~3 milhões de anos.</div>
+      <div class="dica-item"><strong>Pintura rupestre</strong>Arte pré-histórica feita em cavernas com carvão, argila e minerais. Patrimônio cultural da humanidade — nos conta como viviam os ancestrais.</div>
+    </div>
+  </div>
+
+
+
+  <!-- Pinturas Rupestres — info complementar compacta -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t1)">🎨 Pinturas Rupestres — saiba mais</h3>
+    <p><strong>Como foram criadas:</strong> nossos ancestrais usavam os dedos, ossos, galhos ou pedras pontiagudas para riscar e pintar nas paredes das cavernas. Os materiais usados eram carvão, argila, sangue de animais, seiva de plantas e minerais coloridos.</p>
+    <p style="margin-top:8px"><strong>O que mostram:</strong> cenas de caça, animais, rituais e o cotidiano dos grupos — tudo que era importante na vida deles.</p>
+    <p style="margin-top:8px"><strong>Por que são importantes:</strong> permitem entender a cultura, a religião e o estilo de vida dos nossos antepassados. Sao nossos primeiros "documentos" da humanidade.</p>
+    <p style="margin-top:8px;font-size:.88rem;color:#666;font-weight:700">Exemplo: Parque Nacional Tassili n'Ajjer, Argélia (África) — pinturas feitas há cerca de 12 mil anos, retratando caça e animais.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 2 — NÔMADES
+══════════════════════════════════════ -->
+<div class="section" id="tab-nomades">
+  <div class="sec-title">🚶 Grupos Nômades
+    <span class="sec-badge" style="background:var(--t2)">Caça · Coleta · Fogo · Instrumentos</span>
+  </div>
+
+  <div class="info-card">
+    <h3 style="color:var(--t2)">🚶 O que é ser nômade?</h3>
+    <p>Os primeiros hominídeos eram <strong>nômades</strong> — não viviam muito tempo no mesmo lugar. Eles dependiam da <strong>coleta de frutos e da caça</strong> para sobreviver.</p>
+    <p>Quando o inverno chegava ou os alimentos se esgotavam em uma região, os grupos migravam em busca de locais com <strong>clima ameno e mais opções de alimento</strong>.</p>
+    <div class="def-box" style="background:#fde8e8;margin-top:10px">
+      <div class="def-ico">📌</div>
+      <div class="def-txt"><strong>Nômade = sem lugar fixo</strong>Viviam em movimento constante, seguindo os alimentos e fugindo do frio.</div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+    <div class="card c-vermelho">
+      <span class="card-icon">🍖</span>
+      <div class="card-name">Caça e Coleta</div>
+      <div class="card-rule">No início, consumiam alimentos encontrados ao acaso: frutas, raízes e restos de animais.</div>
+      <div class="card-examples">
+        <div class="ex">Com o tempo, desenvolveram <span class="hl">técnicas de caça</span> em grupo</div>
+        <div class="ex">Também aprenderam técnicas de <span class="hl">pesca</span></div>
+      </div>
+    </div>
+    <div class="card c-marrom">
+      <span class="card-icon">&#129704;</span>
+      <div class="card-name">Pedra Lascada</div>
+      <div class="card-rule">Perceberam que pedras, ao bater umas nas outras ou no chão, ficavam com extremidade pontiaguda — perfeitas para cortar frutos e raízes.</div>
+      <div class="card-examples">
+        <div class="ex">Passaram a <span class="hl">lascar pedras e ossos</span> propositalmente</div>
+        <div class="ex">Criaram: facas, machados, pontas de flechas, lanças</div>
+      </div>
+    </div>
+    <div class="card c-laranja">
+      <span class="card-icon">🔥</span>
+      <div class="card-name">Descoberta do Fogo</div>
+      <div class="card-rule">O fogo foi a primeira energia natural usada de forma intencional pelos seres humanos.</div>
+      <div class="card-examples">
+        <div class="ex">Começou por acidente: raios incendiavam árvores</div>
+        <div class="ex">Passou a ser <span class="hl">controlado</span> com o tempo</div>
+      </div>
+    </div>
+    <div class="card c-amarelo">
+      <span class="card-icon">💡</span>
+      <div class="card-name">Usos do Fogo</div>
+      <div class="card-rule">O fogo transformou completamente o modo de vida dos grupos nômades.</div>
+      <div class="card-examples">
+        <div class="ex">🍳 Cozinhar alimentos (antes comiam cru)</div>
+        <div class="ex">💡 Iluminar a escuridão</div>
+        <div class="ex">🌡️ Se aquecer no frio</div>
+        <div class="ex">🐾 Afastar animais selvagens</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Técnicas e tecnologias -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t2)">⚒️ Algumas Técnicas e Tecnologias</h3>
+    <p>Com o tempo, cada comunidade foi desenvolvendo técnicas que melhoravam sua sobrevivência:</p>
+    <ul class="lista-ok" style="margin-top:12px">
+      <li>Com as <strong>lanças</strong>, podiam coletar frutos em galhos altos e abater presas à distância.</li>
+      <li>As <strong>flechas</strong> ficaram cada vez mais precisas, alcançando presas em ambientes aquáticos e terrestres.</li>
+      <li>Criaram <strong>agulhas e arpões de osso</strong> — encontrados com mais de 15 mil anos.</li>
+      <li>Desenvolveram <strong>trabalho em grupo</strong> para cercar animais grandes durante a caça.</li>
+      <li>Antes do fogo ser controlado, quando ele se apagava, era preciso <strong>esperar um novo raio</strong> para obtê-lo novamente.</li>
+    </ul>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 Resumo do modo de vida nômade</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Alimentação</strong>Caça, pesca e coleta de frutas e raízes. Carne crua no início, cozida depois do fogo.</div>
+      <div class="dica-item"><strong>Moradia</strong>Sem lugar fixo — cavernas, abrigos naturais, tendas improvisadas.</div>
+      <div class="dica-item"><strong>Ferramentas</strong>Pedra lascada, ossos e madeira. Facas, machados, lanças, pontas de flecha, agulhas, arpões.</div>
+      <div class="dica-item"><strong>Fogo</strong>1ª energia natural usada intencionalmente. Revolucionou alimentação, proteção e aquecimento.</div>
+      <div class="dica-item"><strong>Por que migravam?</strong>Inverno, falta de comida, seca — sempre em busca de melhores condições.</div>
+      <div class="dica-item"><strong>Trabalho em grupo</strong>Caça e pesca eram feitas em conjunto — exigiam cooperação e comunicação.</div>
+    </div>
+  </div>
+
+  <!-- Por que o fogo foi um avanço importante -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t2)">🔥 Por que o fogo foi um avanço tão importante?</h3>
+    <p>O fogo foi a <strong>primeira energia natural usada de forma intencional</strong> pelos seres humanos. Antes, quando um raio incendiava uma árvore, os humanos observavam mas não controlavam. Quando o fogo se apagava, precisavam esperar outro incêndio.</p>
+    <p style="margin-top:8px">Com o domínio do fogo, tudo mudou:</p>
+    <ul class="lista-ok" style="margin-top:10px">
+      <li><strong>Alimentação:</strong> a carne antes era consumida <em>crua</em>. Com o fogo, passaram a cozinhar os alimentos — tornando-os mais seguros e nutritivos.</li>
+      <li><strong>Proteção:</strong> animais selvagens e perigosos tinham medo do fogo e deixavam de se aproximar dos grupos humanos.</li>
+      <li><strong>Calor:</strong> o fogo aquecia durante as noites frias e os invernos rigorosos, permitindo habitar regiões mais frias.</li>
+      <li><strong>Luz:</strong> iluminava cavernas e locais escuros, aumentando a segurança durante a noite.</li>
+      <li><strong>Reunião:</strong> as fogueiras passaram a ser pontos de encontro — as comunidades se reuniam ao redor delas para se aquecer e contar histórias.</li>
+    </ul>
+    <div class="def-box" style="background:#fff5e0;margin-top:12px">
+      <div class="def-ico">⭐</div>
+      <div class="def-txt"><strong>Resumindo:</strong> o fogo foi um avanço porque melhorou a alimentação, a segurança, o conforto e a vida social dos primeiros seres humanos — foi um verdadeiro <strong>salto na qualidade de vida</strong>.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 3 — SEDENTÁRIOS
+══════════════════════════════════════ -->
+<div class="section" id="tab-sedent">
+  <div class="sec-title">🌾 Povos Sedentários
+    <span class="sec-badge" style="background:var(--t3)">Agricultura · Animais · Pedra Polida</span>
+  </div>
+
+  <div class="info-card">
+    <h3 style="color:var(--t3)">🏠 O que é ser sedentário?</h3>
+    <p>Ao longo do tempo, os grupos humanos começaram a se tornar <strong>sedentários</strong> — passaram a <strong>habitar um lugar fixo</strong> em vez de migrar constantemente.</p>
+    <p>Isso foi possível porque aprenderam a <strong>produzir seu próprio alimento</strong>, não dependendo mais só do que a natureza oferecia por acaso.</p>
+    <div class="def-box" style="background:#d4f7e7;margin-top:10px">
+      <div class="def-ico">📌</div>
+      <div class="def-txt"><strong>Sedentário = lugar fixo</strong>A transição do nomadismo para o sedentarismo foi um dos momentos mais importantes da história humana — permitiu o surgimento das primeiras civilizações.</div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+    <div class="card c-verde">
+      <span class="card-icon">🌱</span>
+      <div class="card-name">Agricultura</div>
+      <div class="card-rule">Os humanos observaram que sementes caídas no solo originavam novas plantas — e passaram a plantar intencionalmente.</div>
+      <div class="card-examples">
+        <div class="ex">Não dependiam mais só de <span class="hl">encontrar</span> comida</div>
+        <div class="ex">Podiam <span class="hl">produzir</span> e armazenar alimentos</div>
+      </div>
+    </div>
+    <div class="card c-verde2">
+      <span class="card-icon">🐄</span>
+      <div class="card-name">Domesticação de Animais</div>
+      <div class="card-rule">Aprenderam a criar e domesticar animais como cães e cavalos.</div>
+      <div class="card-examples">
+        <div class="ex"><span class="hl">Locomoção</span>: cavalos para se deslocar mais rápido</div>
+        <div class="ex"><span class="hl">Caça</span>: cães ajudavam a rastrear presas</div>
+      </div>
+    </div>
+    <div class="card c-azul">
+      <span class="card-icon">&#129704;</span>
+      <div class="card-name">Pedra Polida</div>
+      <div class="card-rule">As pedras, que antes eram lascadas (quebradas), passaram a ser polidas — tornando-se muito mais resistentes e precisas.</div>
+      <div class="card-examples">
+        <div class="ex">Pedra lascada → <span class="hl">pedra polida</span></div>
+        <div class="ex">Mais resistente, mais elaborada, mais útil</div>
+      </div>
+    </div>
+    <div class="card c-roxo">
+      <span class="card-icon">🏆</span>
+      <div class="card-name">Marco Tecnológico</div>
+      <div class="card-rule">O polimento de pedras, ossos e madeiras foi considerado um marco tecnológico — permitiu criar objetos muito mais elaborados.</div>
+      <div class="card-examples">
+        <div class="ex">Vasilhas para <span class="hl">armazenar água e alimentos</span></div>
+        <div class="ex">Objetos para melhorar o <span class="hl">cozimento</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mais técnicas -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t3)">⚙️ Mais Técnicas e Tecnologias</h3>
+    <p>O <strong>polimento dos instrumentos</strong> trouxe uma revolução completa no modo de vida sedentário:</p>
+    <ul class="lista-ok" style="margin-top:12px">
+      <li>As <strong>técnicas de moagem</strong> usavam pedras polidas para moer grãos — deram origem às <strong>farinhas</strong>.</li>
+      <li>Farinhas misturadas com água ou leite formavam <strong>massas</strong> que podiam virar pães, bolos e mingaus.</li>
+      <li>Instrumentos polidos permitiram criar <strong>vasilhas</strong> para armazenar água e alimentos por mais tempo.</li>
+      <li>As técnicas agrícolas e pecuárias foram se <strong>aprimorando ao longo de milhares de anos</strong>.</li>
+      <li>A diversidade cultural dos povos proporcionou a rica <strong>culinária que conhecemos hoje</strong>.</li>
+    </ul>
+  </div>
+
+  <!-- Comparativo nômade x sedentário -->
+  <div class="info-card">
+    <h3 style="color:var(--t3)">⚖️ Nômades × Sedentários</h3>
+    <div class="cards-grid" style="margin-top:10px;margin-bottom:0">
+      <div class="card c-vermelho">
+        <span class="card-icon">🚶</span>
+        <div class="card-name">Nômades</div>
+        <div class="card-rule">Sem lugar fixo · migravam sempre · dependiam da natureza</div>
+        <div class="card-examples">
+          <div class="ex">Caçadores e coletores</div>
+          <div class="ex">Pedra lascada</div>
+          <div class="ex">Comiam o que encontravam</div>
+        </div>
+      </div>
+      <div class="card c-verde">
+        <span class="card-icon">🏠</span>
+        <div class="card-name">Sedentários</div>
+        <div class="card-rule">Lugar fixo · produzia alimento · comunidades maiores</div>
+        <div class="card-examples">
+          <div class="ex">Agricultores e criadores</div>
+          <div class="ex">Pedra polida</div>
+          <div class="ex">Produziam e armazenavam</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 O que mudou com a sedentarização</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Agricultura</strong>Surgiram por observar sementes germinando. Transformou o acesso ao alimento.</div>
+      <div class="dica-item"><strong>Domesticação</strong>Cães e cavalos foram os primeiros animais domesticados. Ajudavam na caça e no transporte.</div>
+      <div class="dica-item"><strong>Pedra polida</strong>Mais resistente que a lascada. Marco tecnológico — permitiu objetos muito mais elaborados.</div>
+      <div class="dica-item"><strong>Farinhas</strong>Resultado das técnicas de moagem com pedras polidas. Deram origem a pães e massas.</div>
+      <div class="dica-item"><strong>Civilizações</strong>A sedentarização permitiu o surgimento de cidades, escrita e comércio.</div>
+      <div class="dica-item"><strong>Culinária</strong>As técnicas agrícolas e pecuárias deram origem à diversidade cultural e culinária de hoje.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 4 — ROTAS MIGRATÓRIAS
+══════════════════════════════════════ -->
+<div class="section" id="tab-rotas">
+  <div class="sec-title">🗺️ Rotas Migratórias
+    <span class="sec-badge" style="background:var(--t4)">Da África para o Mundo</span>
+  </div>
+
+  <div class="info-card">
+    <h3 style="color:var(--t4)">🌍 Da África para o mundo</h3>
+    <p>Com o estudo de vestígios como esqueletos, pegadas e utensílios encontrados em diversas partes da África e do mundo, os cientistas elaboraram teorias sobre como os seres humanos <strong>saíram da África e povoaram outros continentes</strong>.</p>
+    <p>As teorias sobre a chegada dos primeiros seres humanos à América variam entre <strong>11 mil e 50 mil anos atrás</strong>.</p>
+  </div>
+
+  <!-- Mapa de rotas — imagem real -->
+  <div class="info-card">
+    <h3 style="color:var(--t4)">🗺️ Possíveis Rotas Migratórias para a América</h3>
+    <div style="display:flex;justify-content:center;margin:12px 0">
+      <img src="https://pt-static.z-dn.net/files/d97/0ad9c82d1d102740bd3f2f25fc8f55ec.jpg"
+           alt="Mapa das possíveis rotas migratórias para a América"
+           style="max-width:100%;border-radius:14px;box-shadow:0 4px 16px rgba(0,0,0,.15)"
+           loading="lazy">
+    </div>
+    <p style="text-align:center;font-size:.75rem;color:#aaa;font-weight:600;margin-top:6px">Rotas migratórias dos primeiros seres humanos até a América</p>
+  </div>
+
+  <!-- Duas rotas cards -->
+  <div class="cards-grid">
+    <div class="card c-azul2">
+      <span class="card-icon">🧊</span>
+      <div class="card-name">Rota: Estreito de Bering</div>
+      <div class="card-rule">Chegaram à América por terra, atravessando o Estreito de Bering — entre a Sibéria (Rússia) e o Alasca (EUA).</div>
+      <div class="card-examples">
+        <div class="ex">O nível do mar baixou muito, formando um <span class="hl">caminho de terra e gelo</span></div>
+        <div class="ex">Rota: Ásia → Alasca → América do Norte → América do Sul</div>
+        <div class="ex">Chegada à América do Sul: cerca de <span class="hl">3 a 12 mil anos atrás</span></div>
+      </div>
+    </div>
+    <div class="card c-roxo">
+      <span class="card-icon">🚣</span>
+      <div class="card-name">Rota: Oceano Pacífico</div>
+      <div class="card-rule">Alguns estudiosos defendem que povos da Oceania atravessaram o Pacífico em pequenas embarcações, navegando de ilha em ilha.</div>
+      <div class="card-examples">
+        <div class="ex">Rota: Oceania → ilhas do Pacífico → <span class="hl">América do Sul</span></div>
+        <div class="ex">Hipótese ainda <span class="hl">debatida</span> pelos cientistas</div>
+        <div class="ex">Chegada: cerca de <span class="hl">12 mil anos atrás</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pontas de flecha -->
+  <div class="info-card" style="margin-top:4px">
+    <h3 style="color:var(--t4)">🏹 Evidências arqueológicas</h3>
+    <p>Tecnologias atuais permitem identificar a <strong>idade aproximada dos vestígios</strong>. As teorias são elaboradas, confirmadas, refeitas ou abandonadas conforme novas evidências surgem.</p>
+    <ul class="lista-ok" style="margin-top:10px">
+      <li><strong>Pontas de flechas</strong> encontradas em Clóvis, nos Estados Unidos, feitas há cerca de <strong>11 mil anos</strong>, foram fundamentais para entender quando e como os primeiros humanos chegaram à América.</li>
+      <li><strong>Agulhas e arpões de osso</strong> com mais de 15 mil anos mostram o nível de sofisticação das ferramentas dos migrantes.</li>
+      <li>Vestígios no <strong>território que hoje é o Brasil</strong> indicam chegada há cerca de <strong>3 mil anos atrás</strong> (segundo algumas teorias).</li>
+    </ul>
+  </div>
+
+  <div class="dica-card">
+    <h3>💡 O que saber sobre as rotas</h3>
+    <div class="dica-grid">
+      <div class="dica-item"><strong>Saída da África</strong>Há cerca de 70 mil anos os humanos começaram a sair da África em direção a outros continentes.</div>
+      <div class="dica-item"><strong>Estreito de Bering</strong>Entre Sibéria (Rússia) e Alasca (EUA). O mar baixou e formou uma ponte de terra e gelo.</div>
+      <div class="dica-item"><strong>Rota do Pacífico</strong>Da Oceania até a América do Sul, navegando de ilha em ilha. Hipótese ainda debatida.</div>
+      <div class="dica-item"><strong>Chegada ao Brasil</strong>Teorias variam entre 3 mil e 50 mil anos atrás, conforme os vestígios encontrados.</div>
+      <div class="dica-item"><strong>Teoria vs. certeza</strong>As rotas são teorias baseadas em evidências — podem ser revistas conforme novas descobertas.</div>
+      <div class="dica-item"><strong>Clóvis (EUA)</strong>Pontas de flecha de 11 mil anos encontradas lá ajudaram muito a entender a chegada à América.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 5 — QUIZ
+══════════════════════════════════════ -->
+<div class="section" id="tab-quiz">
+  <div class="sec-title">⭐ Quiz de História
+    <span class="sec-badge" style="background:var(--roxo)">24 perguntas · Dificuldade progressiva</span>
+  </div>
+  <div id="quiz-area"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 6 — RESUMO
+══════════════════════════════════════ -->
+<div class="section" id="tab-resumo">
+  <div class="sec-title">🖨️ Resumo para Impressão
+    <span class="sec-badge" style="background:#555">Selecione o que imprimir</span>
+  </div>
+  <div class="resumo-controles">
+    <h3>📋 O que incluir na impressão?</h3>
+    <div class="check-lista">
+      <label class="check-item"><input type="checkbox" id="chk-origem" checked onchange="atualizarPreview()"> 🦴 Origem dos Seres Humanos</label>
+      <label class="check-item"><input type="checkbox" id="chk-nomades" checked onchange="atualizarPreview()"> 🚶 Grupos Nômades</label>
+      <label class="check-item"><input type="checkbox" id="chk-sedent" checked onchange="atualizarPreview()"> 🌾 Povos Sedentários</label>
+      <label class="check-item"><input type="checkbox" id="chk-rotas" checked onchange="atualizarPreview()"> 🗺️ Rotas Migratórias</label>
+    </div>
+    <button class="btn-imprimir" onclick="imprimir()">🖨️ Abrir impressão</button>
+  </div>
+  <div class="resumo-preview" id="resumo-preview-tela"></div>
+  <div class="area-impressao" id="area-impressao" style="display:none"></div>
+</div>
+
+<script>
+// ══════════════════════════════════════
+//  TABS
+// ══════════════════════════════════════
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab === 'quiz')   iniciarQuiz();
+    if (btn.dataset.tab === 'resumo') setTimeout(atualizarPreview, 50);
+  });
+});
+
+// ══════════════════════════════════════
+//  BANCO DE PERGUNTAS
+// ══════════════════════════════════════
+const perguntas_banco = [
+  // ORIGEM
+  { tema:'🎨 Pinturas Rupestres', cor:'#8B4513',
+    pergunta:'O que são pinturas rupestres?',
+    certo:'Obras de arte pré-históricas feitas em cavernas e rochas',
+    opcoes:['Obras de arte pré-históricas feitas em cavernas e rochas','Pinturas feitas por crianças nas escolas','Fotografias antigas em pedra','Mapas desenhados pelos primeiros exploradores'],
+    exp:'Pinturas rupestres são obras de arte criadas por nossos ancestrais pré-históricos em cavernas e rochas — são patrimônio cultural da humanidade.' },
+
+  { tema:'🌍 Berço da Humanidade', cor:'#8B4513',
+    pergunta:'Por que a África é chamada de "berço da humanidade"?',
+    certo:'Foi lá que surgiram os primeiros hominídeos',
+    opcoes:['Foi lá que surgiram os primeiros hominídeos','É o maior continente do mundo','Foi o primeiro lugar com agricultura','Tem as maiores cavernas do mundo'],
+    exp:'A África é chamada de berço da humanidade porque foi nesse continente que os primeiros hominídeos surgiram, há cerca de 5 milhões de anos.' },
+
+  { tema:'🦴 Hominídeos', cor:'#8B4513',
+    pergunta:'Há quanto tempo os hominídeos surgiram na África?',
+    certo:'Há cerca de 5 milhões de anos',
+    opcoes:['Há cerca de 200 mil anos','Há cerca de 5 milhões de anos','Há cerca de 3,5 bilhões de anos','Há cerca de 12 mil anos'],
+    exp:'Os hominídeos — ancestrais extintos dos seres humanos — surgiram no continente africano há aproximadamente 5 milhões de anos.' },
+
+  { tema:'🦴 Hominídeos', cor:'#8B4513',
+    pergunta:'O que é Lucy?',
+    certo:'Esqueleto de hominídea fêmea encontrado na Etiópia',
+    opcoes:['Um tipo de pintura rupestre','Esqueleto de hominídea fêmea encontrado na Etiópia','Nome de uma antiga tribo africana','Uma técnica de caça pré-histórica'],
+    exp:'Lucy é o nome dado a um esqueleto de hominídea fêmea encontrado na Etiópia (África). Ela teria vivido há cerca de 3 milhões de anos.' },
+
+  { tema:'🧠 Homo sapiens', cor:'#A0522D',
+    pergunta:'O que significa "Homo sapiens"?',
+    certo:'Homem que sabe',
+    opcoes:['Homem das cavernas','Homem que corre','Homem que sabe','Homem que caça'],
+    exp:'"Homo sapiens" é o nome científico do ser humano moderno e significa "homem que sabe". Surgiu há cerca de 200 mil anos.' },
+
+  { tema:'🧠 Homo sapiens', cor:'#A0522D',
+    pergunta:'Há quanto tempo surgiram os seres humanos modernos (Homo sapiens)?',
+    certo:'Há cerca de 200 mil anos',
+    opcoes:['Há cerca de 5 milhões de anos','Há cerca de 200 mil anos','Há cerca de 3,5 bilhões de anos','Há cerca de 12 mil anos'],
+    exp:'O Homo sapiens, ser humano moderno, surgiu há cerca de 200 mil anos — resultado de milhares de anos de evolução dos hominídeos.' },
+
+  { tema:'🔬 Teoria da Evolução', cor:'#5D6D7E',
+    pergunta:'O que diz a Teoria da Evolução?',
+    certo:'Os humanos descenderiam de antepassados diferentes que foram evoluindo e se adaptando',
+    opcoes:['Os humanos sempre foram iguais ao que são hoje','Os humanos descenderiam de antepassados diferentes que foram evoluindo e se adaptando','Os humanos foram criados de uma vez só','Os humanos vieram de outros planetas'],
+    exp:'A Teoria da Evolução diz que o ser humano atual descende de antepassados muito diferentes, que foram se adaptando e evoluindo ao longo de milhares de anos.' },
+
+  // NÔMADES
+  { tema:'🚶 Grupos Nômades', cor:'#C0392B',
+    pergunta:'O que significa ser nômade?',
+    certo:'Não viver muito tempo no mesmo lugar — migrar constantemente',
+    opcoes:['Viver em um lugar fixo para sempre','Não viver muito tempo no mesmo lugar — migrar constantemente','Construir grandes cidades','Praticar agricultura avançada'],
+    exp:'Nômade significa não ter um lugar fixo. Os primeiros hominídeos migravam sempre que o inverno chegava ou os alimentos se esgotavam.' },
+
+  { tema:'🚶 Grupos Nômades', cor:'#C0392B',
+    pergunta:'Por que os grupos nômades migravam de região em região?',
+    certo:'Porque o inverno chegava ou os alimentos se esgotavam',
+    opcoes:['Por curiosidade e aventura','Porque o inverno chegava ou os alimentos se esgotavam','Para conhecer novos continentes','Por causa de guerras entre tribos'],
+    exp:'Os nômades migravam em busca de clima ameno e alimentos. Quando o inverno chegava ou a comida acabava, era hora de se mover.' },
+
+  { tema:'🪨 Pedra Lascada', cor:'#C0392B',
+    pergunta:'Como os hominídeos criavam instrumentos de pedra lascada?',
+    certo:'Quebrando pedras contra o chão ou outras pedras para criar pontas afiadas',
+    opcoes:['Moldando pedras com água quente','Quebrando pedras contra o chão ou outras pedras para criar pontas afiadas','Pintando pedras com plantas coloridas','Aquecendo pedras no fogo'],
+    exp:'Ao perceber que pedras quebravam com pontas afiadas ao bater no chão, os hominídeos começaram a lasca-las propositalmente para criar ferramentas de corte.' },
+
+  { tema:'🔥 Descoberta do Fogo', cor:'#E05520',
+    pergunta:'O fogo foi a primeira energia natural usada de forma intencional. Como ele foi descoberto?',
+    certo:'Por acidentes naturais, como raios que incendiavam árvores',
+    opcoes:['Os humanos inventaram o fogo do zero','Por acidentes naturais, como raios que incendiavam árvores','Trocando pedras de sílex propositalmente desde o início','Por vulcões próximos das cavernas'],
+    exp:'O fogo foi descoberto por acidentes naturais — raios que incendiavam árvores. Inicialmente os humanos não conseguiam controlá-lo; com o tempo aprenderam a mantê-lo aceso.' },
+
+  { tema:'🔥 Usos do Fogo', cor:'#E05520',
+    pergunta:'Qual destes NÃO é um uso que o fogo trouxe para os grupos nômades?',
+    certo:'Construir casas de pedra',
+    opcoes:['Cozinhar alimentos','Construir casas de pedra','Aquecer no frio','Afastar animais selvagens'],
+    exp:'O fogo serviu para cozinhar, iluminar, aquecer e afastar animais. Construir casas de pedra veio muito depois, com os povos sedentários.' },
+
+  { tema:'⚒️ Ferramentas Nômades', cor:'#C0392B',
+    pergunta:'Qual instrumento nômade foi encontrado com mais de 15 mil anos?',
+    certo:'Agulhas e arpões de osso',
+    opcoes:['Arados de madeira','Vasilhas de barro','Agulhas e arpões de osso','Rodas de pedra polida'],
+    exp:'Agulhas e arpões feitos de osso foram encontrados com mais de 15 mil anos, mostrando a sofisticação das ferramentas dos grupos nômades.' },
+
+  // SEDENTÁRIOS
+  { tema:'🌾 Povos Sedentários', cor:'#1E8449',
+    pergunta:'O que significa ser sedentário?',
+    certo:'Habitar um lugar fixo, sem precisar migrar',
+    opcoes:['Migrar constantemente em busca de comida','Habitar um lugar fixo, sem precisar migrar','Caçar animais grandes','Navegar pelos oceanos'],
+    exp:'Sedentário é o oposto de nômade — os grupos passaram a habitar um lugar fixo quando aprenderam a produzir seu próprio alimento.' },
+
+  { tema:'🌱 Agricultura', cor:'#1E8449',
+    pergunta:'Como surgiu a agricultura?',
+    certo:'Os humanos observaram sementes caídas no solo germinando e passaram a plantar',
+    opcoes:['Foi ensinada por outros animais','Os humanos observaram sementes caídas no solo germinando e passaram a plantar','Surgiu com a invenção da roda','Foi descoberta por acidente no oceano'],
+    exp:'A agricultura surgiu quando os grupos humanos perceberam que sementes caídas no chão originavam novas plantas — e passaram a plantar intencionalmente.' },
+
+  { tema:'🐄 Domesticação', cor:'#117A65',
+    pergunta:'Qual foi a importância da domesticação de animais como cães e cavalos?',
+    certo:'Ajudavam na locomoção e nas atividades de caça',
+    opcoes:['Eram usados apenas como alimento','Ajudavam na locomoção e nas atividades de caça','Eram usados para fazer pinturas rupestres','Serviam de guarda nas aldeias'],
+    exp:'A domesticação de cães e cavalos foi muito importante: os cavalos ajudavam na locomoção e os cães nas atividades de caça e rastreamento.' },
+
+  { tema:'🪨 Pedra Polida', cor:'#117A65',
+    pergunta:'Qual é a diferença entre a pedra lascada e a pedra polida?',
+    certo:'A pedra polida é mais resistente e elaborada que a lascada',
+    opcoes:['A pedra lascada é mais resistente','A pedra polida é mais resistente e elaborada que a lascada','São a mesma coisa com nomes diferentes','A pedra lascada era usada pelos sedentários'],
+    exp:'A pedra polida substituiu a lascada — é mais resistente, mais precisa e permitiu criar objetos muito mais elaborados, como vasilhas e instrumentos de moagem.' },
+
+  { tema:'🏆 Marco Tecnológico', cor:'#845EC2',
+    pergunta:'Por que o polimento de pedras foi chamado de "marco tecnológico"?',
+    certo:'Permitiu criar objetos mais elaborados para armazenar e cozinhar alimentos',
+    opcoes:['Foi a primeira vez que usaram pedras','Permitiu criar objetos mais elaborados para armazenar e cozinhar alimentos','Foi quando inventaram a escrita','Foi quando descobriram o fogo'],
+    exp:'O polimento de pedras, ossos e madeiras foi um marco tecnológico porque permitiu criar vasilhas, instrumentos de moagem e objetos muito mais elaborados que os lascados.' },
+
+  { tema:'🌾 Farinhas', cor:'#1E8449',
+    pergunta:'Como surgiram as farinhas?',
+    certo:'Das técnicas de moagem com instrumentos de pedra polida',
+    opcoes:['Foram descobertas nos oceanos','Das técnicas de moagem com instrumentos de pedra polida','Foram trazidas pelos nômades da África','Surgiram com a domesticação de cavalos'],
+    exp:'As técnicas de moagem, realizadas com instrumentos polidos, deram origem às farinhas. Misturadas com água ou leite, formavam massas que podiam virar pães e bolos.' },
+
+  // ROTAS
+  { tema:'🗺️ Rotas Migratórias', cor:'#2471A3',
+    pergunta:'Qual é a principal teoria sobre como os humanos chegaram à América?',
+    certo:'Atravessaram o Estreito de Bering, entre a Sibéria e o Alasca',
+    opcoes:['Vieram de nave espacial','Atravessaram o Estreito de Bering, entre a Sibéria e o Alasca','Atravessaram o Oceano Atlântico a nado','Surgiram independentemente na América'],
+    exp:'A teoria mais aceita é que os primeiros humanos cruzaram o Estreito de Bering (entre a Sibéria, na Rússia, e o Alasca, nos EUA) por um caminho de terra e gelo formado quando o nível do mar baixou.' },
+
+  { tema:'🧊 Estreito de Bering', cor:'#2471A3',
+    pergunta:'O Estreito de Bering fica entre quais territórios?',
+    certo:'Sibéria (Rússia) e Alasca (EUA)',
+    opcoes:['Brasil e África','Europa e América do Norte','Sibéria (Rússia) e Alasca (EUA)','Oceania e América do Sul'],
+    exp:'O Estreito de Bering fica entre a Sibéria (Rússia) e o Alasca (Estados Unidos). Quando o nível do mar baixou muito, formou-se um caminho de terra e gelo ligando a Ásia à América.' },
+
+  { tema:'🚣 Rota do Pacífico', cor:'#845EC2',
+    pergunta:'Qual é a segunda teoria sobre a chegada dos humanos à América?',
+    certo:'Povos da Oceania navegaram de ilha em ilha pelo Oceano Pacífico até a América do Sul',
+    opcoes:['Vieram voando sobre o Atlântico','Povos da Oceania navegaram de ilha em ilha pelo Oceano Pacífico até a América do Sul','Caminharam pelo fundo do oceano','Chegaram pela Antártida'],
+    exp:'Alguns estudiosos defendem que povos da Oceania atravessaram o Oceano Pacífico em pequenas embarcações, navegando de ilha em ilha até chegar à América do Sul. Essa hipótese ainda é debatida.' },
+
+  { tema:'🏹 Evidências Arqueológicas', cor:'#2471A3',
+    pergunta:'O que foram as pontas de flecha encontradas em Clóvis (EUA)?',
+    certo:'Instrumentos de cerca de 11 mil anos que ajudaram a entender a chegada à América',
+    opcoes:['Decorações de pinturas rupestres','Instrumentos de cerca de 11 mil anos que ajudaram a entender a chegada à América','Restos de alimentos antigos','Ferramentas para pescar no oceano'],
+    exp:'Pontas de flecha encontradas em Clóvis, nos EUA, com cerca de 11 mil anos, foram muito importantes para elaborar teorias sobre quando e como os primeiros humanos chegaram à América.' },
+
+  { tema:'🗺️ Da África ao Mundo', cor:'#2471A3',
+    pergunta:'Há quanto tempo os seres humanos começaram a sair da África?',
+    certo:'Há cerca de 70 mil anos',
+    opcoes:['Há cerca de 5 milhões de anos','Há cerca de 200 mil anos','Há cerca de 70 mil anos','Há cerca de 3 mil anos'],
+    exp:'De acordo com as teorias, os primeiros humanos começaram a sair da África e se dispersar por outros continentes há cerca de 70 mil anos.' },
+
+  // VOCABULÁRIO E PINTURAS RUPESTRES
+  { tema:'Primeiros Humanos', cor:'#8B4513',
+    pergunta:'O que é arqueologia?',
+    certo:'Ciência que estuda povos do passado por meio de vestígios materiais',
+    opcoes:['Estudo dos planetas e estrelas','Ciência que estuda povos do passado por meio de vestígios materiais','Arte de fazer esculturas em pedra','Estudo das línguas antigas'],
+    exp:'Arqueologia é a ciência que estuda a vida e a cultura dos povos do passado usando vestígios como ferramentas, ossos e construções.' },
+  { tema:'Primeiros Humanos', cor:'#8B4513',
+    pergunta:'O que é um arqueólogo?',
+    certo:'Cientista que faz escavações e analisa objetos do passado',
+    opcoes:['Artista que faz pinturas em cavernas','Cientista que faz escavações e analisa objetos do passado','Médico especialista em ossos','Professor de história antiga'],
+    exp:'O arqueólogo é o cientista que faz escavações, analisa os objetos encontrados e tenta reconstruir como era a vida das pessoas no passado.' },
+  { tema:'Primeiros Humanos', cor:'#8B4513',
+    pergunta:'Com que materiais os ancestrais faziam pinturas rupestres?',
+    certo:'Carvão, argila, minerais coloridos e sangue de animais',
+    opcoes:['Tinta comprada em lojas','Carvão, argila, minerais coloridos e sangue de animais','Apenas água e barro','Somente frutos esmagados'],
+    exp:'As pinturas rupestres eram feitas com materiais da natureza: carvão, argila, sangue de animais, seiva de plantas e minerais coloridos.' },
+  { tema:'Primeiros Humanos', cor:'#8B4513',
+    pergunta:'O que podemos aprender através das pinturas rupestres?',
+    certo:'A cultura, a religião e o estilo de vida dos nossos antepassados',
+    opcoes:['Como construir casas modernas','A cultura, a religião e o estilo de vida dos nossos antepassados','As leis dos primeiros governos','Como os humanos chegaram à Lua'],
+    exp:'As pinturas rupestres nos permitem entender a cultura, a religião e o estilo de vida dos antepassados — o que caçavam, como se comunicavam e o que era importante para eles.' },
+  { tema:'Primeiros Humanos', cor:'#8B4513',
+    pergunta:'O que são os ancestrais?',
+    certo:'Pessoas que viveram antes de nós e das quais descendemos',
+    opcoes:['Animais que viviam com os humanos','Pessoas que viveram antes de nós e das quais descendemos','Cientistas que estudam o passado','Povos que vivem em tribos hoje'],
+    exp:'Ancestrais são nossos antepassados — as pessoas que viveram antes de nós e das quais descendemos. Na pré-história, são os hominídeos que deram origem ao Homo sapiens.' },
+  { tema:'Grupos Nomades', cor:'#C0392B',
+    pergunta:'Por que o fogo foi um grande avanço para os primeiros humanos?',
+    certo:'Melhorou alimentação, proteção, aquecimento e vida em grupo',
+    opcoes:['Porque era bonito e decorativo','Melhorou alimentação, proteção, aquecimento e vida em grupo','Porque permitiu construir casas de pedra','Porque ajudou a plantar alimentos'],
+    exp:'O fogo foi um grande avanço pois permitiu cozinhar alimentos, aquecer nos invernos, iluminar a escuridão, afastar animais perigosos e reunir as comunidades ao redor da fogueira.' },
+];
+
+function embaralhar(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const frases = ['🎉 Arrasou!','🔥 Isso aí!','⭐ Muito bem!','💪 Mandou bem!','🚀 Continue assim!','😎 Show!','✨ Perfeito!','🏆 Excelente!','👏 Parabéns!','🎯 Na mosca!'];
+function frasAleatoria() { return frases[Math.floor(Math.random() * frases.length)]; }
+
+let perguntas = [], idx = 0, acertos = 0, erros = [];
+
+function iniciarQuiz() {
+  perguntas = embaralhar(perguntas_banco);
+  idx = 0; acertos = 0; erros = [];
+  renderPergunta();
+}
+
+function nivelLabel(i, total) {
+  const pct = i / total;
+  if (pct < 0.35) return '🟢 Fácil';
+  if (pct < 0.7)  return '🟡 Médio';
+  return '🔴 Difícil';
+}
+
+function escapar(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+
+function renderPergunta() {
+  const area = document.getElementById('quiz-area');
+  if (idx >= perguntas.length) { renderResultado(); return; }
+  const q = perguntas[idx];
+  const total = perguntas.length;
+  const pct = Math.round((idx / total) * 100);
+  const opcEmbaralhadas = embaralhar(q.opcoes);
+
+  area.innerHTML = `
+    <div class="quiz-shell">
+      <div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${pct}%"></div></div>
+      <div class="prog-label">${idx + 1} de ${total} · ${nivelLabel(idx, total)}</div>
+      <div class="score-bar">
+        <div style="font-size:.88rem;font-weight:700;color:#aaa">Acertos</div>
+        <div class="score-pill">⭐ ${acertos}</div>
+      </div>
+      <div class="quiz-palavra">
+        <div class="word-big">${q.pergunta}</div>
+        <span class="quiz-categoria" style="background:${q.cor}">${q.tema}</span>
+      </div>
+      <div class="opcoes">
+        ${opcEmbaralhadas.map(o => `<button class="opcao-btn" onclick="responder(this,'${escapar(o)}','${escapar(q.certo)}')">${o}</button>`).join('')}
+      </div>
+      <div class="feedback-box" id="feedback"></div>
+      <button class="btn-proximo" id="btn-prox" onclick="avancar()">Próxima →</button>
+    </div>`;
+}
+
+function responder(btn, escolha, certo) {
+  document.querySelectorAll('.opcao-btn').forEach(b => b.disabled = true);
+  const fb   = document.getElementById('feedback');
+  const prox = document.getElementById('btn-prox');
+  const q    = perguntas[idx];
+  if (escolha === certo) {
+    acertos++;
+    btn.classList.add('correta');
+    fb.className = 'feedback-box acerto show';
+    fb.innerHTML = `${frasAleatoria()} ${q.exp}`;
+  } else {
+    btn.classList.add('errada');
+    document.querySelectorAll('.opcao-btn').forEach(b => {
+      if (b.textContent.trim() === certo) b.classList.add('correta');
+    });
+    fb.className = 'feedback-box erro show';
+    fb.innerHTML = `❌ <b>Errou.</b> A resposta certa é: <b>${certo}</b>. ${q.exp}`;
+    erros.push(q);
+  }
+  prox.classList.add('show');
+}
+
+function avancar() { idx++; renderPergunta(); }
+
+function renderResultado() {
+  const area  = document.getElementById('quiz-area');
+  const total = perguntas.length;
+  const pct   = Math.round((acertos / total) * 100);
+  let emoji = '🌟', msg = 'Incrível! Você é fera em História!';
+  if (pct < 50)      { emoji = '💪'; msg = 'Continue praticando, você vai melhorar!'; }
+  else if (pct < 70) { emoji = '😊'; msg = 'Bom trabalho! Revise os erros e tente de novo.'; }
+  else if (pct < 90) { emoji = '🎉'; msg = 'Muito bem! Quase perfeito!'; }
+
+  let revisaoHtml = '';
+  if (erros.length > 0) {
+    const vistas = new Set();
+    const unicas = erros.filter(q => { if(vistas.has(q.pergunta)) return false; vistas.add(q.pergunta); return true; });
+    revisaoHtml = `
+      <div class="revisao-titulo">📖 Revise estas questões:</div>
+      ${unicas.map(q => `
+        <div class="revisao-card">
+          <div class="revisao-word" style="font-size:.95rem">${q.pergunta}</div>
+          <div class="revisao-linha">✅ Resposta: <span>${q.certo}</span></div>
+          <div class="revisao-linha">💡 <span>${q.exp}</span></div>
+        </div>`).join('')}`;
+  } else {
+    revisaoHtml = `<div style="color:#06D6A0;font-weight:800;font-size:1rem;margin-top:8px">🏆 Nenhum erro! Incrível!</div>`;
+  }
+
+  area.innerHTML = `
+    <div class="resultado-shell">
+      <div class="resultado-emoji">${emoji}</div>
+      <div class="resultado-titulo">${msg}</div>
+      <div class="resultado-placar">${acertos}/${total}</div>
+      <div class="resultado-sub">${pct}% de acertos</div>
+      <button class="btn-reiniciar" onclick="iniciarQuiz()">🔄 Jogar de novo</button>
+      ${revisaoHtml}
+    </div>`;
+}
+
+// ══════════════════════════════════════
+//  RESUMO
+// ══════════════════════════════════════
+const secoes = {
+  origem: `
+<h2>🦴 Origem dos Seres Humanos</h2>
+<h3>Pinturas Rupestres</h3>
+<p>Obras de arte pré-históricas feitas em cavernas e rochas pelos nossos ancestrais. São patrimônio cultural da humanidade e nos ajudam a entender cultura, religião e estilo de vida dos antepassados.</p>
+<h3>A origem</h3>
+<ul>
+  <li>A vida surgiu no planeta há cerca de <b>3,5 bilhões de anos</b></li>
+  <li><b>Hominídeos</b> (ancestrais extintos dos humanos) surgiram na África há <b>5 milhões de anos</b></li>
+  <li>A África é o <b>"berço da humanidade"</b> — baseado em fósseis e análises arqueológicas</li>
+  <li><b>Lucy</b>: esqueleto de hominídea encontrado na Etiópia — viveu há ~3 milhões de anos</li>
+  <li><b>Homo sapiens</b> ("homem que sabe") surgiu há cerca de <b>200 mil anos</b></li>
+  <li><b>Teoria da Evolução</b>: humanos descenderiam de antepassados muito diferentes que foram evoluindo</li>
+</ul>`,
+
+  nomades: `
+<h2>🚶 Grupos Nômades</h2>
+<ul>
+  <li><b>Nômades</b>: não viviam muito tempo no mesmo lugar; migravam quando o inverno chegava ou os alimentos acabavam</li>
+  <li>Dependiam da <b>caça, coleta de frutos e pesca</b></li>
+  <li>Desenvolveram técnicas de caça em grupo</li>
+  <li>Criaram instrumentos de <b>pedra lascada e osso</b>: facas, machados, lanças, pontas de flecha, agulhas, arpões</li>
+  <li>Inicialmente comiam carne crua; com o <b>fogo</b> passaram a cozinhar</li>
+</ul>
+<h3>O Fogo</h3>
+<ul>
+  <li>Primeira energia natural usada de forma <b>intencional</b></li>
+  <li>Descoberto por acidentes naturais (raios que incendiavam árvores)</li>
+  <li>Usos: cozinhar, iluminar, aquecer, afastar animais selvagens</li>
+</ul>`,
+
+  sedent: `
+<h2>🌾 Povos Sedentários</h2>
+<ul>
+  <li><b>Sedentários</b>: passaram a habitar um lugar fixo</li>
+  <li>Surgiu a <b>agricultura</b> (ao observar sementes germinando no solo)</li>
+  <li><b>Domesticação de animais</b>: cães e cavalos — locomoção e caça</li>
+  <li>Ferramentas mais complexas: pedras <b>polidas</b> (mais resistentes que lascadas)</li>
+  <li>Polimento = <b>marco tecnológico</b> — permitiu vasilhas e instrumentos de moagem</li>
+  <li>Técnicas de moagem deram origem às <b>farinhas</b> → pães, bolos, mingaus</li>
+  <li>A sedentarização permitiu o surgimento das primeiras <b>civilizações</b></li>
+</ul>`,
+
+  rotas: `
+<h2>🗺️ Rotas Migratórias</h2>
+<ul>
+  <li>Humanos saíram da África há cerca de <b>70 mil anos</b></li>
+  <li>Foram para Europa, Ásia, Oceania e América</li>
+</ul>
+<h3>Rota pelo Estreito de Bering</h3>
+<p>Chegaram à América por <b>terra</b>, atravessando o Estreito de Bering (entre Sibéria/Rússia e Alasca/EUA). O nível do mar baixou, formando um <b>caminho de terra e gelo</b>.</p>
+<h3>Rota pelo Oceano Pacífico</h3>
+<p>Alguns estudiosos acreditam que povos da <b>Oceania</b> atravessaram o Pacífico em pequenas embarcações, navegando de ilha em ilha até a América do Sul. Hipótese ainda debatida.</p>
+<ul>
+  <li>Teorias sobre chegada à América variam entre <b>11 mil e 50 mil anos atrás</b></li>
+  <li>Pontas de flecha de Clóvis (EUA) — ~11 mil anos — são evidências importantes</li>
+</ul>`,
+};
+
+function getConteudo() {
+  let html = '';
+  if (document.getElementById('chk-origem')?.checked)  html += secoes.origem;
+  if (document.getElementById('chk-nomades')?.checked) html += secoes.nomades;
+  if (document.getElementById('chk-sedent')?.checked)  html += secoes.sedent;
+  if (document.getElementById('chk-rotas')?.checked)   html += secoes.rotas;
+  return html || '<p style="color:#aaa;text-align:center">Selecione pelo menos uma opção acima.</p>';
+}
+function atualizarPreview() {
+  const p = document.getElementById('resumo-preview-tela');
+  if (p) p.innerHTML = getConteudo();
+}
+function imprimir() {
+  const area = document.getElementById('area-impressao');
+  area.style.display = 'block';
+  area.innerHTML = '<h1>Resumo de História · 4º Ano</h1>' + getConteudo() + '<div class="rodape-impressao">Flash Cards de História · 4º Ano · CSANL</div>';
+  window.print();
+  area.style.display = 'none';
+}
+</script>
+</body>
+</html>
