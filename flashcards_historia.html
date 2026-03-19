@@ -149,8 +149,9 @@
 
   /* LISTA */
   .lista-ok { list-style: none; display: flex; flex-direction: column; gap: 8px; margin: 10px 0; }
-  .lista-ok li { display: flex; align-items: flex-start; gap: 8px; font-size: .9rem; font-weight: 700; line-height: 1.5; color: #333; }
-  .lista-ok li::before { content: '→'; font-weight: 900; flex-shrink: 0; margin-top: 1px; }
+  .lista-ok li { font-size: .9rem; font-weight: 700; line-height: 1.6; color: #333; padding-left: 18px; position: relative; }
+  .lista-ok li::before { content: '→'; font-weight: 900; position: absolute; left: 0; }
+  .lista-ok li strong { font-weight: 900; color: #222; }
 
   /* QUIZ */
   .quiz-shell { background: white; border-radius: 24px; padding: 28px 24px; box-shadow: 0 6px 0 rgba(0,0,0,.08); }
@@ -490,7 +491,7 @@
   </div>
 
   <!-- Por que o fogo foi um avanço importante -->
-  <div class="info-card" style="margin-top:4px">
+  <div class="info-card" style="margin-top:20px">
     <h3 style="color:var(--t2)">🔥 Por que o fogo foi um avanço tão importante?</h3>
     <p>O fogo foi a <strong>primeira energia natural usada de forma intencional</strong> pelos seres humanos. Antes, quando um raio incendiava uma árvore, os humanos observavam mas não controlavam. Quando o fogo se apagava, precisavam esperar outro incêndio.</p>
     <p style="margin-top:8px">Com o domínio do fogo, tudo mudou:</p>
@@ -501,7 +502,7 @@
       <li><strong>Luz:</strong> iluminava cavernas e locais escuros, aumentando a segurança durante a noite.</li>
       <li><strong>Reunião:</strong> as fogueiras passaram a ser pontos de encontro — as comunidades se reuniam ao redor delas para se aquecer e contar histórias.</li>
     </ul>
-    <div class="def-box" style="background:#fff5e0;margin-top:12px">
+    <div class="def-box" style="background:#fff5e0;margin-top:12px;margin-bottom:0">
       <div class="def-ico">⭐</div>
       <div class="def-txt"><strong>Resumindo:</strong> o fogo foi um avanço porque melhorou a alimentação, a segurança, o conforto e a vida social dos primeiros seres humanos — foi um verdadeiro <strong>salto na qualidade de vida</strong>.</div>
     </div>
