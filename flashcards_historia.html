@@ -46,14 +46,15 @@
   header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: var(--amarelo); letter-spacing: 1px; position: relative; }
   header p  { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
 
+  .tabs-scroll {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; padding: 20px 16px 12px;
+  }
+  .tabs-scroll::-webkit-scrollbar { display: none; }
   .tabs {
     display: flex; justify-content: center; gap: 8px;
-    padding: 20px 16px 12px;
-    overflow-x: auto; flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
+    flex-wrap: nowrap; width: max-content; min-width: 100%; margin: 0 auto;
   }
-  .tabs::-webkit-scrollbar { display: none; }
   .tab-btn {
     font-family: 'Fredoka One', cursive; font-size: 1rem;
     padding: 10px 20px; border: 3px solid transparent;
@@ -259,6 +260,7 @@
   <p>Primeiros Humanos · Nômades · Sedentários · Rotas · 4º Ano</p>
 </header>
 
+<div class="tabs-scroll">
 <div class="tabs">
   <button class="tab-btn active" data-tab="origem">🦴 Origem</button>
   <button class="tab-btn" data-tab="nomades">🚶 Nômades</button>
@@ -266,6 +268,7 @@
   <button class="tab-btn" data-tab="rotas">🗺️ Rotas</button>
   <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
   <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
+</div>
 </div>
 
 <!-- ══════════════════════════════════════
@@ -733,8 +736,6 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-
 // ══════════════════════════════════════
 //  TABS
 // ══════════════════════════════════════
@@ -1133,7 +1134,6 @@ function imprimir() {
   area.style.display = 'none';
 }
 
-}); // DOMContentLoaded
 </script>
 </body>
 </html>
