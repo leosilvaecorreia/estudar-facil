@@ -69,6 +69,8 @@ O fluxo padrão deste projeto para envio ao GitHub é:
 - Não abrir novas frentes de mudança no meio da tarefa sem alinhamento.
 - Preferir merge simples e direto quando o usuário aprovar a publicação.
 - Se houver bloqueio técnico no fluxo de publicação, explicar claramente o que faltou e em qual etapa.
+- Não executar em paralelo comandos Git que dependem de ordem, como `checkout`, `merge`, `rebase`, `pull`, `push` e validações do branch atual.
+- Em fluxos de publicação, tratar mudança de branch, merge e push como etapas sequenciais.
 
 ## Regras Para Novos Materiais
 
@@ -252,6 +254,7 @@ Ao atualizar essa área:
 - Em mudanças de conteúdo, priorizar consistência editorial e visual ao mesmo tempo.
 - O padrão oficial de menu é o de História: abas em faixa horizontal rolável, sem quebra de linha.
 - Novas páginas com muitas abas devem seguir esse mesmo modelo por padrão, inclusive para tablet.
+- Em telas pequenas, o botão `Home` das páginas de matéria deve sair do modo fixo e entrar no fluxo normal do layout, acima do header, para não sobrepor o título.
 
 ## O Que Evitar
 
