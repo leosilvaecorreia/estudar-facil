@@ -1,0 +1,40 @@
+name: Sync Calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-calendar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Sao_Paulo
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync class calendar
+        shell: pwsh
+        run: ./scripts/sync_calendar.ps1
+
+      - name: Commit updated calendar data
+        shell: pwsh
+        run: |
+          if (git diff --quiet -- data/tarefas.json) {
+            Write-Host "No calendar changes to commit."
+            exit 0
+          }
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tarefas.json
+          git commit -m "Atualiza tarefas do calendario"
+          git push

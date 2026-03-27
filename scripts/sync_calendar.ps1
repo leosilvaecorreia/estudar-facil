@@ -150,6 +150,18 @@ function Get-Urgencia {
   return "proximos_dias"
 }
 
+function Get-NextSchoolDay {
+  param([datetime]$BaseDate)
+
+  $candidate = $BaseDate.Date.AddDays(1)
+
+  while ($candidate.DayOfWeek -eq [System.DayOfWeek]::Saturday -or $candidate.DayOfWeek -eq [System.DayOfWeek]::Sunday) {
+    $candidate = $candidate.AddDays(1)
+  }
+
+  return $candidate.Date
+}
+
 function Get-Prazo {
   param(
     [datetime]$EventDate,
@@ -184,7 +196,7 @@ function Get-Prazo {
     }
   }
 
-  return $baseDate
+  return Get-NextSchoolDay -BaseDate $baseDate
 }
 
 function Get-Titulo {
@@ -202,6 +214,10 @@ function Get-Titulo {
   }
 
   if (-not [string]::IsNullOrWhiteSpace($cleanDescription)) {
+    if ($Tipo -eq "tarefa") {
+      return $cleanDescription
+    }
+
     $endIndex = $cleanDescription.IndexOf(". ")
     if ($endIndex -gt 0) {
       return $cleanDescription.Substring(0, $endIndex + 1).Trim()
@@ -313,7 +329,17 @@ foreach ($event in $rawEvents) {
   $location = Normalize-Text (Get-FieldValue -Event $event -Candidates @("LOCATION"))
   $uid = Get-FieldValue -Event $event -Candidates @("UID")
   $tipo = Get-Tipo -Summary $summary -Description $description
+  $combinedText = ($summary + " " + $description).ToLowerInvariant()
+  if ($combinedText -match 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
+    $tipo = "evento"
+  }
+  if ($tipo -eq "evento" -and $combinedText -notmatch 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa' -and $combinedText -match 'para casa|homework|hw|atividade|exercÃ­cio|exercicio|leitura|pesquisa|folha|pÃ¡gina|pagina') {
+    $tipo = "tarefa"
+  }
   $materia = Get-Materia -Summary $summary -Description $description
+  if ($combinedText -match 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
+    $materia = "Geral"
+  }
   $prazo = Get-Prazo -EventDate $startDate -Description $description
   $urgencia = Get-Urgencia -Prazo $prazo
   $titulo = Get-Titulo -Summary $summary -Description $description -Tipo $tipo

@@ -231,6 +231,134 @@
     letter-spacing: .5px;
   }
 
+  .home-section {
+    margin-top: 38px;
+  }
+  .agenda-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+  .agenda-card {
+    background: white;
+    border: 1px solid #ece8f7;
+    border-radius: 22px;
+    padding: 22px 20px;
+    box-shadow: 0 8px 22px rgba(26,26,46,.06);
+  }
+  .agenda-card-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-family: 'Fredoka One', cursive;
+    color: var(--dark);
+    font-size: 1rem;
+  }
+  .agenda-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 70px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: .72rem;
+    font-weight: 900;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+  }
+  .agenda-badge-hoje {
+    background: #ffe2de;
+    color: #b43321;
+  }
+  .agenda-badge-amanha {
+    background: #fff1bd;
+    color: #8a5a00;
+  }
+  .agenda-badge-proximos {
+    background: #ddefff;
+    color: #145da0;
+  }
+  .agenda-badge-provas {
+    background: #efe3ff;
+    color: #6e3cbc;
+  }
+  .agenda-badge-eventos {
+    background: #dff6ea;
+    color: #1d6b4b;
+  }
+  .agenda-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .agenda-item {
+    background: #faf8ff;
+    border: 1px solid #eee8fb;
+    border-radius: 16px;
+    padding: 12px 13px;
+  }
+  .agenda-item-topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .agenda-materia {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: .8rem;
+    font-weight: 900;
+    color: var(--dark);
+  }
+  .agenda-materia::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--materia-cor, #777);
+    box-shadow: 0 0 0 3px rgba(0,0,0,.05);
+  }
+  .agenda-data {
+    font-size: .75rem;
+    font-weight: 800;
+    color: #7f7f93;
+    white-space: nowrap;
+  }
+  .agenda-titulo {
+    color: #34344a;
+    font-weight: 800;
+    line-height: 1.45;
+    font-size: .9rem;
+  }
+  .agenda-meta {
+    margin-top: 5px;
+    color: #9090a8;
+    font-size: .76rem;
+    font-weight: 700;
+  }
+  .agenda-vazia,
+  .agenda-erro {
+    border-radius: 16px;
+    padding: 14px 15px;
+    font-size: .85rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+  .agenda-vazia {
+    background: #faf8ff;
+    color: #8a8aa2;
+    border: 1px dashed #ddd6f0;
+  }
+  .agenda-erro {
+    background: #fff1f1;
+    color: #b43321;
+    border: 1px solid #ffd7d2;
+  }
+
   /* ── FOOTER ── */
   footer {
     text-align: center;
@@ -270,6 +398,7 @@
     .header-emoji { font-size: 2.5rem; }
     .materias-grid { grid-template-columns: 1fr; }
     .card-materia-nome { font-size: 1.4rem; }
+    .agenda-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -364,6 +493,50 @@
     </div>
 
   </div>
+
+  <section class="home-section">
+    <div class="section-label">Agenda da turma</div>
+    <div class="agenda-grid">
+      <div class="agenda-card">
+        <div class="agenda-card-titulo">
+          <span>Tarefas de hoje</span>
+          <span class="agenda-badge agenda-badge-hoje">Hoje</span>
+        </div>
+        <div id="agenda-hoje" class="agenda-lista">
+          <div class="agenda-vazia">Carregando tarefas...</div>
+        </div>
+      </div>
+
+      <div class="agenda-card">
+        <div class="agenda-card-titulo">
+          <span>Tarefas de amanhÃ£</span>
+          <span class="agenda-badge agenda-badge-amanha">AmanhÃ£</span>
+        </div>
+        <div id="agenda-amanha" class="agenda-lista">
+          <div class="agenda-vazia">Carregando tarefas...</div>
+        </div>
+      </div>
+
+      <div class="agenda-card">
+        <div class="agenda-card-titulo">
+          <span>PrÃ³ximos prazos</span>
+          <span class="agenda-badge agenda-badge-proximos">Semana</span>
+        </div>
+        <div id="agenda-proximos" class="agenda-lista">
+          <div class="agenda-vazia">Carregando tarefas...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="section-label">PrÃ³ximas provas</div>
+    <div class="agenda-card">
+      <div id="agenda-provas" class="agenda-lista">
+        <div class="agenda-vazia">Carregando provas...</div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>
@@ -373,6 +546,209 @@
     Este site foi criado de forma voluntária e independente por um pai, com o único objetivo de ajudar o seu filho a estudar de maneira lúdica e acessível. Foi compartilhado com a turma por boa vontade, sem qualquer obrigação de continuidade ou atualização. Não possui vínculo oficial com a escola, professores ou editoras dos livros didáticos mencionados. O conteúdo é baseado no material escolar e tem caráter estritamente informal — podem ocorrer imprecisões ou erros, e o criador não assume nenhuma responsabilidade legal sobre o que está aqui disponibilizado. Em caso de dúvidas sobre o conteúdo oficial da matéria, consulte sempre o professor responsável.
   </div>
 </footer>
+
+<script>
+  const materiaColors = {
+    'Português': '#1A1A2E',
+    'Matemática': '#7A3410',
+    'Ciências': '#1A5C3A',
+    'Geografia': '#00a545',
+    'História': '#8B4513',
+    'Inglês': '#4361EE',
+    'Ensino Religioso': '#845EC2',
+    'Redação': '#EF476F',
+    'Geral': '#777777'
+  };
+
+  function fixMojibake(text) {
+    if (!text || typeof text !== 'string') return '';
+    if (!/[ÃÂ]/.test(text)) return text;
+    try {
+      return decodeURIComponent(escape(text));
+    } catch (error) {
+      return text;
+    }
+  }
+
+  function formatDate(dateString) {
+    if (!dateString) return '';
+    const [year, month, day] = dateString.split('-').map(Number);
+    const date = new Date(year, month - 1, day);
+    return new Intl.DateTimeFormat('pt-BR', {
+      day: '2-digit',
+      month: '2-digit'
+    }).format(date);
+  }
+
+  function normalizeItem(item) {
+    return {
+      ...item,
+      materia: fixMojibake(item.materia || 'Geral'),
+      titulo: fixMojibake(item.titulo || item.resumo_original || 'Sem título')
+    };
+  }
+
+  function getMateriaColor(materia) {
+    switch (materia) {
+      case 'Portugu\u00EAs':
+        return '#1A1A2E';
+      case 'Matem\u00E1tica':
+        return '#7A3410';
+      case 'Ci\u00EAncias':
+        return '#1A5C3A';
+      case 'Geografia':
+        return '#00a545';
+      case 'Hist\u00F3ria':
+        return '#8B4513';
+      case 'Ingl\u00EAs':
+        return '#4361EE';
+      case 'Ensino Religioso':
+        return '#845EC2';
+      case 'Reda\u00E7\u00E3o':
+        return '#EF476F';
+      default:
+        return '#777777';
+    }
+  }
+
+  function fixHomeLabels() {
+    const agendaCards = document.querySelectorAll('.home-section .agenda-card');
+    if (agendaCards[1]) {
+      const spans = agendaCards[1].querySelectorAll('.agenda-card-titulo span');
+      if (spans[0]) spans[0].textContent = 'Tarefas de amanha';
+      if (spans[1]) spans[1].textContent = 'Amanha';
+    }
+    if (agendaCards[2]) {
+      const spans = agendaCards[2].querySelectorAll('.agenda-card-titulo span');
+      if (spans[0]) spans[0].textContent = 'Proximos prazos';
+    }
+
+    const sectionLabels = document.querySelectorAll('.home-section .section-label');
+    if (sectionLabels[1]) sectionLabels[1].textContent = 'Proximas provas';
+  }
+
+  function ensureEventsSection() {
+    if (document.getElementById('agenda-eventos')) return;
+
+    const main = document.querySelector('main');
+    if (!main) return;
+
+    const section = document.createElement('section');
+    section.className = 'home-section';
+    section.innerHTML = `
+      <div class="section-label">Eventos e avisos</div>
+      <div class="agenda-card">
+        <div class="agenda-card-titulo">
+          <span>Agenda geral da turma</span>
+          <span class="agenda-badge agenda-badge-eventos">Eventos</span>
+        </div>
+        <div id="agenda-eventos" class="agenda-lista">
+          <div class="agenda-vazia">Carregando eventos...</div>
+        </div>
+      </div>
+    `;
+
+    main.appendChild(section);
+  }
+
+  function createAgendaItem(item, showDate = true) {
+    const materia = item.materia || 'Geral';
+    const color = getMateriaColor(materia);
+    const article = document.createElement('article');
+    article.className = 'agenda-item';
+    article.style.setProperty('--materia-cor', color);
+
+    const top = document.createElement('div');
+    top.className = 'agenda-item-topo';
+
+    const materiaEl = document.createElement('span');
+    materiaEl.className = 'agenda-materia';
+    materiaEl.textContent = materia;
+    top.appendChild(materiaEl);
+
+    if (showDate && item.prazo) {
+      const dateEl = document.createElement('span');
+      dateEl.className = 'agenda-data';
+      dateEl.textContent = formatDate(item.prazo);
+      top.appendChild(dateEl);
+    }
+
+    const title = document.createElement('div');
+    title.className = 'agenda-titulo';
+    title.textContent = item.titulo;
+
+    article.appendChild(top);
+    article.appendChild(title);
+
+    if (item.tipo === 'prova') {
+      const meta = document.createElement('div');
+      meta.className = 'agenda-meta';
+      meta.textContent = 'Avaliação marcada no calendário da turma';
+      article.appendChild(meta);
+    }
+
+    return article;
+  }
+
+  function renderAgendaSection(targetId, items, emptyMessage, showDate = true) {
+    const container = document.getElementById(targetId);
+    container.innerHTML = '';
+
+    if (!items.length) {
+      const empty = document.createElement('div');
+      empty.className = 'agenda-vazia';
+      empty.textContent = emptyMessage;
+      container.appendChild(empty);
+      return;
+    }
+
+    items.forEach((item) => {
+      container.appendChild(createAgendaItem(normalizeItem(item), showDate));
+    });
+  }
+
+  async function loadAgenda() {
+    const errorMessage = 'Não foi possível carregar a agenda agora.';
+
+    try {
+      const response = await fetch('data/tarefas.json', { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error('Falha ao carregar o arquivo de agenda.');
+      }
+
+      const data = await response.json();
+      const items = Array.isArray(data.itens) ? data.itens : [];
+      const tarefas = items.filter((item) => item.tipo === 'tarefa');
+      const eventos = items
+        .filter((item) => item.tipo === 'evento' || item.tipo === 'aviso')
+        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
+        .slice(0, 6);
+      const provas = items
+        .filter((item) => item.tipo === 'prova')
+        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
+        .slice(0, 6);
+
+      const hoje = tarefas.filter((item) => item.urgencia === 'hoje');
+      const amanha = tarefas.filter((item) => item.urgencia === 'amanha');
+      const proximos = tarefas.filter((item) =>
+        item.urgencia === 'esta_semana' || item.urgencia === 'proximos_dias'
+      );
+
+      renderAgendaSection('agenda-hoje', hoje, 'Nenhuma tarefa com prazo para hoje.', false);
+      renderAgendaSection('agenda-amanha', amanha, 'Nenhuma tarefa com prazo para amanhã.', false);
+      renderAgendaSection('agenda-proximos', proximos, 'Nenhum prazo próximo encontrado.');
+      renderAgendaSection('agenda-provas', provas, 'Nenhuma prova próxima encontrada.');
+    } catch (error) {
+      ['agenda-hoje', 'agenda-amanha', 'agenda-proximos', 'agenda-provas'].forEach((targetId) => {
+        const container = document.getElementById(targetId);
+        container.innerHTML = '<div class="agenda-erro">' + errorMessage + '</div>';
+      });
+    }
+  }
+
+  loadAgenda();
+</script>
+<script src="home-agenda.js"></script>
 
 </body>
 </html>
