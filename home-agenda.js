@@ -83,6 +83,10 @@
 
   function fixHomeLabels() {
     const agendaCards = document.querySelectorAll('.home-section .agenda-card');
+    if (agendaCards[0]) {
+      const spans = agendaCards[0].querySelectorAll('.agenda-card-titulo span');
+      if (spans[0]) spans[0].textContent = 'Tarefas para hoje';
+    }
     if (agendaCards[1]) {
       const spans = agendaCards[1].querySelectorAll('.agenda-card-titulo span');
       if (spans[0]) spans[0].textContent = 'Tarefas de amanh\u00E3';
