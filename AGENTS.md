@@ -2,143 +2,148 @@
 
 ## Objetivo Deste Projeto
 
-Este projeto existe para apoiar o estudo de crianças do 4º ano por meio de flashcards, quizzes e materiais de revisão. O foco principal não é produzir conteúdo escolar genérico, mas sim criar materiais alinhados ao contexto real em que a escola ensina e cobra as avaliações.
+Este projeto existe para apoiar o estudo de criancas do 4o ano por meio de flashcards, quizzes, revisoes e agenda escolar. O foco principal nao e produzir conteudo escolar generico, mas sim criar materiais alinhados ao contexto real em que a escola ensina e cobra as avaliacoes.
 
-## Princípio Central
+## Principio Central
 
-Todo conteúdo novo deve partir primeiro do material real da escola.
+Todo conteudo novo deve partir primeiro do material real da escola.
 
-Isso inclui, quando disponível:
+Isso inclui, quando disponivel:
 
-- matéria da prova
+- materia da prova
 - roteiros enviados pelos professores
-- exercícios
-- páginas do livro
+- exercicios
+- paginas do livro
 - tarefas de casa
 - resumos usados em sala
-- listas, folhas e exemplos já trabalhados com a turma
+- listas, folhas e exemplos ja trabalhados com a turma
+- eventos e avisos publicados no calendario da turma
 
-Conhecimento geral pode ser usado para complementar, organizar e esclarecer, mas nunca deve substituir o contexto escolar como fonte principal de decisão.
+Conhecimento geral pode ser usado para complementar, organizar e esclarecer, mas nunca deve substituir o contexto escolar como fonte principal de decisao.
 
-## Como Trabalhar Neste Repositório
+## Como Trabalhar Neste Repositorio
 
-Ao receber novo conteúdo ou uma nova tarefa, seguir esta ordem:
+Ao receber novo conteudo ou uma nova tarefa, seguir esta ordem:
 
-1. Entender o que a escola realmente está cobrando.
-2. Identificar o vocabulário, o recorte e o nível de dificuldade usados pela turma.
-3. Separar o que é conteúdo essencial, o que é detalhe cobrável e o que é só complemento.
-4. Montar flashcards, quizzes e resumos com base nesse recorte.
-5. Manter a linguagem apropriada para crianças do 4º ano.
+1. Entender o que a escola realmente esta cobrando.
+2. Identificar o vocabulario, o recorte e o nivel de dificuldade usados pela turma.
+3. Separar o que e conteudo essencial, o que e detalhe cobravel e o que e so complemento.
+4. Montar flashcards, quizzes, resumos e agenda com base nesse recorte.
+5. Manter a linguagem apropriada para criancas do 4o ano.
 
-## Regras De Conteúdo
+## Regras De Conteudo
 
-- Priorizar aderência ao material da escola acima de abrangência.
+- Priorizar aderencia ao material da escola acima de abrangencia.
 - Evitar expandir demais para assuntos fora do escopo da prova.
-- Preservar, sempre que possível, a terminologia usada pelo professor e pelo material didático.
+- Preservar, sempre que possivel, a terminologia usada pelo professor e pelo material didatico.
 - Preferir exemplos parecidos com os vistos em sala, no livro ou nas tarefas.
-- Não transformar o conteúdo em algo mais difícil do que a escola espera.
-- Não simplificar tanto a ponto de perder o formato em que o conteúdo costuma ser cobrado.
+- Nao transformar o conteudo em algo mais dificil do que a escola espera.
+- Nao simplificar tanto a ponto de perder o formato em que o conteudo costuma ser cobrado.
 
-## Regras De Produção
+## Regras De Producao
 
 - Trabalhar por tarefa e dentro de escopo definido.
-- Antes de publicar alterações, sempre apresentar um resumo claro do que foi mudado.
+- Antes de publicar alteracoes, sempre apresentar um resumo claro do que foi mudado.
 - Usar branch por tarefa.
 - Fluxo enxuto acordado:
   - criar ou usar uma branch da tarefa
-  - fazer as alterações dentro do escopo
+  - fazer as alteracoes dentro do escopo
   - mostrar um resumo claro do que mudou
-  - com uma única aprovação do usuário, fazer commit, push e merge
+  - com uma unica aprovacao do usuario, fazer commit, push e merge
 
-## Fluxo De Publicação No GitHub
+## Fluxo De Publicacao No GitHub
 
-O fluxo padrão deste projeto para envio ao GitHub é:
+O fluxo padrao deste projeto para envio ao GitHub e:
 
 1. criar uma branch por tarefa
-2. realizar apenas as alterações do escopo pedido
-3. apresentar ao usuário um resumo objetivo das mudanças
-4. após uma única aprovação do usuário, executar:
+2. realizar apenas as alteracoes do escopo pedido
+3. apresentar ao usuario um resumo objetivo das mudancas
+4. apos uma unica aprovacao do usuario, executar:
    - commit
    - push da branch
    - merge na `main`
 
-## Regras De Publicação
+## Regras De Publicacao
 
-- Não fazer commit sem resumo prévio.
-- Não publicar alterações fora do escopo pedido.
-- Não abrir novas frentes de mudança no meio da tarefa sem alinhamento.
-- Preferir merge simples e direto quando o usuário aprovar a publicação.
-- Se houver bloqueio técnico no fluxo de publicação, explicar claramente o que faltou e em qual etapa.
-- Não executar em paralelo comandos Git que dependem de ordem, como `checkout`, `add`, `commit`, `merge`, `rebase`, `pull`, `push` e validações do branch atual.
-- Em fluxos de publicação, tratar mudança de branch, staging, commit, merge e push como etapas sequenciais.
+- Nao fazer commit sem resumo previo.
+- Nao publicar alteracoes fora do escopo pedido.
+- Nao abrir novas frentes de mudanca no meio da tarefa sem alinhamento.
+- Preferir merge simples e direto quando o usuario aprovar a publicacao.
+- Se houver bloqueio tecnico no fluxo de publicacao, explicar claramente o que faltou e em qual etapa.
+- Nao executar em paralelo comandos Git que dependem de ordem, como `checkout`, `add`, `commit`, `merge`, `rebase`, `pull`, `push` e validacoes do branch atual.
+- Em fluxos de publicacao, tratar mudanca de branch, staging, commit, merge e push como etapas sequenciais.
 - Antes de `commit`, confirmar explicitamente o branch atual e o estado do staging quando tiver havido troca recente de branch.
-- Antes de `merge`, confirmar explicitamente que o branch atual é a `main` e que o commit esperado está no branch da tarefa.
-- Nunca usar execução paralela para etapas de publicação que alterem o estado do repositório.
+- Antes de `merge`, confirmar explicitamente que o branch atual e a `main` e que o commit esperado esta no branch da tarefa.
+- Nunca usar execucao paralela para etapas de publicacao que alterem o estado do repositorio.
 
 ## Regras Para Novos Materiais
 
-Quando o usuário enviar novo conteúdo da escola, o agente deve:
+Quando o usuario enviar novo conteudo da escola, o agente deve:
 
 1. Primeiro interpretar e organizar o material.
 2. Depois propor a estrutura ideal de estudo, quando isso ajudar.
-3. Só então transformar o conteúdo em páginas, flashcards, quiz ou resumo.
+3. So entao transformar o conteudo em paginas, flashcards, quiz, resumo ou agenda.
 
-## Organização Atual Do Projeto
+## Organizacao Atual Do Projeto
 
-O projeto é um site estático simples, sem build e sem backend.
+O projeto e um site estatico simples, sem build e sem backend.
 
 Estrutura atual:
 
-- `index.html` como página inicial e hub das matérias
-- uma página HTML por disciplina
-- estilos e scripts inline em cada página
-- pasta `imagens/` para imagens didáticas locais
+- `index.html` como pagina inicial e hub das materias
+- uma pagina HTML por disciplina
+- estilos e scripts inline nas paginas antigas
+- `home-agenda.js` para a logica complementar da agenda na home
+- `scripts/sync_calendar.ps1` para sincronizar o calendario
+- `data/tarefas.json` como fonte de dados da home
+- pasta `imagens/` para imagens didaticas locais
+- `.github/workflows/sync-calendar.yml` para automacao
 
-Cada página de matéria é autônoma e costuma reunir no mesmo arquivo:
+Cada pagina de materia e autonoma e costuma reunir no mesmo arquivo:
 
 - estrutura HTML
-- CSS da página
-- conteúdo didático
-- lógica das abas
-- lógica do quiz
-- área de resumo para impressão
+- CSS da pagina
+- conteudo didatico
+- logica das abas
+- logica do quiz
+- area de resumo para impressao
 
-## Padrão Estrutural Das Páginas De Matéria
+## Padrao Estrutural Das Paginas De Materia
 
-Ao criar novas páginas ou expandir páginas existentes, preservar o padrão já usado:
+Ao criar novas paginas ou expandir paginas existentes, preservar o padrao ja usado:
 
-- botão de volta para a home no topo
-- `header` escuro com título e subtítulo da matéria
-- navegação por abas com botões arredondados
-- menu de abas no padrão de História, com container horizontal rolável (`.tabs-scroll`)
-- seções com `.section` e alternância por classe `.active`
-- blocos de conteúdo em cards
-- área separada para quiz
-- área separada para resumo/impressão
+- botao de volta para a home no topo
+- `header` escuro com titulo e subtitulo da materia
+- navegacao por abas com botoes arredondados
+- menu de abas no padrao de Historia, com container horizontal rolavel (`.tabs-scroll`)
+- secoes com `.section` e alternancia por classe `.active`
+- blocos de conteudo em cards
+- area separada para quiz
+- area separada para resumo e impressao
 
-Fluxo visual esperado dentro de uma página:
+Fluxo visual esperado dentro de uma pagina:
 
-1. identificação da matéria no topo
-2. navegação por abas
-3. conteúdo principal em cards e blocos didáticos
+1. identificacao da materia no topo
+2. navegacao por abas
+3. conteudo principal em cards e blocos didaticos
 4. quiz com feedback imediato
-5. revisão final
-6. resumo para impressão
+5. revisao final
+6. resumo para impressao
 
 ## Componentes Visuais Que Devem Permanecer Consistentes
 
-Manter a linguagem visual já estabelecida:
+Manter a linguagem visual ja estabelecida:
 
 - cantos arredondados generosos, geralmente entre `20px` e `24px`
-- cards com sombra sólida vertical, não sombra difusa fraca
-- cores fortes e lúdicas, sem aparência corporativa
+- cards com sombra vertical marcante
+- cores fortes e ludicas, sem aparencia corporativa
 - tipografia principal com `Nunito`
-- títulos e destaques com `Fredoka One`
-- botões em formato pílula
+- titulos e destaques com `Fredoka One`
+- botoes em formato pilula
 - badges e chips arredondados
 - uso frequente de grids responsivos para cards
 
-Padrões recorrentes que devem ser preservados:
+Padroes recorrentes que devem ser preservados:
 
 - `.btn-home`
 - `.tabs-scroll`
@@ -152,117 +157,198 @@ Padrões recorrentes que devem ser preservados:
 - `.resumo-controles`
 - `.resumo-preview`
 
-## Padrão De Cores
+## Padrao De Cores
 
-Existe uma base visual comum entre as matérias:
+Existe uma base visual comum entre as materias:
 
 - fundo geral claro
 - topo com fundo escuro `#1A1A2E`
 - amarelo de destaque recorrente `#FFD93D`
 - paleta viva com laranja, verde, azul, rosa e roxo
 
-Cada matéria usa uma cor principal própria para criar identidade:
+Cada materia usa uma cor principal propria para criar identidade:
 
-- Português: azul, roxo e laranja
-- Ciências: verde e turquesa
-- Matemática: laranja, azul e marrom
+- Portugues: azul, roxo e laranja
+- Ciencias: verde e turquesa
+- Matematica: laranja, azul e marrom
 - Geografia: verdes e azuis
-- História: marrom, vermelho e azul terroso
+- Historia: marrom, vermelho e azul terroso
 
 Regras de uso:
 
 - manter alto contraste entre texto e fundo
-- preservar a cor principal da matéria em abas ativas, badges e destaques
-- usar branco para superfícies internas de quiz, resultado e resumo
-- evitar reinventar a paleta completa a cada atualização pequena
-- não introduzir temas visuais que destoem da linguagem infantil já existente
+- preservar a cor principal da materia em abas ativas, badges e destaques
+- usar branco para superficies internas de quiz, resultado e resumo
+- evitar reinventar a paleta completa a cada atualizacao pequena
+- nao introduzir temas visuais que destoem da linguagem infantil ja existente
 
-## Padrão Da Home
+## Padrao Da Home
 
-A home tem um papel específico e deve continuar simples:
+A home tem um papel especifico e deve continuar simples, mesmo com a agenda:
 
-- apresentar as matérias como cards grandes clicáveis
+- apresentar as materias como cards grandes clicaveis no topo
 - usar uma grade responsiva
-- mostrar nome da matéria, descrição curta e chips de disponibilidade
+- mostrar nome da materia, descricao curta e chips de disponibilidade
 - manter um card de "Em breve" quando fizer sentido
-- preservar o header com identidade do projeto e o aviso no rodapé
+- preservar o header com identidade do projeto e o aviso no rodape
 
-Ao adicionar novas matérias:
+Ao adicionar novas materias:
 
 - seguir o mesmo formato dos cards existentes
-- definir uma cor própria para a matéria
-- manter descrição curta e uniforme
+- definir uma cor propria para a materia
+- manter descricao curta e uniforme
 - usar textos curtos nos chips
 
-## Padrão Dos Cards De Conteúdo
+## Agenda Da Turma Na Home
 
-Os cards didáticos seguem uma lógica visual consistente:
+A home agora tambem funciona como painel da turma.
 
-- títulos curtos e fortes
-- explicação breve
+Ordem oficial da home:
+
+1. cards de materias
+2. `Agenda da turma`
+3. `Proximas provas`
+4. `Eventos e avisos`
+
+Regras da home:
+
+- a home consome `data/tarefas.json`
+- a home nunca deve ler o Google Calendar diretamente no navegador
+- a logica da agenda da home fica em `home-agenda.js`
+- `home-agenda.js` pode corrigir textos com mojibake antes da renderizacao
+
+## Regras Da Agenda
+
+A agenda deve separar os itens em:
+
+- `tarefa`
+- `prova`
+- `evento`
+- `aviso`
+
+Regras de exibicao:
+
+- `Tarefas de hoje` mostra apenas tarefas com vencimento no dia atual
+- `Tarefas de amanha` mostra apenas tarefas com vencimento no dia seguinte
+- `Proximos prazos` mostra tarefas com `urgencia` `esta_semana` ou `proximos_dias`
+- `Proximas provas` mostra apenas itens classificados como `prova`
+- `Eventos e avisos` mostra eventos institucionais e comunicados gerais
+
+## Regras De Prazo Das Tarefas
+
+- se o professor informar uma data explicita no texto, essa data deve ser usada como prazo
+- se o professor escrever `amanha`, o prazo deve ser o dia seguinte ao evento
+- se o professor escrever `hoje`, o prazo deve ser o mesmo dia do evento
+- se nao houver prazo explicito, a tarefa deve vencer no proximo dia letivo
+- se a tarefa for lancada na sexta-feira sem prazo explicito, ela deve vencer na segunda-feira
+
+## Regras De Classificacao Do Calendario
+
+- eventos institucionais nao devem entrar em `Proximos prazos` so porque o texto contem palavras como `livro`, `leitura` ou `atividade`
+- feiras, recessos, celebracoes e avisos gerais devem ser classificados como `evento`
+- exemplos de eventos institucionais que devem ir para `Eventos e avisos`:
+  - `FELITROCA`
+  - `Felicita`
+  - recessos
+  - Quinta-Feira Santa
+  - Sexta-Feira Santa
+- quando o contexto for institucional, a materia deve preferir `Geral`
+- o contexto de materia deve refletir a intencao escolar real, e nao apenas palavras soltas encontradas na descricao
+
+## Regras De Exibicao Das Tarefas
+
+- para `tarefa`, o titulo exibido deve preservar o texto completo relevante do professor
+- nao cortar informacoes importantes como:
+  - `Casa, lista 7`
+  - `trazer o livro e o caderno`
+  - paginas, folhas e orientacoes de entrega
+- se o texto completo ficar maior, ainda assim a informacao importante deve ser preservada
+
+## Sincronizacao Automatica
+
+- o sincronizador oficial do calendario e `scripts/sync_calendar.ps1`
+- o arquivo de saida oficial e `data/tarefas.json`
+- o workflow oficial de automacao e `.github/workflows/sync-calendar.yml`
+- o GitHub Actions deve:
+  - rodar automaticamente uma vez por hora
+  - permitir execucao manual por `workflow_dispatch`
+  - commitar apenas quando `data/tarefas.json` mudar
+- a automacao deve usar o fuso `America/Sao_Paulo` para manter coerencia com os prazos da turma
+
+## Padrao Dos Cards De Conteudo
+
+Os cards didaticos seguem uma logica visual consistente:
+
+- titulos curtos e fortes
+- explicacao breve
 - exemplos destacados
 - blocos separados por tema
-- combinação de cards coloridos e cards brancos de apoio
+- combinacao de cards coloridos e cards brancos de apoio
 
 Evitar:
 
 - blocos de texto longos demais
-- conteúdo corrido sem respiro visual
-- excesso de subtópicos dentro do mesmo card
+- conteudo corrido sem respiro visual
+- excesso de subtopicos dentro do mesmo card
 
-## Padrão Do Quiz
+## Padrao Do Quiz
 
-Os quizzes atuais compartilham características que devem ser mantidas:
+Os quizzes atuais compartilham caracteristicas que devem ser mantidas:
 
-- pergunta central visível e destacada
-- progresso visível
+- pergunta central visivel e destacada
+- progresso visivel
 - placar de acertos
-- opções em botões grandes
-- feedback imediato após resposta
+- opcoes em botoes grandes
+- feedback imediato apos resposta
 - estado final com mensagem motivadora
-- bloco de revisão dos erros
+- bloco de revisao dos erros
 
 Ao ajustar ou criar quiz:
 
 - preservar linguagem simples e encorajadora
-- manter feedback curto e útil
-- evitar interfaces mais complexas do que o necessário
-- manter coerência com o nível do 4º ano
+- manter feedback curto e util
+- evitar interfaces mais complexas do que o necessario
+- manter coerencia com o nivel do 4o ano
 
-## Padrão Do Resumo E Impressão
+## Padrao Do Resumo E Impressao
 
-Os resumos para impressão também seguem um padrão:
+Os resumos para impressao tambem seguem um padrao:
 
 - bloco de controles primeiro
 - preview na tela depois
-- área de impressão separada e oculta
-- títulos claros
+- area de impressao separada e oculta
+- titulos claros
 - hierarquia forte entre `h2` e `h3`
-- conteúdo organizado para leitura rápida e revisão
+- conteudo organizado para leitura rapida e revisao
 
-Ao atualizar essa área:
+Ao atualizar essa area:
 
-- manter o preview legível na tela
-- não quebrar o layout de impressão
+- manter o preview legivel na tela
+- nao quebrar o layout de impressao
 - preservar textos curtos, listas e blocos objetivos
 
-## Regras De Manutenção E Padronização
+## Regras De Manutencao E Padronizacao
 
-- Antes de criar um novo padrão visual, verificar se já existe um padrão equivalente em outra matéria.
-- Preferir evolução consistente ao invés de redesign isolado.
-- Reutilizar classes, nomes e estruturas quando isso não gerar acoplamento desnecessário.
-- Se uma página nova exigir exceção, ela deve ainda parecer parte do mesmo projeto.
-- Não misturar estilos muito diferentes entre disciplinas sem uma razão clara.
-- Em mudanças pequenas, preservar a identidade visual já existente.
-- Em mudanças de conteúdo, priorizar consistência editorial e visual ao mesmo tempo.
-- O padrão oficial de menu é o de História: abas em faixa horizontal rolável, sem quebra de linha.
-- Novas páginas com muitas abas devem seguir esse mesmo modelo por padrão, inclusive para tablet.
-- Em telas pequenas, o botão `Home` deve continuar visível sem empurrar o título para baixo: preferir versão compacta, fixa e com alto contraste, em vez de colocá-lo no fluxo acima do header.
+- antes de criar um novo padrao visual, verificar se ja existe um padrao equivalente em outra materia
+- preferir evolucao consistente ao inves de redesign isolado
+- reutilizar classes, nomes e estruturas quando isso nao gerar acoplamento desnecessario
+- se uma pagina nova exigir excecao, ela deve ainda parecer parte do mesmo projeto
+- nao misturar estilos muito diferentes entre disciplinas sem uma razao clara
+- em mudancas pequenas, preservar a identidade visual ja existente
+- em mudancas de conteudo, priorizar consistencia editorial e visual ao mesmo tempo
+- o padrao oficial de menu e o de Historia: abas em faixa horizontal rolavel, sem quebra de linha
+- novas paginas com muitas abas devem seguir esse mesmo modelo por padrao, inclusive para tablet
+- em telas pequenas, o botao `Home` deve continuar visivel sem empurrar o titulo para baixo: preferir versao compacta, fixa e com alto contraste, em vez de coloca-lo no fluxo acima do header
+
+## Servidor Local
+
+- o arquivo `python.py` existe para facilitar a visualizacao local da home via servidor simples
+- ele pode ser usado quando for necessario validar a home com `fetch` de `data/tarefas.json`
 
 ## O Que Evitar
 
-- Resumos genéricos desconectados do que a escola cobra.
-- Conteúdo correto, mas fora do nível da turma.
-- Excesso de informação que atrapalhe a memorização.
-- Mudanças de layout ou arquitetura sem necessidade clara.
-- Alterações fora do escopo pedido.
+- resumos genericos desconectados do que a escola cobra
+- conteudo correto, mas fora do nivel da turma
+- excesso de informacao que atrapalhe a memorizacao
+- mudancas de layout ou arquitetura sem necessidade clara
+- alteracoes fora do escopo pedido
