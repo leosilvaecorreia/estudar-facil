@@ -1,0 +1,361 @@
+param(
+  [string]$CalendarUrl = "https://calendar.google.com/calendar/ical/c_mcg63t49ip9n8t34onvsi0aur4%40group.calendar.google.com/public/basic.ics",
+  [string]$OutputPath = "data/tarefas.json",
+  [int]$DaysAhead = 45
+)
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+Add-Type -AssemblyName System.Net.Http
+
+function Normalize-Text {
+  param([string]$Text)
+
+  if ([string]::IsNullOrWhiteSpace($Text)) {
+    return ""
+  }
+
+  $normalized = $Text
+  $normalized = $normalized -replace "\\n", "`n"
+  $normalized = $normalized -replace "\\,", ","
+  $normalized = $normalized -replace "\\;", ";"
+  $normalized = $normalized -replace "\\\\", "\"
+  $normalized = $normalized -replace "<br\s*/?>", "`n"
+  $normalized = $normalized -replace "</li>", "`n"
+  $normalized = $normalized -replace "<li[^>]*>", "- "
+  $normalized = $normalized -replace "<[^>]+>", " "
+  $normalized = $normalized -replace "&nbsp;", " "
+  $normalized = $normalized -replace "&gt;", ">"
+  $normalized = $normalized -replace "&lt;", "<"
+  $normalized = $normalized -replace "&amp;", "&"
+  $normalized = $normalized -replace "\s+", " "
+  $normalized = $normalized.Trim()
+
+  return $normalized
+}
+
+function Parse-IcsDate {
+  param([string]$Value)
+
+  if ($Value -match '^\d{8}$') {
+    return [datetime]::ParseExact($Value, "yyyyMMdd", $null)
+  }
+
+  if ($Value -match '^\d{8}T\d{6}Z$') {
+    return [datetime]::ParseExact($Value, "yyyyMMdd'T'HHmmss'Z'", $null)
+  }
+
+  if ($Value -match '^\d{8}T\d{6}$') {
+    return [datetime]::ParseExact($Value, "yyyyMMdd'T'HHmmss", $null)
+  }
+
+  return $null
+}
+
+function Get-FieldValue {
+  param(
+    [hashtable]$Event,
+    [string[]]$Candidates
+  )
+
+  foreach ($candidate in $Candidates) {
+    if ($Event.ContainsKey($candidate) -and -not [string]::IsNullOrWhiteSpace($Event[$candidate])) {
+      return $Event[$candidate]
+    }
+  }
+
+  return $null
+}
+
+function Get-Materia {
+  param(
+    [string]$Summary,
+    [string]$Description
+  )
+
+  $text = (($Summary + " " + $Description).ToLowerInvariant())
+
+  if ($text.Contains("língua portuguesa") -or $text.Contains("lingua portuguesa") -or $text.Contains("portugu") -or $text.Contains(" lp ") -or $text.StartsWith("lp")) {
+    return "Português"
+  }
+
+  if ($text.Contains("matem") -or $text.Contains("mat 4") -or $text.Contains("mat4") -or $text.StartsWith("mat ")) {
+    return "Matemática"
+  }
+
+  if ($text.Contains("hist") -or $text.Contains("histór") -or $text.Contains("histor")) {
+    return "História"
+  }
+
+  if ($text.Contains("geo") -or $text.Contains("geografia")) {
+    return "Geografia"
+  }
+
+  if ($text.Contains("cien") -or $text.Contains("ciên") -or $text.Contains("cienc")) {
+    return "Ciências"
+  }
+
+  if ($text.Contains("ingl") -or $text.Contains("eng-") -or $text.Contains(" eng ") -or $text.Contains("língua inglesa") -or $text.Contains("lingua inglesa")) {
+    return "Inglês"
+  }
+
+  if ($text.Contains("ensino religioso") -or $text.Contains("religioso") -or $text.Contains("e. rel")) {
+    return "Ensino Religioso"
+  }
+
+  if ($text.Contains("redaç") -or $text.Contains("redac")) {
+    return "Redação"
+  }
+
+  return "Geral"
+}
+
+function Get-Tipo {
+  param(
+    [string]$Summary,
+    [string]$Description
+  )
+
+  $text = (($Summary + " " + $Description).ToLowerInvariant())
+
+  if ($text -match 'prova|teste|avaliação|avaliacao|simulado') {
+    return "prova"
+  }
+
+  if ($text -match 'recesso|encerramento|feira|felitroca|felicitá|felicita|sábado|domingo|quinta-feira santa|sexta-feira santa|páscoa|pascoa') {
+    return "evento"
+  }
+
+  if ($text -match 'tarefa|atividade|exercício|exercicio|página|pagina|caderno|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa') {
+    return "tarefa"
+  }
+
+  if ($text -match 'lembrete|aviso') {
+    return "aviso"
+  }
+
+  return "evento"
+}
+
+function Get-Urgencia {
+  param([datetime]$Prazo)
+
+  $today = (Get-Date).Date
+  $days = [int](($Prazo.Date - $today).TotalDays)
+
+  if ($days -lt 0) { return "atrasado" }
+  if ($days -eq 0) { return "hoje" }
+  if ($days -eq 1) { return "amanha" }
+  if ($days -le 7) { return "esta_semana" }
+  return "proximos_dias"
+}
+
+function Get-Prazo {
+  param(
+    [datetime]$EventDate,
+    [string]$Description
+  )
+
+  $baseDate = $EventDate.Date
+  $text = $Description.ToLowerInvariant()
+
+  if ($text -match '\bamanhã\b|\bamanha\b') {
+    return $baseDate.AddDays(1)
+  }
+
+  if ($text -match '\bhoje\b') {
+    return $baseDate
+  }
+
+  if ($Description -match '(?<!\d)(\d{1,2})/(\d{1,2})(?!\d)') {
+    $day = [int]$matches[1]
+    $month = [int]$matches[2]
+    $year = $baseDate.Year
+
+    try {
+      $parsed = Get-Date -Year $year -Month $month -Day $day
+      if ($parsed.Date -lt $baseDate.AddDays(-7)) {
+        $parsed = $parsed.AddYears(1)
+      }
+      return $parsed.Date
+    }
+    catch {
+      return $baseDate
+    }
+  }
+
+  return $baseDate
+}
+
+function Get-Titulo {
+  param(
+    [string]$Summary,
+    [string]$Description,
+    [string]$Tipo
+  )
+
+  $cleanSummary = Normalize-Text $Summary
+  $cleanDescription = Normalize-Text $Description
+
+  if ($Tipo -eq "prova") {
+    return $cleanSummary
+  }
+
+  if (-not [string]::IsNullOrWhiteSpace($cleanDescription)) {
+    $endIndex = $cleanDescription.IndexOf(". ")
+    if ($endIndex -gt 0) {
+      return $cleanDescription.Substring(0, $endIndex + 1).Trim()
+    }
+
+    if ($cleanDescription.Length -gt 110) {
+      return $cleanDescription.Substring(0, 110).Trim() + "..."
+    }
+
+    return $cleanDescription
+  }
+
+  return $cleanSummary
+}
+
+function Convert-IcsToEvents {
+  param([string]$IcsContent)
+
+  $lines = $IcsContent -split "`n"
+  $unfolded = New-Object System.Collections.Generic.List[string]
+
+  foreach ($rawLine in $lines) {
+    $line = $rawLine.TrimEnd("`r")
+
+    if (($line.StartsWith(" ")) -or ($line.StartsWith("`t"))) {
+      if ($unfolded.Count -gt 0) {
+        $unfolded[$unfolded.Count - 1] = $unfolded[$unfolded.Count - 1] + $line.Substring(1)
+      }
+    }
+    else {
+      $unfolded.Add($line)
+    }
+  }
+
+  $events = New-Object System.Collections.Generic.List[hashtable]
+  $current = $null
+
+  foreach ($line in $unfolded) {
+    if ($line -eq "BEGIN:VEVENT") {
+      $current = @{}
+      continue
+    }
+
+    if ($line -eq "END:VEVENT") {
+      if ($null -ne $current) {
+        $events.Add($current)
+      }
+      $current = $null
+      continue
+    }
+
+    if ($null -eq $current) {
+      continue
+    }
+
+    $separator = $line.IndexOf(":")
+    if ($separator -lt 0) {
+      continue
+    }
+
+    $name = $line.Substring(0, $separator)
+    $value = $line.Substring($separator + 1)
+    $current[$name] = $value
+  }
+
+  return $events
+}
+
+$outputFullPath = Join-Path (Get-Location) $OutputPath
+$outputDir = Split-Path $outputFullPath -Parent
+
+if (-not (Test-Path $outputDir)) {
+  New-Item -ItemType Directory -Path $outputDir | Out-Null
+}
+
+$httpClient = [System.Net.Http.HttpClient]::new()
+$httpClient.Timeout = [TimeSpan]::FromSeconds(30)
+try {
+  $bytes = $httpClient.GetByteArrayAsync($CalendarUrl).GetAwaiter().GetResult()
+}
+finally {
+  $httpClient.Dispose()
+}
+
+$icsContent = [System.Text.Encoding]::UTF8.GetString($bytes)
+$rawEvents = Convert-IcsToEvents -IcsContent $icsContent
+
+$today = (Get-Date).Date
+$limit = $today.AddDays($DaysAhead)
+$items = New-Object System.Collections.Generic.List[object]
+
+foreach ($event in $rawEvents) {
+  $startRaw = Get-FieldValue -Event $event -Candidates @("DTSTART;VALUE=DATE", "DTSTART")
+  if ($null -eq $startRaw) {
+    continue
+  }
+
+  $startDate = Parse-IcsDate $startRaw
+  if ($null -eq $startDate) {
+    continue
+  }
+
+  if ($startDate.Date -lt $today -or $startDate.Date -gt $limit) {
+    continue
+  }
+
+  $summary = Normalize-Text (Get-FieldValue -Event $event -Candidates @("SUMMARY"))
+  $description = Normalize-Text (Get-FieldValue -Event $event -Candidates @("DESCRIPTION"))
+  $location = Normalize-Text (Get-FieldValue -Event $event -Candidates @("LOCATION"))
+  $uid = Get-FieldValue -Event $event -Candidates @("UID")
+  $tipo = Get-Tipo -Summary $summary -Description $description
+  $materia = Get-Materia -Summary $summary -Description $description
+  $prazo = Get-Prazo -EventDate $startDate -Description $description
+  $urgencia = Get-Urgencia -Prazo $prazo
+  $titulo = Get-Titulo -Summary $summary -Description $description -Tipo $tipo
+
+  $items.Add([ordered]@{
+    id = $uid
+    tipo = $tipo
+    materia = $materia
+    titulo = $titulo
+    descricao = $description
+    resumo_original = $summary
+    local = $location
+    data_evento = $startDate.ToString("yyyy-MM-dd")
+    prazo = $prazo.ToString("yyyy-MM-dd")
+    urgencia = $urgencia
+    fonte = "google_calendar"
+  })
+}
+
+$orderedItems = $items |
+  Sort-Object @{ Expression = "prazo"; Ascending = $true }, @{ Expression = "materia"; Ascending = $true }, @{ Expression = "titulo"; Ascending = $true }
+
+$payload = [ordered]@{
+  gerado_em = (Get-Date).ToString("yyyy-MM-ddTHH:mm:ssK")
+  calendario = [ordered]@{
+    fonte = "google_calendar_public_ics"
+    nome = "4º ano - Turma A"
+    url = $CalendarUrl
+    dias_considerados = $DaysAhead
+  }
+  resumo = [ordered]@{
+    total_itens = @($orderedItems).Count
+    tarefas = @($orderedItems | Where-Object { $_.tipo -eq "tarefa" }).Count
+    provas = @($orderedItems | Where-Object { $_.tipo -eq "prova" }).Count
+    avisos = @($orderedItems | Where-Object { $_.tipo -eq "aviso" }).Count
+    eventos = @($orderedItems | Where-Object { $_.tipo -eq "evento" }).Count
+  }
+  itens = @($orderedItems)
+}
+
+$json = $payload | ConvertTo-Json -Depth 6
+[System.IO.File]::WriteAllText($outputFullPath, $json, [System.Text.UTF8Encoding]::new($false))
+
+Write-Output ("Arquivo gerado: " + $outputFullPath)
+Write-Output ("Itens processados: " + @($orderedItems).Count)
