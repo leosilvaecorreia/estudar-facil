@@ -55,12 +55,21 @@
     position: relative;
   }
 
+  .tabs-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 20px 16px 12px;
+  }
+  .tabs-scroll::-webkit-scrollbar { display: none; }
   .tabs {
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding: 20px 16px 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: max-content;
+    min-width: 100%;
+    margin: 0 auto;
   }
   .tab-btn {
     font-family: 'Fredoka One', cursive;
@@ -73,6 +82,8 @@
     background: white;
     color: var(--dark);
     box-shadow: 0 3px 0 rgba(0,0,0,.12);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .tab-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(0,0,0,.12); }
   .tab-btn.active { color: white; transform: translateY(-2px); }
@@ -447,10 +458,12 @@
 </header>
 
 
+<div class="tabs-scroll">
 <div class="tabs">
   <button class="tab-btn active" data-tab="unidade1">📗 Unidade 1</button>
   <button class="tab-btn" data-tab="quiz">⭐ Quiz</button>
   <button class="tab-btn" data-tab="resumo">🖨️ Resumo</button>
+</div>
 </div>
 
 <!-- ════════════════════════════════════════════

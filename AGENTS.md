@@ -105,6 +105,7 @@ Ao criar novas páginas ou expandir páginas existentes, preservar o padrão já
 - botão de volta para a home no topo
 - `header` escuro com título e subtítulo da matéria
 - navegação por abas com botões arredondados
+- menu de abas no padrão de História, com container horizontal rolável (`.tabs-scroll`)
 - seções com `.section` e alternância por classe `.active`
 - blocos de conteúdo em cards
 - área separada para quiz
@@ -135,6 +136,7 @@ Manter a linguagem visual já estabelecida:
 Padrões recorrentes que devem ser preservados:
 
 - `.btn-home`
+- `.tabs-scroll`
 - `header` com fundo escuro e textura suave
 - `.tabs` e `.tab-btn`
 - `.section` e `.section.active`
@@ -248,6 +250,8 @@ Ao atualizar essa área:
 - Não misturar estilos muito diferentes entre disciplinas sem uma razão clara.
 - Em mudanças pequenas, preservar a identidade visual já existente.
 - Em mudanças de conteúdo, priorizar consistência editorial e visual ao mesmo tempo.
+- O padrão oficial de menu é o de História: abas em faixa horizontal rolável, sem quebra de linha.
+- Novas páginas com muitas abas devem seguir esse mesmo modelo por padrão, inclusive para tablet.
 
 ## O Que Evitar
 
