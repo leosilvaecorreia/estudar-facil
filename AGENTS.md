@@ -78,6 +78,177 @@ Quando o usuário enviar novo conteúdo da escola, o agente deve:
 2. Depois propor a estrutura ideal de estudo, quando isso ajudar.
 3. Só então transformar o conteúdo em páginas, flashcards, quiz ou resumo.
 
+## Organização Atual Do Projeto
+
+O projeto é um site estático simples, sem build e sem backend.
+
+Estrutura atual:
+
+- `index.html` como página inicial e hub das matérias
+- uma página HTML por disciplina
+- estilos e scripts inline em cada página
+- pasta `imagens/` para imagens didáticas locais
+
+Cada página de matéria é autônoma e costuma reunir no mesmo arquivo:
+
+- estrutura HTML
+- CSS da página
+- conteúdo didático
+- lógica das abas
+- lógica do quiz
+- área de resumo para impressão
+
+## Padrão Estrutural Das Páginas De Matéria
+
+Ao criar novas páginas ou expandir páginas existentes, preservar o padrão já usado:
+
+- botão de volta para a home no topo
+- `header` escuro com título e subtítulo da matéria
+- navegação por abas com botões arredondados
+- seções com `.section` e alternância por classe `.active`
+- blocos de conteúdo em cards
+- área separada para quiz
+- área separada para resumo/impressão
+
+Fluxo visual esperado dentro de uma página:
+
+1. identificação da matéria no topo
+2. navegação por abas
+3. conteúdo principal em cards e blocos didáticos
+4. quiz com feedback imediato
+5. revisão final
+6. resumo para impressão
+
+## Componentes Visuais Que Devem Permanecer Consistentes
+
+Manter a linguagem visual já estabelecida:
+
+- cantos arredondados generosos, geralmente entre `20px` e `24px`
+- cards com sombra sólida vertical, não sombra difusa fraca
+- cores fortes e lúdicas, sem aparência corporativa
+- tipografia principal com `Nunito`
+- títulos e destaques com `Fredoka One`
+- botões em formato pílula
+- badges e chips arredondados
+- uso frequente de grids responsivos para cards
+
+Padrões recorrentes que devem ser preservados:
+
+- `.btn-home`
+- `header` com fundo escuro e textura suave
+- `.tabs` e `.tab-btn`
+- `.section` e `.section.active`
+- `.cards-grid` ou grids equivalentes
+- `.dica-card`
+- `.quiz-shell`
+- `.resultado-shell`
+- `.resumo-controles`
+- `.resumo-preview`
+
+## Padrão De Cores
+
+Existe uma base visual comum entre as matérias:
+
+- fundo geral claro
+- topo com fundo escuro `#1A1A2E`
+- amarelo de destaque recorrente `#FFD93D`
+- paleta viva com laranja, verde, azul, rosa e roxo
+
+Cada matéria usa uma cor principal própria para criar identidade:
+
+- Português: azul, roxo e laranja
+- Ciências: verde e turquesa
+- Matemática: laranja, azul e marrom
+- Geografia: verdes e azuis
+- História: marrom, vermelho e azul terroso
+
+Regras de uso:
+
+- manter alto contraste entre texto e fundo
+- preservar a cor principal da matéria em abas ativas, badges e destaques
+- usar branco para superfícies internas de quiz, resultado e resumo
+- evitar reinventar a paleta completa a cada atualização pequena
+- não introduzir temas visuais que destoem da linguagem infantil já existente
+
+## Padrão Da Home
+
+A home tem um papel específico e deve continuar simples:
+
+- apresentar as matérias como cards grandes clicáveis
+- usar uma grade responsiva
+- mostrar nome da matéria, descrição curta e chips de disponibilidade
+- manter um card de "Em breve" quando fizer sentido
+- preservar o header com identidade do projeto e o aviso no rodapé
+
+Ao adicionar novas matérias:
+
+- seguir o mesmo formato dos cards existentes
+- definir uma cor própria para a matéria
+- manter descrição curta e uniforme
+- usar textos curtos nos chips
+
+## Padrão Dos Cards De Conteúdo
+
+Os cards didáticos seguem uma lógica visual consistente:
+
+- títulos curtos e fortes
+- explicação breve
+- exemplos destacados
+- blocos separados por tema
+- combinação de cards coloridos e cards brancos de apoio
+
+Evitar:
+
+- blocos de texto longos demais
+- conteúdo corrido sem respiro visual
+- excesso de subtópicos dentro do mesmo card
+
+## Padrão Do Quiz
+
+Os quizzes atuais compartilham características que devem ser mantidas:
+
+- pergunta central visível e destacada
+- progresso visível
+- placar de acertos
+- opções em botões grandes
+- feedback imediato após resposta
+- estado final com mensagem motivadora
+- bloco de revisão dos erros
+
+Ao ajustar ou criar quiz:
+
+- preservar linguagem simples e encorajadora
+- manter feedback curto e útil
+- evitar interfaces mais complexas do que o necessário
+- manter coerência com o nível do 4º ano
+
+## Padrão Do Resumo E Impressão
+
+Os resumos para impressão também seguem um padrão:
+
+- bloco de controles primeiro
+- preview na tela depois
+- área de impressão separada e oculta
+- títulos claros
+- hierarquia forte entre `h2` e `h3`
+- conteúdo organizado para leitura rápida e revisão
+
+Ao atualizar essa área:
+
+- manter o preview legível na tela
+- não quebrar o layout de impressão
+- preservar textos curtos, listas e blocos objetivos
+
+## Regras De Manutenção E Padronização
+
+- Antes de criar um novo padrão visual, verificar se já existe um padrão equivalente em outra matéria.
+- Preferir evolução consistente ao invés de redesign isolado.
+- Reutilizar classes, nomes e estruturas quando isso não gerar acoplamento desnecessário.
+- Se uma página nova exigir exceção, ela deve ainda parecer parte do mesmo projeto.
+- Não misturar estilos muito diferentes entre disciplinas sem uma razão clara.
+- Em mudanças pequenas, preservar a identidade visual já existente.
+- Em mudanças de conteúdo, priorizar consistência editorial e visual ao mesmo tempo.
+
 ## O Que Evitar
 
 - Resumos genéricos desconectados do que a escola cobra.
