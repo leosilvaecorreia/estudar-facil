@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flash Cards de História</title>
+<title>Flashcards de História</title>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -256,7 +256,7 @@
 <a class="btn-home" href="index.html">← Home</a>
 
 <header>
-  <h1>🏛️ Flash Cards de História</h1>
+  <h1>🏛️ Flashcards de História</h1>
   <p>Primeiros Humanos · Nômades · Sedentários · Rotas · 4º Ano</p>
 </header>
 
@@ -1008,7 +1008,7 @@ function responder(btn, escolha, certo) {
       if (b.textContent.trim() === certo) b.classList.add('correta');
     });
     fb.className = 'feedback-box erro show';
-    fb.innerHTML = `❌ <b>Errou.</b> A resposta certa é: <b>${certo}</b>. ${q.exp}`;
+    fb.innerHTML = `❌ <b>Errou.</b> A resposta certa é <b>${certo}</b>. ${q.exp}`;
     erros.push(q);
   }
   prox.classList.add('show');
@@ -1129,7 +1129,7 @@ function atualizarPreview() {
 function imprimir() {
   const area = document.getElementById('area-impressao');
   area.style.display = 'block';
-  area.innerHTML = '<h1>Resumo de História · 4º Ano</h1>' + getConteudo() + '<div class="rodape-impressao">Flash Cards de História · 4º Ano · CSANL</div>';
+  area.innerHTML = '<h1>Resumo de História · 4º Ano</h1>' + getConteudo() + '<div class="rodape-impressao">Flashcards de História · 4º Ano · CSANL</div>';
   window.print();
   area.style.display = 'none';
 }

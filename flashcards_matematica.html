@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flash Cards de Matemática</title>
+<title>Flashcards de Matemática</title>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -605,7 +605,7 @@
 <a class="btn-home" href="index.html">← Home</a>
 
 <header>
-  <h1>🔢 Flash Cards de Matemática</h1>
+  <h1>🔢 Flashcards de Matemática</h1>
   <p>Tabuada · Romanos · Classes · Ordinais · 4º Ano</p>
 </header>
 
@@ -1440,7 +1440,7 @@ function mostrarResultado(porErros=false){
   const pct=total>0?Math.round(acertos/total*100):0;
   let emoji='🌟', msg='Incrível! Você é fera na Matemática!';
   if(acertos<5){emoji='💪';msg='Continue praticando — você vai melhorar!';}
-  else if(acertos<10){emoji='😊';msg='Bom trabalho! Tenta de novo para bater o recorde.';}
+  else if(acertos<10){emoji='😊';msg='Bom trabalho! Tente de novo para bater o recorde.';}
   else if(acertos<15){emoji='🎉';msg='Muito bem! Você está mandando bem!';}
   else if(acertos<20){emoji='🏆';msg='Excelente! Você é rápido!';}
   else{emoji='🚀';msg='UAU! Você é um gênio da matemática!';}
@@ -1449,9 +1449,9 @@ function mostrarResultado(porErros=false){
   const vistas=new Set();
   const unicas=erros.filter(q=>{if(vistas.has(q.texto))return false;vistas.add(q.texto);return true;}).slice(0,8);
   const revisao=unicas.length>0
-    ?`<div class="revisao-titulo">📖 Revise estas aqui:</div>`
+    ?`<div class="revisao-titulo">📖 Revise estas questões:</div>`
       +unicas.map(q=>`<div class="revisao-card"><b>${q.texto}</b> — ${q.exp}</div>`).join('')
-    :`<div style="color:#06D6A0;font-weight:800;font-size:1rem;margin-top:8px">🏆 Zero erros! Perfeito!</div>`;
+    :`<div style="color:#06D6A0;font-weight:800;font-size:1rem;margin-top:8px">🏆 Nenhum erro! Incrível!</div>`;
 
   document.getElementById('quiz-resultado').innerHTML=`
     <div class="resultado-shell">
