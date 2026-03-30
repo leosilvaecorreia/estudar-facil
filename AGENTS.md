@@ -239,6 +239,8 @@ Ao adicionar novas materias:
 - definir uma cor propria para a materia
 - manter descricao curta e uniforme
 - usar textos curtos nos chips
+- o chip de unidades da home deve ser calculado automaticamente a partir das abas da pagina da materia
+- para isso, abas que nao representam conteudo estudavel devem usar `data-home-ignore="true"`
 
 ## Agenda Da Turma Na Home
 
@@ -277,6 +279,13 @@ Regras de exibicao:
 - `Proximas provas` mostra apenas itens classificados como `prova`
 - `Eventos e avisos` mostra eventos institucionais e comunicados gerais
 - os cards da agenda devem usar resumo compacto por padrao e abrir `Ver detalhes` apenas quando houver texto longo ou descricao adicional
+
+## Regras Da Contagem De Unidades
+
+- a home deve contar automaticamente quantas unidades de conteudo existem em cada pagina de materia
+- a contagem deve considerar os botoes `.tab-btn` que nao tenham `data-home-ignore="true"`
+- abas como `Quiz` e `Resumo` devem sempre usar `data-home-ignore="true"`
+- novas paginas devem seguir essa regra desde a criacao para que a home nao precise de ajustes manuais
 
 ## Regras De Prazo Das Tarefas
 
