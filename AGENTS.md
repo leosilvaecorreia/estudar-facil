@@ -257,17 +257,8 @@ Regras da home:
 - a home nunca deve ler o Google Calendar diretamente no navegador
 - a logica da agenda da home fica em `home-agenda.js`
 - `home-agenda.js` pode corrigir textos com mojibake antes da renderizacao
-- a home deve separar visualmente os blocos com paineis externos:
-  - um painel principal para `Agenda da turma`
-- esses paineis devem seguir o estilo do projeto:
-  - fundo claro com leve degradê
-  - borda suave
-  - cantos bem arredondados
-  - sombra leve
-  - sem competir visualmente com os cards internos
 - `Proximas provas` e `Eventos e avisos` devem continuar lado a lado em telas maiores, sem um painel externo adicional
-- apenas `Agenda da turma` deve usar o container maior externo
-- os cards internos da `Agenda da turma` devem ficar proximos da borda do painel, com respiro minimo
+- evitar containers externos desnecessarios na home quando isso criar camadas visuais demais, especialmente no celular
 
 ## Regras Da Agenda
 
