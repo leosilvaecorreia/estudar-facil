@@ -15,6 +15,8 @@
     --rosa:    #FF6B9D;
     --bg:      #F0F7FF;
     --dark:    #1A1A2E;
+    --subject-primary: #02350b;
+    --subject-secondary: #00a545;
     --t1: #0D7377; /* orientação — verde-água escuro */
     --t2: #2471A3; /* planeta      — azul */
     --t3: #1E8449; /* america       — verde */
@@ -54,7 +56,7 @@
 
   /* HEADER */
   header {
-    background: var(--dark); padding: 18px 24px 14px;
+    background: linear-gradient(135deg, var(--subject-primary), var(--subject-secondary)); padding: 18px 24px 14px;
     text-align: center; position: relative; overflow: hidden;
   }
   header::before {
@@ -62,7 +64,7 @@
     background: repeating-linear-gradient(45deg, transparent, transparent 20px,
       rgba(255,255,255,.03) 20px, rgba(255,255,255,.03) 40px);
   }
-  header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: var(--amarelo); letter-spacing: 1px; position: relative; }
+  header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: white; letter-spacing: 1px; position: relative; }
   header p { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
 
   /* TABS */

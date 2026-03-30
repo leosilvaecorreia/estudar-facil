@@ -17,6 +17,8 @@
     --dark:    #1A1A2E;
     --tab1:    #FF6B35;
     --tab2:    #118AB2;
+    --subject-primary: #3D1A00;
+    --subject-secondary: #7A3410;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -53,7 +55,7 @@
 
   /* ── HEADER ── */
   header {
-    background: var(--dark); padding: 18px 24px 14px;
+    background: linear-gradient(135deg, var(--subject-primary), var(--subject-secondary)); padding: 18px 24px 14px;
     text-align: center; position: relative; overflow: hidden;
   }
   header::before {
@@ -63,7 +65,7 @@
   }
   header h1 {
     font-family: 'Fredoka One', cursive; font-size: 2rem;
-    color: var(--amarelo); letter-spacing: 1px; position: relative;
+    color: white; letter-spacing: 1px; position: relative;
   }
   header p { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
 

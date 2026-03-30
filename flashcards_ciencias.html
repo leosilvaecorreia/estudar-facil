@@ -15,6 +15,8 @@
     --rosa:    #FF6B9D;
     --bg:      #F0FFF8;
     --dark:    #1A1A2E;
+    --subject-primary: #0D2B1F;
+    --subject-secondary: #1A5C3A;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -27,7 +29,7 @@
   }
 
   header {
-    background: var(--dark);
+    background: linear-gradient(135deg, var(--subject-primary), var(--subject-secondary));
     padding: 18px 24px 14px;
     text-align: center;
     position: relative;
@@ -44,7 +46,7 @@
   header h1 {
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
-    color: #06D6A0;
+    color: white;
     letter-spacing: 1px;
     position: relative;
   }

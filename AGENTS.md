@@ -182,6 +182,47 @@ Regras de uso:
 - evitar reinventar a paleta completa a cada atualizacao pequena
 - nao introduzir temas visuais que destoem da linguagem infantil ja existente
 
+Paleta oficial por materia:
+
+- Portugues
+  - home e header: `#1A1A2E` -> `#2D2B55`
+  - agenda: `#2D2B55`
+- Ciencias
+  - home e header: `#0D2B1F` -> `#1A5C3A`
+  - agenda: `#1A5C3A`
+- Matematica
+  - home e header: `#3D1A00` -> `#7A3410`
+  - agenda: `#7A3410`
+- Geografia
+  - home e header: `#02350b` -> `#00a545`
+  - agenda: `#00a545`
+- Historia
+  - home e header: `#7A2D23` -> `#C0392B`
+  - agenda: `#C0392B`
+- Ingles
+  - home e header: `#2447D5` -> `#4361EE`
+  - agenda: `#4361EE`
+- Ensino Religioso
+  - home e header: `#6A45A8` -> `#845EC2`
+  - agenda: `#845EC2`
+- Pensamento Computacional
+  - home e header: `#0B5D56` -> `#0F766E`
+  - agenda: `#0F766E`
+- Projeto de Leitura
+  - home e header: `#8C4B1F` -> `#C05621`
+  - agenda: `#C05621`
+- Redacao
+  - home e header: `#D83A67` -> `#EF476F`
+  - agenda: `#EF476F`
+
+Regras para novas paginas:
+
+- toda pagina nova deve declarar `--subject-primary` e `--subject-secondary`
+- o `header` da materia deve usar `linear-gradient(135deg, var(--subject-primary), var(--subject-secondary))`
+- o `h1` do header deve usar `color: white`
+- a cor da materia na agenda deve seguir a mesma paleta oficial
+- nao reutilizar a cor de outra materia so por proximidade visual
+
 ## Padrao Da Home
 
 A home tem um papel especifico e deve continuar simples, mesmo com a agenda:
@@ -216,6 +257,17 @@ Regras da home:
 - a home nunca deve ler o Google Calendar diretamente no navegador
 - a logica da agenda da home fica em `home-agenda.js`
 - `home-agenda.js` pode corrigir textos com mojibake antes da renderizacao
+- a home deve separar visualmente os blocos com paineis externos:
+  - um painel principal para `Agenda da turma`
+- esses paineis devem seguir o estilo do projeto:
+  - fundo claro com leve degradê
+  - borda suave
+  - cantos bem arredondados
+  - sombra leve
+  - sem competir visualmente com os cards internos
+- `Proximas provas` e `Eventos e avisos` devem continuar lado a lado em telas maiores, sem um painel externo adicional
+- apenas `Agenda da turma` deve usar o container maior externo
+- os cards internos da `Agenda da turma` devem ficar proximos da borda do painel, com respiro minimo
 
 ## Regras Da Agenda
 
@@ -233,6 +285,7 @@ Regras de exibicao:
 - `Proximos prazos` mostra tarefas com `urgencia` `esta_semana` ou `proximos_dias`
 - `Proximas provas` mostra apenas itens classificados como `prova`
 - `Eventos e avisos` mostra eventos institucionais e comunicados gerais
+- os cards da agenda devem usar resumo compacto por padrao e abrir `Ver detalhes` apenas quando houver texto longo ou descricao adicional
 
 ## Regras De Prazo Das Tarefas
 
@@ -254,6 +307,25 @@ Regras de exibicao:
   - Sexta-Feira Santa
 - quando o contexto for institucional, a materia deve preferir `Geral`
 - o contexto de materia deve refletir a intencao escolar real, e nao apenas palavras soltas encontradas na descricao
+
+Mapeamento oficial das siglas do calendario:
+
+- `HIST` = `Historia`
+- `LP` = `Portugues`
+- `MAT` = `Matematica`
+- `PeC` = `Pensamento Computacional`
+- `PLIC` = `Projeto de Leitura`
+- `RED` = `Redacao`
+- `E. REL.` = `Ensino Religioso`
+- `CIEN` = `Ciencias`
+- `ENG` = `Ingles`
+- `GEO` = `Geografia`
+
+Regras oficiais de tipo no calendario:
+
+- tudo que aparecer como `Miniteste`, `Prova` ou `2a Chamada` deve ser tratado como `prova`
+- tudo que aparecer como `FELITROCA`, `STEAM`, `FELICITA`, `RECESSO ESCOLAR`, `FERIADO`, `HOMENAGEM`, `VOLTA AS AULAS`, `EXPOSICAO` e equivalentes deve ser tratado como `evento`
+- para `evento` e `aviso`, exibir somente o titulo, sem transformar a descricao longa em titulo
 
 ## Regras De Exibicao Das Tarefas
 
