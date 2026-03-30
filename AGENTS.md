@@ -256,6 +256,7 @@ Ordem oficial da home:
 Regras da home:
 
 - a home consome `data/tarefas.json`
+- em modo local (`file://`), a home deve ter espelhos `.js` para os dados dinamicos, como `data/tarefas.js`, `data/materias_provas.js` e `data/unidades_materias.js`
 - a home nunca deve ler o Google Calendar diretamente no navegador
 - a logica da agenda da home fica em `home-agenda.js`
 - `home-agenda.js` pode corrigir textos com mojibake antes da renderizacao
@@ -279,6 +280,8 @@ Regras de exibicao:
 - `Proximas provas` mostra apenas itens classificados como `prova`
 - `Eventos e avisos` mostra eventos institucionais e comunicados gerais
 - os cards da agenda devem usar resumo compacto por padrao e abrir `Ver detalhes` apenas quando houver texto longo ou descricao adicional
+- cards de `Proximas provas` podem exibir o botao `Materia da prova` quando houver conteudo complementar cadastrado
+- a materia da prova deve vir de um arquivo separado do calendario, para permitir complemento manual com base no Google Sala de Aula
 
 ## Regras Da Contagem De Unidades
 
@@ -333,8 +336,20 @@ Regras oficiais de tipo no calendario:
 - nao cortar informacoes importantes como:
   - `Casa, lista 7`
   - `trazer o livro e o caderno`
-  - paginas, folhas e orientacoes de entrega
+- paginas, folhas e orientacoes de entrega
 - se o texto completo ficar maior, ainda assim a informacao importante deve ser preservada
+
+## Materia Da Prova
+
+- o calendario informa a existencia da prova e sua data
+- o detalhamento da materia da prova deve ser salvo em `data/materias_provas.json`
+- deve existir um espelho `data/materias_provas.js` para a home funcionar tambem quando aberta direto do arquivo local
+- esse arquivo deve ser preenchido manualmente a partir do que os professores publicarem no Google Sala de Aula
+- cada item deve ser associado a uma prova por `titulo_prova`, `materia` e `data`
+- quando houver conteudo cadastrado, a home deve mostrar o botao `Materia da prova` no card da prova
+- o conteudo deve seguir um padrao limpo e consistente, sem emojis
+- padronizar os itens como lista objetiva, com frases curtas
+- quando houver observacao importante, registrar como ultimo item da lista
 
 ## Sincronizacao Automatica
 

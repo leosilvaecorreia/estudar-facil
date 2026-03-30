@@ -1,4 +1,4 @@
-{
+window.__TAREFAS_DATA = {
     "gerado_em":  "2026-03-30T13:22:47-03:00",
     "calendario":  {
                        "fonte":  "google_calendar_public_ics",
@@ -419,4 +419,4 @@
                       "fonte":  "google_calendar"
                   }
               ]
-}
+};

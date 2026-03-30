@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -368,6 +368,13 @@
     line-height: 1.6;
     white-space: pre-line;
   }
+  .agenda-detalhes-lista {
+    margin: 0;
+    padding-left: 18px;
+  }
+  .agenda-detalhes-lista li + li {
+    margin-top: 6px;
+  }
   .agenda-meta {
     margin-top: 5px;
     color: #9090a8;
@@ -584,208 +591,10 @@
   </div>
 </footer>
 
-<script>
-  const materiaColors = {
-    'Português': '#1A1A2E',
-    'Matemática': '#7A3410',
-    'Ciências': '#1A5C3A',
-    'Geografia': '#00a545',
-    'História': '#8B4513',
-    'Inglês': '#4361EE',
-    'Ensino Religioso': '#845EC2',
-    'Redação': '#EF476F',
-    'Geral': '#777777'
-  };
-
-  function fixMojibake(text) {
-    if (!text || typeof text !== 'string') return '';
-    if (!/[ÃÂ]/.test(text)) return text;
-    try {
-      return decodeURIComponent(escape(text));
-    } catch (error) {
-      return text;
-    }
-  }
-
-  function formatDate(dateString) {
-    if (!dateString) return '';
-    const [year, month, day] = dateString.split('-').map(Number);
-    const date = new Date(year, month - 1, day);
-    return new Intl.DateTimeFormat('pt-BR', {
-      day: '2-digit',
-      month: '2-digit'
-    }).format(date);
-  }
-
-  function normalizeItem(item) {
-    return {
-      ...item,
-      materia: fixMojibake(item.materia || 'Geral'),
-      titulo: fixMojibake(item.titulo || item.resumo_original || 'Sem título')
-    };
-  }
-
-  function getMateriaColor(materia) {
-    switch (materia) {
-      case 'Portugu\u00EAs':
-        return '#1A1A2E';
-      case 'Matem\u00E1tica':
-        return '#7A3410';
-      case 'Ci\u00EAncias':
-        return '#1A5C3A';
-      case 'Geografia':
-        return '#00a545';
-      case 'Hist\u00F3ria':
-        return '#8B4513';
-      case 'Ingl\u00EAs':
-        return '#4361EE';
-      case 'Ensino Religioso':
-        return '#845EC2';
-      case 'Reda\u00E7\u00E3o':
-        return '#EF476F';
-      default:
-        return '#777777';
-    }
-  }
-
-  function fixHomeLabels() {
-    const agendaCards = document.querySelectorAll('.home-section .agenda-card');
-    if (agendaCards[1]) {
-      const spans = agendaCards[1].querySelectorAll('.agenda-card-titulo span');
-      if (spans[0]) spans[0].textContent = 'Tarefas de amanha';
-      if (spans[1]) spans[1].textContent = 'Amanha';
-    }
-    if (agendaCards[2]) {
-      const spans = agendaCards[2].querySelectorAll('.agenda-card-titulo span');
-      if (spans[0]) spans[0].textContent = 'Proximos prazos';
-    }
-
-    const sectionLabels = document.querySelectorAll('.home-section .section-label');
-    if (sectionLabels[1]) sectionLabels[1].textContent = 'Proximas provas';
-  }
-
-  function ensureEventsSection() {
-    if (document.getElementById('agenda-eventos')) return;
-
-    const main = document.querySelector('main');
-    if (!main) return;
-
-    const section = document.createElement('section');
-    section.className = 'home-section';
-    section.innerHTML = `
-      <div class="section-label">Eventos e avisos</div>
-      <div class="agenda-card">
-        <div class="agenda-card-titulo">
-          <span>Agenda geral da turma</span>
-          <span class="agenda-badge agenda-badge-eventos">Eventos</span>
-        </div>
-        <div id="agenda-eventos" class="agenda-lista">
-          <div class="agenda-vazia">Carregando eventos...</div>
-        </div>
-      </div>
-    `;
-
-    main.appendChild(section);
-  }
-
-  function createAgendaItem(item, showDate = true) {
-    const materia = item.materia || 'Geral';
-    const color = getMateriaColor(materia);
-    const article = document.createElement('article');
-    article.className = 'agenda-item';
-    article.style.setProperty('--materia-cor', color);
-
-    const top = document.createElement('div');
-    top.className = 'agenda-item-topo';
-
-    const materiaEl = document.createElement('span');
-    materiaEl.className = 'agenda-materia';
-    materiaEl.textContent = materia;
-    top.appendChild(materiaEl);
-
-    if (showDate && item.prazo) {
-      const dateEl = document.createElement('span');
-      dateEl.className = 'agenda-data';
-      dateEl.textContent = formatDate(item.prazo);
-      top.appendChild(dateEl);
-    }
-
-    const title = document.createElement('div');
-    title.className = 'agenda-titulo';
-    title.textContent = item.titulo;
-
-    article.appendChild(top);
-    article.appendChild(title);
-
-    if (item.tipo === 'prova') {
-      const meta = document.createElement('div');
-      meta.className = 'agenda-meta';
-      meta.textContent = 'Avaliação marcada no calendário da turma';
-      article.appendChild(meta);
-    }
-
-    return article;
-  }
-
-  function renderAgendaSection(targetId, items, emptyMessage, showDate = true) {
-    const container = document.getElementById(targetId);
-    container.innerHTML = '';
-
-    if (!items.length) {
-      const empty = document.createElement('div');
-      empty.className = 'agenda-vazia';
-      empty.textContent = emptyMessage;
-      container.appendChild(empty);
-      return;
-    }
-
-    items.forEach((item) => {
-      container.appendChild(createAgendaItem(normalizeItem(item), showDate));
-    });
-  }
-
-  async function loadAgenda() {
-    const errorMessage = 'Não foi possível carregar a agenda agora.';
-
-    try {
-      const response = await fetch('data/tarefas.json', { cache: 'no-store' });
-      if (!response.ok) {
-        throw new Error('Falha ao carregar o arquivo de agenda.');
-      }
-
-      const data = await response.json();
-      const items = Array.isArray(data.itens) ? data.itens : [];
-      const tarefas = items.filter((item) => item.tipo === 'tarefa');
-      const eventos = items
-        .filter((item) => item.tipo === 'evento' || item.tipo === 'aviso')
-        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
-        .slice(0, 6);
-      const provas = items
-        .filter((item) => item.tipo === 'prova')
-        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
-        .slice(0, 6);
-
-      const hoje = tarefas.filter((item) => item.urgencia === 'hoje');
-      const amanha = tarefas.filter((item) => item.urgencia === 'amanha');
-      const proximos = tarefas.filter((item) =>
-        item.urgencia === 'esta_semana' || item.urgencia === 'proximos_dias'
-      );
-
-      renderAgendaSection('agenda-hoje', hoje, 'Nenhuma tarefa com prazo para hoje.', false);
-      renderAgendaSection('agenda-amanha', amanha, 'Nenhuma tarefa com prazo para amanhã.', false);
-      renderAgendaSection('agenda-proximos', proximos, 'Nenhum prazo próximo encontrado.');
-      renderAgendaSection('agenda-provas', provas, 'Nenhuma prova próxima encontrada.');
-    } catch (error) {
-      ['agenda-hoje', 'agenda-amanha', 'agenda-proximos', 'agenda-provas'].forEach((targetId) => {
-        const container = document.getElementById(targetId);
-        container.innerHTML = '<div class="agenda-erro">' + errorMessage + '</div>';
-      });
-    }
-  }
-
-  loadAgenda();
-</script>
-<script src="home-agenda.js"></script>
+<script src="data/tarefas.js"></script>
+<script src="data/materias_provas.js"></script>
+<script src="data/unidades_materias.js"></script>
+<script src="home-agenda.js?v=4"></script>
 <script>
   (function () {
     function formatUnitsLabel(total) {
@@ -801,6 +610,11 @@
         const chip = card.querySelector('[data-units-chip]');
         const href = card.getAttribute('href');
         if (!chip || !href) return;
+
+        if (window.__UNIDADES_MATERIAS && Object.prototype.hasOwnProperty.call(window.__UNIDADES_MATERIAS, href)) {
+          chip.textContent = formatUnitsLabel(window.__UNIDADES_MATERIAS[href]);
+          return;
+        }
 
         try {
           const response = await fetch(href, { cache: 'no-store' });

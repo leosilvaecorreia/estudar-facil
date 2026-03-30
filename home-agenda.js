@@ -52,6 +52,76 @@
     }
   }
 
+  function normalizeKey(value) {
+    return fixMojibake(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toUpperCase();
+  }
+
+  function buildProvaKey(item) {
+    return [
+      normalizeKey(item.titulo || ''),
+      normalizeKey(item.materia || ''),
+      item.prazo || ''
+    ].join('|');
+  }
+
+  function buildProvaLookup(data) {
+    const lookup = new Map();
+    const items = Array.isArray(data && data.itens) ? data.itens : [];
+
+    items.forEach((item) => {
+      const key = [
+        normalizeKey(item.titulo_prova || ''),
+        normalizeKey(item.materia || ''),
+        item.data || ''
+      ].join('|');
+
+      lookup.set(key, {
+        ...item,
+        titulo_prova: fixMojibake(item.titulo_prova || ''),
+        materia: fixMojibake(item.materia || ''),
+        conteudos: Array.isArray(item.conteudos)
+          ? item.conteudos.map((conteudo) => fixMojibake(conteudo))
+          : []
+      });
+    });
+
+    return lookup;
+  }
+
+  async function loadProvaLookup() {
+    try {
+      if (window.__MATERIAS_PROVAS_DATA) {
+        return buildProvaLookup(window.__MATERIAS_PROVAS_DATA);
+      }
+
+      const response = await fetch('data/materias_provas.json', { cache: 'no-store' });
+      if (!response.ok) return new Map();
+
+      const data = await response.json();
+      return buildProvaLookup(data);
+    } catch (error) {
+      return new Map();
+    }
+  }
+
+  async function loadAgendaData() {
+    if (window.__TAREFAS_DATA && Array.isArray(window.__TAREFAS_DATA.itens)) {
+      return window.__TAREFAS_DATA;
+    }
+
+    const response = await fetch('data/tarefas.json', { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error('Falha ao carregar agenda');
+    }
+
+    return response.json();
+  }
+
   function normalizeItem(item) {
     return {
       ...item,
@@ -102,7 +172,7 @@
     if (sectionLabels[1]) sectionLabels[1].textContent = 'Pr\u00F3ximas provas';
   }
 
-  function createAgendaItem(item, showDate) {
+  function createAgendaItem(item, showDate, provaLookup) {
     const article = document.createElement('article');
     article.className = 'agenda-item';
     article.style.setProperty('--materia-cor', getMateriaColor(item.materia));
@@ -171,12 +241,48 @@
       meta.className = 'agenda-meta';
       meta.textContent = 'Avalia\u00E7\u00E3o marcada no calend\u00E1rio da turma';
       article.appendChild(meta);
+
+      const provaInfo = provaLookup ? provaLookup.get(buildProvaKey(item)) : null;
+      const hasConteudos = provaInfo && Array.isArray(provaInfo.conteudos) && provaInfo.conteudos.length > 0;
+
+      if (hasConteudos) {
+        const toggle = document.createElement('button');
+        toggle.type = 'button';
+        toggle.className = 'agenda-toggle';
+        toggle.textContent = 'Mat\u00E9ria da prova';
+
+        const detailsBox = document.createElement('div');
+        detailsBox.className = 'agenda-detalhes';
+        detailsBox.hidden = true;
+
+        const list = document.createElement('ul');
+        list.className = 'agenda-detalhes-lista';
+
+        provaInfo.conteudos.forEach((conteudo) => {
+          const itemEl = document.createElement('li');
+          itemEl.textContent = conteudo;
+          list.appendChild(itemEl);
+        });
+
+        detailsBox.appendChild(list);
+
+        toggle.addEventListener('click', () => {
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          const nextExpanded = !expanded;
+          toggle.setAttribute('aria-expanded', nextExpanded ? 'true' : 'false');
+          toggle.textContent = expanded ? 'Mat\u00E9ria da prova' : 'Ocultar mat\u00E9ria';
+          detailsBox.hidden = expanded;
+        });
+
+        article.appendChild(toggle);
+        article.appendChild(detailsBox);
+      }
     }
 
     return article;
   }
 
-  function renderAgendaSection(targetId, items, emptyMessage, showDate) {
+  function renderAgendaSection(targetId, items, emptyMessage, showDate, provaLookup) {
     const container = document.getElementById(targetId);
     if (!container) return;
 
@@ -191,7 +297,7 @@
     }
 
     items.forEach((item) => {
-      container.appendChild(createAgendaItem(normalizeItem(item), showDate));
+      container.appendChild(createAgendaItem(normalizeItem(item), showDate, provaLookup));
     });
   }
 
@@ -202,12 +308,8 @@
     const errorMessage = 'N\u00E3o foi poss\u00EDvel carregar a agenda agora.';
 
     try {
-      const response = await fetch('data/tarefas.json', { cache: 'no-store' });
-      if (!response.ok) {
-        throw new Error('Falha ao carregar agenda');
-      }
-
-      const data = await response.json();
+      const data = await loadAgendaData();
+      const provaLookup = await loadProvaLookup();
       const items = Array.isArray(data.itens) ? data.itens : [];
       const tarefas = items.filter((item) => item.tipo === 'tarefa');
       const provas = items
@@ -225,16 +327,17 @@
         item.urgencia === 'esta_semana' || item.urgencia === 'proximos_dias'
       );
 
-      renderAgendaSection('agenda-hoje', hoje, 'Nenhuma tarefa com prazo para hoje.', false);
-      renderAgendaSection('agenda-amanha', amanha, 'Nenhuma tarefa com prazo para amanh\u00E3.', false);
-      renderAgendaSection('agenda-proximos', proximos, 'Nenhum prazo pr\u00F3ximo encontrado.', true);
-      renderAgendaSection('agenda-provas', provas, 'Nenhuma prova pr\u00F3xima encontrada.', true);
-      renderAgendaSection('agenda-eventos', eventos, 'Nenhum evento importante encontrado.', true);
+      renderAgendaSection('agenda-hoje', hoje, 'Nenhuma tarefa com prazo para hoje.', false, provaLookup);
+      renderAgendaSection('agenda-amanha', amanha, 'Nenhuma tarefa com prazo para amanh\u00E3.', false, provaLookup);
+      renderAgendaSection('agenda-proximos', proximos, 'Nenhum prazo pr\u00F3ximo encontrado.', true, provaLookup);
+      renderAgendaSection('agenda-provas', provas, 'Nenhuma prova pr\u00F3xima encontrada.', true, provaLookup);
+      renderAgendaSection('agenda-eventos', eventos, 'Nenhum evento importante encontrado.', true, provaLookup);
     } catch (error) {
+      const details = error && error.message ? ' Erro: ' + error.message : '';
       ['agenda-hoje', 'agenda-amanha', 'agenda-proximos', 'agenda-provas', 'agenda-eventos'].forEach((targetId) => {
         const container = document.getElementById(targetId);
         if (container) {
-          container.innerHTML = '<div class="agenda-erro">' + errorMessage + '</div>';
+          container.innerHTML = '<div class="agenda-erro">' + errorMessage + details + '</div>';
         }
       });
     }
