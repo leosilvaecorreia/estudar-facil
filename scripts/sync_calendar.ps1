@@ -1,7 +1,8 @@
 param(
   [string]$CalendarUrl = "https://calendar.google.com/calendar/ical/c_mcg63t49ip9n8t34onvsi0aur4%40group.calendar.google.com/public/basic.ics",
   [string]$OutputPath = "data/tarefas.json",
-  [int]$DaysAhead = 45
+  [int]$DaysAhead = 45,
+  [int]$LookbackDays = 14
 )
 
 Set-StrictMode -Version Latest
@@ -75,27 +76,27 @@ function Get-Materia {
 
   $text = (($Summary + " " + $Description).ToLowerInvariant())
 
-  if ($text.Contains("língua portuguesa") -or $text.Contains("lingua portuguesa") -or $text.Contains("portugu") -or $text.Contains(" lp ") -or $text.StartsWith("lp")) {
+  if ($text.Contains("língua portuguesa") -or $text.Contains("lingua portuguesa") -or $text.Contains("portugu") -or $text.Contains(" lp ") -or $text.StartsWith("lp") -or $text.StartsWith("lp-")) {
     return "Português"
   }
 
-  if ($text.Contains("matem") -or $text.Contains("mat 4") -or $text.Contains("mat4") -or $text.StartsWith("mat ")) {
+  if ($text.Contains("matem") -or $text.Contains("mat 4") -or $text.Contains("mat4") -or $text.StartsWith("mat ") -or $text.StartsWith("mat-")) {
     return "Matemática"
   }
 
-  if ($text.Contains("hist") -or $text.Contains("histór") -or $text.Contains("histor")) {
+  if ($text.Contains("hist") -or $text.Contains("histór") -or $text.Contains("histor") -or $text.StartsWith("hist ")) {
     return "História"
   }
 
-  if ($text.Contains("geo") -or $text.Contains("geografia")) {
+  if ($text.Contains("geo") -or $text.Contains("geografia") -or $text.StartsWith("geo ")) {
     return "Geografia"
   }
 
-  if ($text.Contains("cien") -or $text.Contains("ciên") -or $text.Contains("cienc")) {
+  if ($text.Contains("prova de ci") -or $text.Contains("prova de cien") -or $text.Contains("ciências naturais") -or $text.Contains("ciencias naturais") -or $text.Contains("cien") -or $text.Contains("ciên") -or $text.Contains("cienc")) {
     return "Ciências"
   }
 
-  if ($text.Contains("ingl") -or $text.Contains("eng-") -or $text.Contains(" eng ") -or $text.Contains("língua inglesa") -or $text.Contains("lingua inglesa")) {
+  if ($text.Contains("ingl") -or $text.Contains("english") -or $text.Contains("eng-") -or $text.Contains(" eng ") -or $text.StartsWith("eng ") -or $text.Contains("língua inglesa") -or $text.Contains("lingua inglesa")) {
     return "Inglês"
   }
 
@@ -103,7 +104,15 @@ function Get-Materia {
     return "Ensino Religioso"
   }
 
-  if ($text.Contains("redaç") -or $text.Contains("redac")) {
+  if ($text.Contains("pensamento computacional") -or $text.Contains("pec ") -or $text.StartsWith("pec ") -or $text.StartsWith("pec-") -or $text.Contains(" pec-")) {
+    return "Pensamento Computacional"
+  }
+
+  if ($text.Contains("projeto de leitura") -or $text.Contains("plic")) {
+    return "Projeto de Leitura"
+  }
+
+  if ($text.Contains("prova de reda") -or $text.Contains(" reda") -or $text.StartsWith("red ") -or $text.StartsWith("red-") -or $text.Contains(" red ")) {
     return "Redação"
   }
 
@@ -118,11 +127,11 @@ function Get-Tipo {
 
   $text = (($Summary + " " + $Description).ToLowerInvariant())
 
-  if ($text -match 'prova|teste|avaliação|avaliacao|simulado') {
+  if ($text -match '2\S*\s*chamada|miniteste|prova|teste|avaliação|avaliacao|simulado') {
     return "prova"
   }
 
-  if ($text -match 'recesso|encerramento|feira|felitroca|felicitá|felicita|sábado|domingo|quinta-feira santa|sexta-feira santa|páscoa|pascoa') {
+  if ($text -match 'steam|felitroca|felicitá|felicita|recesso escolar|recesso|feriado|homenagem|volta às aulas|volta as aulas|exposição|exposicao|encerramento|feira|sábado|domingo|quinta-feira santa|sexta-feira santa|páscoa|pascoa') {
     return "evento"
   }
 
@@ -165,7 +174,8 @@ function Get-NextSchoolDay {
 function Get-Prazo {
   param(
     [datetime]$EventDate,
-    [string]$Description
+    [string]$Description,
+    [string]$Tipo
   )
 
   $baseDate = $EventDate.Date
@@ -196,7 +206,11 @@ function Get-Prazo {
     }
   }
 
-  return Get-NextSchoolDay -BaseDate $baseDate
+  if ($Tipo -eq "tarefa") {
+    return Get-NextSchoolDay -BaseDate $baseDate
+  }
+
+  return $baseDate
 }
 
 function Get-Titulo {
@@ -210,6 +224,10 @@ function Get-Titulo {
   $cleanDescription = Normalize-Text $Description
 
   if ($Tipo -eq "prova") {
+    return $cleanSummary
+  }
+
+  if ($Tipo -eq "evento" -or $Tipo -eq "aviso") {
     return $cleanSummary
   }
 
@@ -306,6 +324,7 @@ $icsContent = [System.Text.Encoding]::UTF8.GetString($bytes)
 $rawEvents = Convert-IcsToEvents -IcsContent $icsContent
 
 $today = (Get-Date).Date
+$earliestRelevantDate = $today.AddDays(-1 * $LookbackDays)
 $limit = $today.AddDays($DaysAhead)
 $items = New-Object System.Collections.Generic.List[object]
 
@@ -320,7 +339,7 @@ foreach ($event in $rawEvents) {
     continue
   }
 
-  if ($startDate.Date -lt $today -or $startDate.Date -gt $limit) {
+  if ($startDate.Date -lt $earliestRelevantDate -or $startDate.Date -gt $limit) {
     continue
   }
 
@@ -330,17 +349,20 @@ foreach ($event in $rawEvents) {
   $uid = Get-FieldValue -Event $event -Candidates @("UID")
   $tipo = Get-Tipo -Summary $summary -Description $description
   $combinedText = ($summary + " " + $description).ToLowerInvariant()
-  if ($combinedText -match 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
+  if ($combinedText -match 'steam|felitroca|felicitÃ¡|felicita|feira liter|recesso|feriado|homenagem|volta Ã s aulas|volta as aulas|exposiÃ§Ã£o|exposicao|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
     $tipo = "evento"
   }
-  if ($tipo -eq "evento" -and $combinedText -notmatch 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa' -and $combinedText -match 'para casa|homework|hw|atividade|exercÃ­cio|exercicio|leitura|pesquisa|folha|pÃ¡gina|pagina') {
+  if ($tipo -eq "evento" -and $combinedText -notmatch 'steam|felitroca|felicitÃ¡|felicita|feira liter|recesso|feriado|homenagem|volta Ã s aulas|volta as aulas|exposiÃ§Ã£o|exposicao|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa' -and $combinedText -match 'para casa|homework|hw|atividade|exercÃ­cio|exercicio|leitura|pesquisa|folha|pÃ¡gina|pagina') {
     $tipo = "tarefa"
   }
   $materia = Get-Materia -Summary $summary -Description $description
-  if ($combinedText -match 'felitroca|felicitÃ¡|felicita|feira liter|recesso|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
+  if ($combinedText -match 'steam|felitroca|felicitÃ¡|felicita|feira liter|recesso|feriado|homenagem|volta Ã s aulas|volta as aulas|exposiÃ§Ã£o|exposicao|quinta-feira santa|sexta-feira santa|sÃ¡bado de aleluia|pÃ¡scoa|pascoa') {
     $materia = "Geral"
   }
-  $prazo = Get-Prazo -EventDate $startDate -Description $description
+  $prazo = Get-Prazo -EventDate $startDate -Description $description -Tipo $tipo
+  if ($prazo.Date -lt $today) {
+    continue
+  }
   $urgencia = Get-Urgencia -Prazo $prazo
   $titulo = Get-Titulo -Summary $summary -Description $description -Tipo $tipo
 
@@ -369,6 +391,7 @@ $payload = [ordered]@{
     nome = "4º ano - Turma A"
     url = $CalendarUrl
     dias_considerados = $DaysAhead
+    dias_retroativos = $LookbackDays
   }
   resumo = [ordered]@{
     total_itens = @($orderedItems).Count

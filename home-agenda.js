@@ -28,7 +28,7 @@
   function getMateriaColor(materia) {
     switch (materia) {
       case 'Portugu\u00EAs':
-        return '#1A1A2E';
+        return '#2D2B55';
       case 'Matem\u00E1tica':
         return '#7A3410';
       case 'Ci\u00EAncias':
@@ -36,11 +36,15 @@
       case 'Geografia':
         return '#00a545';
       case 'Hist\u00F3ria':
-        return '#8B4513';
+        return '#C0392B';
       case 'Ingl\u00EAs':
         return '#4361EE';
       case 'Ensino Religioso':
         return '#845EC2';
+      case 'Pensamento Computacional':
+        return '#0F766E';
+      case 'Projeto de Leitura':
+        return '#C05621';
       case 'Reda\u00E7\u00E3o':
         return '#EF476F';
       default:
@@ -53,32 +57,29 @@
       ...item,
       tipo: item.tipo || 'evento',
       materia: fixMojibake(item.materia || 'Geral'),
-      titulo: fixMojibake(item.titulo || item.resumo_original || 'Sem titulo')
+      titulo: fixMojibake(item.titulo || item.resumo_original || 'Sem titulo'),
+      descricao: fixMojibake(item.descricao || '')
     };
   }
 
   function ensureEventsSection() {
     if (document.getElementById('agenda-eventos')) return;
 
-    const main = document.querySelector('main');
-    if (!main) return;
+    const panels = document.getElementById('home-secondary-panels');
+    if (!panels) return;
 
     const section = document.createElement('section');
     section.className = 'home-section';
     section.innerHTML = [
       '<div class="section-label">Eventos e avisos</div>',
       '<div class="agenda-card">',
-      '<div class="agenda-card-titulo">',
-      '<span>Agenda geral da turma</span>',
-      '<span class="agenda-badge agenda-badge-eventos">Eventos</span>',
-      '</div>',
       '<div id="agenda-eventos" class="agenda-lista">',
       '<div class="agenda-vazia">Carregando eventos...</div>',
       '</div>',
       '</div>'
     ].join('');
 
-    main.appendChild(section);
+    panels.appendChild(section);
   }
 
   function fixHomeLabels() {
@@ -122,11 +123,48 @@
     }
 
     const title = document.createElement('div');
-    title.className = 'agenda-titulo';
+    title.className = 'agenda-titulo agenda-titulo-resumo';
     title.textContent = item.titulo;
 
     article.appendChild(top);
     article.appendChild(title);
+
+    const detalhes = item.descricao && item.descricao !== item.titulo ? item.descricao : '';
+    const hasLongTitle = item.titulo.length > 85;
+    const hasExtraDetails = detalhes.length > 0;
+    const needsToggle = hasExtraDetails || hasLongTitle;
+
+    if (needsToggle) {
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'agenda-toggle';
+      toggle.textContent = 'Ver detalhes';
+      let detailsBox = null;
+
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        const nextExpanded = !expanded;
+
+        toggle.setAttribute('aria-expanded', nextExpanded ? 'true' : 'false');
+        toggle.textContent = expanded ? 'Ver detalhes' : 'Ocultar detalhes';
+
+        if (hasExtraDetails) {
+          detailsBox.hidden = expanded;
+        } else {
+          title.classList.toggle('agenda-titulo-resumo', expanded);
+        }
+      });
+
+      article.appendChild(toggle);
+
+      if (hasExtraDetails) {
+        detailsBox = document.createElement('div');
+        detailsBox.className = 'agenda-detalhes';
+        detailsBox.hidden = true;
+        detailsBox.textContent = detalhes;
+        article.appendChild(detailsBox);
+      }
+    }
 
     if (item.tipo === 'prova') {
       const meta = document.createElement('div');
