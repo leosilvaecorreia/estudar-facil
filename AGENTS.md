@@ -31,6 +31,13 @@ Ao receber novo conteudo ou uma nova tarefa, seguir esta ordem:
 4. Montar flashcards, quizzes, resumos e agenda com base nesse recorte.
 5. Manter a linguagem apropriada para criancas do 4o ano.
 
+Antes de propor novos padroes, fluxos, componentes ou solucoes de produto, consultar este `AGENTS.md` para verificar:
+
+- regras ja decididas com o usuario
+- padroes visuais e estruturais ja adotados
+- restricoes operacionais do projeto
+- comportamento esperado da agenda, provas e home
+
 ## Regras De Conteudo
 
 - Priorizar aderencia ao material da escola acima de abrangencia.
@@ -432,7 +439,11 @@ Ao atualizar essa area:
 ## Servidor Local
 
 - o arquivo `python.py` existe para facilitar a visualizacao local da home via servidor simples
-- ele pode ser usado quando for necessario validar a home com `fetch` de `data/tarefas.json`
+- o modo mais confiavel de validacao local deve ser abrir um PowerShell na raiz do projeto e rodar `python .\python.py`
+- se `python` nao estiver disponivel no terminal, tentar `py .\python.py`
+- depois abrir `http://127.0.0.1:8000`
+- preferir esse fluxo local do usuario em vez de depender de servidores improvisados do ambiente do agente
+- esse servidor local deve ser usado sempre que for necessario validar a home, a agenda ou qualquer comportamento que dependa de carregamento de arquivos locais
 
 ## O Que Evitar
 
