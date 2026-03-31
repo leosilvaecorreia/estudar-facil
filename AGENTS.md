@@ -293,6 +293,8 @@ Regras de exibicao:
 ## Regras De Prazo Das Tarefas
 
 - se o professor informar uma data explicita no texto, essa data deve ser usada como prazo
+- se a mesma mensagem trouxer duas ou mais datas explicitas, a agenda deve duplicar a tarefa para cada data encontrada, mantendo a mensagem completa em todas elas
+- nao tentar separar manualmente qual trecho pertence a qual data quando o professor misturar tudo no mesmo texto; repetir o conteudo integral em cada prazo e a regra oficial
 - se o professor escrever `amanha`, o prazo deve ser o dia seguinte ao evento
 - se o professor escrever `hoje`, o prazo deve ser o mesmo dia do evento
 - se nao houver prazo explicito, a tarefa deve vencer no proximo dia letivo

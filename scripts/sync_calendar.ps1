@@ -9,8 +9,6 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 Add-Type -AssemblyName System.Net.Http
 
-$script:InstitutionalEventPattern = 'steam|felitroca|felicita|feira liter|recesso escolar|recesso|feriado|homenagem|volta as aulas|exposicao|encerramento|feira|sabado|domingo|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa'
-
 function Repair-Mojibake {
   param([string]$Text)
 
@@ -96,7 +94,7 @@ function Parse-IcsDate {
   }
 
   if ($Value -match '^\d{8}T\d{6}Z$') {
-    return [datetime]::ParseExact($Value, "yyyyMMdd'T'HHmmss'Z'", $null).ToLocalTime()
+    return [datetime]::ParseExact($Value, "yyyyMMdd'T'HHmmss'Z'", $null)
   }
 
   if ($Value -match '^\d{8}T\d{6}$') {
@@ -165,10 +163,6 @@ function Get-Materia {
     return 'Projeto de Leitura'
   }
 
-  if ($text.Contains('emocionar') -or $text.Contains(' emo ') -or $text.StartsWith('emo ') -or $text.StartsWith('emo-')) {
-    return 'Emocionar'
-  }
-
   if ($text.Contains('prova de reda') -or $text.Contains(' reda') -or $text.StartsWith('red ') -or $text.StartsWith('red-') -or $text.Contains(' red ')) {
     return 'Redação'
   }
@@ -182,27 +176,17 @@ function Get-Tipo {
     [string]$Description
   )
 
-  $summaryText = (Repair-Mojibake $Summary).ToLowerInvariant()
-  $descriptionText = (Repair-Mojibake $Description).ToLowerInvariant()
-  $text = ($summaryText + ' ' + $descriptionText).ToLowerInvariant()
-  $homeworkPattern = 'tarefa|atividade|exercicio|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa|pagina|caderno|finalizar|copiar|estudar'
-
-  $looksLikeClassEntry = $summaryText -match '^(lp|mat|hist|geo|cien|eng|e\.\s*rel|pec|plic|red|emo)\b'
-  $hasHomeworkSignals = $descriptionText -match $homeworkPattern
-
-  if ($looksLikeClassEntry -and $hasHomeworkSignals) {
-    return 'tarefa'
-  }
-
-  if ($text -match $script:InstitutionalEventPattern) {
-    return 'evento'
-  }
+  $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
 
   if ($text -match '2\S*\s*chamada|miniteste|prova|teste|avaliacao|avaliação|simulado') {
     return 'prova'
   }
 
-  if ($text -match $homeworkPattern) {
+  if ($text -match 'steam|felitroca|felicita|feira liter|recesso escolar|recesso|feriado|homenagem|volta as aulas|exposicao|encerramento|feira|sabado|domingo|quinta-feira santa|sexta-feira santa|pascoa') {
+    return 'evento'
+  }
+
+  if ($text -match 'tarefa|atividade|exercicio|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa|pagina|caderno') {
     return 'tarefa'
   }
 
@@ -238,7 +222,46 @@ function Get-NextSchoolDay {
   return $candidate.Date
 }
 
-function Get-Prazo {
+function Get-ExplicitDates {
+  param(
+    [datetime]$EventDate,
+    [string]$Description
+  )
+
+  $baseDate = $EventDate.Date
+  $matches = [System.Text.RegularExpressions.Regex]::Matches(
+    $Description,
+    '(?<!\d)([0-3O]?\d)/([0-1]?\d)(?!\d)'
+  )
+  $dates = New-Object System.Collections.Generic.List[datetime]
+
+  foreach ($match in $matches) {
+    $dayText = $match.Groups[1].Value.ToUpperInvariant().Replace('O', '0')
+    $monthText = $match.Groups[2].Value.ToUpperInvariant().Replace('O', '0')
+
+    try {
+      $day = [int]$dayText
+      $month = [int]$monthText
+      $year = $baseDate.Year
+      $parsed = Get-Date -Year $year -Month $month -Day $day
+
+      if ($parsed.Date -lt $baseDate.AddDays(-7)) {
+        $parsed = $parsed.AddYears(1)
+      }
+
+      if (-not $dates.Contains($parsed.Date)) {
+        $dates.Add($parsed.Date)
+      }
+    }
+    catch {
+      continue
+    }
+  }
+
+  return @($dates | Sort-Object)
+}
+
+function Get-Prazos {
   param(
     [datetime]$EventDate,
     [string]$Description,
@@ -247,37 +270,25 @@ function Get-Prazo {
 
   $baseDate = $EventDate.Date
   $text = (Repair-Mojibake $Description).ToLowerInvariant()
+  $explicitDates = @(Get-ExplicitDates -EventDate $EventDate -Description $Description)
 
-  if ($text -match '\bamanh[ãa]\b') {
-    return $baseDate.AddDays(1)
+  if ($explicitDates.Count -gt 0) {
+    return $explicitDates
+  }
+
+  if ($text -match '\bamanha\b') {
+    return @($baseDate.AddDays(1))
   }
 
   if ($text -match '\bhoje\b') {
-    return $baseDate
-  }
-
-  if ($Description -match '(?<!\d)(\d{1,2})/(\d{1,2})(?!\d)') {
-    $day = [int]$matches[1]
-    $month = [int]$matches[2]
-    $year = $baseDate.Year
-
-    try {
-      $parsed = Get-Date -Year $year -Month $month -Day $day
-      if ($parsed.Date -lt $baseDate.AddDays(-7)) {
-        $parsed = $parsed.AddYears(1)
-      }
-      return $parsed.Date
-    }
-    catch {
-      return $baseDate
-    }
+    return @($baseDate)
   }
 
   if ($Tipo -eq 'tarefa') {
-    return Get-NextSchoolDay -BaseDate $baseDate
+    return @((Get-NextSchoolDay -BaseDate $baseDate))
   }
 
-  return $baseDate
+  return @($baseDate)
 }
 
 function Get-Titulo {
@@ -417,32 +428,43 @@ foreach ($event in $rawEvents) {
   $tipo = Get-Tipo -Summary $summary -Description $description
   $combinedText = (Repair-Mojibake ($summary + ' ' + $description)).ToLowerInvariant()
 
+  if ($combinedText -match 'steam|felitroca|felicita|feira liter|recesso|feriado|homenagem|volta as aulas|exposicao|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa') {
+    $tipo = 'evento'
+  }
+
+  if ($tipo -eq 'evento' -and $combinedText -notmatch 'steam|felitroca|felicita|feira liter|recesso|feriado|homenagem|volta as aulas|exposicao|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa' -and $combinedText -match 'para casa|homework|hw|atividade|exercicio|leitura|pesquisa|folha|pagina') {
+    $tipo = 'tarefa'
+  }
+
   $materia = Get-Materia -Summary $summary -Description $description
-  if ($combinedText -match $script:InstitutionalEventPattern) {
+  if ($combinedText -match 'steam|felitroca|felicita|feira liter|recesso|feriado|homenagem|volta as aulas|exposicao|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa') {
     $materia = 'Geral'
   }
 
-  $prazo = Get-Prazo -EventDate $startDate -Description $description -Tipo $tipo
-  if ($prazo.Date -lt $today) {
-    continue
-  }
-
-  $urgencia = Get-Urgencia -Prazo $prazo
   $titulo = Get-Titulo -Summary $summary -Description $description -Tipo $tipo
+  $prazos = @(Get-Prazos -EventDate $startDate -Description $description -Tipo $tipo)
 
-  $items.Add([ordered]@{
-    id = $uid
-    tipo = $tipo
-    materia = $materia
-    titulo = $titulo
-    descricao = $description
-    resumo_original = $summary
-    local = $location
-    data_evento = $startDate.ToString('yyyy-MM-dd')
-    prazo = $prazo.ToString('yyyy-MM-dd')
-    urgencia = $urgencia
-    fonte = 'google_calendar'
-  })
+  foreach ($prazo in $prazos) {
+    if ($prazo.Date -lt $today) {
+      continue
+    }
+
+    $urgencia = Get-Urgencia -Prazo $prazo
+
+    $items.Add([ordered]@{
+      id = if ($prazos.Count -gt 1) { "$uid#$($prazo.ToString('yyyy-MM-dd'))" } else { $uid }
+      tipo = $tipo
+      materia = $materia
+      titulo = $titulo
+      descricao = $description
+      resumo_original = $summary
+      local = $location
+      data_evento = $startDate.ToString('yyyy-MM-dd')
+      prazo = $prazo.ToString('yyyy-MM-dd')
+      urgencia = $urgencia
+      fonte = 'google_calendar'
+    })
+  }
 }
 
 $orderedItems = $items |
