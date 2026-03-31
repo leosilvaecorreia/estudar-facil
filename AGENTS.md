@@ -286,6 +286,7 @@ Regras de exibicao:
 - `Proximos prazos` mostra tarefas com `urgencia` `esta_semana` ou `proximos_dias`
 - `Proximas provas` mostra apenas itens classificados como `prova`
 - `Eventos e avisos` mostra eventos institucionais e comunicados gerais
+- em listas com data visivel, a ordem deve ser sempre cronologica crescente, com o prazo mais proximo aparecendo primeiro
 - os cards da agenda devem usar resumo compacto por padrao e abrir `Ver detalhes` apenas quando houver texto longo ou descricao adicional
 - cards de `Proximas provas` podem exibir o botao `Materia da prova` quando houver conteudo complementar cadastrado
 - a materia da prova deve vir de um arquivo separado do calendario, para permitir complemento manual com base no Google Sala de Aula

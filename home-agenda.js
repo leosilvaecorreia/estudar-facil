@@ -322,20 +322,21 @@
       const provaLookup = await loadProvaLookup();
       const items = Array.isArray(data.itens) ? data.itens : [];
       const tarefas = items.filter((item) => item.tipo === 'tarefa');
+      const sortByPrazo = (a, b) => (a.prazo || '').localeCompare(b.prazo || '');
       const provas = items
         .filter((item) => item.tipo === 'prova')
-        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
+        .sort(sortByPrazo)
         .slice(0, 6);
       const eventos = items
         .filter((item) => item.tipo === 'evento' || item.tipo === 'aviso')
-        .sort((a, b) => (a.prazo || '').localeCompare(b.prazo || ''))
+        .sort(sortByPrazo)
         .slice(0, 6);
 
-      const hoje = tarefas.filter((item) => item.urgencia === 'hoje');
-      const amanha = tarefas.filter((item) => item.urgencia === 'amanha');
+      const hoje = tarefas.filter((item) => item.urgencia === 'hoje').sort(sortByPrazo);
+      const amanha = tarefas.filter((item) => item.urgencia === 'amanha').sort(sortByPrazo);
       const proximos = tarefas.filter((item) =>
         item.urgencia === 'esta_semana' || item.urgencia === 'proximos_dias'
-      );
+      ).sort(sortByPrazo);
 
       renderAgendaSection('agenda-hoje', hoje, 'Nenhuma tarefa com prazo para hoje.', false, provaLookup);
       renderAgendaSection('agenda-amanha', amanha, 'Nenhuma tarefa com prazo para amanh\u00E3.', false, provaLookup);
