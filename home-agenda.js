@@ -110,16 +110,26 @@
   }
 
   async function loadAgendaData() {
-    if (window.__TAREFAS_DATA && Array.isArray(window.__TAREFAS_DATA.itens)) {
+    const isLocalFile = window.location.protocol === 'file:';
+
+    if (isLocalFile && window.__TAREFAS_DATA && Array.isArray(window.__TAREFAS_DATA.itens)) {
       return window.__TAREFAS_DATA;
     }
 
-    const response = await fetch('data/tarefas.json', { cache: 'no-store' });
-    if (!response.ok) {
-      throw new Error('Falha ao carregar agenda');
-    }
+    try {
+      const response = await fetch('data/tarefas.json', { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error('Falha ao carregar agenda');
+      }
 
-    return response.json();
+      return await response.json();
+    } catch (error) {
+      if (window.__TAREFAS_DATA && Array.isArray(window.__TAREFAS_DATA.itens)) {
+        return window.__TAREFAS_DATA;
+      }
+
+      throw error;
+    }
   }
 
   function normalizeItem(item) {

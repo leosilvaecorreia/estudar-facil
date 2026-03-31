@@ -163,6 +163,10 @@ function Get-Materia {
     return 'Projeto de Leitura'
   }
 
+  if ($text.Contains('emocionar') -or $text.Contains(' emo ') -or $text.StartsWith('emo ') -or $text.StartsWith('emo-')) {
+    return 'Emocionar'
+  }
+
   if ($text.Contains('prova de reda') -or $text.Contains(' reda') -or $text.StartsWith('red ') -or $text.StartsWith('red-') -or $text.Contains(' red ')) {
     return 'Redação'
   }
@@ -176,7 +180,16 @@ function Get-Tipo {
     [string]$Description
   )
 
-  $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
+  $summaryText = (Repair-Mojibake $Summary).ToLowerInvariant()
+  $descriptionText = (Repair-Mojibake $Description).ToLowerInvariant()
+  $text = ($summaryText + ' ' + $descriptionText).ToLowerInvariant()
+
+  $looksLikeClassEntry = $summaryText -match '^(lp|mat|hist|geo|cien|eng|e\.\s*rel|pec|plic|red|emo)\b'
+  $hasHomeworkSignals = $descriptionText -match 'tarefa|atividade|exercicio|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa|pagina|caderno|finalizar|copiar|estudar'
+
+  if ($looksLikeClassEntry -and $hasHomeworkSignals) {
+    return 'tarefa'
+  }
 
   if ($text -match '2\S*\s*chamada|miniteste|prova|teste|avaliacao|avaliação|simulado') {
     return 'prova'
@@ -232,7 +245,7 @@ function Get-Prazo {
   $baseDate = $EventDate.Date
   $text = (Repair-Mojibake $Description).ToLowerInvariant()
 
-  if ($text -match '\bamanha\b') {
+  if ($text -match '\bamanh[ãa]\b') {
     return $baseDate.AddDays(1)
   }
 

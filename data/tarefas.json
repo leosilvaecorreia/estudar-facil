@@ -9,8 +9,8 @@
   },
   "resumo": {
     "total_itens": 35,
-    "tarefas": 9,
-    "provas": 12,
+    "tarefas": 10,
+    "provas": 11,
     "avisos": 0,
     "eventos": 14
   },
@@ -420,15 +420,15 @@
     },
     {
       "id": "44chllo4ckaamedg812qb7ug70@google.com",
-      "tipo": "prova",
+      "tipo": "tarefa",
       "materia": "Português",
-      "titulo": "LP- 4A",
+      "titulo": "✍️🏼 Finalizar folha 15 (do 6 ao 10). Observação: O aluno que não realizou a tarefa de aula da folha 15 (do 1 ao 5) deve também trazê-la feita amanhã. ⚠️ Continuar estudando para o ditado da próxima semana: M/N, S/SS, R/RR. ⚠️ Os conteúdos da Prova de LP (15.04) foram disponibilizados na plataforma.",
       "descricao": "✍️🏼 Finalizar folha 15 (do 6 ao 10). Observação: O aluno que não realizou a tarefa de aula da folha 15 (do 1 ao 5) deve também trazê-la feita amanhã. ⚠️ Continuar estudando para o ditado da próxima semana: M/N, S/SS, R/RR. ⚠️ Os conteúdos da Prova de LP (15.04) foram disponibilizados na plataforma.",
       "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-03-30",
-      "prazo": "2026-03-30",
-      "urgencia": "hoje",
+      "prazo": "2026-03-31",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -460,7 +460,7 @@
     {
       "id": "4i9s972fevm1ir5be860i31j1m@google.com",
       "tipo": "tarefa",
-      "materia": "Geral",
+      "materia": "Emocionar",
       "titulo": "Para casa✨ Finalize a Folha 02. Para próxima aula.",
       "descricao": "Para casa✨ Finalize a Folha 02. Para próxima aula.",
       "resumo_original": "EMO 4A",
