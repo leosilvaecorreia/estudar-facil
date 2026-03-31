@@ -28,13 +28,13 @@ jobs:
       - name: Commit updated calendar data
         shell: pwsh
         run: |
-          if (git diff --quiet -- data/tarefas.json) {
+          if (git diff --quiet -- data/tarefas.json data/tarefas.js) {
             Write-Host "No calendar changes to commit."
             exit 0
           }
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/tarefas.json
+          git add data/tarefas.json data/tarefas.js
           git commit -m "Atualiza tarefas do calendario"
           git push
