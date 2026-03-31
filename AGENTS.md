@@ -326,6 +326,7 @@ Mapeamento oficial das siglas do calendario:
 - `LP` = `Portugues`
 - `MAT` = `Matematica`
 - `PeC` = `Pensamento Computacional`
+- `EMO` = `Emocionar`
 - `PLIC` = `Projeto de Leitura`
 - `RED` = `Redacao`
 - `E. REL.` = `Ensino Religioso`
@@ -338,6 +339,7 @@ Regras oficiais de tipo no calendario:
 - tudo que aparecer como `Miniteste`, `Prova` ou `2a Chamada` deve ser tratado como `prova`
 - tudo que aparecer como `FELITROCA`, `STEAM`, `FELICITA`, `RECESSO ESCOLAR`, `FERIADO`, `HOMENAGEM`, `VOLTA AS AULAS`, `EXPOSICAO` e equivalentes deve ser tratado como `evento`
 - para `evento` e `aviso`, exibir somente o titulo, sem transformar a descricao longa em titulo
+- ao identificar a materia, priorizar a sigla e o resumo original do evento antes de palavras soltas no corpo da descricao
 
 ## Regras De Exibicao Das Tarefas
 

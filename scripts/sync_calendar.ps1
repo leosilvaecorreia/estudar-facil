@@ -125,7 +125,16 @@ function Get-Materia {
     [string]$Description
   )
 
+  $summaryText = (Repair-Mojibake $Summary).ToLowerInvariant()
   $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
+
+  if ($summaryText.Contains('plic') -or $text.Contains('projeto de leitura')) {
+    return 'Projeto de Leitura'
+  }
+
+  if ($summaryText.Contains('emo') -or $summaryText.StartsWith('emo ') -or $summaryText.StartsWith('emo-') -or $text.Contains('emocionar')) {
+    return 'Emocionar'
+  }
 
   if ($text.Contains('lingua portuguesa') -or $text.Contains('portugu') -or $text.Contains(' lp ') -or $text.StartsWith('lp') -or $text.StartsWith('lp-')) {
     return 'Português'
@@ -157,10 +166,6 @@ function Get-Materia {
 
   if ($text.Contains('pensamento computacional') -or $text.Contains('pec ') -or $text.StartsWith('pec ') -or $text.StartsWith('pec-') -or $text.Contains(' pec-')) {
     return 'Pensamento Computacional'
-  }
-
-  if ($text.Contains('projeto de leitura') -or $text.Contains('plic')) {
-    return 'Projeto de Leitura'
   }
 
   if ($text.Contains('prova de reda') -or $text.Contains(' reda') -or $text.StartsWith('red ') -or $text.StartsWith('red-') -or $text.Contains(' red ')) {
