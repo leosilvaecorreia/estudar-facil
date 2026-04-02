@@ -19,8 +19,9 @@ function Repair-Mojibake {
   $current = $Text
   $latin1 = [System.Text.Encoding]::GetEncoding(28591)
   $utf8 = [System.Text.Encoding]::UTF8
+  $mojibakePattern = 'Ã[¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿]|Â[ ªº]|â€|âœ|ðŸ|ï»¿'
 
-  if (-not ($current.Contains("Ã") -or $current.Contains("Â"))) {
+  if (-not ($current -match $mojibakePattern)) {
     return $current
   }
 
@@ -504,11 +505,11 @@ $payload = [ordered]@{
 }
 
 $json = $payload | ConvertTo-Json -Depth 6
-[System.IO.File]::WriteAllText($outputFullPath, $json, [System.Text.UTF8Encoding]::new($false))
+[System.IO.File]::WriteAllText($outputFullPath, $json, [System.Text.UTF8Encoding]::new($true))
 
 $jsOutputPath = [System.IO.Path]::ChangeExtension($outputFullPath, '.js')
 $jsPayload = 'window.__TAREFAS_DATA = ' + $json + ';'
-[System.IO.File]::WriteAllText($jsOutputPath, $jsPayload, [System.Text.UTF8Encoding]::new($false))
+[System.IO.File]::WriteAllText($jsOutputPath, $jsPayload, [System.Text.UTF8Encoding]::new($true))
 
 Write-Output ('Arquivo gerado: ' + $outputFullPath)
 Write-Output ('Itens processados: ' + @($orderedItems).Count)
