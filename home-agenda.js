@@ -210,7 +210,7 @@
     article.appendChild(title);
 
     const detalhes = item.descricao && item.descricao !== item.titulo ? item.descricao : '';
-    const hasLongTitle = item.titulo.length > 85;
+    const hasLongTitle = item.titulo.length > 60;
     const hasExtraDetails = detalhes.length > 0;
     const needsToggle = hasExtraDetails || hasLongTitle;
 

@@ -288,6 +288,7 @@ Regras de exibicao:
 - `Eventos e avisos` mostra eventos institucionais e comunicados gerais
 - em listas com data visivel, a ordem deve ser sempre cronologica crescente, com o prazo mais proximo aparecendo primeiro
 - os cards da agenda devem usar resumo compacto por padrao e abrir `Ver detalhes` apenas quando houver texto longo ou descricao adicional
+- quando o titulo sozinho ja ficar longo para o card da home, o item tambem deve abrir `Ver detalhes`, mesmo sem descricao adicional
 - cards de `Proximas provas` podem exibir o botao `Materia da prova` quando houver conteudo complementar cadastrado
 - a materia da prova deve vir de um arquivo separado do calendario, para permitir complemento manual com base no Google Sala de Aula
 
