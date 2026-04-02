@@ -181,9 +181,14 @@ function Get-Tipo {
     [string]$Description
   )
 
-  $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
+  $summaryText = (Repair-Mojibake $Summary).ToLowerInvariant()
+  $descriptionText = (Repair-Mojibake $Description).ToLowerInvariant()
+  $text = ($summaryText + ' ' + $descriptionText).ToLowerInvariant()
+  $homeworkPattern = 'tarefa|atividade|exercicio|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa|pagina|caderno|finalizar|copiar|estudar|proxima aula|próxima aula|entrega|trabalho'
+  $assessmentPattern = '2\S*\s*chamada|miniteste|prova|teste|avaliacao|avaliação|simulado'
+  $looksLikeClassEntry = $summaryText -match '^(lp|mat|hist|geo|cien|eng|e\.\s*rel|pec|plic|red|emo)\b'
 
-  if ($text -match '2\S*\s*chamada|miniteste|prova|teste|avaliacao|avaliação|simulado') {
+  if ($summaryText -match $assessmentPattern) {
     return 'prova'
   }
 
@@ -191,7 +196,11 @@ function Get-Tipo {
     return 'evento'
   }
 
-  if ($text -match 'tarefa|atividade|exercicio|leitura|pesquisa|trazer|folha|livro|homework|hw|para casa|pagina|caderno') {
+  if ($looksLikeClassEntry -and $descriptionText -match $homeworkPattern) {
+    return 'tarefa'
+  }
+
+  if ($descriptionText -match $homeworkPattern) {
     return 'tarefa'
   }
 
