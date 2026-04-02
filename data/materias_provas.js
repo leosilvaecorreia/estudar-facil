@@ -54,7 +54,7 @@ window.__MATERIAS_PROVAS_DATA = {
     },
     {
       "titulo_prova": "PROVA DE MATEM\u00c1TICA",
-      "data": "2026-04-16",
+      "data": "2026-04-10",
       "materia": "Matem\u00e1tica",
       "conteudos": [
         "N\u00fameros com 2 classes e 6 ordens: escrita por extenso, decomposi\u00e7\u00e3o, valor posicional e sucessor de um n\u00famero",
@@ -70,7 +70,7 @@ window.__MATERIAS_PROVAS_DATA = {
     },
     {
       "titulo_prova": "PROVA DE CI\u00caNCIAS NATURAIS",
-      "data": "2026-04-17",
+      "data": "2026-04-13",
       "materia": "Ci\u00eancias",
       "conteudos": [
         "Livro did\u00e1tico - Unidade 1: Um mundo que n\u00e3o enxergamos",

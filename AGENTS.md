@@ -360,6 +360,9 @@ Regras oficiais de tipo no calendario:
 - deve existir um espelho `data/materias_provas.js` para a home funcionar tambem quando aberta direto do arquivo local
 - esse arquivo deve ser preenchido manualmente a partir do que os professores publicarem no Google Sala de Aula
 - cada item deve ser associado a uma prova por `titulo_prova`, `materia` e `data`
+- antes de cadastrar uma nova materia da prova, confirmar a data exata da prova no calendario atual (`data/tarefas.json`) ou no card ja exibido na home
+- nao assumir a data por memoria, sequencia de provas ou previsao; o vinculo do botao depende de coincidencia exata entre `titulo_prova`, `materia` e `data`
+- se a data cadastrada divergir da data vinda do calendario, o card da prova aparece, mas o botao `Materia da prova` nao aparece
 - quando houver conteudo cadastrado, a home deve mostrar o botao `Materia da prova` no card da prova
 - o conteudo deve seguir um padrao limpo e consistente, sem emojis
 - padronizar os itens como lista objetiva, com frases curtas
