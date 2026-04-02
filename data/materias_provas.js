@@ -51,6 +51,45 @@ window.__MATERIAS_PROVAS_DATA = {
         "Sin\u00f4nimos e ant\u00f4nimos",
         "Material de estudo: caderno, folhas, livro e caderno de atividades"
       ]
+    },
+    {
+      "titulo_prova": "PROVA DE MATEM\u00c1TICA",
+      "data": "2026-04-16",
+      "materia": "Matem\u00e1tica",
+      "conteudos": [
+        "N\u00fameros com 2 classes e 6 ordens: escrita por extenso, decomposi\u00e7\u00e3o, valor posicional e sucessor de um n\u00famero",
+        "N\u00fameros que indicam ordem",
+        "Sistema de numera\u00e7\u00e3o romano",
+        "Reta num\u00e9rica e arredondamento",
+        "Propriedades da adi\u00e7\u00e3o",
+        "Termo desconhecido da adi\u00e7\u00e3o e da subtra\u00e7\u00e3o",
+        "Problemas com adi\u00e7\u00e3o, subtra\u00e7\u00e3o e multiplica\u00e7\u00e3o",
+        "Express\u00e3o com adi\u00e7\u00e3o, subtra\u00e7\u00e3o e multiplica\u00e7\u00e3o",
+        "Material de estudo: listas, caderno e livro"
+      ]
+    },
+    {
+      "titulo_prova": "PROVA DE CI\u00caNCIAS NATURAIS",
+      "data": "2026-04-17",
+      "materia": "Ci\u00eancias",
+      "conteudos": [
+        "Livro did\u00e1tico - Unidade 1: Um mundo que n\u00e3o enxergamos",
+        "O que s\u00e3o microrganismos",
+        "Diferentes tipos de microrganismos",
+        "Observando os microrganismos",
+        "Microrganismos e o ambiente",
+        "Produ\u00e7\u00e3o de g\u00e1s oxig\u00eanio",
+        "Microrganismos e os seres humanos",
+        "Microbiota",
+        "Produ\u00e7\u00e3o de alimentos",
+        "Produ\u00e7\u00e3o de combust\u00edveis, medicamentos e vacinas",
+        "Livro did\u00e1tico - Unidade 2: Nada de ficar doente!",
+        "O mundo microsc\u00f3pico e as doen\u00e7as",
+        "V\u00edrus",
+        "Bact\u00e9rias",
+        "Protozo\u00e1rios",
+        "Fungos"
+      ]
     }
   ]
 };
