@@ -341,6 +341,7 @@ Regras oficiais de tipo no calendario:
 - tudo que aparecer como `FELITROCA`, `STEAM`, `FELICITA`, `RECESSO ESCOLAR`, `FERIADO`, `HOMENAGEM`, `VOLTA AS AULAS`, `EXPOSICAO` e equivalentes deve ser tratado como `evento`
 - para `evento` e `aviso`, exibir somente o titulo, sem transformar a descricao longa em titulo
 - ao identificar a materia, priorizar a sigla e o resumo original do evento antes de palavras soltas no corpo da descricao
+- agendamentos com `prova`, `avaliacao` ou termos parecidos apenas no corpo da descricao nao devem entrar em `Proximas provas`; para isso, o indicio de avaliacao deve estar no titulo ou resumo original do evento
 
 ## Regras De Exibicao Das Tarefas
 
