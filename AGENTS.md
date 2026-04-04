@@ -453,6 +453,18 @@ Ao atualizar essa area:
 - preferir esse fluxo local do usuario em vez de depender de servidores improvisados do ambiente do agente
 - esse servidor local deve ser usado sempre que for necessario validar a home, a agenda ou qualquer comportamento que dependa de carregamento de arquivos locais
 
+## Rotina Computador De Casa
+
+- quando o usuario disser que esta no `computador de casa`, a primeira acao obrigatoria deve ser atualizar o repositorio com o Git remoto antes de qualquer outra tarefa
+- quando o usuario disser que esta no `computador de casa`, seguir sempre esta sequencia:
+  1. atualizar repositório com `git pull --ff-only origin main`
+  2. validar Python com `python --version` ou `py --version`
+  3. se o alias `python` falhar, usar o executavel direto `C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe`
+  4. iniciar servidor com `python .\python.py` (ou com o caminho completo do item anterior)
+  5. confirmar acesso local em `http://127.0.0.1:8000`
+- esse `git pull --ff-only origin main` deve acontecer mesmo quando o pedido principal for outro, para garantir que o agente trabalhe sobre a versao mais recente
+- para execucao rapida dessa rotina, preferir o script `scripts\home_bootstrap.ps1`
+
 ## O Que Evitar
 
 - resumos genericos desconectados do que a escola cobra

@@ -237,6 +237,66 @@ function Get-NextSchoolDay {
   return $candidate.Date
 }
 
+function Is-NonClassDayEvent {
+  param(
+    [string]$Summary,
+    [string]$Description
+  )
+
+  $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
+  return $text -match 'recesso escolar|recesso|feriado|quinta-feira santa|sexta-feira santa|sem aula|nao havera aula|não haverá aula'
+}
+
+function Get-NonClassDates {
+  param(
+    [object[]]$Events,
+    [datetime]$EarliestDate,
+    [datetime]$LatestDate
+  )
+
+  $set = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::Ordinal)
+
+  foreach ($event in $Events) {
+    $summary = Normalize-KnownSchoolTerms (Normalize-Text (Get-FieldValue -Event $event -Candidates @('SUMMARY')))
+    $description = Normalize-KnownSchoolTerms (Normalize-Text (Get-FieldValue -Event $event -Candidates @('DESCRIPTION')))
+
+    if (-not (Is-NonClassDayEvent -Summary $summary -Description $description)) {
+      continue
+    }
+
+    $startRaw = Get-FieldValue -Event $event -Candidates @('DTSTART;VALUE=DATE', 'DTSTART')
+    if ($null -eq $startRaw) {
+      continue
+    }
+
+    $startDate = Parse-IcsDate $startRaw
+    if ($null -eq $startDate) {
+      continue
+    }
+
+    $endRaw = Get-FieldValue -Event $event -Candidates @('DTEND;VALUE=DATE', 'DTEND')
+    $endDate = $null
+    if ($endRaw) {
+      $endDate = Parse-IcsDate $endRaw
+    }
+
+    $cursor = $startDate.Date
+    $endExclusive = if ($null -ne $endDate) { $endDate.Date } else { $startDate.Date.AddDays(1) }
+    if ($endExclusive -le $cursor) {
+      $endExclusive = $cursor.AddDays(1)
+    }
+
+    while ($cursor -lt $endExclusive) {
+      if ($cursor -ge $EarliestDate.Date -and $cursor -le $LatestDate.Date) {
+        $null = $set.Add($cursor.ToString('yyyy-MM-dd'))
+      }
+      $cursor = $cursor.AddDays(1)
+    }
+  }
+
+  return $set
+}
+
 function Get-ExplicitDates {
   param(
     [datetime]$EventDate,
@@ -280,7 +340,8 @@ function Get-Prazos {
   param(
     [datetime]$EventDate,
     [string]$Description,
-    [string]$Tipo
+    [string]$Tipo,
+    [System.Collections.Generic.HashSet[string]]$NoClassDates
   )
 
   $baseDate = $EventDate.Date
@@ -300,7 +361,11 @@ function Get-Prazos {
   }
 
   if ($Tipo -eq 'tarefa') {
-    return @((Get-NextSchoolDay -BaseDate $baseDate))
+    $candidate = Get-NextSchoolDay -BaseDate $baseDate
+    while ($NoClassDates.Contains($candidate.ToString('yyyy-MM-dd'))) {
+      $candidate = Get-NextSchoolDay -BaseDate $candidate
+    }
+    return @($candidate)
   }
 
   return @($baseDate)
@@ -419,6 +484,7 @@ $rawEvents = Convert-IcsToEvents -IcsContent $icsContent
 $today = (Get-Date).Date
 $earliestRelevantDate = $today.AddDays(-1 * $LookbackDays)
 $limit = $today.AddDays($DaysAhead)
+$noClassDates = Get-NonClassDates -Events $rawEvents -EarliestDate $earliestRelevantDate -LatestDate $limit
 $items = New-Object System.Collections.Generic.List[object]
 
 foreach ($event in $rawEvents) {
@@ -457,7 +523,7 @@ foreach ($event in $rawEvents) {
   }
 
   $titulo = Get-Titulo -Summary $summary -Description $description -Tipo $tipo
-  $prazos = @(Get-Prazos -EventDate $startDate -Description $description -Tipo $tipo)
+  $prazos = @(Get-Prazos -EventDate $startDate -Description $description -Tipo $tipo -NoClassDates $noClassDates)
 
   foreach ($prazo in $prazos) {
     if ($prazo.Date -lt $today) {
