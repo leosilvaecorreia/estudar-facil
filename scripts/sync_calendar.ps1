@@ -120,6 +120,55 @@ function Get-FieldValue {
   return $null
 }
 
+function Get-CreatorEmail {
+  param(
+    [hashtable]$Event,
+    [string]$Summary,
+    [string]$Description
+  )
+
+  foreach ($key in $Event.Keys) {
+    $keyText = [string]$key
+    if ($keyText -notmatch '^(ORGANIZER|CREATOR|X-ORGANIZER|X-CREATOR|X-GOOGLE-ORGANIZER|X-GOOGLE-CREATOR)') {
+      continue
+    }
+
+    $value = [string]$Event[$key]
+    $combined = $keyText + ' ' + $value
+    $emailMatch = [System.Text.RegularExpressions.Regex]::Match($combined, '(?i)[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}')
+    if ($emailMatch.Success) {
+      return $emailMatch.Value.ToLowerInvariant()
+    }
+  }
+
+  $fallbackText = (Repair-Mojibake ($Summary + ' ' + $Description))
+  $fallbackMatch = [System.Text.RegularExpressions.Regex]::Match($fallbackText, '(?i)[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}')
+  if ($fallbackMatch.Success) {
+    return $fallbackMatch.Value.ToLowerInvariant()
+  }
+
+  return ''
+}
+
+function Get-MateriaByTeacherRule {
+  param(
+    [string]$CreatorEmail,
+    [string]$Summary,
+    [string]$Description
+  )
+
+  if ($CreatorEmail -ne 'claudia.reis@csanl.com.br' -and $CreatorEmail -ne 'claudia.reis@csanl') {
+    return $null
+  }
+
+  $text = (Repair-Mojibake ($Summary + ' ' + $Description)).ToLowerInvariant()
+  if ($text -match 'science|sci\b|cien|ci[eê]ncias') {
+    return 'Ciências'
+  }
+
+  return 'Inglês'
+}
+
 function Get-Materia {
   param(
     [string]$Summary,
@@ -161,6 +210,10 @@ function Get-Materia {
     return 'Inglês'
   }
 
+  if ($text.Contains('activity book') -or $text.Contains('student book') -or $text.Contains('activity and student books')) {
+    return 'Inglês'
+  }
+
   if ($text.Contains('ensino religioso') -or $text.Contains('religioso') -or $text.Contains('e. rel')) {
     return 'Ensino Religioso'
   }
@@ -193,7 +246,7 @@ function Get-Tipo {
     return 'prova'
   }
 
-  if ($text -match 'steam|felitroca|felicita|feira liter|recesso escolar|recesso|feriado|homenagem|volta as aulas|exposicao|encerramento|feira|sabado|domingo|quinta-feira santa|sexta-feira santa|pascoa') {
+  if ($text -match 'steam|felitroca|felicita|feira liter|recesso escolar|recesso|feriado|homenagem|volta as aulas|exposicao|encerramento|sabado|domingo|quinta-feira santa|sexta-feira santa|pascoa') {
     return 'evento'
   }
 
@@ -308,7 +361,27 @@ function Get-ExplicitDates {
     $Description,
     '(?<!\d)([0-3O]?\d)/([0-1]?\d)(?!\d)'
   )
+  $matchesByMonthName = [System.Text.RegularExpressions.Regex]::Matches(
+    $Description,
+    '(?<!\d)([0-3O]?\d)\s+de\s+(janeiro|fevereiro|marco|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\b',
+    [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+  )
   $dates = New-Object System.Collections.Generic.List[datetime]
+  $monthMap = @{
+    'janeiro' = 1
+    'fevereiro' = 2
+    'marco' = 3
+    'março' = 3
+    'abril' = 4
+    'maio' = 5
+    'junho' = 6
+    'julho' = 7
+    'agosto' = 8
+    'setembro' = 9
+    'outubro' = 10
+    'novembro' = 11
+    'dezembro' = 12
+  }
 
   foreach ($match in $matches) {
     $dayText = $match.Groups[1].Value.ToUpperInvariant().Replace('O', '0')
@@ -317,6 +390,33 @@ function Get-ExplicitDates {
     try {
       $day = [int]$dayText
       $month = [int]$monthText
+      $year = $baseDate.Year
+      $parsed = Get-Date -Year $year -Month $month -Day $day
+
+      if ($parsed.Date -lt $baseDate.AddDays(-7)) {
+        $parsed = $parsed.AddYears(1)
+      }
+
+      if (-not $dates.Contains($parsed.Date)) {
+        $dates.Add($parsed.Date)
+      }
+    }
+    catch {
+      continue
+    }
+  }
+
+  foreach ($match in $matchesByMonthName) {
+    $dayText = $match.Groups[1].Value.ToUpperInvariant().Replace('O', '0')
+    $monthName = $match.Groups[2].Value.ToLowerInvariant()
+
+    if (-not $monthMap.ContainsKey($monthName)) {
+      continue
+    }
+
+    try {
+      $day = [int]$dayText
+      $month = [int]$monthMap[$monthName]
       $year = $baseDate.Year
       $parsed = Get-Date -Year $year -Month $month -Day $day
 
@@ -508,6 +608,7 @@ foreach ($event in $rawEvents) {
   $uid = Get-FieldValue -Event $event -Candidates @('UID')
   $tipo = Get-Tipo -Summary $summary -Description $description
   $combinedText = (Repair-Mojibake ($summary + ' ' + $description)).ToLowerInvariant()
+  $creatorEmail = Get-CreatorEmail -Event $event -Summary $summary -Description $description
 
   if ($combinedText -match 'steam|felitroca|felicita|feira liter|recesso|feriado|homenagem|volta as aulas|exposicao|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa') {
     $tipo = 'evento'
@@ -518,6 +619,10 @@ foreach ($event in $rawEvents) {
   }
 
   $materia = Get-Materia -Summary $summary -Description $description
+  $teacherMateriaOverride = Get-MateriaByTeacherRule -CreatorEmail $creatorEmail -Summary $summary -Description $description
+  if ($tipo -eq 'tarefa' -and $null -ne $teacherMateriaOverride) {
+    $materia = $teacherMateriaOverride
+  }
   if ($combinedText -match 'steam|felitroca|felicita|feira liter|recesso|feriado|homenagem|volta as aulas|exposicao|quinta-feira santa|sexta-feira santa|sabado de aleluia|pascoa') {
     $materia = 'Geral'
   }
