@@ -447,17 +447,46 @@ function Get-Prazos {
   $baseDate = $EventDate.Date
   $text = (Repair-Mojibake $Description).ToLowerInvariant()
   $explicitDates = @(Get-ExplicitDates -EventDate $EventDate -Description $Description)
+  $dateMap = [System.Collections.Generic.Dictionary[string, datetime]]::new([System.StringComparer]::Ordinal)
 
-  if ($explicitDates.Count -gt 0) {
-    return $explicitDates
+  foreach ($date in $explicitDates) {
+    $dateMap[$date.ToString('yyyy-MM-dd')] = $date.Date
   }
 
   if ($text -match '\bamanha\b') {
-    return @($baseDate.AddDays(1))
+    $relativeTomorrow = $baseDate.AddDays(1).Date
+    $dateMap[$relativeTomorrow.ToString('yyyy-MM-dd')] = $relativeTomorrow
   }
 
   if ($text -match '\bhoje\b') {
-    return @($baseDate)
+    $dateMap[$baseDate.ToString('yyyy-MM-dd')] = $baseDate
+  }
+
+  if ($Tipo -eq 'tarefa' -and $explicitDates.Count -gt 0) {
+    $taskChunks = [System.Text.RegularExpressions.Regex]::Split($text, '[\.\!\?;\n]+') | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+    $taskPattern = 'finalizar|fazer|realizar|trazer|estudar|lista|folha|pagina|página|caderno|livro|atividade|homework|para casa|entrega'
+    $datePattern = '(?<!\d)([0-3O]?\d)/([0-1]?\d)(?!\d)|(?<!\d)([0-3O]?\d)\s+de\s+(janeiro|fevereiro|marco|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\b'
+    $relativePattern = '\bamanha\b|\bhoje\b'
+
+    $hasTaskWithoutDate = $false
+    foreach ($chunk in $taskChunks) {
+      if ($chunk -match $taskPattern -and $chunk -notmatch $datePattern -and $chunk -notmatch $relativePattern) {
+        $hasTaskWithoutDate = $true
+        break
+      }
+    }
+
+    if ($hasTaskWithoutDate) {
+      $candidate = Get-NextSchoolDay -BaseDate $baseDate
+      while ($NoClassDates.Contains($candidate.ToString('yyyy-MM-dd'))) {
+        $candidate = Get-NextSchoolDay -BaseDate $candidate
+      }
+      $dateMap[$candidate.ToString('yyyy-MM-dd')] = $candidate.Date
+    }
+  }
+
+  if ($dateMap.Count -gt 0) {
+    return @($dateMap.Values | Sort-Object)
   }
 
   if ($Tipo -eq 'tarefa') {
