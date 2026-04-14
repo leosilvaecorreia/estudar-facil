@@ -65,9 +65,15 @@
   header h1 { font-family: 'Fredoka One', cursive; font-size: 2rem; color: white; letter-spacing: 1px; position: relative; }
   header p  { color: rgba(255,255,255,.55); font-size: .88rem; margin-top: 4px; position: relative; }
 
+  .tabs-scroll {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; padding: 20px 16px 12px;
+  }
+  .tabs-scroll::-webkit-scrollbar { display: none; }
   .tabs {
-    display: flex; justify-content: center; gap: 8px;
-    flex-wrap: wrap; padding: 20px 16px 12px;
+    display: inline-flex; gap: 8px;
+    flex-wrap: nowrap; width: max-content; min-width: max-content;
+    justify-content: flex-start; margin: 0;
   }
   .tab-btn {
     font-family: 'Fredoka One', cursive; font-size: 1rem;
@@ -262,6 +268,7 @@
   }
   @media(max-width:500px) {
     header h1 { font-size:1.5rem; }
+    .tabs-scroll { padding: 16px 12px 10px; }
     .cards-grid { grid-template-columns:1fr; }
     .resultado-placar { font-size:2.4rem; }
   }
@@ -276,6 +283,7 @@
   <p>Primeiros Humanos · Nômades · Sedentários · Colonização · Africanos · 4º Ano</p>
 </header>
 
+<div class="tabs-scroll">
 <div class="tabs">
   <button class="tab-btn active" data-tab="origem">🦴 Origem</button>
   <button class="tab-btn" data-tab="nomades">🚶 Nômades</button>
@@ -285,6 +293,7 @@
   <button class="tab-btn" data-tab="africanos">⛓️ Africanos</button>
   <button class="tab-btn" data-tab="quiz" data-home-ignore="true">⭐ Quiz</button>
   <button class="tab-btn" data-tab="resumo" data-home-ignore="true">🖨️ Resumo</button>
+</div>
 </div>
 
 <!-- ══════════════════════════════════════
