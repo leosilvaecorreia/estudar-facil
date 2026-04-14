@@ -70,6 +70,26 @@ O fluxo padrao deste projeto para envio ao GitHub e:
    - push da branch
    - merge na `main`
 
+Fluxo operacional preferencial para reduzir erros e retrabalho:
+
+1. manter o trabalho em um branch de tarefa, nunca direto na `main`
+2. antes do commit final, sincronizar o branch com `origin/main`
+3. usar o script `scripts/publish_task.ps1` sempre que a publicacao seguir o fluxo padrao
+4. deixar o script fazer, em ordem:
+   - `git fetch origin main`
+   - `git rebase origin/main`
+   - `git commit`
+   - `git push -u origin <branch>`
+   - `git checkout main`
+   - `git pull --ff-only origin main`
+   - `git merge --ff-only <branch>`
+   - `git push origin main`
+
+Exemplo de uso:
+
+- `powershell -ExecutionPolicy Bypass -File .\scripts\publish_task.ps1 -CommitMessage "Corrige menu mobile da pagina de Historia" -Files flashcards_historia.html`
+- quando for intencional publicar tudo do escopo atual, usar `-StageAll`
+
 ## Regras De Publicacao
 
 - Nao fazer commit sem resumo previo.
@@ -79,6 +99,8 @@ O fluxo padrao deste projeto para envio ao GitHub e:
 - Se houver bloqueio tecnico no fluxo de publicacao, explicar claramente o que faltou e em qual etapa.
 - Nao executar em paralelo comandos Git que dependem de ordem, como `checkout`, `add`, `commit`, `merge`, `rebase`, `pull`, `push` e validacoes do branch atual.
 - Em fluxos de publicacao, tratar mudanca de branch, staging, commit, merge e push como etapas sequenciais.
+- Preferir `git fetch origin main` seguido de `git rebase origin/main` ainda no branch da tarefa, antes de trocar para `main`.
+- Preferir o script `scripts/publish_task.ps1` em vez de reproduzir o fluxo manualmente quando nao houver excecao.
 - Antes de `commit`, confirmar explicitamente o branch atual e o estado do staging quando tiver havido troca recente de branch.
 - Antes de `merge`, confirmar explicitamente que o branch atual e a `main` e que o commit esperado esta no branch da tarefa.
 - Nunca usar execucao paralela para etapas de publicacao que alterem o estado do repositorio.

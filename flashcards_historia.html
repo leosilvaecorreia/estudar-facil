@@ -797,8 +797,8 @@
       </div>
       <div class="card c-laranja" style="box-shadow:0 4px 0 rgba(0,0,0,.15)">
         <span class="card-icon">⚙️</span>
-        <div class="card-name" style="font-size:1.05rem">Local de Produção</div>
-        <div class="card-rule" style="font-size:.83rem"><strong>Casa da moenda</strong> + <strong>fornalha</strong> + <strong>casa de purgar</strong>.</div>
+        <div class="card-name" style="font-size:1.05rem">Engenho</div>
+        <div class="card-rule" style="font-size:.83rem"><strong>Engenho</strong>: local de produ��o do a��car, com <strong>casa da moenda</strong> + <strong>fornalha</strong> + <strong>casa de purgar</strong>.</div>
       </div>
     </div>
   </div>
@@ -1222,7 +1222,14 @@ function nivelLabel(i, total) {
   return '🔴 Difícil';
 }
 
-function escapar(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
+function escaparHtml(s) {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
 
 function renderPergunta() {
   const area = document.getElementById('quiz-area');
@@ -1245,11 +1252,17 @@ function renderPergunta() {
         <span class="quiz-categoria" style="background:${q.cor}">${q.tema}</span>
       </div>
       <div class="opcoes">
-        ${opcEmbaralhadas.map(o => `<button class="opcao-btn" onclick="responder(this,'${escapar(o)}','${escapar(q.certo)}')">${o}</button>`).join('')}
+        ${opcEmbaralhadas.map((o, i) => `<button class="opcao-btn" data-opcao-idx="${i}">${escaparHtml(o)}</button>`).join('')}
       </div>
       <div class="feedback-box" id="feedback"></div>
       <button class="btn-proximo" id="btn-prox" onclick="avancar()">Próxima →</button>
     </div>`;
+  area.querySelectorAll('.opcao-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const opcao = opcEmbaralhadas[Number(btn.dataset.opcaoIdx)];
+      responder(btn, opcao, q.certo);
+    });
+  });
 }
 
 function responder(btn, escolha, certo) {
@@ -1393,7 +1406,7 @@ const secoes = {
   <li><b>Casa-grande</b>: moradia do senhor e família</li>
   <li><b>Senzala</b>: moradia dos escravizados — rústica e precária</li>
   <li><b>Capela</b>: celebrações religiosas</li>
-  <li><b>Local de produção</b>: casa da moenda + fornalha + casa de purgar</li>
+  <li><b>Engenho</b>: local de produ��o do a��car, com casa da moenda + fornalha + casa de purgar</li>
 </ul>
 <h3>Produção do Açúcar — em ordem</h3>
 <p>(1) Colheita com queimada → (2) Casa da moenda: espremer = caldo → (3) Fornalhas: cozinhar = melaço → (4) Casa de purgar: coar e endurecer ~2 meses = pão de açúcar → embalado e exportado para a Europa</p>`,
