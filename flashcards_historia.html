@@ -71,8 +71,9 @@
   }
   .tabs-scroll::-webkit-scrollbar { display: none; }
   .tabs {
-    display: flex; justify-content: center; gap: 8px;
-    flex-wrap: nowrap; width: max-content; min-width: 100%; margin: 0 auto;
+    display: inline-flex; gap: 8px;
+    flex-wrap: nowrap; width: max-content; min-width: max-content;
+    justify-content: flex-start; margin: 0;
   }
   .tab-btn {
     font-family: 'Fredoka One', cursive; font-size: 1rem;
@@ -265,6 +266,7 @@
   }
   @media(max-width:500px) {
     header h1 { font-size:1.5rem; }
+    .tabs-scroll { padding: 16px 12px 10px; }
     .cards-grid { grid-template-columns:1fr; }
     .resultado-placar { font-size:2.4rem; }
   }
