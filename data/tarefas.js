@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-15T05:03:42-03:00",
+  "gerado_em": "2026-04-15T06:47:46-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,84 +15,6 @@
     "eventos": 8
   },
   "itens": [
-    {
-      "id": "4crofu8gg6s84pk9oa0fb29bv3@google.com#2026-04-15",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Livro de Ciências (livrão)⇢leitura das páginas 50 e 51. ✍🏻 Realizar o exercício número 1 da página 51. ⚠️ Trazer o livro na próxima aula(15/04).",
-      "descricao": "📗Livro de Ciências (livrão)⇢leitura das páginas 50 e 51. ✍🏻 Realizar o exercício número 1 da página 51. ⚠️ Trazer o livro na próxima aula(15/04).",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-04-13",
-      "prazo": "2026-04-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0lqao7n56lieqs02ec6iu7j9c0@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "Para amanhã (15.04): 1. Continuar estudando para a prova. 2. Trazer caderno, livro e caderno de atividades. 3. Trazer um livro, gibi ou revista para ler após o término da prova.",
-      "descricao": "Para amanhã (15.04): 1. Continuar estudando para a prova. 2. Trazer caderno, livro e caderno de atividades. 3. Trazer um livro, gibi ou revista para ler após o término da prova.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-14",
-      "prazo": "2026-04-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ed27mcce6uaa0kk2rm6hu4h5h@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA DE GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "PROVA DE GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-17",
-      "prazo": "2026-04-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "5uof5mqsth1310mckbacnlsavq@google.com",
       "tipo": "prova",
@@ -120,6 +42,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0ed27mcce6uaa0kk2rm6hu4h5h@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA DE GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "PROVA DE GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-17",
+      "prazo": "2026-04-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -130,19 +65,6 @@
       "data_evento": "2026-05-10",
       "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "46vq8blp4pebebo44bh442ufdb@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA DE LÍNGUA PORTUGUESA",
-      "descricao": "",
-      "resumo_original": "PROVA DE LÍNGUA PORTUGUESA",
-      "local": "",
-      "data_evento": "2026-04-15",
-      "prazo": "2026-04-15",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -159,6 +81,71 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "68jd0pk432o389kc4tf3rrnp8j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-04-20",
+      "prazo": "2026-04-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4crofu8gg6s84pk9oa0fb29bv3@google.com#2026-04-15",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências (livrão)⇢leitura das páginas 50 e 51. ✍🏻 Realizar o exercício número 1 da página 51. ⚠️ Trazer o livro na próxima aula(15/04).",
+      "descricao": "📗Livro de Ciências (livrão)⇢leitura das páginas 50 e 51. ✍🏻 Realizar o exercício número 1 da página 51. ⚠️ Trazer o livro na próxima aula(15/04).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-04-13",
+      "prazo": "2026-04-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0lqao7n56lieqs02ec6iu7j9c0@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "Para amanhã (15.04): 1. Continuar estudando para a prova. 2. Trazer caderno, livro e caderno de atividades. 3. Trazer um livro, gibi ou revista para ler após o término da prova.",
+      "descricao": "Para amanhã (15.04): 1. Continuar estudando para a prova. 2. Trazer caderno, livro e caderno de atividades. 3. Trazer um livro, gibi ou revista para ler após o término da prova.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-14",
+      "prazo": "2026-04-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -169,6 +156,19 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "46vq8blp4pebebo44bh442ufdb@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA DE LÍNGUA PORTUGUESA",
+      "descricao": "",
+      "resumo_original": "PROVA DE LÍNGUA PORTUGUESA",
+      "local": "",
+      "data_evento": "2026-04-15",
+      "prazo": "2026-04-15",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -198,16 +198,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68jd0pk432o389kc4tf3rrnp8j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
       "local": "",
-      "data_evento": "2026-04-20",
-      "prazo": "2026-04-20",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-28",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
