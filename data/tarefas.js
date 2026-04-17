@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-17T19:59:07-03:00",
+  "gerado_em": "2026-04-17T20:54:11-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -26,6 +39,71 @@
       "data_evento": "2026-05-10",
       "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "02pvvr23ciosmrpc8oam543iqn@google.com#2026-04-22",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
+      "descricao": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-04-16",
+      "prazo": "2026-04-22",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "descricao": "",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "local": "",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0ed27mcce6uaa0kk2rm6hu4h5h@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA DE GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "PROVA DE GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-17",
+      "prazo": "2026-04-17",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -42,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "68jd0pk432o389kc4tf3rrnp8j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-04-20",
+      "prazo": "2026-04-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "44ks5aild7une8bar74subc2tk@google.com",
       "tipo": "evento",
       "materia": "Matemática",
@@ -55,19 +146,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "3ecaq18dts40cuush0k0uc9sbk@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -77,6 +155,58 @@
       "local": "",
       "data_evento": "2026-04-21",
       "prazo": "2026-04-21",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "52kvgfq07obgqd6vme30jj47rf@google.com#2027-03-25",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FELITROCA (escolha dos livros)",
+      "descricao": "Assunto: FELITROCA Como parte da programação da nossa feira literária , teremos novamente a tradicional FELITROCA , uma iniciativa que promove a troca de livros entre os alunos. A FELITROCA é uma atividade que vai muito além da simples troca de exemplares: - Estimula o acesso à leitura, permitindo que cada estudante descubra novas histórias e autores. - Incentiva o consumo sustentável, já que os livros ganham novos leitores e continuam circulando. - Fortalece a integração entre os estudantes, criando um espaço de partilha, diálogo e valorização da cultura. REGRAS PARA A TROCA - Os materiais trazidos para a troca devem estar em bom estado de conservação. (Não podem estar rasgados, rabiscados, marcados com marca texto, sujos ou faltando páginas.) - São permitidos livros de literatura nacional, infantil e infanto‐juvenil. - Não serão aceitos materiais didáticos, livros de cunho político/partidário, livros de conteúdo inadequado, dicionários, revistas, enciclopédias e jornais. (Se houver muitos livros com o mesmo título, ele poderá ser recusado para a troca.) - Cada aluno poderá trazer 1 livro para a troca. - A entrega do livro ocorrerá no período de 25 de março a 01 de abril. - Na entrega do livro, o aluno receberá um “VALE-LIVRO” para a “TROCA”, que acontecerá no período de 06 a 10 de abril. - A troca será de livro por livro, sendo: 1 livro Literatura infantil por 1 livro Literatura infantil. 1 livro Literatura infanto-juvenil por 1 livro Literatura infanto-juvenil.",
+      "resumo_original": "FELITROCA (escolha dos livros)",
+      "local": "",
+      "data_evento": "2026-04-06",
+      "prazo": "2027-03-25",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "70foa4dv5fhhffrk9duuuu7k8t@google.com",
+      "tipo": "tarefa",
+      "materia": "Pensamento Computacional",
+      "titulo": "Aula 09 realizada no Laboratório de PeC, na qual os alunos acessaram a plataforma do Google Classroom e escolheram entre uma das opções da atividade \"Criando Tecnologias Sustentáveis\" para responder o exercício, com base na discussão realizada na aula de hoje e da aula 08 .",
+      "descricao": "Aula 09 realizada no Laboratório de PeC, na qual os alunos acessaram a plataforma do Google Classroom e escolheram entre uma das opções da atividade \"Criando Tecnologias Sustentáveis\" para responder o exercício, com base na discussão realizada na aula de hoje e da aula 08 .",
+      "resumo_original": "4A PeC",
+      "local": "",
+      "data_evento": "2026-04-17",
+      "prazo": "2026-04-17",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "75i3ap346opjeb9m70smab9k6crjebb268rj0bb16kpm8cj4cli36c9k6o@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "RED- 4A",
+      "descricao": "✍️🏼Finalizar a folha 12 para o dia 30.04 (5a feira). ⚠️Excepcionalmente, a aula de Redação que seria no dia 01.05 (feriado) ocorrerá no dia 30.04 (5a feira).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-04-17",
+      "prazo": "2026-04-17",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar as contas no caderno.",
+      "descricao": "Finalizar as contas no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-16",
+      "prazo": "2026-04-22",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -107,71 +237,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "70foa4dv5fhhffrk9duuuu7k8t@google.com",
-      "tipo": "tarefa",
-      "materia": "Pensamento Computacional",
-      "titulo": "Aula 09 realizada no Laboratório de PeC, na qual os alunos acessaram a plataforma do Google Classroom e escolheram entre uma das opções da atividade \"Criando Tecnologias Sustentáveis\" para responder o exercício, com base na discussão realizada na aula de hoje e da aula 08 .",
-      "descricao": "Aula 09 realizada no Laboratório de PeC, na qual os alunos acessaram a plataforma do Google Classroom e escolheram entre uma das opções da atividade \"Criando Tecnologias Sustentáveis\" para responder o exercício, com base na discussão realizada na aula de hoje e da aula 08 .",
-      "resumo_original": "4A PeC",
-      "local": "",
-      "data_evento": "2026-04-17",
-      "prazo": "2026-04-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68jd0pk432o389kc4tf3rrnp8j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-04-20",
-      "prazo": "2026-04-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -182,71 +247,6 @@
       "data_evento": "2026-05-02",
       "prazo": "2026-05-02",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar as contas no caderno.",
-      "descricao": "Finalizar as contas no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-16",
-      "prazo": "2026-04-22",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ed27mcce6uaa0kk2rm6hu4h5h@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA DE GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "PROVA DE GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-17",
-      "prazo": "2026-04-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "02pvvr23ciosmrpc8oam543iqn@google.com#2026-04-22",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
-      "descricao": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-04-16",
-      "prazo": "2026-04-22",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "52kvgfq07obgqd6vme30jj47rf@google.com#2027-03-25",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FELITROCA (escolha dos livros)",
-      "descricao": "Assunto: FELITROCA Como parte da programação da nossa feira literária , teremos novamente a tradicional FELITROCA , uma iniciativa que promove a troca de livros entre os alunos. A FELITROCA é uma atividade que vai muito além da simples troca de exemplares: - Estimula o acesso à leitura, permitindo que cada estudante descubra novas histórias e autores. - Incentiva o consumo sustentável, já que os livros ganham novos leitores e continuam circulando. - Fortalece a integração entre os estudantes, criando um espaço de partilha, diálogo e valorização da cultura. REGRAS PARA A TROCA - Os materiais trazidos para a troca devem estar em bom estado de conservação. (Não podem estar rasgados, rabiscados, marcados com marca texto, sujos ou faltando páginas.) - São permitidos livros de literatura nacional, infantil e infanto‐juvenil. - Não serão aceitos materiais didáticos, livros de cunho político/partidário, livros de conteúdo inadequado, dicionários, revistas, enciclopédias e jornais. (Se houver muitos livros com o mesmo título, ele poderá ser recusado para a troca.) - Cada aluno poderá trazer 1 livro para a troca. - A entrega do livro ocorrerá no período de 25 de março a 01 de abril. - Na entrega do livro, o aluno receberá um “VALE-LIVRO” para a “TROCA”, que acontecerá no período de 06 a 10 de abril. - A troca será de livro por livro, sendo: 1 livro Literatura infantil por 1 livro Literatura infantil. 1 livro Literatura infanto-juvenil por 1 livro Literatura infanto-juvenil.",
-      "resumo_original": "FELITROCA (escolha dos livros)",
-      "local": "",
-      "data_evento": "2026-04-06",
-      "prazo": "2027-03-25",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "75i3ap346opjeb9m70smab9k6crjebb268rj0bb16kpm8cj4cli36c9k6o@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "RED- 4A",
-      "descricao": "✍️🏼Finalizar a folha 12 para o dia 30.04 (5a feira). ⚠️Excepcionalmente, a aula de Redação que seria no dia 01.05 (feriado) ocorrerá no dia 30.04 (5a feira).",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-04-17",
-      "prazo": "2026-04-17",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
