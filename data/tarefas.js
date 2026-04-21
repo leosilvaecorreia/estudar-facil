@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-21T14:14:47-03:00",
+  "gerado_em": "2026-04-21T16:35:34-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (São Jorge)",
-      "descricao": "",
-      "resumo_original": "FERIADO (São Jorge)",
-      "local": "",
-      "data_evento": "2026-04-23",
-      "prazo": "2026-04-23",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -38,19 +25,6 @@
       "local": "",
       "data_evento": "2026-05-10",
       "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -68,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar as contas no caderno.",
-      "descricao": "Finalizar as contas no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-16",
-      "prazo": "2026-04-22",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -94,55 +55,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
       "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
-      "id": "02pvvr23ciosmrpc8oam543iqn@google.com#2026-04-22",
+      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
       "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
-      "descricao": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
-      "resumo_original": "PLIC 4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar as contas no caderno.",
+      "descricao": "Finalizar as contas no caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-04-16",
       "prazo": "2026-04-22",
       "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3ecaq18dts40cuush0k0uc9sbk@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Tiradentes)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Tiradentes)",
-      "local": "",
-      "data_evento": "2026-04-21",
-      "prazo": "2026-04-21",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -155,19 +90,6 @@
       "local": "",
       "data_evento": "2026-05-01",
       "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -185,6 +107,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "02pvvr23ciosmrpc8oam543iqn@google.com#2026-04-22",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
+      "descricao": "📚 PLIC - 16/04/2026 👀 Leia o livro escolhido. ✍🏻Realizar as atividades propostas no bloco⇢ página 03 ( exercícios 1 e 2 - letras A e B). ✅ Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. Coloque o título do livro escolhido e a data de hoje. 📝 Folha 05 - Caixa mágica de surpresa - exercícios 5 e 6.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-04-16",
+      "prazo": "2026-04-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "16tkge8g6d5d1l95fp630uh4hb@google.com",
       "tipo": "tarefa",
       "materia": "Redação",
@@ -195,6 +156,45 @@
       "data_evento": "2026-04-16",
       "prazo": "2026-04-22",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3ecaq18dts40cuush0k0uc9sbk@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Tiradentes)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Tiradentes)",
+      "local": "",
+      "data_evento": "2026-04-21",
+      "prazo": "2026-04-21",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (São Jorge)",
+      "descricao": "",
+      "resumo_original": "FERIADO (São Jorge)",
+      "local": "",
+      "data_evento": "2026-04-23",
+      "prazo": "2026-04-23",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
