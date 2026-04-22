@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-04-22T12:38:32-03:00",
+  "gerado_em": "2026-04-22T14:13:41-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,16 +16,16 @@
   },
   "itens": [
     {
-      "id": "16tkge8g6d5d1l95fp630uh4hb@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 11 para amanhã (17.04).",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 11 para amanhã (17.04).",
-      "resumo_original": "RED- 4A",
+      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (São Jorge)",
+      "descricao": "",
+      "resumo_original": "FERIADO (São Jorge)",
       "local": "",
-      "data_evento": "2026-04-16",
-      "prazo": "2026-04-22",
-      "urgencia": "hoje",
+      "data_evento": "2026-04-23",
+      "prazo": "2026-04-23",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -42,16 +42,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16tkge8g6d5d1l95fp630uh4hb@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 11 para amanhã (17.04).",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 11 para amanhã (17.04).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-04-16",
+      "prazo": "2026-04-22",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -81,6 +107,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "02pvvr23ciosmrpc8oam543iqn@google.com#2026-04-22",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
@@ -91,19 +130,6 @@
       "data_evento": "2026-04-16",
       "prazo": "2026-04-22",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -120,29 +146,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (São Jorge)",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
       "descricao": "",
-      "resumo_original": "FERIADO (São Jorge)",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
       "local": "",
-      "data_evento": "2026-04-23",
-      "prazo": "2026-04-23",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar as contas no caderno.",
-      "descricao": "Finalizar as contas no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-16",
-      "prazo": "2026-04-22",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -159,29 +172,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "5ushd4p522bh639jqsss5oc4m2@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar as contas no caderno.",
+      "descricao": "Finalizar as contas no caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-04-16",
+      "prazo": "2026-04-22",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
