@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-23T20:03:31-03:00",
+  "gerado_em": "2026-04-23T20:59:40-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -39,6 +26,32 @@
       "data_evento": "2026-04-23",
       "prazo": "2026-04-23",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "descricao": "",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "local": "",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -55,15 +68,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
       "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -94,28 +107,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "titulo": "Recesso Escolar",
       "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -133,16 +133,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
       "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
