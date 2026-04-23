@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-23T09:07:15-03:00",
+  "gerado_em": "2026-04-23T11:09:12-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,58 +16,6 @@
   },
   "itens": [
     {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (São Jorge)",
-      "descricao": "",
-      "resumo_original": "FERIADO (São Jorge)",
-      "local": "",
-      "data_evento": "2026-04-23",
-      "prazo": "2026-04-23",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -77,19 +25,6 @@
       "local": "",
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -120,16 +55,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-28",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -143,6 +104,45 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (São Jorge)",
+      "descricao": "",
+      "resumo_original": "FERIADO (São Jorge)",
+      "local": "",
+      "data_evento": "2026-04-23",
+      "prazo": "2026-04-23",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
