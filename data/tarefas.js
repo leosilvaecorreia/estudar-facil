@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-23T18:59:08-03:00",
+  "gerado_em": "2026-04-23T20:03:31-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,32 @@
     "eventos": 7
   },
   "itens": [
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (São Jorge)",
+      "descricao": "",
+      "resumo_original": "FERIADO (São Jorge)",
+      "local": "",
+      "data_evento": "2026-04-23",
+      "prazo": "2026-04-23",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
       "tipo": "prova",
@@ -42,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
       "descricao": "",
-      "resumo_original": "Dia das Mães",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
       "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -68,19 +94,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -94,16 +107,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
       "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -120,29 +133,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5i63q8h7mfl0lkffcrcahk0upu@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (São Jorge)",
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
       "descricao": "",
-      "resumo_original": "FERIADO (São Jorge)",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
       "local": "",
-      "data_evento": "2026-04-23",
-      "prazo": "2026-04-23",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
