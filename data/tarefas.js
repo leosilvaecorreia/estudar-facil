@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-23T07:44:02-03:00",
+  "gerado_em": "2026-04-23T09:07:15-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -39,32 +26,6 @@
       "data_evento": "2026-04-27",
       "prazo": "2026-04-27",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,15 +55,54 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -120,28 +120,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
       "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia das Mães",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
       "descricao": "",
-      "resumo_original": "Dia das Mães",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
       "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
