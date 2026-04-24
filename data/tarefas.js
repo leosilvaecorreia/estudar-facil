@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-24T18:02:53-03:00",
+  "gerado_em": "2026-04-24T18:59:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,32 +29,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -64,45 +38,6 @@
       "local": "",
       "data_evento": "2026-05-02",
       "prazo": "2026-05-02",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -120,6 +55,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "descricao": "",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "local": "",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -130,6 +91,45 @@
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-28",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
