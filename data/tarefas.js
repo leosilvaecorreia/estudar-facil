@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-27T17:17:46-03:00",
+  "gerado_em": "2026-04-27T19:04:42-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,15 +29,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "2qcj1mba6p85q6k9k427ptioqf@google.com",
+      "tipo": "evento",
+      "materia": "Português",
+      "titulo": "LP- 4A",
+      "descricao": "⚠️O gabarito da Prova de LP foi disponibilizado na plataforma.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -55,32 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -94,42 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia das Mães",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
       "descricao": "",
-      "resumo_original": "Dia das Mães",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
       "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2qcj1mba6p85q6k9k427ptioqf@google.com",
-      "tipo": "evento",
-      "materia": "Português",
-      "titulo": "LP- 4A",
-      "descricao": "⚠️O gabarito da Prova de LP foi disponibilizado na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -146,6 +107,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7pqdgh3km1ag7bud9deqe5dks2@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -156,6 +130,32 @@
       "data_evento": "2026-04-27",
       "prazo": "2026-04-28",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
