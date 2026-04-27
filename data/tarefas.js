@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-26T20:53:52-03:00",
+  "gerado_em": "2026-04-27T00:57:17-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,16 +16,16 @@
   },
   "itens": [
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -42,15 +42,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-27",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "descricao": "",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -77,7 +90,7 @@
       "local": "",
       "data_evento": "2026-04-28",
       "prazo": "2026-04-28",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -94,41 +107,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
       "titulo": "Recesso Escolar",
-      "descricao": "",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
       "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
