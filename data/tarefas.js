@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-28T14:01:26-03:00",
+  "gerado_em": "2026-04-28T15:49:23-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,29 +16,16 @@
   },
   "itens": [
     {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
       "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
       "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -55,14 +42,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-04-29",
+      "data_evento": "2026-04-28",
       "prazo": "2026-04-29",
       "urgencia": "amanha",
       "fonte": "google_calendar"
@@ -81,19 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7pqdgh3km1ag7bud9deqe5dks2@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -107,29 +81,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "titulo": "Dia das Mães",
       "descricao": "",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
       "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -146,16 +133,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
-      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
-      "resumo_original": "LP- 4A",
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
       "local": "",
-      "data_evento": "2026-04-28",
+      "data_evento": "2026-04-29",
       "prazo": "2026-04-29",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-28",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
