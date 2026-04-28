@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-28T15:49:23-03:00",
+  "gerado_em": "2026-04-28T17:38:15-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,8 +8,8 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 11,
-    "tarefas": 3,
+    "total_itens": 12,
+    "tarefas": 4,
     "provas": 2,
     "avisos": 0,
     "eventos": 6
@@ -29,16 +29,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
       "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "descricao": "",
       "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar atividades no caderno.",
+      "descricao": "Finalizar atividades no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-29",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -55,12 +81,64 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
+      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-28",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1a789okfcfda1qvrmmkft5okbi@google.com",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar atividades no caderno.",
-      "descricao": "Finalizar atividades no caderno.",
-      "resumo_original": "Mat 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "Atividade sobre as Religiões Monoteístas (folha 09) - Trazer na próxima aula para correção.",
+      "descricao": "Atividade sobre as Religiões Monoteístas (folha 09) - Trazer na próxima aula para correção.",
+      "resumo_original": "E. REL.-4A",
       "local": "",
       "data_evento": "2026-04-28",
       "prazo": "2026-04-29",
@@ -81,45 +159,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -130,32 +169,6 @@
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-29",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
