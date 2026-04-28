@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-27T21:05:29-03:00",
+  "gerado_em": "2026-04-28T01:02:40-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,39 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 11,
+    "total_itens": 9,
     "tarefas": 1,
-    "provas": 3,
+    "provas": 2,
     "avisos": 0,
-    "eventos": 7
+    "eventos": 6
   },
   "itens": [
-    {
-      "id": "2qcj1mba6p85q6k9k427ptioqf@google.com",
-      "tipo": "evento",
-      "materia": "Português",
-      "titulo": "LP- 4A",
-      "descricao": "⚠️O gabarito da Prova de LP foi disponibilizado na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
     {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
@@ -51,32 +25,6 @@
       "local": "",
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7pqdgh3km1ag7bud9deqe5dks2@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar as páginas 119 e 120 do livro.",
-      "descricao": "Finalizar as páginas 119 e 120 do livro.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-28",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -107,19 +55,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0ecspvnq9lnser4a94scnjsp5a@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: LÍNGUA PORTUGUESA, MATEMÁTICA e REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-27",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5uof5mqsth1310mckbacnlsavq@google.com",
       "tipo": "prova",
       "materia": "História",
@@ -129,7 +64,7 @@
       "local": "",
       "data_evento": "2026-04-29",
       "prazo": "2026-04-29",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -142,7 +77,20 @@
       "local": "",
       "data_evento": "2026-04-28",
       "prazo": "2026-04-28",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7pqdgh3km1ag7bud9deqe5dks2@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar as páginas 119 e 120 do livro.",
+      "descricao": "Finalizar as páginas 119 e 120 do livro.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-27",
+      "prazo": "2026-04-28",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -155,6 +103,32 @@
       "local": "",
       "data_evento": "2026-05-02",
       "prazo": "2026-05-02",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
