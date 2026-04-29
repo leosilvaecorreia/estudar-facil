@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-28T21:07:20-03:00",
+  "gerado_em": "2026-04-29T01:01:27-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,89 +8,37 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 12,
-    "tarefas": 4,
-    "provas": 2,
+    "total_itens": 10,
+    "tarefas": 3,
+    "provas": 1,
     "avisos": 0,
     "eventos": 6
   },
   "itens": [
     {
-      "id": "7pqdgh3km1ag7bud9deqe5dks2@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar as páginas 119 e 120 do livro.",
-      "descricao": "Finalizar as páginas 119 e 120 do livro.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-27",
-      "prazo": "2026-04-28",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar atividades no caderno.",
-      "descricao": "Finalizar atividades no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-29",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3dh7lrnmaulshm2a104m4he4dc@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: CIÊNCIAS NATURAIS, ENSINO RELIGIOSO e GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-28",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
-      "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
       "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
-      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-04-29",
+      "data_evento": "2026-04-28",
       "prazo": "2026-04-29",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -103,20 +51,7 @@
       "local": "",
       "data_evento": "2026-04-28",
       "prazo": "2026-04-29",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
-      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 53 a 57) deve trazê-la feita amanhã.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-29",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -146,16 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "id": "5uof5mqsth1310mckbacnlsavq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "2ª CHAMADA: HISTÓRIA e LÍNGUA INGLESA",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-29",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -169,6 +104,45 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar atividades no caderno.",
+      "descricao": "Finalizar atividades no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-29",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
