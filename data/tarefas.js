@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-04-30T06:23:30-03:00",
+  "gerado_em": "2026-04-30T08:52:11-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,84 +15,6 @@
     "eventos": 7
   },
   "itens": [
-    {
-      "id": "cgsj6opgccsm4bb66ks38b9k75imcb9pc4rj0b9nc9im4c3565h68phpck@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "descricao": "✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-30",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
-      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-30",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-04-30",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-04-30",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-05-05",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
     {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-05",
       "tipo": "evento",
@@ -133,6 +55,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "cgsj6opgccsm4bb66ks38b9k75imcb9pc4rj0b9nc9im4c3565h68phpck@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "descricao": "✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-30",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "local": "",
+      "data_evento": "2026-05-01",
+      "prazo": "2026-05-01",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -143,19 +91,6 @@
       "data_evento": "2026-05-02",
       "prazo": "2026-05-02",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar atividades no caderno.",
-      "descricao": "Finalizar atividades no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-28",
-      "prazo": "2026-04-30",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -172,16 +107,81 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "116rsb9t3se76f96ujsrvu9sn6@google.com",
+      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-04-30",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-04-30",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-05-05",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0hpu4g425tkkn6sn5tlq18sbpl@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 13 a 15. ⚠️ O aluno que não finalizou a atividade de aula (livro, págs. 54 a 57) deve trazê-la feita amanhã.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-30",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i3jpea1649batvreo4q1qrg22@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar atividades no caderno.",
+      "descricao": "Finalizar atividades no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-28",
+      "prazo": "2026-04-30",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Dia do Trabalho / São José Operário)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia do Trabalho / São José Operário)",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-05-01",
-      "prazo": "2026-05-01",
-      "urgencia": "amanha",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
