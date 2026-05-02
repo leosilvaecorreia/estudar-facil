@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-02T10:45:07-03:00",
+  "gerado_em": "2026-05-02T12:03:00-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,15 +16,41 @@
   },
   "itens": [
     {
-      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
+      "id": "09bggotrftmd1a0opodm6s5qnp@google.com#2026-05-04",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "resumo_original": "LP- 4A",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 30/04/206 👀 Leitura do livro escolhido. 📝 No Bloco ⇢ Folha 04 - Escrever o título do livro e colocar a data. ⚠️ Copiar na parte pautada do bloco. Atividades: ✏️ 1. Desenhar com capricho e empenho a capa do livro escolhido. (O desenho deverá ser feito na parte sem pauta do bloco ). 2. Escrever um pequeno resumo (de 4 a 6 linhas) sobre a história. (Utilizar a parte com pauta para a realizar o resumo )",
+      "descricao": "📚 PLIC - 30/04/206 👀 Leitura do livro escolhido. 📝 No Bloco ⇢ Folha 04 - Escrever o título do livro e colocar a data. ⚠️ Copiar na parte pautada do bloco. Atividades: ✏️ 1. Desenhar com capricho e empenho a capa do livro escolhido. (O desenho deverá ser feito na parte sem pauta do bloco ). 2. Escrever um pequeno resumo (de 4 a 6 linhas) sobre a história. (Utilizar a parte com pauta para a realizar o resumo )",
+      "resumo_original": "PLIC 4A",
       "local": "",
       "data_evento": "2026-04-30",
       "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0879g8188q8cs893iiq7ubi9jk@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 13 para 2ª feira, dia 04/05.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-05-05",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -42,45 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0879g8188q8cs893iiq7ubi9jk@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 13 para 2ª feira, dia 04/05.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-05-05",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -94,12 +81,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "09bggotrftmd1a0opodm6s5qnp@google.com#2026-05-04",
+      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
       "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 30/04/206 👀 Leitura do livro escolhido. 📝 No Bloco ⇢ Folha 04 - Escrever o título do livro e colocar a data. ⚠️ Copiar na parte pautada do bloco. Atividades: ✏️ 1. Desenhar com capricho e empenho a capa do livro escolhido. (O desenho deverá ser feito na parte sem pauta do bloco ). 2. Escrever um pequeno resumo (de 4 a 6 linhas) sobre a história. (Utilizar a parte com pauta para a realizar o resumo )",
-      "descricao": "📚 PLIC - 30/04/206 👀 Leitura do livro escolhido. 📝 No Bloco ⇢ Folha 04 - Escrever o título do livro e colocar a data. ⚠️ Copiar na parte pautada do bloco. Atividades: ✏️ 1. Desenhar com capricho e empenho a capa do livro escolhido. (O desenho deverá ser feito na parte sem pauta do bloco ). 2. Escrever um pequeno resumo (de 4 a 6 linhas) sobre a história. (Utilizar a parte com pauta para a realizar o resumo )",
-      "resumo_original": "PLIC 4A",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-04-30",
       "prazo": "2026-05-04",
@@ -133,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -146,16 +146,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "resumo_original": "RED- 4A",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
