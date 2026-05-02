@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-02T12:58:36-03:00",
+  "gerado_em": "2026-05-02T14:04:08-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,19 @@
     "eventos": 7
   },
   "itens": [
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
       "tipo": "tarefa",
@@ -39,45 +52,6 @@
       "data_evento": "2026-04-30",
       "prazo": "2026-05-04",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -107,6 +81,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "09bggotrftmd1a0opodm6s5qnp@google.com#2026-05-04",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
@@ -130,6 +117,19 @@
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
