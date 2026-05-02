@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-02T08:06:16-03:00",
+  "gerado_em": "2026-05-02T08:56:29-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,32 @@
     "eventos": 7
   },
   "itens": [
+    {
+      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
@@ -42,84 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0879g8188q8cs893iiq7ubi9jk@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 13 para 2ª feira, dia 04/05.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-05-02",
-      "prazo": "2026-05-02",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-05",
       "tipo": "evento",
       "materia": "Geral",
@@ -142,6 +90,58 @@
       "local": "",
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0879g8188q8cs893iiq7ubi9jk@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 13 para 2ª feira, dia 04/05.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6opak2hq8u3mmpnhl4kg0upscb@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-05-02",
+      "prazo": "2026-05-02",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
