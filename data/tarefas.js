@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-03T10:45:41-03:00",
+  "gerado_em": "2026-05-03T12:03:32-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,58 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-04-30",
-      "prazo": "2026-05-04",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
       "tipo": "tarefa",
       "materia": "História",
@@ -107,12 +55,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
+      "id": "5m82ims023vqnmutdbiluoj3jg@google.com",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
-      "resumo_original": "LP- 4A",
+      "materia": "Redação",
+      "titulo": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "descricao": "✍️🏼Finalizar a folha 13 para 6a feira.",
+      "resumo_original": "RED- 4A",
       "local": "",
       "data_evento": "2026-04-30",
       "prazo": "2026-05-04",
@@ -133,6 +81,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "7blmpjtapkp4og8jh7pnhhgium@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar as págs. 50 e 60 do livro para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-04-30",
+      "prazo": "2026-05-04",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "09bggotrftmd1a0opodm6s5qnp@google.com#2026-05-04",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
@@ -143,6 +117,32 @@
       "data_evento": "2026-04-30",
       "prazo": "2026-05-04",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
