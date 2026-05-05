@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-05T03:27:07-03:00",
+  "gerado_em": "2026-05-05T06:17:24-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,32 +15,6 @@
     "eventos": 9
   },
   "itens": [
-    {
-      "id": "27emjt8ckcip1jchrtjtc3c11m@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar o livro, págs. 68 a 70.",
-      "descricao": "✍️🏼Finalizar o livro, págs. 68 a 70.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-04",
-      "prazo": "2026-05-05",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "7o6tf2v09oo4o0kqha4k76du1i@google.com#2026-05-05",
       "tipo": "tarefa",
@@ -68,29 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "id": "7a5b4kfpdof1703d2crjvjhpqn@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-04",
+      "prazo": "2026-05-05",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -117,19 +78,6 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-04-29",
-      "prazo": "2026-05-05",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -185,6 +133,58 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "27emjt8ckcip1jchrtjtc3c11m@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar o livro, págs. 68 a 70.",
+      "descricao": "✍️🏼Finalizar o livro, págs. 68 a 70.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-04",
+      "prazo": "2026-05-05",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "481v1h1j3fg6ocgdqggbd4hhfb@google.com#2026-05-05",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "descricao": "Para Casa✨ 📚 Realizar o exercício nº 02 da Folha 05 e o exercício no caderno referente a página 55. TRAZER O LIVRO E O CADERNO. Para 3ªf, 05/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-04-29",
+      "prazo": "2026-05-05",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "111b6ogj60ct9pi3faakb3fkt3@google.com",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -198,16 +198,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7a5b4kfpdof1703d2crjvjhpqn@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o caderno.",
-      "descricao": "Finalizar o caderno.",
-      "resumo_original": "Mat 4A",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-05-04",
-      "prazo": "2026-05-05",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
