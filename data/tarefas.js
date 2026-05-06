@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-06T09:03:51-03:00",
+  "gerado_em": "2026-05-06T11:42:44-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,6 +42,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-06",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-09",
       "tipo": "evento",
       "materia": "Geral",
@@ -52,6 +65,19 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4rd14usbebs2br688otf6jnmph@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Caderno de atividades, págs. 16 a 19.",
+      "descricao": "✍️🏼Caderno de atividades, págs. 16 a 19.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-06",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -68,16 +94,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "resumo_original": "HIST 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
       "local": "",
       "data_evento": "2026-05-05",
-      "prazo": "2026-05-06",
-      "urgencia": "hoje",
+      "prazo": "2026-05-12",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -130,32 +156,6 @@
       "data_evento": "2026-04-30",
       "prazo": "2026-05-08",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4rd14usbebs2br688otf6jnmph@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Caderno de atividades, págs. 16 a 19.",
-      "descricao": "✍️🏼Caderno de atividades, págs. 16 a 19.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-06",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
