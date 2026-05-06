@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-06T19:07:06-03:00",
+  "gerado_em": "2026-05-06T20:04:59-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,12 +16,12 @@
   },
   "itens": [
     {
-      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
+      "id": "4rd14usbebs2br688otf6jnmph@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "resumo_original": "HIST 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Caderno de atividades, págs. 16 a 19.",
+      "descricao": "✍️🏼Caderno de atividades, págs. 16 a 19.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-05",
       "prazo": "2026-05-06",
@@ -29,12 +29,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5gbpsdvhh9n4it32h3ojble85i@google.com",
+      "id": "5glb5853arvun36o9iu0e6bhhc@google.com",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
-      "descricao": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar a folha 20.",
+      "descricao": "✍️🏼Finalizar a folha 20.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-06",
       "prazo": "2026-05-07",
@@ -42,42 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "titulo": "FERIADO (Corpus Christi)",
       "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "FERIADO (Corpus Christi)",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7o6tf2v09oo4o0kqha4k76du1i@google.com#2026-05-06",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
-      "descricao": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-05-04",
-      "prazo": "2026-05-06",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -94,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5glb5853arvun36o9iu0e6bhhc@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 20.",
-      "descricao": "✍️🏼Finalizar a folha 20.",
-      "resumo_original": "LP- 4A",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-05-06",
-      "prazo": "2026-05-07",
-      "urgencia": "amanha",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -146,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "7o6tf2v09oo4o0kqha4k76du1i@google.com#2026-05-06",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
+      "descricao": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-04",
+      "prazo": "2026-05-06",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -159,12 +146,25 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4rd14usbebs2br688otf6jnmph@google.com",
+      "id": "5gbpsdvhh9n4it32h3ojble85i@google.com",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Caderno de atividades, págs. 16 a 19.",
-      "descricao": "✍️🏼Caderno de atividades, págs. 16 a 19.",
-      "resumo_original": "LP- 4A",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
+      "descricao": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-06",
+      "prazo": "2026-05-07",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "resumo_original": "HIST 4A",
       "local": "",
       "data_evento": "2026-05-05",
       "prazo": "2026-05-06",
@@ -172,15 +172,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
       "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
