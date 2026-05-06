@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-06T06:35:12-03:00",
+  "gerado_em": "2026-05-06T09:03:51-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,84 @@
     "eventos": 7
   },
   "itens": [
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-09",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem à Rainha das Famílias e às Mães",
+      "descricao": "Assunto: HOMENAGEM À RAINHA DAS FAMÍLIAS É com muita alegria que convidamos nossos alunos e seus familiares para uma linda celebração em homenagem à Rainha das Famílias, Maria Santíssima, e às mães. O evento acontecerá conforme nosso calendário escolar: - Sábado, 09 de maio de 2026 - Das 9h às 12h30 - No pátio do Colégio Santo Agostinho (entrada pelo portão dos alunos) Será uma manhã de convivência familiar com barraquinhas de comidas e bebidas, apresentação dos alunos do 1º ao 5º ano, oficinas interativas organizadas pelos alunos do 6º ao 9º ano e a coroação de Nossa Senhora. Inspirados pelo lema do ano “Anunciai a Cristo onde seja possível” e pelo valor da VERDADE, vivenciaremos esta homenagem com fé e gratidão, reconhecendo a presença materna de Maria e o amor dedicado de nossas mães. Todas as dinâmicas estão sendo preparadas com muito empenho e carinho e, para melhor organização da festa, faremos duas apresentações ao longo da manhã. Pedimos especial atenção aos horários de início / concentração e à sugestão de roupa para nossa homenagem ficar ainda mais bonita: Horário Ano Turmas Roupa Concentração 1ª apresentação: 9 horas 1º ano A, B, E Camisa amarela ou laranja Short jeans 8h40 Quadra de basquete 2º ano Todas Camisa amarela ou laranja Short jeans 8h40 Quadra de basquete 4º ano Todas Camisa azul Short jeans 8h40 Quadra de basquete 6º e 8º anos Todas Camisa verde ou branca Calça jeans 8h40 Quadra de vôlei Horário Ano Turmas Roupa Concentração 2ª apresentação: 10h40 1º ano C, D, F Camisa amarela ou laranja Short jeans 10h20 Quadra de basquete 3º ano Todas Camisa amarela ou laranja Short jeans 10h20 Quadra de basquete 5º ano Todas Camisa azul short jeans 10h20 Quadra de basquete 7º e 9º anos Todas Camisa verde ou branca calça jeans 10h20 Quadra de vôlei Informações Importantes: - As apresentações serão no ginásio com os alunos no centro das quadras. Os pais e os familiares ficarão na arquibancada e nas cadeiras em volta da quadra. Em breve, enviaremos o mapa do posicionamento das turmas. - As oficinas estarão disponíveis até 12h30 e/ou até o término do material disponível. Sugerimos que as turmas da 2ª apresentação cheguem mais cedo para aproveitar as dinâmicas e vivenciar esse momento com mais tranquilidade. - Haverá a coroação de Nossa Senhora ao final de cada apresentação. As oficinas foram pensadas como uma forma concreta de vivermos nosso lema através do serviço, da dedicação e da alegria de partilhar com o outro. Para que elas aconteçam com organização, pedimos a colaboração dos alunos com os os seguintes materiais até 3ª feira, dia 05 de maio: 6º e 7º anos: “Coroas, Flores e Vitrais: Homenagem à Rainha do Céu” Oficinas de flores, coroas e vitrais: cola bastão, potinhos de glitter colorido, pedrarias pequenas autocolantes, lantejoulas, pérolas falsas pequenas, papel celofane e tesoura. 8º e 9º anos: “Contas que Unem: Oficina do Rosário e Terço” Oficinas de construção da dezena do Terço e de Oração: miçangas de diferentes cores e tamanhos; pedrarias (cristais, pérolas, contas decorativas), fio de nylon elástico ou linha encerada; cruz ou crucifixo pequeno; medalha de Nossa Senhora (pequena), bombom; velas de led (pequenas), vasinhos de flores. Mais informações sobre o material podem ser encontradas no Classroom de Ensino Religioso de cada ano. Contamos com a sua presença para, juntos, celebrarmos esse momento de fé e amor. Será uma alegria ver nossa família agostiniana reunida aos pés de Nossa Mãe da Consolação.",
+      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
+      "local": "",
+      "data_evento": "2026-05-09",
+      "prazo": "2026-05-09",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7o6tf2v09oo4o0kqha4k76du1i@google.com#2026-05-06",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
+      "descricao": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-04",
+      "prazo": "2026-05-06",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-06",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "74mi6trocvfrifrv9i8ofjftdu@google.com#2026-05-06",
       "tipo": "evento",
@@ -55,32 +133,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08uq3n7gujc43fpnguldkad35q@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "descricao": "PARA CASA - Fazer somente a leitura do texto das páginas 58 e 59. - AMANHÃ, 06/05, TRAZER O LIVRO.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-06",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -94,19 +146,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7o6tf2v09oo4o0kqha4k76du1i@google.com#2026-05-06",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
-      "descricao": "🏠 Para casa: 📗 Livro Lição de casa: páginas 26( exercícios número 2) e 27(exercícios 5 e 6 letra A) 👀 Caso seja necessário, consulte as páginas 50 a 52 do livro didático (livrão)➡Verminoses. ⚠Trazer os livros na próxima aula (06/05/2026).",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-05-04",
-      "prazo": "2026-05-06",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "4rd14usbebs2br688otf6jnmph@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -117,45 +156,6 @@
       "data_evento": "2026-05-05",
       "prazo": "2026-05-06",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-09",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem à Rainha das Famílias e às Mães",
-      "descricao": "Assunto: HOMENAGEM À RAINHA DAS FAMÍLIAS É com muita alegria que convidamos nossos alunos e seus familiares para uma linda celebração em homenagem à Rainha das Famílias, Maria Santíssima, e às mães. O evento acontecerá conforme nosso calendário escolar: - Sábado, 09 de maio de 2026 - Das 9h às 12h30 - No pátio do Colégio Santo Agostinho (entrada pelo portão dos alunos) Será uma manhã de convivência familiar com barraquinhas de comidas e bebidas, apresentação dos alunos do 1º ao 5º ano, oficinas interativas organizadas pelos alunos do 6º ao 9º ano e a coroação de Nossa Senhora. Inspirados pelo lema do ano “Anunciai a Cristo onde seja possível” e pelo valor da VERDADE, vivenciaremos esta homenagem com fé e gratidão, reconhecendo a presença materna de Maria e o amor dedicado de nossas mães. Todas as dinâmicas estão sendo preparadas com muito empenho e carinho e, para melhor organização da festa, faremos duas apresentações ao longo da manhã. Pedimos especial atenção aos horários de início / concentração e à sugestão de roupa para nossa homenagem ficar ainda mais bonita: Horário Ano Turmas Roupa Concentração 1ª apresentação: 9 horas 1º ano A, B, E Camisa amarela ou laranja Short jeans 8h40 Quadra de basquete 2º ano Todas Camisa amarela ou laranja Short jeans 8h40 Quadra de basquete 4º ano Todas Camisa azul Short jeans 8h40 Quadra de basquete 6º e 8º anos Todas Camisa verde ou branca Calça jeans 8h40 Quadra de vôlei Horário Ano Turmas Roupa Concentração 2ª apresentação: 10h40 1º ano C, D, F Camisa amarela ou laranja Short jeans 10h20 Quadra de basquete 3º ano Todas Camisa amarela ou laranja Short jeans 10h20 Quadra de basquete 5º ano Todas Camisa azul short jeans 10h20 Quadra de basquete 7º e 9º anos Todas Camisa verde ou branca calça jeans 10h20 Quadra de vôlei Informações Importantes: - As apresentações serão no ginásio com os alunos no centro das quadras. Os pais e os familiares ficarão na arquibancada e nas cadeiras em volta da quadra. Em breve, enviaremos o mapa do posicionamento das turmas. - As oficinas estarão disponíveis até 12h30 e/ou até o término do material disponível. Sugerimos que as turmas da 2ª apresentação cheguem mais cedo para aproveitar as dinâmicas e vivenciar esse momento com mais tranquilidade. - Haverá a coroação de Nossa Senhora ao final de cada apresentação. As oficinas foram pensadas como uma forma concreta de vivermos nosso lema através do serviço, da dedicação e da alegria de partilhar com o outro. Para que elas aconteçam com organização, pedimos a colaboração dos alunos com os os seguintes materiais até 3ª feira, dia 05 de maio: 6º e 7º anos: “Coroas, Flores e Vitrais: Homenagem à Rainha do Céu” Oficinas de flores, coroas e vitrais: cola bastão, potinhos de glitter colorido, pedrarias pequenas autocolantes, lantejoulas, pérolas falsas pequenas, papel celofane e tesoura. 8º e 9º anos: “Contas que Unem: Oficina do Rosário e Terço” Oficinas de construção da dezena do Terço e de Oração: miçangas de diferentes cores e tamanhos; pedrarias (cristais, pérolas, contas decorativas), fio de nylon elástico ou linha encerada; cruz ou crucifixo pequeno; medalha de Nossa Senhora (pequena), bombom; velas de led (pequenas), vasinhos de flores. Mais informações sobre o material podem ser encontradas no Classroom de Ensino Religioso de cada ano. Contamos com a sua presença para, juntos, celebrarmos esse momento de fé e amor. Será uma alegria ver nossa família agostiniana reunida aos pés de Nossa Mãe da Consolação.",
-      "resumo_original": "Homenagem à Rainha das Famílias e às Mães",
-      "local": "",
-      "data_evento": "2026-05-09",
-      "prazo": "2026-05-09",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
