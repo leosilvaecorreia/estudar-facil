@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-07T11:47:01-03:00",
+  "gerado_em": "2026-05-07T14:01:39-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,52 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 9,
-    "tarefas": 3,
+    "total_itens": 11,
+    "tarefas": 5,
     "provas": 0,
     "avisos": 0,
     "eventos": 6
   },
   "itens": [
+    {
+      "id": "5glb5853arvun36o9iu0e6bhhc@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar a folha 20.",
+      "descricao": "✍️🏼Finalizar a folha 20.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-06",
+      "prazo": "2026-05-07",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4sgo5gkq0gioga7deromp0l08n@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "descricao": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5gbpsdvhh9n4it32h3ojble85i@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
+      "descricao": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-06",
+      "prazo": "2026-05-07",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "74mi6trocvfrifrv9i8ofjftdu@google.com#2026-05-07",
       "tipo": "evento",
@@ -42,29 +81,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-12",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
-      "id": "5gbpsdvhh9n4it32h3ojble85i@google.com",
+      "id": "5v1tve88bfmhioqqobtv7uj4h7@google.com",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
-      "descricao": "🏠 Para casa: Com a ajuda de um responsável, responda às atividades propostas. 📗 Livro Lição de Casa: página 29 (exercício número 4 - letras a, b, c). 📗 Livrão: página 57 (exercício número 4- letras b, c)➡somente para os alunos que ainda não realizaram a atividade. ⚠Trazer os livros na próxima aula.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
+      "resumo_original": "RED- 4A",
       "local": "",
-      "data_evento": "2026-05-06",
-      "prazo": "2026-05-07",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -77,32 +116,6 @@
       "local": "",
       "data_evento": "2026-05-10",
       "prazo": "2026-05-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5glb5853arvun36o9iu0e6bhhc@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 20.",
-      "descricao": "✍️🏼Finalizar a folha 20.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-06",
-      "prazo": "2026-05-07",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -130,6 +143,19 @@
       "data_evento": "2026-05-09",
       "prazo": "2026-05-09",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
