@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-08T17:15:20-03:00",
+  "gerado_em": "2026-05-08T19:09:39-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,19 @@
     "eventos": 6
   },
   "itens": [
+    {
+      "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 14.",
+      "descricao": "Finalizar a lista 14.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
     {
       "id": "72mgcd89r68v5sdrotg0njacv1@google.com#2026-05-09",
       "tipo": "evento",
@@ -42,16 +55,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "id": "4sgo5gkq0gioga7deromp0l08n@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "descricao": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -68,6 +81,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-12",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "74mi6trocvfrifrv9i8ofjftdu@google.com#2026-05-08",
       "tipo": "evento",
       "materia": "Português",
@@ -76,32 +102,6 @@
       "resumo_original": "Revisão de Conteúdos - período de inscrição",
       "local": "",
       "data_evento": "2026-04-30",
-      "prazo": "2026-05-08",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 14.",
-      "descricao": "Finalizar a lista 14.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7q375s4s9vpt40rb4tekurccs6@google.com#2026-05-08",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
-      "descricao": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-07",
       "prazo": "2026-05-08",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -133,6 +133,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7q375s4s9vpt40rb4tekurccs6@google.com#2026-05-08",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Escolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma característica do personagem.",
+      "descricao": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Escolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma característica do personagem.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
       "tipo": "tarefa",
       "materia": "História",
@@ -155,32 +181,6 @@
       "local": "",
       "data_evento": "2026-05-08",
       "prazo": "2026-05-11",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4sgo5gkq0gioga7deromp0l08n@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
-      "descricao": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-07",
-      "prazo": "2026-05-08",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
