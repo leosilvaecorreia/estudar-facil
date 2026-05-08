@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-08T13:42:58-03:00",
+  "gerado_em": "2026-05-08T15:21:33-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,58 +16,6 @@
   },
   "itens": [
     {
-      "id": "5v1tve88bfmhioqqobtv7uj4h7@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-05-07",
-      "prazo": "2026-05-08",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4sgo5gkq0gioga7deromp0l08n@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
-      "descricao": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-07",
-      "prazo": "2026-05-08",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7q375s4s9vpt40rb4tekurccs6@google.com#2026-05-08",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
-      "descricao": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-07",
-      "prazo": "2026-05-08",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -77,32 +25,6 @@
       "local": "",
       "data_evento": "2026-05-05",
       "prazo": "2026-05-12",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -133,6 +55,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -146,16 +107,55 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "5v1tve88bfmhioqqobtv7uj4h7@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 13 para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4sgo5gkq0gioga7deromp0l08n@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "descricao": "✍️🏼Livro, págs. 91 a 95 (finalizar).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7q375s4s9vpt40rb4tekurccs6@google.com#2026-05-08",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
+      "descricao": "📚PLIC - 07/05/2026 👀 Leia o livro escolhido. ✍🏻 Concluir a folha número 6 com capricho e empenho para a próxima aula. 📝 No bloco ⇢ Folha 05 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. ⚠️ Copiar na parte pautada do bloco as atividades propostas a seguir. ⚠️ O desenho deverá ser feito na parte sem pauta do bloco. Atividades: ✏️ 1. Esolha um personagem da história lida e desenhe-o. ( Pular 1 linha e copiar o número 2). 2. Descreva uma caracteística do personagem.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-07",
+      "prazo": "2026-05-08",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
