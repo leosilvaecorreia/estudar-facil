@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-10T08:12:00-03:00",
+  "gerado_em": "2026-05-10T10:52:31-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -22,6 +22,19 @@
       "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
       "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
       "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar a folha 10 e colorir o desenho.",
+      "descricao": "Finalizar a folha 10 e colorir o desenho.",
+      "resumo_original": "GEO - 4⁰A",
       "local": "",
       "data_evento": "2026-05-08",
       "prazo": "2026-05-11",
@@ -52,19 +65,6 @@
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a folha 10 e colorir o desenho.",
-      "descricao": "Finalizar a folha 10 e colorir o desenho.",
-      "resumo_original": "GEO - 4⁰A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
