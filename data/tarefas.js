@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-10T14:09:22-03:00",
+  "gerado_em": "2026-05-10T15:05:53-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 14.",
+      "descricao": "Finalizar a lista 14.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -26,32 +39,6 @@
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a folha 10 e colorir o desenho.",
-      "descricao": "Finalizar a folha 10 e colorir o desenho.",
-      "resumo_original": "GEO - 4⁰A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -68,29 +55,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 14.",
-      "descricao": "Finalizar a lista 14.",
-      "resumo_original": "Mat 4A",
+      "materia": "Geografia",
+      "titulo": "Finalizar a folha 10 e colorir o desenho.",
+      "descricao": "Finalizar a folha 10 e colorir o desenho.",
+      "resumo_original": "GEO - 4⁰A",
       "local": "",
       "data_evento": "2026-05-08",
       "prazo": "2026-05-11",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -104,6 +91,19 @@
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-12",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
