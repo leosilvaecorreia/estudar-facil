@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-10T18:02:38-03:00",
+  "gerado_em": "2026-05-10T19:01:13-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,16 +16,29 @@
   },
   "itens": [
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar a folha 10 e colorir o desenho.",
+      "descricao": "Finalizar a folha 10 e colorir o desenho.",
+      "resumo_original": "GEO - 4⁰A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -55,32 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
       "tipo": "tarefa",
       "materia": "História",
@@ -94,6 +81,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -104,19 +117,6 @@
       "data_evento": "2026-05-05",
       "prazo": "2026-05-12",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a folha 10 e colorir o desenho.",
-      "descricao": "Finalizar a folha 10 e colorir o desenho.",
-      "resumo_original": "GEO - 4⁰A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
