@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-10T19:01:13-03:00",
+  "gerado_em": "2026-05-10T20:04:25-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,19 +15,6 @@
     "eventos": 3
   },
   "itens": [
-    {
-      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia das Mães",
-      "descricao": "",
-      "resumo_original": "Dia das Mães",
-      "local": "",
-      "data_evento": "2026-05-10",
-      "prazo": "2026-05-10",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
     {
       "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
       "tipo": "tarefa",
@@ -68,19 +55,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -90,19 +64,6 @@
       "local": "",
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -117,6 +78,45 @@
       "data_evento": "2026-05-05",
       "prazo": "2026-05-12",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2i70njtcoatjnfcd2tc1f50qr6@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia das Mães",
+      "descricao": "",
+      "resumo_original": "Dia das Mães",
+      "local": "",
+      "data_evento": "2026-05-10",
+      "prazo": "2026-05-10",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
