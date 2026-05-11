@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-11T09:20:29-03:00",
+  "gerado_em": "2026-05-11T13:10:24-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,51 +16,12 @@
   },
   "itens": [
     {
-      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a folha 10 e colorir o desenho.",
-      "descricao": "Finalizar a folha 10 e colorir o desenho.",
-      "resumo_original": "GEO - 4⁰A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7h02i993ni206pp1ou2si6j7jk@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
       "titulo": "Finalizar a lista 14.",
       "descricao": "Finalizar a lista 14.",
       "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0gsjrd56i4hudg1amss0br7da1@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "✍️🏼Finalizar a folha 14 (produção textual) para 6a feira.",
-      "descricao": "✍️🏼Finalizar a folha 14 (produção textual) para 6a feira.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-05-08",
-      "prazo": "2026-05-11",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
-      "resumo_original": "HIST 4A",
       "local": "",
       "data_evento": "2026-05-08",
       "prazo": "2026-05-11",
@@ -81,6 +42,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0gsjrd56i4hudg1amss0br7da1@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "✍️🏼Finalizar a folha 14 (produção textual) para 6a feira.",
+      "descricao": "✍️🏼Finalizar a folha 14 (produção textual) para 6a feira.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "cgo3gp1mchhjibb5cli36b9kccrj4b9p6kq38bb26gr68ob164o3acr274@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar a folha 10 e colorir o desenho.",
+      "descricao": "Finalizar a folha 10 e colorir o desenho.",
+      "resumo_original": "GEO - 4⁰A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -91,6 +78,19 @@
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5grl5vge7bdojh6lse3t8h25jd@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "descricao": "PARA CASA Finalizar os exercícios da folha 06. Para 3ªf. COMECE A ESTUDAR!! Trazer o livro na próxima 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-08",
+      "prazo": "2026-05-11",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
