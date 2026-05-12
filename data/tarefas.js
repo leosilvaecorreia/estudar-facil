@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-12T06:47:46-03:00",
+  "gerado_em": "2026-05-12T09:10:59-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,14 +16,14 @@
   },
   "itens": [
     {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
+      "descricao": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-05-05",
+      "data_evento": "2026-05-11",
       "prazo": "2026-05-12",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -42,14 +42,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
-      "descricao": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-05-11",
+      "data_evento": "2026-05-05",
       "prazo": "2026-05-12",
       "urgencia": "hoje",
       "fonte": "google_calendar"
