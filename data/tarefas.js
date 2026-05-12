@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-12T12:45:02-03:00",
+  "gerado_em": "2026-05-12T15:15:32-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,24 +8,37 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 4,
-    "tarefas": 2,
+    "total_itens": 5,
+    "tarefas": 3,
     "provas": 0,
     "avisos": 0,
     "eventos": 2
   },
   "itens": [
     {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-13",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -42,16 +55,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-05",
+      "prazo": "2026-05-12",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
