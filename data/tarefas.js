@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-12T01:03:42-03:00",
+  "gerado_em": "2026-05-12T03:45:56-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,15 +16,15 @@
   },
   "itens": [
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
       "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -42,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -65,6 +52,19 @@
       "data_evento": "2026-05-11",
       "prazo": "2026-05-12",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
