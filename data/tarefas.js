@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-12T19:21:10-03:00",
+  "gerado_em": "2026-05-12T21:12:10-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,45 +15,6 @@
     "eventos": 2
   },
   "itens": [
-    {
-      "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
-      "descricao": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-11",
-      "prazo": "2026-05-12",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "chi32dr6ccrm4bb6c4r36b9k6krj6bb1c4o36bb5clgj0o9occpjao9nc8@google.com",
       "tipo": "tarefa",
@@ -81,6 +42,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
+      "descricao": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-11",
+      "prazo": "2026-05-12",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -91,6 +78,19 @@
       "data_evento": "2026-05-12",
       "prazo": "2026-05-13",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
