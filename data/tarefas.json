@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-13T07:43:08-03:00",
+  "gerado_em": "2026-05-13T10:26:21-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,32 @@
     "eventos": 3
   },
   "itens": [
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
@@ -39,32 +65,6 @@
       "data_evento": "2026-05-12",
       "prazo": "2026-05-13",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o caderno.",
-      "descricao": "Finalizar o caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-13",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
