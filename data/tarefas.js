@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-12T21:12:10-03:00",
+  "gerado_em": "2026-05-13T01:58:12-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,39 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 6,
-    "tarefas": 4,
+    "total_itens": 5,
+    "tarefas": 2,
     "provas": 0,
     "avisos": 0,
-    "eventos": 2
+    "eventos": 3
   },
   "itens": [
-    {
-      "id": "chi32dr6ccrm4bb6c4r36b9k6krj6bb1c4o36bb5clgj0o9occpjao9nc8@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 22.",
-      "descricao": "✍️🏼Finalizar a folha 22.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-13",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68a1luib2dr6dntnecnpgjcave@google.com",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "descricao": "TRABALHO - Mapa Conceitual sobre Religiões Monoteístas Valor: 4,0 pontos - Data de entrega: 12/05",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-05",
-      "prazo": "2026-05-12",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
     {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
@@ -55,29 +29,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5pbgp3k2ude7v0u2mjlhigvug4@google.com",
+      "id": "chi32dr6ccrm4bb6c4r36b9k6krj6bb1c4o36bb5clgj0o9occpjao9nc8@google.com",
       "tipo": "tarefa",
       "materia": "Português",
-      "titulo": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
-      "descricao": "✍️🏼Finalizar as págs. 96 e 97 do livro (só quem não terminou em aula). Atenção! Os conteúdos do Miniteste de Ortografia (dia 19.05) foram disponibilizados na plataforma.",
+      "titulo": "✍️🏼Finalizar a folha 22.",
+      "descricao": "✍️🏼Finalizar a folha 22.",
       "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-11",
-      "prazo": "2026-05-12",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o caderno.",
-      "descricao": "Finalizar o caderno.",
-      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-05-12",
       "prazo": "2026-05-13",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -90,6 +51,32 @@
       "local": "",
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
