@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-13T13:31:41-03:00",
+  "gerado_em": "2026-05-13T16:05:05-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,24 +8,37 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 6,
-    "tarefas": 3,
+    "total_itens": 8,
+    "tarefas": 5,
     "provas": 0,
     "avisos": 0,
     "eventos": 3
   },
   "itens": [
     {
-      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o caderno.",
-      "descricao": "Finalizar o caderno.",
-      "resumo_original": "Mat 4A",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-13",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-15",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -38,6 +51,19 @@
       "local": "",
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -55,29 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-13",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -91,6 +104,19 @@
       "data_evento": "2026-05-12",
       "prazo": "2026-05-13",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
