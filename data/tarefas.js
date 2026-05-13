@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-13T05:09:33-03:00",
+  "gerado_em": "2026-05-13T07:43:08-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,15 +16,15 @@
   },
   "itens": [
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -42,16 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar o caderno.",
+      "descricao": "Finalizar o caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-13",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -68,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6lju3vov908qa82b6v9u1cn08a@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o caderno.",
-      "descricao": "Finalizar o caderno.",
-      "resumo_original": "Mat 4A",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-13",
-      "urgencia": "hoje",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
