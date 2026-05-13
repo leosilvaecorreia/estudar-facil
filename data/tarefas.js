@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-13T17:53:03-03:00",
+  "gerado_em": "2026-05-13T19:22:23-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,24 +8,24 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 8,
-    "tarefas": 5,
+    "total_itens": 10,
+    "tarefas": 7,
     "provas": 0,
     "avisos": 0,
     "eventos": 3
   },
   "itens": [
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
       "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -117,6 +117,32 @@
       "data_evento": "2026-05-13",
       "prazo": "2026-05-15",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1md2ono8uij8hasphatbi26jks@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
+      "descricao": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
