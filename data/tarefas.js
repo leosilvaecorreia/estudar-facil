@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-14T05:02:36-03:00",
+  "gerado_em": "2026-05-14T07:30:43-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,16 +29,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -55,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4q66khb6pmqaki85121039k4mc@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
       "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,29 +107,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
+      "id": "4q66khb6pmqaki85121039k4mc@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-13",
       "prazo": "2026-05-14",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
