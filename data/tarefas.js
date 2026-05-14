@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-14T17:00:18-03:00",
+  "gerado_em": "2026-05-14T18:20:37-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,78 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 10,
-    "tarefas": 7,
+    "total_itens": 14,
+    "tarefas": 11,
     "provas": 0,
     "avisos": 0,
     "eventos": 3
   },
   "itens": [
+    {
+      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar a Folha 11 de exercícios.",
+      "descricao": "Finalizar a Folha 11 de exercícios.",
+      "resumo_original": "GEO - 4⁰ A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
     {
       "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
       "tipo": "tarefa",
@@ -42,58 +107,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a Folha 11 de exercícios.",
-      "descricao": "Finalizar a Folha 11 de exercícios.",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
       "tipo": "tarefa",
       "materia": "Inglês",
@@ -107,16 +120,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4q66khb6pmqaki85121039k4mc@google.com",
+      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-14",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "resumo_original": "PLIC 4A",
       "local": "",
-      "data_evento": "2026-05-13",
+      "data_evento": "2026-05-14",
       "prazo": "2026-05-14",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -133,16 +159,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "resumo_original": "Mat 4A",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4q66khb6pmqaki85121039k4mc@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
