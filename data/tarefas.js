@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-14T15:05:15-03:00",
+  "gerado_em": "2026-05-14T17:00:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,71 +15,6 @@
     "eventos": 3
   },
   "itens": [
-    {
-      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1md2ono8uij8hasphatbi26jks@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
-      "descricao": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4q66khb6pmqaki85121039k4mc@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
       "tipo": "tarefa",
@@ -107,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
-      "tipo": "tarefa",
-      "materia": "Inglês",
-      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
       "tipo": "tarefa",
       "materia": "Geografia",
@@ -133,6 +55,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -143,6 +91,58 @@
       "data_evento": "2026-06-27",
       "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4q66khb6pmqaki85121039k4mc@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1md2ono8uij8hasphatbi26jks@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
+      "descricao": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-14",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
