@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-15T13:59:42-03:00",
+  "gerado_em": "2026-05-15T15:49:45-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,32 +15,6 @@
     "eventos": 3
   },
   "itens": [
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-18",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-22",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
     {
       "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
       "tipo": "tarefa",
@@ -68,12 +42,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
+      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "resumo_original": "Mat 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
@@ -94,19 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -117,6 +78,19 @@
       "data_evento": "2026-05-15",
       "prazo": "2026-05-18",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -133,16 +107,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-18",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-22",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -159,6 +146,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -172,12 +172,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
+      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
       "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
-      "resumo_original": "RED- 4A",
+      "materia": "Matemática",
+      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
