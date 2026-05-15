@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-14T20:10:31-03:00",
+  "gerado_em": "2026-05-15T01:14:50-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,52 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 14,
-    "tarefas": 11,
+    "total_itens": 10,
+    "tarefas": 7,
     "provas": 0,
     "avisos": 0,
     "eventos": 3
   },
   "itens": [
+    {
+      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
@@ -29,29 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-14",
+      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
+      "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -68,19 +94,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a Folha 11 de exercícios.",
-      "descricao": "Finalizar a Folha 11 de exercícios.",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -94,15 +107,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1md2ono8uij8hasphatbi26jks@google.com",
+      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
-      "descricao": "🏠 Para casa: Livrão 👀 Reler as páginas 63 e 64. ✍ Fazer os exercícios propostos: páginas 65 (exercício número 1) e 66 (toda). ⚠ Trazer o livrão na próxima aula de Ciências.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Geografia",
+      "titulo": "Finalizar a Folha 11 de exercícios.",
+      "descricao": "Finalizar a Folha 11 de exercícios.",
+      "resumo_original": "GEO - 4⁰ A",
       "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
       "urgencia": "hoje",
       "fonte": "google_calendar"
     },
@@ -117,84 +143,6 @@
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4q66khb6pmqaki85121039k4mc@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "descricao": "✍️🏼Finalizar a folha 23 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar a folha 14 (produção textual) para amanhã.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-14",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-14",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
