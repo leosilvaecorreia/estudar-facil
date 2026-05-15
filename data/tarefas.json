@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-15T01:14:50-03:00",
+  "gerado_em": "2026-05-15T05:15:30-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -26,71 +39,6 @@
       "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
-      "tipo": "tarefa",
-      "materia": "Inglês",
-      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -120,6 +68,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "c5im4c9m64o68b9h65j3eb9k60r68b9p6gs6abb36ss68oj56kpmcohl6k@google.com",
       "tipo": "tarefa",
       "materia": "Redação",
@@ -133,16 +120,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
