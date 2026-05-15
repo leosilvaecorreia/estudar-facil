@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-15T15:49:45-03:00",
+  "gerado_em": "2026-05-15T17:22:21-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,39 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 13,
-    "tarefas": 10,
+    "total_itens": 16,
+    "tarefas": 12,
     "provas": 0,
     "avisos": 0,
-    "eventos": 3
+    "eventos": 4
   },
   "itens": [
-    {
-      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a Folha 11 de exercícios.",
-      "descricao": "Finalizar a Folha 11 de exercícios.",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
     {
       "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
       "tipo": "tarefa",
@@ -52,32 +26,6 @@
       "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
-      "tipo": "tarefa",
-      "materia": "Inglês",
-      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 15.",
-      "descricao": "Finalizar a lista 15.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -107,6 +55,71 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 15.",
+      "descricao": "Finalizar a lista 15.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5odoglsul3qe0jjhkbl7313qg9@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "descricao": "📚PLIC - 14/05/2026 👀 Leia o livro escolhido. 📝 No bloco ⇢ Folha 06 - Escrever o título do livro e colocar a data de hoje. 😁 Pinte o ícone que representa a emoção que você sentiu ao ler o livro. Caso seja necessário, consulte a página 1 do bloco para relembrar as cores das emoções. 📝 Realizar as atividades propostas no bloco do PLIC .",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar a Folha 11 de exercícios.",
+      "descricao": "Finalizar a Folha 11 de exercícios.",
+      "resumo_original": "GEO - 4⁰ A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-18",
       "tipo": "tarefa",
       "materia": "História",
@@ -133,15 +146,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
+      "titulo": "Recesso Escolar",
       "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -159,19 +172,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -180,6 +180,45 @@
       "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6thmcd9g64s3abb26spm8b9kccqjabb16gs3ib9pcko64e36cdhm6ohl68@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "68p6adhn70q36b9n6pgm4b9k70r3ebb16opjeb9kcorm8eb2ccoj6d1jc8@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "✍️🏼Finalizar folha 16 (produção de notícia) para 6a feira. ATENÇÃO! O aluno que não trouxe hoje a folha 14 (produção textual que será corrigida pela banca) deve entregá-la na 2a feira (18.05).",
+      "descricao": "✍️🏼Finalizar folha 16 (produção de notícia) para 6a feira. ATENÇÃO! O aluno que não trouxe hoje a folha 14 (produção textual que será corrigida pela banca) deve entregá-la na 2a feira (18.05).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "13chmctab05sid6dvl0vosev6d@google.com",
+      "tipo": "evento",
+      "materia": "Pensamento Computacional",
+      "titulo": "4A PeC",
+      "descricao": "🤖 Aula 02 de Introdução à Robótica , na qual os alunos realizaram a montagem e a programação do protótipo do Projeto 01 - ‘Gerando Energia Limpa’ .",
+      "resumo_original": "4A PeC",
+      "local": "",
+      "data_evento": "2026-05-15",
       "prazo": "2026-05-15",
       "urgencia": "hoje",
       "fonte": "google_calendar"
