@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-15T08:28:39-03:00",
+  "gerado_em": "2026-05-15T11:31:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,32 +16,6 @@
   },
   "itens": [
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -55,14 +29,27 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
+      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
+      "materia": "Geografia",
+      "titulo": "Finalizar a Folha 11 de exercícios.",
+      "descricao": "Finalizar a Folha 11 de exercícios.",
+      "resumo_original": "GEO - 4⁰ A",
       "local": "",
       "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-13",
       "prazo": "2026-05-15",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -94,29 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "74qmcd1hckrm8b9ocgo36b9k64rjeb9p75ij6b9n71h3cchh70q3edhk6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar a Folha 11 de exercícios.",
-      "descricao": "Finalizar a Folha 11 de exercícios.",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-05-14",
-      "prazo": "2026-05-15",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -133,16 +107,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "69bs5v0s2rngp6qadqj7na5gkd@google.com#2026-05-15",
+      "id": "74om4cr46pi3ib9g70r6ab9kcpj36bb1cgs38b9p75i62e1l60qjgc1ick@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "descricao": "📚 Para casa Estudar para o TESTE DE HISTÓRIA. Trazer o livro e o caderno na 6ªf, 15/05/26.",
-      "resumo_original": "HIST 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-05-13",
+      "data_evento": "2026-05-14",
       "prazo": "2026-05-15",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2houvdfnmjm9qvg5m96l85ld77@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "descricao": "Atividade de cálculo mental na plataforma. (jogo) A matéria do miniteste está na plataforma",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-14",
+      "prazo": "2026-05-15",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
