@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-16T14:12:19-03:00",
+  "gerado_em": "2026-05-16T16:21:03-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,45 @@
     "eventos": 3
   },
   "itens": [
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
+      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
+      "local": "",
+      "data_evento": "2026-05-13",
+      "prazo": "2026-05-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-18",
       "tipo": "tarefa",
@@ -55,19 +94,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -78,32 +104,6 @@
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "35bmoujgb1hqa2p9e20q6hreum@google.com",
-      "tipo": "tarefa",
-      "materia": "Inglês",
-      "titulo": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "descricao": "Trabalho de Casa: Estudar para o Teste de Inglês (18/05/2026). Conteúdo da Avaliação: - Worksheets # 10, 11, 12. - English Test Review for the 2nd Period Worksheet. - Jogar os jogos da Unit 2 em Links, Videos, Jogos no Google Sala de Aula.",
-      "resumo_original": "Eng - 4A: Study for the Test - May 18, 2026",
-      "local": "",
-      "data_evento": "2026-05-13",
-      "prazo": "2026-05-18",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
