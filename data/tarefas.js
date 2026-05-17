@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-17T16:33:22-03:00",
+  "gerado_em": "2026-05-17T18:06:32-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "6thmcd9g64s3abb26spm8b9kccqjabb16gs3ib9pcko64e36cdhm6ohl68@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-18",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -38,19 +25,6 @@
       "local": "",
       "data_evento": "2026-06-04",
       "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -65,6 +39,32 @@
       "data_evento": "2026-05-13",
       "prazo": "2026-05-18",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 15.",
+      "descricao": "Finalizar a lista 15.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-18",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,12 +94,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
+      "id": "6thmcd9g64s3abb26spm8b9kccqjabb16gs3ib9pcko64e36cdhm6ohl68@google.com",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 15.",
-      "descricao": "Finalizar a lista 15.",
-      "resumo_original": "Mat 4A",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-15",
       "prazo": "2026-05-18",
