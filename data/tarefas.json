@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-18T13:32:20-03:00",
+  "gerado_em": "2026-05-18T16:01:26-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,8 +8,8 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 10,
-    "tarefas": 7,
+    "total_itens": 11,
+    "tarefas": 8,
     "provas": 0,
     "avisos": 0,
     "eventos": 3
@@ -24,6 +24,19 @@
       "resumo_original": "E. REL.-4A",
       "local": "",
       "data_evento": "2026-05-12",
+      "prazo": "2026-05-19",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "46c0ec35gk9samfm63uqhgrmnr@google.com",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "descricao": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
       "prazo": "2026-05-19",
       "urgencia": "amanha",
       "fonte": "google_calendar"
@@ -52,45 +65,6 @@
       "data_evento": "2026-05-13",
       "prazo": "2026-05-18",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "65t2g3adlf7erlq6eqqoqoas6t@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar folha de exercícios colada no caderno.",
-      "descricao": "Finalizar folha de exercícios colada no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-18",
-      "prazo": "2026-05-19",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -143,6 +117,45 @@
       "data_evento": "2026-06-27",
       "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "65t2g3adlf7erlq6eqqoqoas6t@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar folha de exercícios colada no caderno.",
+      "descricao": "Finalizar folha de exercícios colada no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
+      "prazo": "2026-05-19",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
