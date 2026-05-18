@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-18T01:41:42-03:00",
+  "gerado_em": "2026-05-18T05:51:15-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,6 +29,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 15.",
+      "descricao": "Finalizar a lista 15.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-18",
       "tipo": "tarefa",
       "materia": "História",
@@ -55,16 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6thmcd9g64s3abb26spm8b9kccqjabb16gs3ib9pcko64e36cdhm6ohl68@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "descricao": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
-      "resumo_original": "LP- 4A",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-18",
-      "urgencia": "hoje",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -81,42 +107,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3mppsjllludikk2t3fjdtjbb2b@google.com",
+      "id": "6thmcd9g64s3abb26spm8b9kccqjabb16gs3ib9pcko64e36cdhm6ohl68@google.com",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 15.",
-      "descricao": "Finalizar a lista 15.",
-      "resumo_original": "Mat 4A",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar caderno para 2a feira (só quem não terminou em aula). ⚠️Estudar para o Miniteste de Ortografia (19.05).",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-15",
       "prazo": "2026-05-18",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
