@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-19T13:30:30-03:00",
+  "gerado_em": "2026-05-19T16:15:56-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,52 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 12,
-    "tarefas": 8,
+    "total_itens": 13,
+    "tarefas": 9,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
-    {
-      "id": "1m1f2hn9v213ab9rgqfcqncu66@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
-      "descricao": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-18",
-      "prazo": "2026-05-19",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-20",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-20",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-26",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
     {
       "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
@@ -64,6 +25,32 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-07-03",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4ktclb3s9l2laqhebaju192i67@google.com#2026-05-19",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
+      "descricao": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-05-12",
+      "prazo": "2026-05-19",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -94,25 +81,12 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4ktclb3s9l2laqhebaju192i67@google.com#2026-05-19",
+      "id": "65t2g3adlf7erlq6eqqoqoas6t@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
-      "descricao": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-19",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "46c0ec35gk9samfm63uqhgrmnr@google.com",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
-      "descricao": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
-      "resumo_original": "EMO 4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar folha de exercícios colada no caderno.",
+      "descricao": "Finalizar folha de exercícios colada no caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-05-18",
       "prazo": "2026-05-19",
@@ -133,19 +107,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "65t2g3adlf7erlq6eqqoqoas6t@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar folha de exercícios colada no caderno.",
-      "descricao": "Finalizar folha de exercícios colada no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-18",
-      "prazo": "2026-05-19",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
       "tipo": "tarefa",
       "materia": "História",
@@ -159,16 +120,68 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
+      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-20",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-20",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-26",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2ikp6qgfmnelfe6ca99a2mii3f@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-20",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1m1f2hn9v213ab9rgqfcqncu66@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
+      "descricao": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
+      "prazo": "2026-05-19",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "46c0ec35gk9samfm63uqhgrmnr@google.com",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "descricao": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
+      "prazo": "2026-05-19",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
