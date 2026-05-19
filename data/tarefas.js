@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-19T02:12:34-03:00",
+  "gerado_em": "2026-05-19T07:04:01-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "4ktclb3s9l2laqhebaju192i67@google.com#2026-05-19",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
-      "descricao": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-05-12",
-      "prazo": "2026-05-19",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
       "tipo": "tarefa",
       "materia": "História",
@@ -42,66 +29,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "46c0ec35gk9samfm63uqhgrmnr@google.com",
+      "id": "4ktclb3s9l2laqhebaju192i67@google.com#2026-05-19",
       "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
-      "descricao": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
-      "resumo_original": "EMO 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
+      "descricao": "Para aula do dia 19/05: - Folha 10 (Ascensão do Senhor e Pentecostes); - Folha 11 (Dons e Frutos do Espírito Santo). - Realização de atividade em sala de aula (2,0 pontos).",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-05-18",
-      "prazo": "2026-05-19",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1m1f2hn9v213ab9rgqfcqncu66@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
-      "descricao": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-18",
+      "data_evento": "2026-05-12",
       "prazo": "2026-05-19",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -120,6 +55,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1m1f2hn9v213ab9rgqfcqncu66@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
+      "descricao": "1. Estudar para o Miniteste de Ortografia (amanhã). 2. Amanhã, trazer o caderno. 3. Os conteúdos do Teste de LP (27.05) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
+      "prazo": "2026-05-19",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "65t2g3adlf7erlq6eqqoqoas6t@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -130,6 +91,45 @@
       "data_evento": "2026-05-18",
       "prazo": "2026-05-19",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "46c0ec35gk9samfm63uqhgrmnr@google.com",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "descricao": "Para casa Finalize a Folha 04. Para próxima 2ªf .",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-05-18",
+      "prazo": "2026-05-19",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
