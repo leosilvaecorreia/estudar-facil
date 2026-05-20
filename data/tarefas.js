@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-20T12:52:44-03:00",
+  "gerado_em": "2026-05-20T15:29:22-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,39 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 8,
-    "tarefas": 4,
+    "total_itens": 11,
+    "tarefas": 7,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-22",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2ikp6qgfmnelfe6ca99a2mii3f@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
-      "descricao": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-20",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
     {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
@@ -55,16 +29,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -81,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "id": "2ikp6qgfmnelfe6ca99a2mii3f@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-20",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -115,6 +102,58 @@
       "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-05-19",
+      "prazo": "2026-05-26",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-22",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1v8ke10d4hdojo75914cbgqvnb@google.com#2026-05-21",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Estudar para o Miniteste de Cálculo, amanhã, dia 21/05. A matéria está na plataforma. O livro ficará em casa. Trazer no dia 26/05. Finalizar a lista 17. Correção amanhã, dia 21/05.",
+      "descricao": "Estudar para o Miniteste de Cálculo, amanhã, dia 21/05. A matéria está na plataforma. O livro ficará em casa. Trazer no dia 26/05. Finalizar a lista 17. Correção amanhã, dia 21/05.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1v8ke10d4hdojo75914cbgqvnb@google.com#2026-05-26",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Estudar para o Miniteste de Cálculo, amanhã, dia 21/05. A matéria está na plataforma. O livro ficará em casa. Trazer no dia 26/05. Finalizar a lista 17. Correção amanhã, dia 21/05.",
+      "descricao": "Estudar para o Miniteste de Cálculo, amanhã, dia 21/05. A matéria está na plataforma. O livro ficará em casa. Trazer no dia 26/05. Finalizar a lista 17. Correção amanhã, dia 21/05.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
       "prazo": "2026-05-26",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
