@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-20T09:02:15-03:00",
+  "gerado_em": "2026-05-20T12:52:44-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,32 @@
   },
   "itens": [
     {
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-22",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2ikp6qgfmnelfe6ca99a2mii3f@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-20",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -25,6 +51,45 @@
       "local": "",
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -51,71 +116,6 @@
       "local": "",
       "data_evento": "2026-05-19",
       "prazo": "2026-05-26",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2ikp6qgfmnelfe6ca99a2mii3f@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
-      "descricao": "Para casa Estudar para o TESTE! ✨ AMANHÃ, TRAZER O LIVRO E O CADERNO.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-20",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-22",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
