@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-21T07:01:19-03:00",
+  "gerado_em": "2026-05-21T10:30:38-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,55 +16,16 @@
   },
   "itens": [
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
+      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "resumo_original": "HIST 4A",
+      "materia": "Ciências",
+      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
+      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
+      "resumo_original": "CIEN 4A",
       "local": "",
       "data_evento": "2026-05-20",
       "prazo": "2026-05-21",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-22",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -81,6 +42,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "0n0mui3ip6eqpaakc6g3taer4i@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -94,16 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
+      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "resumo_original": "Mat 4A",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-26",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -133,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -146,16 +146,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
+      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
-      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-05-20",
-      "prazo": "2026-05-21",
-      "urgencia": "hoje",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-26",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
