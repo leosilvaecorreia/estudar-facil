@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-05-21T13:47:08-03:00",
+  "gerado_em": "2026-05-21T16:14:25-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,65 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 11,
-    "tarefas": 7,
+    "total_itens": 14,
+    "tarefas": 10,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
+    {
+      "id": "428gjq4f5qsd8fkudbsj6tcpd2@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "1. Finalizar a folha 27 (só quem não terminou em aula) para correção na 2a feira. 2. Trazer todo o material de LP (caderno, livro e caderno de atividades) somente no dia do teste (4a feira - 27.05). 3. Estudar para o teste de LP (27.05).",
+      "descricao": "1. Finalizar a folha 27 (só quem não terminou em aula) para correção na 2a feira. 2. Trazer todo o material de LP (caderno, livro e caderno de atividades) somente no dia do teste (4a feira - 27.05). 3. Estudar para o teste de LP (27.05).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-21",
+      "prazo": "2026-05-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "00et0lbqoofti4v5ej7ibb307d@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Atividades no caderno.",
+      "descricao": "Atividades no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-21",
+      "prazo": "2026-05-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
     {
       "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
       "tipo": "tarefa",
@@ -29,29 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
+      "id": "0n0mui3ip6eqpaakc6g3taer4i@google.com",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
-      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Português",
+      "titulo": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
+      "descricao": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-05-20",
       "prazo": "2026-05-21",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-15",
-      "prazo": "2026-05-22",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -65,19 +104,6 @@
       "data_evento": "2026-06-05",
       "prazo": "2026-06-05",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0n0mui3ip6eqpaakc6g3taer4i@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
-      "descricao": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-05-20",
-      "prazo": "2026-05-21",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -107,19 +133,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-20",
-      "prazo": "2026-05-21",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -129,19 +142,6 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
-      "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -156,6 +156,45 @@
       "data_evento": "2026-06-27",
       "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
+      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fmd04119b0d8l82l7ljph5bkb@google.com#2026-05-22",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "descricao": "Para casa Estudar para o TESTE (22/05/26).📚 👀TRAZER O LIVRO E O CADERNO NA 3ªf.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-05-15",
+      "prazo": "2026-05-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7v9v7mk1iqkuirq8i5p2rga9em@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼Finalizar folha 16 (produção de notícia) para amanhã.",
+      "descricao": "LEMBRETE! ✍️🏼Finalizar folha 16 (produção de notícia) para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-05-21",
+      "prazo": "2026-05-22",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
