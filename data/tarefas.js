@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-20T19:43:40-03:00",
+  "gerado_em": "2026-05-20T21:16:42-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,25 +16,51 @@
   },
   "itens": [
     {
-      "id": "0n0mui3ip6eqpaakc6g3taer4i@google.com",
+      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-20",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
-      "descricao": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
-      "resumo_original": "LP- 4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-05-20",
-      "prazo": "2026-05-21",
-      "urgencia": "amanha",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-20",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
-      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
+      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
-      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-19",
+      "prazo": "2026-05-26",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Corpus Christi)",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "FERIADO (Corpus Christi)",
+      "local": "",
+      "data_evento": "2026-06-04",
+      "prazo": "2026-06-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
+      "resumo_original": "HIST 4A",
       "local": "",
       "data_evento": "2026-05-20",
       "prazo": "2026-05-21",
@@ -68,19 +94,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -107,16 +120,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1p75ji5nj7l9d8tdq2kmj1lvhd@google.com",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Corpus Christi)",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "FERIADO (Corpus Christi)",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-06-04",
-      "prazo": "2026-06-04",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4qdhiac1e0jj50st6ecfbk0bvc@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠Para Casa: 📚 Estudar para o teste.",
+      "descricao": "🏠Para Casa: 📚 Estudar para o teste.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -133,6 +159,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0n0mui3ip6eqpaakc6g3taer4i@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
+      "descricao": "1. Finalizar a folha 26 (só quem não terminou em aula). 2. O gabarito do Miniteste de Ortografia foi disponibilizado na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-05-20",
+      "prazo": "2026-05-21",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -143,45 +182,6 @@
       "data_evento": "2026-06-27",
       "prazo": "2026-06-27",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "02172tls2qmon9kjk5t6275n5d@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "descricao": "Para casa Estudar para o TESTE! ✨ TRAZER O LIVRO E O CADERNO na próxima 6ªf.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-05-20",
-      "prazo": "2026-05-21",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-20",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-20",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "68u9ld3b7r74bd7mngh8am125d@google.com#2026-05-26",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "descricao": "Finalizar a lista 16. A matéria do teste está na plataforma. (26/05)",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-19",
-      "prazo": "2026-05-26",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
