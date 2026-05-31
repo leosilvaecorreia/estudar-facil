@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-05-31T02:44:42-03:00",
+  "gerado_em": "2026-05-31T06:22:02-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,58 +15,6 @@
     "eventos": 5
   },
   "itens": [
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ord2lg090q17722f0emea37a6@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de LÍNGUA PORTUGUESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-22",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "00el4k264ho472tnff29r5mgcm@google.com",
       "tipo": "prova",
@@ -94,45 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0fgt6bdqvthn6pom4f5uo5uvsq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "PROVA de HISTÓRIA",
-      "descricao": "",
-      "resumo_original": "PROVA de HISTÓRIA",
-      "local": "",
-      "data_evento": "2026-06-17",
-      "prazo": "2026-06-17",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-06-05",
-      "prazo": "2026-06-05",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6v4btvp9fcefev97dfrjf0rm0j@google.com#2026-06-11",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
-      "descricao": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-28",
-      "prazo": "2026-06-11",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -142,19 +51,6 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
-      "tipo": "prova",
-      "materia": "Inglês",
-      "titulo": "PROVA de LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-06-24",
-      "prazo": "2026-06-24",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -172,32 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7lglcc5bm9baamu8o3l4i04gcu@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Contas no caderno.",
-      "descricao": "Contas no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-05-29",
-      "prazo": "2026-06-01",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2en75vu0e0gqr8ae4rva350u22@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de GEOGRAFIA",
-      "descricao": "",
-      "resumo_original": "PROVA de GEOGRAFIA",
-      "local": "",
-      "data_evento": "2026-06-19",
-      "prazo": "2026-06-19",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "74dh8u1sak329s8q23e16oj2jt@google.com",
       "tipo": "prova",
       "materia": "Ciências",
@@ -207,19 +77,6 @@
       "local": "",
       "data_evento": "2026-06-15",
       "prazo": "2026-06-15",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
-      "tipo": "prova",
-      "materia": "Ensino Religioso",
-      "titulo": "PROVA de ENSINO RELIGIOSO",
-      "descricao": "",
-      "resumo_original": "PROVA de ENSINO RELIGIOSO",
-      "local": "",
-      "data_evento": "2026-06-23",
-      "prazo": "2026-06-23",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -237,6 +94,84 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
+      "tipo": "prova",
+      "materia": "Inglês",
+      "titulo": "PROVA de LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-06-24",
+      "prazo": "2026-06-24",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2en75vu0e0gqr8ae4rva350u22@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA de GEOGRAFIA",
+      "descricao": "",
+      "resumo_original": "PROVA de GEOGRAFIA",
+      "local": "",
+      "data_evento": "2026-06-19",
+      "prazo": "2026-06-19",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ord2lg090q17722f0emea37a6@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de LÍNGUA PORTUGUESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-22",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2l9ubq0d5ggn5g72lu1to2mjh5@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "- Veja o horário da Missa + Procissão Solene nas redes sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-06-05",
+      "prazo": "2026-06-05",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
+      "tipo": "prova",
+      "materia": "Ensino Religioso",
+      "titulo": "PROVA de ENSINO RELIGIOSO",
+      "descricao": "",
+      "resumo_original": "PROVA de ENSINO RELIGIOSO",
+      "local": "",
+      "data_evento": "2026-06-23",
+      "prazo": "2026-06-23",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7lglcc5bm9baamu8o3l4i04gcu@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Contas no caderno.",
+      "descricao": "Contas no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-05-29",
+      "prazo": "2026-06-01",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -246,6 +181,58 @@
       "local": "",
       "data_evento": "2026-06-27",
       "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6v4btvp9fcefev97dfrjf0rm0j@google.com#2026-06-11",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
+      "descricao": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-28",
+      "prazo": "2026-06-11",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "local": "",
+      "data_evento": "2026-06-29",
+      "prazo": "2026-06-29",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -260,6 +247,19 @@
       "data_evento": "2026-05-29",
       "prazo": "2026-06-01",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0fgt6bdqvthn6pom4f5uo5uvsq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "PROVA de HISTÓRIA",
+      "descricao": "",
+      "resumo_original": "PROVA de HISTÓRIA",
+      "local": "",
+      "data_evento": "2026-06-17",
+      "prazo": "2026-06-17",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
