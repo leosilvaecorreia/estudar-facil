@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-09T09:14:15-03:00",
+  "gerado_em": "2026-06-09T13:12:12-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
-      "tipo": "prova",
-      "materia": "Inglês",
-      "titulo": "PROVA de LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-06-24",
-      "prazo": "2026-06-24",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7t79d74ha629ktoh2mdtng3khv@google.com",
       "tipo": "prova",
       "materia": "Matemática",
@@ -65,19 +52,6 @@
       "data_evento": "2026-06-25",
       "prazo": "2026-06-25",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3j5jnatthia7lscjnqhmtjeakt@google.com#2026-06-10",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "🏠 Para Casa: 👀 Reler as páginas 82 até 85 do livrão. ✍🏻 Fazer o exercício número 02 da página 86. 📌 Trazer na próxima aula de Ciências ( 08/06) - caderno de Ciências e Livrão. 👀 Equipe do Tema 04 do Projeto - Tecnologia e Meio Ambiente-reler a folha. ✂️ Equipe do Tema 04 - Tecnologia e Meio Ambiente - trazer no dia 10/06 - adesivos pequenos - variados (para decorar), canetinha, cola bastão, lápis de cor, lápis, borracha e tesoura.",
-      "descricao": "🏠 Para Casa: 👀 Reler as páginas 82 até 85 do livrão. ✍🏻 Fazer o exercício número 02 da página 86. 📌 Trazer na próxima aula de Ciências ( 08/06) - caderno de Ciências e Livrão. 👀 Equipe do Tema 04 do Projeto - Tecnologia e Meio Ambiente-reler a folha. ✂️ Equipe do Tema 04 - Tecnologia e Meio Ambiente - trazer no dia 10/06 - adesivos pequenos - variados (para decorar), canetinha, cola bastão, lápis de cor, lápis, borracha e tesoura.",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-06-03",
-      "prazo": "2026-06-10",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -107,6 +81,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "75tfusisc9u7d2ltivah69j5p1@google.com",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "Para aula do dia 09/06: - Folha 14 - Atividade sobre o Mistério da Santíssima Trindade e Corpus Christi.",
+      "descricao": "Para aula do dia 09/06: - Folha 14 - Atividade sobre o Mistério da Santíssima Trindade e Corpus Christi.",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-06-02",
+      "prazo": "2026-06-09",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7ord2lg090q17722f0emea37a6@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -120,29 +120,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6umqds7agpo80g0a9kkcavpcfc@google.com",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
-      "descricao": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
-      "resumo_original": "EMO 4A",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-06-08",
-      "prazo": "2026-06-15",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6v4btvp9fcefev97dfrjf0rm0j@google.com#2026-06-11",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
-      "descricao": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-05-28",
-      "prazo": "2026-06-11",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -159,16 +146,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "65i38e9pchi3ib9k60sm8b9kcpgj2bb16pi3cb9ickq36c9h6kojgphi6o@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼Finalizar as atividades do livro, págs. 108, 109 e 116 (só quem não terminou em aula). ⚠️Os conteúdos da Prova de LP (22.06) foram disponibilizados na plataforma.",
-      "descricao": "✍️🏼Finalizar as atividades do livro, págs. 108, 109 e 116 (só quem não terminou em aula). ⚠️Os conteúdos da Prova de LP (22.06) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
       "local": "",
-      "data_evento": "2026-06-08",
-      "prazo": "2026-06-09",
-      "urgencia": "hoje",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6v4btvp9fcefev97dfrjf0rm0j@google.com#2026-06-11",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
+      "descricao": "📚PLIC - 28/05/2026 👀 Leia o livro escolhido. Trazer dia no 11/06/26.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-05-28",
+      "prazo": "2026-06-11",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -185,16 +198,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "47c4ed0ju7aldbg1j4hthcprsb@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📝Livro Lição de casa - página 40 📖 Reler a folha 05 - caderno.",
-      "descricao": "📝Livro Lição de casa - página 40 📖 Reler a folha 05 - caderno.",
-      "resumo_original": "CIEN 4A",
+      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
+      "tipo": "prova",
+      "materia": "Inglês",
+      "titulo": "PROVA de LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA INGLESA",
       "local": "",
-      "data_evento": "2026-06-08",
-      "prazo": "2026-06-09",
-      "urgencia": "hoje",
+      "data_evento": "2026-06-24",
+      "prazo": "2026-06-24",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -211,19 +224,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "3hgcgirdvrh3v1hasbf2jfcf5u@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -237,14 +237,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "75tfusisc9u7d2ltivah69j5p1@google.com",
+      "id": "65i38e9pchi3ib9k60sm8b9kcpgj2bb16pi3cb9ickq36c9h6kojgphi6o@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Para aula do dia 09/06: - Folha 14 - Atividade sobre o Mistério da Santíssima Trindade e Corpus Christi.",
-      "descricao": "Para aula do dia 09/06: - Folha 14 - Atividade sobre o Mistério da Santíssima Trindade e Corpus Christi.",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Português",
+      "titulo": "✍️🏼Finalizar as atividades do livro, págs. 108, 109 e 116 (só quem não terminou em aula). ⚠️Os conteúdos da Prova de LP (22.06) foram disponibilizados na plataforma.",
+      "descricao": "✍️🏼Finalizar as atividades do livro, págs. 108, 109 e 116 (só quem não terminou em aula). ⚠️Os conteúdos da Prova de LP (22.06) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-06-02",
+      "data_evento": "2026-06-08",
       "prazo": "2026-06-09",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -263,6 +263,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6umqds7agpo80g0a9kkcavpcfc@google.com",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
+      "descricao": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-06-08",
+      "prazo": "2026-06-15",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3j5jnatthia7lscjnqhmtjeakt@google.com#2026-06-10",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "🏠 Para Casa: 👀 Reler as páginas 82 até 85 do livrão. ✍🏻 Fazer o exercício número 02 da página 86. 📌 Trazer na próxima aula de Ciências ( 08/06) - caderno de Ciências e Livrão. 👀 Equipe do Tema 04 do Projeto - Tecnologia e Meio Ambiente-reler a folha. ✂️ Equipe do Tema 04 - Tecnologia e Meio Ambiente - trazer no dia 10/06 - adesivos pequenos - variados (para decorar), canetinha, cola bastão, lápis de cor, lápis, borracha e tesoura.",
+      "descricao": "🏠 Para Casa: 👀 Reler as páginas 82 até 85 do livrão. ✍🏻 Fazer o exercício número 02 da página 86. 📌 Trazer na próxima aula de Ciências ( 08/06) - caderno de Ciências e Livrão. 👀 Equipe do Tema 04 do Projeto - Tecnologia e Meio Ambiente-reler a folha. ✂️ Equipe do Tema 04 - Tecnologia e Meio Ambiente - trazer no dia 10/06 - adesivos pequenos - variados (para decorar), canetinha, cola bastão, lápis de cor, lápis, borracha e tesoura.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-06-03",
+      "prazo": "2026-06-10",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "2en75vu0e0gqr8ae4rva350u22@google.com",
       "tipo": "prova",
       "materia": "Geografia",
@@ -276,54 +302,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "id": "47c4ed0ju7aldbg1j4hthcprsb@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📝Livro Lição de casa - página 40 📖 Reler a folha 05 - caderno.",
+      "descricao": "📝Livro Lição de casa - página 40 📖 Reler a folha 05 - caderno.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-06-08",
+      "prazo": "2026-06-09",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
       "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "materia": "Geografia",
+      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
       "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
       "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
+      "data_evento": "2026-06-29",
+      "prazo": "2026-06-29",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
