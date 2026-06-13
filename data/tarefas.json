@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-06-13T07:07:00-03:00",
+  "gerado_em": "2026-06-13T09:02:14-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,32 +16,6 @@
   },
   "itens": [
     {
-      "id": "28rcp1j5bsf2pq6g74dgvhdse6@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "✍️🏼 Finalizar a folha 19 para 6a feira (dia19.06) - somente quem não terminou em aula.",
-      "descricao": "✍️🏼 Finalizar a folha 19 para 6a feira (dia19.06) - somente quem não terminou em aula.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-06-12",
-      "prazo": "2026-06-15",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6b6a48a2hlc238p8fl15fdu1i3@google.com#2026-06-15",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA - Exercícios no caderno. PARA 3ªf, 16/06. - ESTUDE PARA A PROVA 17/06!! - Trazer o livro e o caderno na 3ªf, 16/06.",
-      "descricao": "PARA CASA - Exercícios no caderno. PARA 3ªf, 16/06. - ESTUDE PARA A PROVA 17/06!! - Trazer o livro e o caderno na 3ªf, 16/06.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-06-12",
-      "prazo": "2026-06-15",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "2en75vu0e0gqr8ae4rva350u22@google.com",
       "tipo": "prova",
       "materia": "Geografia",
@@ -51,6 +25,32 @@
       "local": "",
       "data_evento": "2026-06-19",
       "prazo": "2026-06-19",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
+      "tipo": "prova",
+      "materia": "Ensino Religioso",
+      "titulo": "PROVA de ENSINO RELIGIOSO",
+      "descricao": "",
+      "resumo_original": "PROVA de ENSINO RELIGIOSO",
+      "local": "",
+      "data_evento": "2026-06-23",
+      "prazo": "2026-06-23",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0fgt6bdqvthn6pom4f5uo5uvsq@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "PROVA de HISTÓRIA",
+      "descricao": "",
+      "resumo_original": "PROVA de HISTÓRIA",
+      "local": "",
+      "data_evento": "2026-06-17",
+      "prazo": "2026-06-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -68,6 +68,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3sks58rr4kpemqd1a1sngu9ct0@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 30 para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 30 para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-06-12",
+      "prazo": "2026-06-15",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "74dh8u1sak329s8q23e16oj2jt@google.com",
       "tipo": "prova",
       "materia": "Ciências",
@@ -77,19 +103,6 @@
       "local": "",
       "data_evento": "2026-06-15",
       "prazo": "2026-06-15",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0fgt6bdqvthn6pom4f5uo5uvsq@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "PROVA de HISTÓRIA",
-      "descricao": "",
-      "resumo_original": "PROVA de HISTÓRIA",
-      "local": "",
-      "data_evento": "2026-06-17",
-      "prazo": "2026-06-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -120,32 +133,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6umqds7agpo80g0a9kkcavpcfc@google.com",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
-      "descricao": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-06-08",
-      "prazo": "2026-06-15",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1gvll2nj35p8esjnrgns0dh28v@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -159,6 +146,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7t79d74ha629ktoh2mdtng3khv@google.com",
       "tipo": "prova",
       "materia": "Matemática",
@@ -168,19 +168,6 @@
       "local": "",
       "data_evento": "2026-06-25",
       "prazo": "2026-06-25",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ord2lg090q17722f0emea37a6@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de LÍNGUA PORTUGUESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-22",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -198,42 +185,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3sks58rr4kpemqd1a1sngu9ct0@google.com",
+      "id": "6umqds7agpo80g0a9kkcavpcfc@google.com",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 30 para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 30 para 2a feira.",
-      "resumo_original": "LP- 4A",
+      "materia": "Emocionar",
+      "titulo": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
+      "descricao": "PARA CASA Realizar em família o LIVRO DE ATIVIDADES (PARA 15/06) “Círculo da amizade em Família” “Refletir sobre o valor da amizade dentro e fora da família, promovendo empatia, escuta e carinho”.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-06-12",
+      "data_evento": "2026-06-08",
       "prazo": "2026-06-15",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
-      "tipo": "prova",
-      "materia": "Ensino Religioso",
-      "titulo": "PROVA de ENSINO RELIGIOSO",
-      "descricao": "",
-      "resumo_original": "PROVA de ENSINO RELIGIOSO",
-      "local": "",
-      "data_evento": "2026-06-23",
-      "prazo": "2026-06-23",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -246,19 +207,6 @@
       "local": "",
       "data_evento": "2026-07-27",
       "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -276,6 +224,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6b6a48a2hlc238p8fl15fdu1i3@google.com#2026-06-17",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA - Exercícios no caderno. PARA 3ªf, 16/06. - ESTUDE PARA A PROVA 17/06!! - Trazer o livro e o caderno na 3ªf, 16/06.",
+      "descricao": "PARA CASA - Exercícios no caderno. PARA 3ªf, 16/06. - ESTUDE PARA A PROVA 17/06!! - Trazer o livro e o caderno na 3ªf, 16/06.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-06-12",
+      "prazo": "2026-06-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "6b6a48a2hlc238p8fl15fdu1i3@google.com#2026-06-16",
       "tipo": "tarefa",
       "materia": "História",
@@ -289,7 +250,7 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6b6a48a2hlc238p8fl15fdu1i3@google.com#2026-06-17",
+      "id": "6b6a48a2hlc238p8fl15fdu1i3@google.com#2026-06-15",
       "tipo": "tarefa",
       "materia": "História",
       "titulo": "PARA CASA - Exercícios no caderno. PARA 3ªf, 16/06. - ESTUDE PARA A PROVA 17/06!! - Trazer o livro e o caderno na 3ªf, 16/06.",
@@ -297,7 +258,46 @@
       "resumo_original": "HIST 4A",
       "local": "",
       "data_evento": "2026-06-12",
-      "prazo": "2026-06-17",
+      "prazo": "2026-06-15",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ord2lg090q17722f0emea37a6@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de LÍNGUA PORTUGUESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-22",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "local": "",
+      "data_evento": "2026-06-29",
+      "prazo": "2026-06-29",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "28rcp1j5bsf2pq6g74dgvhdse6@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "✍️🏼 Finalizar a folha 19 para 6a feira (dia19.06) - somente quem não terminou em aula.",
+      "descricao": "✍️🏼 Finalizar a folha 19 para 6a feira (dia19.06) - somente quem não terminou em aula.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-06-12",
+      "prazo": "2026-06-15",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
