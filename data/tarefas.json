@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-06-21T16:59:09-03:00",
+  "gerado_em": "2026-06-21T18:39:33-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,71 @@
     "eventos": 4
   },
   "itens": [
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
+      "tipo": "prova",
+      "materia": "Inglês",
+      "titulo": "PROVA de LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-06-24",
+      "prazo": "2026-06-24",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
     {
       "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
       "tipo": "prova",
@@ -42,16 +107,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
+      "id": "cpijaohlclh30bb3c9im6b9k6sr3gbb26dj3gbb574sjee31coo34dr2co@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETES! ⚠️Trazer todo o material de LP (livro, caderno e caderno de atividades) somente no dia da prova (22.06). ⚠️Estudar para a Prova de LP.",
+      "descricao": "LEMBRETES! ⚠️Trazer todo o material de LP (livro, caderno e caderno de atividades) somente no dia da prova (22.06). ⚠️Estudar para a Prova de LP.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-06-19",
+      "prazo": "2026-06-22",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ord2lg090q17722f0emea37a6@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de LÍNGUA PORTUGUESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-22",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -68,32 +146,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "26hkakks2nrcd5av788vsu2ov3@google.com#2026-06-22",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "- Trabalho (Formulário)- valendo 4,0 pontos. Prazo de entrega até 22/06. Obs: O Formulário está postado na plataforma em \"Atividades\".",
-      "descricao": "- Trabalho (Formulário)- valendo 4,0 pontos. Prazo de entrega até 22/06. Obs: O Formulário está postado na plataforma em \"Atividades\".",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-06-16",
-      "prazo": "2026-06-22",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5dfqvfspvvs4sgpp1pec67kgrn@google.com#2026-06-25",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -103,19 +155,6 @@
       "local": "",
       "data_evento": "2026-06-18",
       "prazo": "2026-06-25",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
-      "tipo": "prova",
-      "materia": "Inglês",
-      "titulo": "PROVA de LÍNGUA INGLESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA INGLESA",
-      "local": "",
-      "data_evento": "2026-06-24",
-      "prazo": "2026-06-24",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -133,66 +172,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
-      "tipo": "prova",
-      "materia": "Ensino Religioso",
-      "titulo": "PROVA de ENSINO RELIGIOSO",
-      "descricao": "",
-      "resumo_original": "PROVA de ENSINO RELIGIOSO",
-      "local": "",
-      "data_evento": "2026-06-23",
-      "prazo": "2026-06-23",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ord2lg090q17722f0emea37a6@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de LÍNGUA PORTUGUESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-22",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "cpijaohlclh30bb3c9im6b9k6sr3gbb26dj3gbb574sjee31coo34dr2co@google.com",
+      "id": "26hkakks2nrcd5av788vsu2ov3@google.com#2026-06-22",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETES! ⚠️Trazer todo o material de LP (livro, caderno e caderno de atividades) somente no dia da prova (22.06). ⚠️Estudar para a Prova de LP.",
-      "descricao": "LEMBRETES! ⚠️Trazer todo o material de LP (livro, caderno e caderno de atividades) somente no dia da prova (22.06). ⚠️Estudar para a Prova de LP.",
-      "resumo_original": "LP- 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "- Trabalho (Formulário)- valendo 4,0 pontos. Prazo de entrega até 22/06. Obs: O Formulário está postado na plataforma em \"Atividades\".",
+      "descricao": "- Trabalho (Formulário)- valendo 4,0 pontos. Prazo de entrega até 22/06. Obs: O Formulário está postado na plataforma em \"Atividades\".",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-06-19",
+      "data_evento": "2026-06-16",
       "prazo": "2026-06-22",
       "urgencia": "amanha",
       "fonte": "google_calendar"
@@ -208,6 +195,19 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t25uc81i7k6paellh2007dd3n@google.com",
+      "tipo": "prova",
+      "materia": "Ensino Religioso",
+      "titulo": "PROVA de ENSINO RELIGIOSO",
+      "descricao": "",
+      "resumo_original": "PROVA de ENSINO RELIGIOSO",
+      "local": "",
+      "data_evento": "2026-06-23",
+      "prazo": "2026-06-23",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
