@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-24T05:32:00-03:00",
+  "gerado_em": "2026-06-24T08:52:59-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,16 +29,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
+      "tipo": "prova",
+      "materia": "Inglês",
+      "titulo": "PROVA de LÍNGUA INGLESA",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "PROVA de LÍNGUA INGLESA",
       "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-06-24",
+      "prazo": "2026-06-24",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -52,32 +52,6 @@
       "data_evento": "2026-06-23",
       "prazo": "2026-06-24",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "74q7otr2s3balplarp8uiq6uqm@google.com#2026-06-25",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "O livro de Matemática continuará em casa. Trazer, somente, no dia 25/06. Finalizar a lista 24.",
-      "descricao": "O livro de Matemática continuará em casa. Trazer, somente, no dia 25/06. Finalizar a lista 24.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-25",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -107,42 +81,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7t79d74ha629ktoh2mdtng3khv@google.com",
-      "tipo": "prova",
+      "id": "74q7otr2s3balplarp8uiq6uqm@google.com#2026-06-25",
+      "tipo": "tarefa",
       "materia": "Matemática",
-      "titulo": "PROVA de MATEMÁTICA",
-      "descricao": "",
-      "resumo_original": "PROVA de MATEMÁTICA",
+      "titulo": "O livro de Matemática continuará em casa. Trazer, somente, no dia 25/06. Finalizar a lista 24.",
+      "descricao": "O livro de Matemática continuará em casa. Trazer, somente, no dia 25/06. Finalizar a lista 24.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-06-25",
+      "data_evento": "2026-06-22",
       "prazo": "2026-06-25",
       "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
-      "id": "0vrrjiu4g9o562r8cmphgqo4qe@google.com",
-      "tipo": "prova",
-      "materia": "Inglês",
-      "titulo": "PROVA de LÍNGUA INGLESA",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
       "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA INGLESA",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-06-24",
-      "prazo": "2026-06-24",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -159,16 +120,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
       "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -185,6 +159,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7t79d74ha629ktoh2mdtng3khv@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de MATEMÁTICA",
+      "descricao": "",
+      "resumo_original": "PROVA de MATEMÁTICA",
+      "local": "",
+      "data_evento": "2026-06-25",
+      "prazo": "2026-06-25",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4c35bqoicero669j7lm09mvj78@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -198,15 +198,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
+      "titulo": "Encerramento do Semestre",
       "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
