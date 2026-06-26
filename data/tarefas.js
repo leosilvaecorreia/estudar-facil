@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-26T15:01:47-03:00",
+  "gerado_em": "2026-06-26T17:06:00-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,52 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 12,
+    "total_itens": 13,
     "tarefas": 3,
     "provas": 3,
     "avisos": 0,
-    "eventos": 6
+    "eventos": 7
   },
   "itens": [
+    {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6dcte3t3ks7q1ngnc81nupfk7g@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Trazer tesoura, cola e lápis de cor.",
+      "descricao": "Trazer tesoura, cola e lápis de cor.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-06-25",
+      "prazo": "2026-06-26",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
       "tipo": "prova",
@@ -25,6 +64,32 @@
       "local": "",
       "data_evento": "2026-06-29",
       "prazo": "2026-06-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -42,19 +107,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6dcte3t3ks7q1ngnc81nupfk7g@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Trazer tesoura, cola e lápis de cor.",
-      "descricao": "Trazer tesoura, cola e lápis de cor.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-06-25",
-      "prazo": "2026-06-26",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1atulm9usk9qp7uqugmrfavsds@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -63,6 +115,45 @@
       "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-06-25",
+      "prazo": "2026-06-26",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4mr8479imsppqnn437ed0d3gpu@google.com",
+      "tipo": "evento",
+      "materia": "Pensamento Computacional",
+      "titulo": "4A PeC",
+      "descricao": "Aula 07 realizada no Laboratório de PeC, na qual os alunos acessaram a plataforma do Google Classroom e realizaram o jogo da XLIII Olímpiada Interna do CSA de Pensamento Computacional.",
+      "resumo_original": "4A PeC",
+      "local": "",
+      "data_evento": "2026-06-26",
       "prazo": "2026-06-26",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -81,32 +172,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -117,58 +182,6 @@
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
-      "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
-      "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
