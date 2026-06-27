@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-27T09:15:52-03:00",
+  "gerado_em": "2026-06-27T11:53:29-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,29 +29,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
       "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
-      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-06-27",
-      "prazo": "2026-06-27",
-      "urgencia": "hoje",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,6 +94,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "4oqe1b1h2bjehhau13l4ihoeun@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Abertura da XLIII Olimpíada Interna",
+      "descricao": "",
+      "resumo_original": "Abertura da XLIII Olimpíada Interna",
+      "local": "",
+      "data_evento": "2026-06-27",
+      "prazo": "2026-06-27",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "local": "",
+      "data_evento": "2026-06-29",
+      "prazo": "2026-06-29",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -103,32 +129,6 @@
       "local": "",
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
