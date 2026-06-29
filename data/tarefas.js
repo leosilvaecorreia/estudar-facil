@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-29T08:21:52-03:00",
+  "gerado_em": "2026-06-29T13:06:08-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,29 +16,16 @@
   },
   "itens": [
     {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
+      "titulo": "Encerramento do Semestre",
       "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -68,29 +55,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
       "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -107,16 +81,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
       "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
       "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -130,6 +104,32 @@
       "data_evento": "2026-06-29",
       "prazo": "2026-06-29",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-29",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
