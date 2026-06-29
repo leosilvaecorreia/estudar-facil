@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-29T15:20:38-03:00",
+  "gerado_em": "2026-06-29T17:54:56-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,32 +16,6 @@
   },
   "itens": [
     {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "16o4fl80he9iue7teil295rv6j@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -51,32 +25,6 @@
       "local": "",
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -94,6 +42,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-29",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
+      "tipo": "prova",
+      "materia": "Geografia",
+      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
+      "local": "",
+      "data_evento": "2026-06-29",
+      "prazo": "2026-06-29",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -107,6 +94,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -116,19 +129,6 @@
       "local": "",
       "data_evento": "2026-08-08",
       "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
