@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-30T02:16:09-03:00",
+  "gerado_em": "2026-06-30T06:58:09-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,45 @@
     "eventos": 5
   },
   "itens": [
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
@@ -42,28 +81,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Encerramento do Semestre",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Encerramento do Semestre",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -78,32 +104,6 @@
       "data_evento": "2026-07-01",
       "prazo": "2026-07-01",
       "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
