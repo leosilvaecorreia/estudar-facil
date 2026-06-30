@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-29T19:18:44-03:00",
+  "gerado_em": "2026-06-29T21:16:46-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,32 +16,6 @@
   },
   "itens": [
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "4c35bqoicero669j7lm09mvj78@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -52,19 +26,6 @@
       "data_evento": "2026-06-30",
       "prazo": "2026-06-30",
       "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -94,6 +55,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-06-22",
+      "prazo": "2026-06-29",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -120,16 +120,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "resumo_original": "EMO 4A",
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
       "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
