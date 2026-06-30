@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-06-29T21:16:46-03:00",
+  "gerado_em": "2026-06-30T02:16:09-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,65 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 9,
-    "tarefas": 1,
-    "provas": 3,
+    "total_itens": 7,
+    "tarefas": 0,
+    "provas": 2,
     "avisos": 0,
     "eventos": 5
   },
   "itens": [
-    {
-      "id": "4c35bqoicero669j7lm09mvj78@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
-      "local": "",
-      "data_evento": "2026-06-30",
-      "prazo": "2026-06-30",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "33gmc261gb3mvi3bhp4erqq17b@google.com",
-      "tipo": "prova",
-      "materia": "Geografia",
-      "titulo": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (geografia, língua inglesa e redação)",
-      "local": "",
-      "data_evento": "2026-06-29",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
@@ -78,19 +26,6 @@
       "data_evento": "2026-08-08",
       "prazo": "2026-08-08",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1b466bgiau5n665soob8nr62t3@google.com#2026-06-29",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "descricao": "Para casa Realizar a Folha com capricho e atenção! Para próxima 2ªf, 29/06.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-06-22",
-      "prazo": "2026-06-29",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -107,15 +42,28 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
+      "titulo": "Dia dos Pais",
       "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
+      "resumo_original": "Dia dos Pais",
       "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -129,7 +77,33 @@
       "local": "",
       "data_evento": "2026-07-01",
       "prazo": "2026-07-01",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4c35bqoicero669j7lm09mvj78@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ciências naturais e língua portuguesa)",
+      "local": "",
+      "data_evento": "2026-06-30",
+      "prazo": "2026-06-30",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
