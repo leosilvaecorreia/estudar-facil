@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-01T12:48:24-03:00",
+  "gerado_em": "2026-07-01T15:12:36-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,50 +8,24 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 6,
-    "tarefas": 0,
+    "total_itens": 7,
+    "tarefas": 1,
     "provas": 1,
     "avisos": 0,
     "eventos": 5
   },
   "itens": [
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -68,16 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Volta às Aulas",
+      "titulo": "Recesso Escolar",
       "descricao": "",
-      "resumo_original": "Volta às Aulas",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -91,6 +65,45 @@
       "data_evento": "2026-07-03",
       "prazo": "2026-07-03",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "descricao": "",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-01",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-02",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
