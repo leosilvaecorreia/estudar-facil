@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-01T17:52:28-03:00",
+  "gerado_em": "2026-07-01T19:38:13-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "descricao": "",
-      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-01",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "16o4fl80he9iue7teil295rv6j@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -39,6 +26,45 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-02",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -68,42 +94,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
+      "id": "6l7v3iov46l5dio46eh0bt4gt4@google.com",
+      "tipo": "prova",
+      "materia": "Matemática",
+      "titulo": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
       "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
+      "resumo_original": "PROVA de 2ª CHAMADA (ensino religioso, história e matemática)",
       "local": "",
       "data_evento": "2026-07-01",
-      "prazo": "2026-07-02",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
+      "prazo": "2026-07-01",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
