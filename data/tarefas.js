@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-02T14:00:11-03:00",
+  "gerado_em": "2026-07-02T15:45:41-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-02",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "29cv04blnr4pq21msckc4su36k@google.com",
       "tipo": "tarefa",
       "materia": "Redação",
@@ -39,19 +26,6 @@
       "data_evento": "2026-07-02",
       "prazo": "2026-07-03",
       "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -68,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -90,6 +51,32 @@
       "local": "",
       "data_evento": "2026-07-27",
       "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-07-01",
+      "prazo": "2026-07-02",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -104,6 +91,19 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
