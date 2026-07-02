@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-02T15:45:41-03:00",
+  "gerado_em": "2026-07-02T17:36:12-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,32 @@
     "eventos": 5
   },
   "itens": [
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
     {
       "id": "29cv04blnr4pq21msckc4su36k@google.com",
       "tipo": "tarefa",
@@ -42,19 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -68,6 +81,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -78,32 +104,6 @@
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
