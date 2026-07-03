@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-03T11:29:28-03:00",
+  "gerado_em": "2026-07-03T13:43:32-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,14 +42,27 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-07-03",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "29cv04blnr4pq21msckc4su36k@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! Finalizar a folha 20 para amanhã.",
+      "descricao": "LEMBRETE! Finalizar a folha 20 para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-07-02",
       "prazo": "2026-07-03",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -68,6 +81,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Semestre",
+      "descricao": "",
+      "resumo_original": "Encerramento do Semestre",
+      "local": "",
+      "data_evento": "2026-07-03",
+      "prazo": "2026-07-03",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "d3aik6cfbmgtojac40sm65ofrg@google.com",
       "tipo": "evento",
       "materia": "Pensamento Computacional",
@@ -78,32 +104,6 @@
       "data_evento": "2026-07-02",
       "prazo": "2026-07-03",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "29cv04blnr4pq21msckc4su36k@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "descricao": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-07-02",
-      "prazo": "2026-07-03",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
