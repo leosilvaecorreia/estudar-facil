@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-07-02T19:16:51-03:00",
+  "gerado_em": "2026-07-02T21:16:52-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,39 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 7,
+    "total_itens": 8,
     "tarefas": 2,
     "provas": 0,
     "avisos": 0,
-    "eventos": 5
+    "eventos": 6
   },
   "itens": [
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
     {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
@@ -42,29 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "id": "d3aik6cfbmgtojac40sm65ofrg@google.com",
       "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "materia": "Pensamento Computacional",
+      "titulo": "4A PeC",
+      "descricao": "📌 Nesta Sexta-feira (03/07), utilizaremos fones de ouvido durante a aula de PeC! 🎧 Peço, por gentileza, que tragam 01 fone de ouvido etiquetado, com conector P2, guardado na mochila. 🎒",
+      "resumo_original": "4A PeC",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-07-02",
+      "prazo": "2026-07-03",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
