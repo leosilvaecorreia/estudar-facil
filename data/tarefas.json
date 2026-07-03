@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-07-02T21:16:52-03:00",
+  "gerado_em": "2026-07-03T01:54:03-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,24 +8,50 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 8,
-    "tarefas": 2,
+    "total_itens": 7,
+    "tarefas": 1,
     "provas": 0,
     "avisos": 0,
     "eventos": 6
   },
   "itens": [
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "29cv04blnr4pq21msckc4su36k@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! Finalizar a folha 20 para amanhã.",
+      "descricao": "LEMBRETE! Finalizar a folha 20 para amanhã.",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-07-02",
+      "prazo": "2026-07-03",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "d3aik6cfbmgtojac40sm65ofrg@google.com",
+      "tipo": "evento",
+      "materia": "Pensamento Computacional",
+      "titulo": "4A PeC",
+      "descricao": "📌 Nesta Sexta-feira (03/07), utilizaremos fones de ouvido durante a aula de PeC! 🎧 Peço, por gentileza, que tragam 01 fone de ouvido etiquetado, com conector P2, guardado na mochila. 🎒",
+      "resumo_original": "4A PeC",
+      "local": "",
+      "data_evento": "2026-07-02",
+      "prazo": "2026-07-03",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -55,45 +81,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "d3aik6cfbmgtojac40sm65ofrg@google.com",
-      "tipo": "evento",
-      "materia": "Pensamento Computacional",
-      "titulo": "4A PeC",
-      "descricao": "📌 Nesta Sexta-feira (03/07), utilizaremos fones de ouvido durante a aula de PeC! 🎧 Peço, por gentileza, que tragam 01 fone de ouvido etiquetado, com conector P2, guardado na mochila. 🎒",
-      "resumo_original": "4A PeC",
-      "local": "",
-      "data_evento": "2026-07-02",
-      "prazo": "2026-07-03",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "29cv04blnr4pq21msckc4su36k@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "descricao": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-07-02",
-      "prazo": "2026-07-03",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "157su60cqms1pb8kjj829sh2t2@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -103,20 +90,20 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-07-03",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
-      "id": "1sklkkcl14tdbvnf7ofdh2f3ft@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "descricao": "Finalizar o caderno de atividades, págs. 27 a 29 (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-07-01",
-      "prazo": "2026-07-02",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
