@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-04T19:08:47-03:00",
+  "gerado_em": "2026-07-04T20:12:08-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,19 +29,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -65,6 +52,19 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
