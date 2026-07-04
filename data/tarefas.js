@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-03T21:15:35-03:00",
+  "gerado_em": "2026-07-04T01:47:49-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,26 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 7,
-    "tarefas": 1,
+    "total_itens": 4,
+    "tarefas": 0,
     "provas": 0,
     "avisos": 0,
-    "eventos": 6
+    "eventos": 4
   },
   "itens": [
-    {
-      "id": "d3aik6cfbmgtojac40sm65ofrg@google.com",
-      "tipo": "evento",
-      "materia": "Pensamento Computacional",
-      "titulo": "4A PeC",
-      "descricao": "📌 Nesta Sexta-feira (03/07), utilizaremos fones de ouvido durante a aula de PeC! 🎧 Peço, por gentileza, que tragam 01 fone de ouvido etiquetado, com conector P2, guardado na mochila. 🎒",
-      "resumo_original": "4A PeC",
-      "local": "",
-      "data_evento": "2026-07-02",
-      "prazo": "2026-07-03",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
     {
       "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
@@ -39,45 +26,6 @@
       "data_evento": "2026-07-27",
       "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "29cv04blnr4pq21msckc4su36k@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "descricao": "LEMBRETE! Finalizar a folha 20 para amanhã.",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-07-02",
-      "prazo": "2026-07-03",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "157su60cqms1pb8kjj829sh2t2@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Semestre",
-      "descricao": "",
-      "resumo_original": "Encerramento do Semestre",
-      "local": "",
-      "data_evento": "2026-07-03",
-      "prazo": "2026-07-03",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -104,6 +52,19 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
