@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-05T05:12:44-03:00",
+  "gerado_em": "2026-07-05T08:11:51-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Recesso Escolar",
-      "descricao": "",
-      "resumo_original": "Recesso Escolar",
-      "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -65,6 +52,19 @@
       "data_evento": "2026-08-08",
       "prazo": "2026-08-08",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Recesso Escolar",
+      "descricao": "",
+      "resumo_original": "Recesso Escolar",
+      "local": "",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
