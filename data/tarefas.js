@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-04T20:12:08-03:00",
+  "gerado_em": "2026-07-05T01:17:06-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,16 +16,16 @@
   },
   "itens": [
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "16o4fl80he9iue7teil295rv6j@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Recesso Escolar",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Recesso Escolar",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-06",
+      "prazo": "2026-07-06",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -42,16 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "titulo": "Dia dos Pais",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "Dia dos Pais",
       "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
