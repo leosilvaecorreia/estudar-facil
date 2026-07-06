@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-06T16:03:11-03:00",
+  "gerado_em": "2026-07-06T17:58:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -26,19 +26,6 @@
       "data_evento": "2026-07-06",
       "prazo": "2026-07-06",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -90,6 +77,19 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-08-06",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
