@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-06T21:18:13-03:00",
+  "gerado_em": "2026-07-07T02:04:12-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,36 +8,23 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 7,
+    "total_itens": 6,
     "tarefas": 0,
     "provas": 0,
     "avisos": 0,
-    "eventos": 7
+    "eventos": 6
   },
   "itens": [
     {
-      "id": "16o4fl80he9iue7teil295rv6j@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Recesso Escolar",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Recesso Escolar",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-07-06",
-      "prazo": "2026-07-06",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -94,15 +81,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Volta às Aulas",
+      "titulo": "Homenagem aos Pais",
       "descricao": "",
-      "resumo_original": "Volta às Aulas",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
