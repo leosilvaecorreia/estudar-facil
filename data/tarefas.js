@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-11T21:08:01-03:00",
+  "gerado_em": "2026-07-12T00:54:49-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,15 +29,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Volta às Aulas",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Volta às Aulas",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -77,19 +77,6 @@
       "local": "",
       "data_evento": "2026-07-03",
       "prazo": "2026-08-06",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Volta às Aulas",
-      "descricao": "",
-      "resumo_original": "Volta às Aulas",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -155,6 +142,19 @@
       "local": "",
       "data_evento": "2026-07-09",
       "prazo": "2026-09-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
