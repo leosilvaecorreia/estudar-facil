@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-17T16:29:49-03:00",
+  "gerado_em": "2026-07-17T18:05:24-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -81,15 +81,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -103,19 +103,6 @@
       "local": "",
       "data_evento": "2026-07-27",
       "prazo": "2026-07-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -168,6 +155,19 @@
       "local": "",
       "data_evento": "2026-08-08",
       "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
