@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-25T03:27:09-03:00",
+  "gerado_em": "2026-07-25T06:09:30-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -39,6 +26,19 @@
       "data_evento": "2026-08-28",
       "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Volta às Aulas",
+      "descricao": "",
+      "resumo_original": "Volta às Aulas",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-27",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -55,16 +55,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Volta às Aulas",
+      "titulo": "FERIADO (Independência)",
       "descricao": "",
-      "resumo_original": "Volta às Aulas",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-27",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
