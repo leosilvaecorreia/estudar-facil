@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-27T14:07:38-03:00",
+  "gerado_em": "2026-07-27T15:45:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,19 +29,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0o81r50ad6t1uvm3nqt88n0uqc@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -55,28 +42,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-07-28",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento Escolar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento Escolar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-28",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento Escolar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento Escolar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -94,15 +68,41 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-07-28",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-28",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
+      "titulo": "Dia dos Pais",
       "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
+      "resumo_original": "Dia dos Pais",
       "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
