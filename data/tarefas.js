@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-28T17:22:49-03:00",
+  "gerado_em": "2026-07-28T19:14:32-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,39 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 8,
-    "tarefas": 4,
+    "total_itens": 11,
+    "tarefas": 7,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
-    {
-      "id": "646emetndquparjo4fppjhgkvp@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 26.",
-      "descricao": "Finalizar a lista 26.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-07-28",
-      "prazo": "2026-07-29",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "68nvhtj077aa9ocilkov1k76ed@google.com",
       "tipo": "tarefa",
@@ -55,29 +29,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-07-29",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-07-29",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-08-04",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -90,6 +64,32 @@
       "local": "",
       "data_evento": "2026-09-07",
       "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3akhaeb06lqq91h0ossek5po6e@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "Finalizar o caderno de atividades, págs. 31 e 32 (só quem não terminou em aula).",
+      "descricao": "Finalizar o caderno de atividades, págs. 31 e 32 (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-07-29",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -117,6 +117,45 @@
       "data_evento": "2026-07-27",
       "prazo": "2026-08-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "646emetndquparjo4fppjhgkvp@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 26.",
+      "descricao": "Finalizar a lista 26.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-07-29",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
