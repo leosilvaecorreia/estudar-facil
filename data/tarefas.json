@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-07-28T11:35:09-03:00",
+  "gerado_em": "2026-07-28T13:48:07-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,26 +8,13 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 7,
-    "tarefas": 3,
+    "total_itens": 8,
+    "tarefas": 4,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
     {
       "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
@@ -38,19 +25,6 @@
       "local": "",
       "data_evento": "2026-09-07",
       "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
-      "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -68,16 +42,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68nvhtj077aa9ocilkov1k76ed@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Livro de Ciências: Leitura das páginas 102 a 105. ✍🏻 Concluir a atividade 1 da página 105.",
-      "descricao": "📗Livro de Ciências: Leitura das páginas 102 a 105. ✍🏻 Concluir a atividade 1 da página 105.",
-      "resumo_original": "CIEN 4A",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-07-28",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "646emetndquparjo4fppjhgkvp@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 26.",
+      "descricao": "Finalizar a lista 26.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-07-29",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -104,6 +104,19 @@
       "data_evento": "2026-07-27",
       "prazo": "2026-08-10",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "68nvhtj077aa9ocilkov1k76ed@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências: Leitura das páginas 102 a 105. ✍🏻 Concluir a atividade 1 da página 105.",
+      "descricao": "📗Livro de Ciências: Leitura das páginas 102 a 105. ✍🏻 Concluir a atividade 1 da página 105.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-07-28",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
