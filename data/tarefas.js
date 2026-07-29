@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-29T18:10:00-03:00",
+  "gerado_em": "2026-07-29T19:12:49-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,26 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 11,
-    "tarefas": 7,
+    "total_itens": 13,
+    "tarefas": 9,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
@@ -42,55 +55,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "id": "3k11ghj8ocqiqmigfg1s610qhi@google.com",
       "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
+      "materia": "Português",
+      "titulo": "✍️🏼 Livro, págs. 139 a 141.",
+      "descricao": "✍️🏼 Livro, págs. 139 a 141.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-07-29",
+      "prazo": "2026-07-30",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
-      "id": "646emetndquparjo4fppjhgkvp@google.com",
+      "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-07-30",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 26.",
-      "descricao": "Finalizar a lista 26.",
-      "resumo_original": "Mat 4A",
+      "materia": "Ciências",
+      "titulo": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "descricao": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "resumo_original": "CIEN 4A",
       "local": "",
-      "data_evento": "2026-07-28",
-      "prazo": "2026-07-29",
-      "urgencia": "hoje",
+      "data_evento": "2026-07-29",
+      "prazo": "2026-07-30",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-08-03",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "descricao": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-07-29",
+      "prazo": "2026-08-03",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -100,19 +100,6 @@
       "titulo": "Finalizar o livro, páginas 215 a 217.",
       "descricao": "Finalizar o livro, páginas 215 a 217.",
       "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-07-29",
-      "prazo": "2026-07-30",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3k11ghj8ocqiqmigfg1s610qhi@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Livro, págs. 139 a 141.",
-      "descricao": "✍️🏼 Livro, págs. 139 a 141.",
-      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-07-29",
       "prazo": "2026-07-30",
@@ -156,6 +143,45 @@
       "data_evento": "2026-07-28",
       "prazo": "2026-08-04",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "646emetndquparjo4fppjhgkvp@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 26.",
+      "descricao": "Finalizar a lista 26.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-07-29",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
