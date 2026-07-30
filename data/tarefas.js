@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-30T03:37:56-03:00",
+  "gerado_em": "2026-07-30T06:37:39-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,19 @@
     "eventos": 4
   },
   "itens": [
+    {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "54f6njqhb3nt9ejcvtggq54021@google.com",
       "tipo": "tarefa",
@@ -68,28 +81,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Dia dos Pais",
-      "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -104,6 +104,19 @@
       "data_evento": "2026-07-28",
       "prazo": "2026-08-04",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -130,19 +143,6 @@
       "data_evento": "2026-07-29",
       "prazo": "2026-08-03",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
