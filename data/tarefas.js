@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-07-31T01:35:00-03:00",
+  "gerado_em": "2026-07-31T05:08:02-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,25 +16,12 @@
   },
   "itens": [
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6srjioho6pgmcbb3ccpm4b9kclh30bb2cph64bb16cr3cphk65i64ohmcg@google.com",
+      "id": "2gjpn0a3irg1j3gnui0sdvb3np@google.com",
       "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Finalizar as atividades do caderno.",
-      "descricao": "Finalizar as atividades do caderno.",
-      "resumo_original": "GEO - 4⁰A",
+      "materia": "Matemática",
+      "titulo": "Finalizar o livro, páginas 219 e 220.",
+      "descricao": "Finalizar o livro, páginas 219 e 220.",
+      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-07-30",
       "prazo": "2026-07-31",
@@ -64,6 +51,19 @@
       "local": "",
       "data_evento": "2026-07-30",
       "prazo": "2026-08-13",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -107,6 +107,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6srjioho6pgmcbb3ccpm4b9kclh30bb2cph64bb16cr3cphk65i64ohmcg@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Finalizar as atividades do caderno.",
+      "descricao": "Finalizar as atividades do caderno.",
+      "resumo_original": "GEO - 4⁰A",
+      "local": "",
+      "data_evento": "2026-07-30",
+      "prazo": "2026-07-31",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-08-04",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -120,15 +146,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
+      "titulo": "Homenagem aos Pais",
       "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -146,41 +172,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-07-28",
-      "prazo": "2026-08-04",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2gjpn0a3irg1j3gnui0sdvb3np@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar o livro, páginas 219 e 220.",
-      "descricao": "Finalizar o livro, páginas 219 e 220.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-07-31",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "titulo": "FERIADO (Independência)",
       "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
