@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-08-02T07:05:48-03:00",
+  "gerado_em": "2026-08-02T08:32:10-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,6 +29,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-08-03",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "descricao": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-07-29",
+      "prazo": "2026-08-03",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -39,6 +52,19 @@
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -68,16 +94,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-08-03",
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
-      "descricao": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
-      "resumo_original": "CIEN 4A",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-07-29",
-      "prazo": "2026-08-03",
-      "urgencia": "amanha",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "resumo_original": "GEO - 4⁰ A",
+      "local": "",
+      "data_evento": "2026-07-31",
+      "prazo": "2026-08-03",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -103,32 +142,6 @@
       "local": "",
       "data_evento": "2026-08-28",
       "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -156,19 +169,6 @@
       "data_evento": "2026-07-31",
       "prazo": "2026-08-04",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-03",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
