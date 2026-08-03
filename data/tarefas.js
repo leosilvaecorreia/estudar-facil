@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-03T15:02:00-03:00",
+  "gerado_em": "2026-08-03T16:53:27-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,65 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 13,
-    "tarefas": 9,
+    "total_itens": 14,
+    "tarefas": 10,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
+    {
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-04",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-04",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-17",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "resumo_original": "GEO - 4⁰ A",
+      "local": "",
+      "data_evento": "2026-07-31",
+      "prazo": "2026-08-03",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-08-03",
       "tipo": "tarefa",
@@ -29,16 +81,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
       "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "resumo_original": "GEO - 4⁰ A",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-03",
-      "urgencia": "hoje",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "",
+      "resumo_original": "Homenagem aos Pais",
+      "local": "",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -68,16 +133,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
       "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-08-04",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -94,28 +159,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-04",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
       "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-04",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-17",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -133,55 +185,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
+      "id": "08cvhd4thtrii8g72rg7inruh5@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-07-28",
+      "data_evento": "2026-08-03",
       "prazo": "2026-08-04",
       "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
