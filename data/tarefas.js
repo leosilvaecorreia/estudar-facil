@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-03T05:40:20-03:00",
+  "gerado_em": "2026-08-03T09:34:40-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,55 +16,16 @@
   },
   "itens": [
     {
-      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Dia dos Pais",
+      "titulo": "Homenagem aos Pais",
       "descricao": "",
-      "resumo_original": "Dia dos Pais",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-08-09",
-      "prazo": "2026-08-09",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-03",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -81,6 +42,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "71f7g06v0kumbgn5jms0215itv@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Dia dos Pais",
+      "descricao": "",
+      "resumo_original": "Dia dos Pais",
+      "local": "",
+      "data_evento": "2026-08-09",
+      "prazo": "2026-08-09",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -94,41 +68,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
       "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
       "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-08-13",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -156,6 +104,58 @@
       "data_evento": "2026-07-31",
       "prazo": "2026-08-04",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-07-30",
+      "prazo": "2026-08-13",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
+      "tipo": "tarefa",
+      "materia": "Geografia",
+      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
+      "resumo_original": "GEO - 4⁰ A",
+      "local": "",
+      "data_evento": "2026-07-31",
+      "prazo": "2026-08-03",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
