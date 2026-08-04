@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-08-03T20:16:42-03:00",
+  "gerado_em": "2026-08-04T00:32:36-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,24 +8,24 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 15,
-    "tarefas": 11,
+    "total_itens": 16,
+    "tarefas": 12,
     "provas": 0,
     "avisos": 0,
     "eventos": 4
   },
   "itens": [
     {
-      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
+      "id": "08cvhd4thtrii8g72rg7inruh5@google.com",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
-      "resumo_original": "E. REL.-4A",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "resumo_original": "LP- 4A",
       "local": "",
-      "data_evento": "2026-07-28",
+      "data_evento": "2026-08-03",
       "prazo": "2026-08-04",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -42,42 +42,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "19mvgrv5421uaudkjien7j2bid@google.com#2026-08-03",
+      "id": "26sij9mg2ge5hm7rcsiq6rghth@google.com",
       "tipo": "tarefa",
       "materia": "Ciências",
-      "titulo": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
-      "descricao": "📗Livrão ⇢ página 109 (exercício número 03). 📗Livro (fino): Lição de casa ⇢ página 46 (exercício número 01). 📌 Trazer os livros na póxima aula (03/08).",
+      "titulo": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
+      "descricao": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
       "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-07-29",
-      "prazo": "2026-08-03",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "c8q32ob46oqm6bb46dim2b9k6lhmab9o6ss30b9n74r36cph6pim2d1g6c@google.com",
-      "tipo": "tarefa",
-      "materia": "Geografia",
-      "titulo": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "descricao": "Exercícios do livro - pg 88 (letra B e n⁰ 2 - fazer no caderno) + Resumo da página 88 no caderno (mínimo de 5 linhas)",
-      "resumo_original": "GEO - 4⁰ A",
-      "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-03",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08cvhd4thtrii8g72rg7inruh5@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
-      "descricao": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
-      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-03",
       "prazo": "2026-08-04",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "660vkb4i70q5ebtqt96qqn4bpd@google.com#2026-08-04",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "descricao": "- Folha 16 - Ler e trazer na próxima aula. - Na próxima aula (04/08) - atividade em sala, consultando a folha 16 (valor: 2,0 pontos)",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-07-28",
+      "prazo": "2026-08-04",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -94,19 +81,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
@@ -120,16 +94,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3hqu075i8skokmi9nejf2mh4qr@google.com#2026-08-03",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
-      "descricao": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
-      "resumo_original": "HIST 4A",
+      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Homenagem aos Pais",
+      "descricao": "Assunto: Homenagem aos Pais Chegamos ao mês de agosto, que é um mês especial para nós. Nele, celebramos Santo Agostinho, nosso patrono, cuja vida nos inspira todos os dias. E nosso coração transborda de alegria, pois também homenageamos os pais agostinianos. Há muito para comemorar! No sábado, 08 de agosto, das 8h30 às 12h30 , nós preparamos uma manhã de atividades divertidas e interativas para fortalecer os laços entre pais e filhos. Programação: • 8h30 - Abertura do Colégio • 9h - Bênção dos Pais • 9h15 - Coral Agostiniano (EFAI) • 10h30 - Concurso \"Tal pai, tal filho\" • 12h30 - Encerramento Confira o detalhamento das atividades no Google Classroom ao longo da próxima semana! Além do tradicional café da manhã , teremos as barraquinhas de doces e salgados que fazem a alegria das famílias agostinianas. Esperamos que todos possam participar e aproveitar esse dia especial com muita alegria e diversão.",
+      "resumo_original": "Homenagem aos Pais",
       "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-03",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-08",
+      "prazo": "2026-08-08",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -142,20 +129,7 @@
       "local": "",
       "data_evento": "2026-07-31",
       "prazo": "2026-08-04",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Homenagem aos Pais",
-      "descricao": "",
-      "resumo_original": "Homenagem aos Pais",
-      "local": "",
-      "data_evento": "2026-08-08",
-      "prazo": "2026-08-08",
-      "urgencia": "esta_semana",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -168,7 +142,7 @@
       "local": "",
       "data_evento": "2026-08-03",
       "prazo": "2026-08-04",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -185,16 +159,55 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "26sij9mg2ge5hm7rcsiq6rghth@google.com",
+      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-10",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
-      "descricao": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
-      "resumo_original": "CIEN 4A",
+      "materia": "Geral",
+      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
       "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-04",
-      "urgencia": "amanha",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-11",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-11",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-12",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-12",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
