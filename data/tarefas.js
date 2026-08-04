@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-04T06:47:33-03:00",
+  "gerado_em": "2026-08-04T09:15:51-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "26sij9mg2ge5hm7rcsiq6rghth@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
+      "descricao": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-04",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -26,45 +39,6 @@
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3hqu075i8skokmi9nejf2mh4qr@google.com#2026-08-04",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
-      "descricao": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-07-31",
-      "prazo": "2026-08-04",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-04",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-04",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-17",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -81,19 +55,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "26sij9mg2ge5hm7rcsiq6rghth@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
-      "descricao": "👀 Leitura da folha 08 (caderno). ✍🏻 Realizar a atividade proposta na mesma folha.",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-04",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -107,16 +68,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "resumo_original": "PLIC 4A",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-08-13",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -130,6 +104,32 @@
       "data_evento": "2026-07-28",
       "prazo": "2026-08-04",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08cvhd4thtrii8g72rg7inruh5@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "descricao": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-04",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-07-30",
+      "prazo": "2026-08-13",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -185,42 +185,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "id": "3hqu075i8skokmi9nejf2mh4qr@google.com#2026-08-04",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
+      "descricao": "PARA CASA Comece a estudar o Capítulo 07. Exercícios no caderno. Para 3ªf, 04/08//26",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-07-31",
+      "prazo": "2026-08-04",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-04",
       "tipo": "tarefa",
       "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
       "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08cvhd4thtrii8g72rg7inruh5@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
-      "descricao": "✍️🏼 Caderno de atividades, págs. 35 a 37.",
-      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-03",
       "prazo": "2026-08-04",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-17",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
