@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-05T18:22:36-03:00",
+  "gerado_em": "2026-08-05T20:15:33-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,78 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 17,
-    "tarefas": 12,
+    "total_itens": 19,
+    "tarefas": 14,
     "provas": 0,
     "avisos": 0,
     "eventos": 5
   },
   "itens": [
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "49lvu5ha0girbhqjil1oq2o86s@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar a folha 34.",
+      "descricao": "✍️🏼 Finalizar a folha 34.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-04",
+      "prazo": "2026-08-05",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2btlb2ep2rks6a2jbd87044hpb@google.com",
+      "tipo": "evento",
+      "materia": "Inglês",
+      "titulo": "Eng - 4A: Worksheet # 22(d,e,f, and g)",
+      "descricao": "Worksheet # 22: Monday, August 10th, 2026.",
+      "resumo_original": "Eng - 4A: Worksheet # 22(d,e,f, and g)",
+      "local": "",
+      "data_evento": "2026-08-05",
+      "prazo": "2026-08-05",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-07-30",
+      "prazo": "2026-08-13",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
       "tipo": "tarefa",
@@ -55,6 +120,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-06",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-05",
+      "prazo": "2026-08-06",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-11",
       "tipo": "tarefa",
       "materia": "Geral",
@@ -68,16 +146,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-10",
+      "id": "1sb3mnkm2jofd6urj088eph4qk@google.com",
       "tipo": "tarefa",
-      "materia": "Geral",
-      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
-      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
-      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
+      "materia": "História",
+      "titulo": "PARA CASA Comece a estudar a FOLHA 10.",
+      "descricao": "PARA CASA Comece a estudar a FOLHA 10.",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-08-04",
+      "prazo": "2026-08-05",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -107,71 +185,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-08-13",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1sb3mnkm2jofd6urj088eph4qk@google.com",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "PARA CASA Comece a estudar a FOLHA 10.",
-      "descricao": "PARA CASA Comece a estudar a FOLHA 10.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-04",
-      "prazo": "2026-08-05",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "49lvu5ha0girbhqjil1oq2o86s@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Finalizar a folha 34.",
-      "descricao": "✍️🏼 Finalizar a folha 34.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-04",
-      "prazo": "2026-08-05",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -181,32 +194,6 @@
       "local": "",
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2btlb2ep2rks6a2jbd87044hpb@google.com",
-      "tipo": "evento",
-      "materia": "Inglês",
-      "titulo": "Eng - 4A: Worksheet # 22(d,e,f, and g)",
-      "descricao": "Worksheet # 22: Monday, August 10th, 2026.",
-      "resumo_original": "Eng - 4A: Worksheet # 22(d,e,f, and g)",
-      "local": "",
-      "data_evento": "2026-08-05",
-      "prazo": "2026-08-05",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -234,6 +221,45 @@
       "data_evento": "2026-08-05",
       "prazo": "2026-08-06",
       "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7bbtcc741bb48kfi08ev4oukc5@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "descricao": "Assunto: 2ª Reunião de Pais ou Responsáveis O Colégio Santo Agostinho tem a alegria de convidá-los para a 2ª reunião de pais deste ano letivo. Este encontro é uma oportunidade valiosa para estreitarmos nossa parceria e dialogarmos sobre o progresso acadêmico e o bem-estar dos nossos alunos. As reuniões acontecerão nas datas abaixo das 16h10 às 17h40, na sala de aula . Data da Reunião Ensino Fundamental Anos Iniciais 10/08 (2ª feira) 1º ano 11/08 (3ª feira) 2º e 3º anos 12/08 (4ª feira) 4º e 5º anos INFORMAÇÕES IMPORTANTES: • A entrada dos responsáveis será pela Rua Rino Levi, 485 (Portão dos Alunos). • A fim de melhorar a segurança e viabilizar a circulação de veículos no Condomínio Novo Leblon, solicitamos que, caso não consigam local apropriado para estacionar nas imediações do colégio, procurem os estacionamentos dos Shoppings Centers próximos. • Neste dia, os alunos terão aulas com tempos reduzidos e, durante o horário da reunião de pais, estarão no pátio com atividades esportivas. As atividades extracurriculares também acontecerão normalmente. Contamos com a presença e a participação de todos, certos de que juntos construiremos um ambiente educativo cada vez mais rico e significativo. Agradecemos desde já pela colaboração e pelo compromisso com a formação integral de nossos alunos.",
+      "resumo_original": "2ª Reunião de Pais ou Responsáveis",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-05",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
