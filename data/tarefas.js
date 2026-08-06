@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-06T03:42:04-03:00",
+  "gerado_em": "2026-08-06T06:48:01-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,19 +29,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-17",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "0q0sa7m4gj69tsbkkmjrqa7b35@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -55,12 +42,38 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "68sj2cb1c4o3ebb4cgq3ab9k75hj2bb270r30b9j68o3cob468sjipj66k@google.com",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-10",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Finalizar o livro, págs. 170 e 171.",
-      "descricao": "✍️🏼 Finalizar o livro, págs. 170 e 171.",
-      "resumo_original": "LP- 4A",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-05",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-06",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
+      "resumo_original": "CIEN 4A",
       "local": "",
       "data_evento": "2026-08-05",
       "prazo": "2026-08-06",
@@ -107,19 +120,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-06",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
-      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-08-05",
-      "prazo": "2026-08-06",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "71f7g06v0kumbgn5jms0215itv@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -130,6 +130,32 @@
       "data_evento": "2026-08-09",
       "prazo": "2026-08-09",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-07-27",
+      "prazo": "2026-08-10",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "68sj2cb1c4o3ebb4cgq3ab9k75hj2bb270r30b9j68o3cob468sjipj66k@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar o livro, págs. 170 e 171.",
+      "descricao": "✍️🏼 Finalizar o livro, págs. 170 e 171.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-05",
+      "prazo": "2026-08-06",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -185,19 +211,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "34sr6k86sgglk9iq3ij5hho84p@google.com#2026-08-10",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "descricao": "📗 Realizar em família o LIVRO DE ATIVIDADES. - Livrinho “Caça à alegria em Família” Para 10/08/26 - Segue a Ficha de Acompanhamento familiar . Para a próxima segunda-feira.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-07-27",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7cubnh8vbejg55h7bgpdc3m4sn@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -211,29 +224,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "0c3snu3tut24mnb2vjiihghnvb@google.com#2026-08-10",
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
       "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
-      "descricao": "📗Livro de Ciências( livrão) -Somente leitura das páginas 88, 89 e 90 ( relembrar Fluxo de energia ). 📑Livro Lição de casa - página 42 ( apenas o exercício número 2 ). 📌Trazer os livros na próxima aula (10/08).",
-      "resumo_original": "CIEN 4A",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-08-05",
-      "prazo": "2026-08-10",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-17",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
