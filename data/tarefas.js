@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-11T04:32:08-03:00",
+  "gerado_em": "2026-08-11T06:11:24-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,32 @@
     "eventos": 2
   },
   "itens": [
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2cqmgqf080riighal3uujf33nk@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗Separando Misturas (livrão) ⇢ Somente leitura das páginas 112 a 116. (Catação, Evaporação, Decantação, Filtração) 📝 Livro Lição de casa ⇢ página 48 * Encontrar no diagrama os métodos de separação e completar as frases. 📌 Trazer os livros na próxima aula.",
+      "descricao": "📗Separando Misturas (livrão) ⇢ Somente leitura das páginas 112 a 116. (Catação, Evaporação, Decantação, Filtração) 📝 Livro Lição de casa ⇢ página 48 * Encontrar no diagrama os métodos de separação e completar as frases. 📌 Trazer os livros na próxima aula.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-10",
+      "prazo": "2026-08-11",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-13",
       "tipo": "tarefa",
@@ -42,29 +68,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-11",
       "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-08-13",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "06aojgc68k7hlvh2r41udpdo1o@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Livro, págs. 180 e 181. OBSERVAÇÃO: Os conteúdos da Avaliação Multidisciplinar (do dia 20.08) foram disponibilizados na plataforma.",
-      "descricao": "✍️🏼 Livro, págs. 180 e 181. OBSERVAÇÃO: Os conteúdos da Avaliação Multidisciplinar (do dia 20.08) foram disponibilizados na plataforma.",
-      "resumo_original": "LP- 4A",
+      "materia": "Emocionar",
+      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
       "local": "",
       "data_evento": "2026-08-10",
       "prazo": "2026-08-11",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-10",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -104,71 +130,6 @@
       "data_evento": "2026-08-07",
       "prazo": "2026-08-20",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2cqmgqf080riighal3uujf33nk@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗Separando Misturas (livrão) ⇢ Somente leitura das páginas 112 a 116. (Catação, Evaporação, Decantação, Filtração) 📝 Livro Lição de casa ⇢ página 48 * Encontrar no diagrama os métodos de separação e completar as frases. 📌 Trazer os livros na próxima aula.",
-      "descricao": "📗Separando Misturas (livrão) ⇢ Somente leitura das páginas 112 a 116. (Catação, Evaporação, Decantação, Filtração) 📝 Livro Lição de casa ⇢ página 48 * Encontrar no diagrama os métodos de separação e completar as frases. 📌 Trazer os livros na próxima aula.",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-08-10",
-      "prazo": "2026-08-11",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-11",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-10",
-      "prazo": "2026-08-11",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-10",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -219,6 +180,45 @@
       "resumo_original": "2ª Reunião de Pais ou Responsáveis",
       "local": "",
       "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "06aojgc68k7hlvh2r41udpdo1o@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Livro, págs. 180 e 181. OBSERVAÇÃO: Os conteúdos da Avaliação Multidisciplinar (do dia 20.08) foram disponibilizados na plataforma.",
+      "descricao": "✍️🏼 Livro, págs. 180 e 181. OBSERVAÇÃO: Os conteúdos da Avaliação Multidisciplinar (do dia 20.08) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-10",
+      "prazo": "2026-08-11",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-07-30",
       "prazo": "2026-08-13",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
