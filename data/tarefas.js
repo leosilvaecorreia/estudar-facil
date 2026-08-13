@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-13T10:41:01-03:00",
+  "gerado_em": "2026-08-13T12:11:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,6 +29,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "7lvnhcm906boqqjt76hsi0vdtv@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Livro, págs. 176, 182 e 183 (somente para os alunos que não finalizaram em aula).",
+      "descricao": "✍️🏼 Livro, págs. 176, 182 e 183 (somente para os alunos que não finalizaram em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -39,6 +52,45 @@
       "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6hejqb60pepvtfvp3qdkdnbggm@google.com#2026-08-14",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
+      "descricao": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-14",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6hejqb60pepvtfvp3qdkdnbggm@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
+      "descricao": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "0lt214174se60skvcnt1j9tl2t@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Finalizar a lista 29.",
+      "descricao": "Finalizar a lista 29.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -55,6 +107,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-07-30",
+      "prazo": "2026-08-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "582mkgpiqa87rkbfooqhb5rj19@google.com",
+      "tipo": "tarefa",
+      "materia": "Ciências",
+      "titulo": "📗 Livro Lição de casa ⇢ página 49 (exercícios 2 e 3). 📌 Trazer os livros na próxima aula.",
+      "descricao": "📗 Livro Lição de casa ⇢ página 49 (exercícios 2 e 3). 📌 Trazer os livros na próxima aula.",
+      "resumo_original": "CIEN 4A",
+      "local": "",
+      "data_evento": "2026-08-12",
+      "prazo": "2026-08-13",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -65,32 +143,6 @@
       "data_evento": "2026-08-03",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-14",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-14",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -120,16 +172,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "0lt214174se60skvcnt1j9tl2t@google.com",
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
       "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Finalizar a lista 29.",
-      "descricao": "Finalizar a lista 29.",
-      "resumo_original": "Mat 4A",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-13",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-14",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-14",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -146,55 +211,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "582mkgpiqa87rkbfooqhb5rj19@google.com",
-      "tipo": "tarefa",
-      "materia": "Ciências",
-      "titulo": "📗 Livro Lição de casa ⇢ página 49 (exercícios 2 e 3). 📌 Trazer os livros na próxima aula.",
-      "descricao": "📗 Livro Lição de casa ⇢ página 49 (exercícios 2 e 3). 📌 Trazer os livros na próxima aula.",
-      "resumo_original": "CIEN 4A",
-      "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-13",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5fabgbo4betji8smpgqva3889b@google.com#2026-08-13",
+      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
-      "descricao": "📚 PLIC - (30/07/ 2026) 📕 Leitura do livro : \" A Grande Assembleia \" (Therezinha Malta e Inhandjara da Silva Yamamura) ✍🏻Atividades: A Grande Assembleia e Sustentabilidade. 📌 Retire de jornais, revistas ou impressões, imagens que retratem no ambiente: * ameaça à natureza (atitudes que prejudicam o planeta, como poluição do ar, lixo nos rios ou queimadas). *atitude sustentável (ações que protegem a natureza, como reciclagem economia de água ou plantio). ✉️ Trazer as imagens no dia 13/08, dentro dos envelopes confeccionados em classe. 📝Durante a leitura do livro, registre no bloco palavras diferentes ou desconhecidas por você. ⚠️ Atenção: O livro do 1º semestre deverá permanecer em casa.",
+      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
+      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
       "resumo_original": "PLIC 4A",
       "local": "",
-      "data_evento": "2026-07-30",
-      "prazo": "2026-08-13",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7lvnhcm906boqqjt76hsi0vdtv@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Livro, págs. 176, 182 e 183 (somente para os alunos que não finalizaram em aula).",
-      "descricao": "✍️🏼 Livro, págs. 176, 182 e 183 (somente para os alunos que não finalizaram em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-13",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-06",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -211,42 +237,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "resumo_original": "PLIC 4A",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-08-06",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6hejqb60pepvtfvp3qdkdnbggm@google.com#2026-08-13",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
-      "descricao": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-13",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6hejqb60pepvtfvp3qdkdnbggm@google.com#2026-08-14",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
-      "descricao": "🏡Para casa 📅Estudar o CAPÍTULO 07 para o Trabalho Avaliativo, 14/08/26 . TRAZER O MATERIAL DE HISTÓRIA.",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-12",
-      "prazo": "2026-08-14",
-      "urgencia": "amanha",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
