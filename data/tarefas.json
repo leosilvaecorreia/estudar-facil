@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-08-15T04:40:02-03:00",
+  "gerado_em": "2026-08-15T05:42:21-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -42,32 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "715r0hepiemkt8sontik8rt2cq@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -77,19 +51,6 @@
       "local": "",
       "data_evento": "2026-08-14",
       "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-08-11",
-      "prazo": "2026-08-18",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -107,16 +68,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-08-11",
+      "prazo": "2026-08-18",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -146,12 +107,25 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
-      "resumo_original": "Mat 4A",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "resumo_original": "RED- 4A",
       "local": "",
       "data_evento": "2026-08-14",
       "prazo": "2026-08-17",
@@ -169,6 +143,32 @@
       "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
