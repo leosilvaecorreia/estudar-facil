@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-15T16:31:19-03:00",
+  "gerado_em": "2026-08-15T17:35:30-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
       "tipo": "evento",
       "materia": "Matemática",
@@ -29,19 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-06",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -51,6 +51,32 @@
       "local": "",
       "data_evento": "2026-08-11",
       "prazo": "2026-08-18",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -81,16 +107,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
+      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
       "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "resumo_original": "LP- 4A",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
+      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
+      "resumo_original": "PLIC 4A",
       "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
+      "data_evento": "2026-08-06",
+      "prazo": "2026-08-20",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -116,45 +155,6 @@
       "local": "",
       "data_evento": "2026-09-07",
       "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
