@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-15T11:35:33-03:00",
+  "gerado_em": "2026-08-15T12:32:28-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,45 @@
     "eventos": 3
   },
   "itens": [
+    {
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
     {
       "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
       "tipo": "tarefa",
@@ -42,14 +81,27 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
-      "resumo_original": "Mat 4A",
+      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
@@ -68,28 +120,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
       "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "resumo_original": "RED- 4A",
+      "materia": "Ensino Religioso",
+      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "resumo_original": "E. REL.-4A",
       "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
+      "data_evento": "2026-08-11",
+      "prazo": "2026-08-18",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -107,32 +146,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-10",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
-      "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "resumo_original": "E. REL.-4A",
-      "local": "",
-      "data_evento": "2026-08-11",
-      "prazo": "2026-08-18",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -143,19 +156,6 @@
       "data_evento": "2026-08-28",
       "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
