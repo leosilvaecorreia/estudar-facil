@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-15T09:55:47-03:00",
+  "gerado_em": "2026-08-15T10:39:20-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -55,14 +55,53 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "resumo_original": "LP- 4A",
+      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
+      "resumo_original": "Mat 4A",
       "local": "",
       "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
+      "tipo": "tarefa",
+      "materia": "Emocionar",
+      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
+      "local": "",
+      "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
@@ -107,40 +146,14 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
-      "resumo_original": "Mat 4A",
+      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa RELEMBRANDO... 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação na FOLHA COLORIDA no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
@@ -156,19 +169,6 @@
       "data_evento": "2026-08-07",
       "prazo": "2026-08-20",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
