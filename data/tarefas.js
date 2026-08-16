@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-16T09:57:32-03:00",
+  "gerado_em": "2026-08-16T10:40:56-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -29,32 +29,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-13",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-13",
-      "prazo": "2026-08-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -78,6 +52,58 @@
       "data_evento": "2026-08-11",
       "prazo": "2026-08-18",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -107,19 +133,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -133,42 +146,29 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
       "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "resumo_original": "RED- 4A",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "resumo_original": "PLIC 4A",
       "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "amanha",
+      "data_evento": "2026-08-13",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-08-13",
+      "prazo": "2026-08-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
