@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-15T22:54:45-03:00",
+  "gerado_em": "2026-08-16T00:10:17-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,16 +16,29 @@
   },
   "itens": [
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
       "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
       "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -55,6 +68,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
       "tipo": "evento",
       "materia": "Matemática",
@@ -64,20 +90,7 @@
       "local": "",
       "data_evento": "2026-08-14",
       "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-08-03",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -94,16 +107,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
+      "id": "7rec4b9vknh5iccrvnpcc1k96n@google.com#2026-08-17",
       "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
+      "materia": "Emocionar",
+      "titulo": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "descricao": "Para Casa 💖 Refletindo e registrando um dos valores agostinianos conversados em aula: amizade, verdade, interioridade, ... - Como posso praticar esse valor durante esta semana? - Em quais situações ele é importante? Depois de refletir sobre as perguntas acima, pense e anote uma boa ação realizada por você com um dos valores agostinianos. Trazer sua anotação no dia 17/08, onde iremos construir a “Árvore dos Bons Frutos”.",
+      "resumo_original": "EMO 4A",
       "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-08-03",
+      "prazo": "2026-08-17",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -116,7 +129,7 @@
       "local": "",
       "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -142,33 +155,20 @@
       "local": "",
       "data_evento": "2026-08-14",
       "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "titulo": "FERIADO (Independência)",
       "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
-      "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "resumo_original": "RED- 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
