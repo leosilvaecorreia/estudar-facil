@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-08-17T01:01:49-03:00",
+  "gerado_em": "2026-08-17T01:54:31-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,19 +16,6 @@
   },
   "itens": [
     {
-      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1q2ojo17s3op5qv9qoi8gq1fap@google.com#2026-08-17",
       "tipo": "tarefa",
       "materia": "Emocionar",
@@ -39,71 +26,6 @@
       "data_evento": "2026-08-10",
       "prazo": "2026-08-17",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
-      "tipo": "evento",
-      "materia": "Matemática",
-      "titulo": "Mat 4A",
-      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-14",
-      "prazo": "2026-08-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-13",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-13",
-      "prazo": "2026-08-27",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -120,16 +42,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "715r0hepiemkt8sontik8rt2cq@google.com",
       "tipo": "tarefa",
-      "materia": "Redação",
-      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
-      "resumo_original": "RED- 4A",
+      "materia": "Português",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar o livro, págs. 196 a 198 (somente para os alunos que não terminaram em aula) - para 2a feira.",
+      "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-14",
       "prazo": "2026-08-17",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
+      "local": "",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -159,16 +107,68 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
+      "id": "4p07d67gdlegaknlvkq292e3cb@google.com",
+      "tipo": "evento",
+      "materia": "Matemática",
+      "titulo": "Mat 4A",
+      "descricao": "Lista 30. Correção na 2ª feira, dia 17/08.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-08-07",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60r4fftvq494bqddclkis5ce6s@google.com",
+      "tipo": "tarefa",
+      "materia": "Redação",
+      "titulo": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "descricao": "LEMBRETE! ✍️🏼 Finalizar a folha 24 (somente para os alunos que não terminaram em aula). Para que seja corrigida pela banca, essa folha precisa ser entregue até 2 feira (17.08).",
+      "resumo_original": "RED- 4A",
+      "local": "",
+      "data_evento": "2026-08-14",
+      "prazo": "2026-08-17",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-08-13",
       "prazo": "2026-08-20",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-08-13",
+      "prazo": "2026-08-27",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
