@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-18T11:48:43-03:00",
+  "gerado_em": "2026-08-18T12:43:18-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,32 +16,6 @@
   },
   "itens": [
     {
-      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "História",
-      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
-      "resumo_original": "HIST 4A",
-      "local": "",
-      "data_evento": "2026-08-07",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -52,19 +26,6 @@
       "data_evento": "2026-09-07",
       "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6vv6av2r99btca1090rstanu97@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Folha de revisão colada no caderno.",
-      "descricao": "Folha de revisão colada no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -81,29 +42,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
+      "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
       "tipo": "tarefa",
-      "materia": "Ensino Religioso",
-      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
-      "resumo_original": "E. REL.-4A",
+      "materia": "História",
+      "titulo": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "descricao": "Para casa ✨ Para o Trabalho Avaliativo de História , que será no dia 14/08/26 =Estudar o Capítulo 07 e exercícios relacionados no caderno. ✨Para a AVALIAÇÃO MULTIDISCIPLINAR no dia 20/08/26 = Estudar a Folha 10. Trazer o livro de HISTÓRIA na terça-feira (11/08/26).",
+      "resumo_original": "HIST 4A",
       "local": "",
-      "data_evento": "2026-08-11",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
+      "data_evento": "2026-08-07",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -129,6 +77,58 @@
       "local": "",
       "data_evento": "2026-08-13",
       "prazo": "2026-08-27",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6vv6av2r99btca1090rstanu97@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Folha de revisão colada no caderno.",
+      "descricao": "Folha de revisão colada no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
+      "tipo": "tarefa",
+      "materia": "Ensino Religioso",
+      "titulo": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "descricao": "Atenção! - Fazer novamente a leitura do Livreto sobre Santo Agostinho, com as atividades que já foram corrigidas na aula de hoje, para realização de um kahoot na próxima sexta-feira (14/08), na aula de Pec. - Levar a folha 18 (Os Sacramentos da Igreja) na próxima aula (18/08).",
+      "resumo_original": "E. REL.-4A",
+      "local": "",
+      "data_evento": "2026-08-11",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
