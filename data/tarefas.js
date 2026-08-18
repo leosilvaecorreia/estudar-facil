@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-18T04:49:48-03:00",
+  "gerado_em": "2026-08-18T05:50:34-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -68,32 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6vv6av2r99btca1090rstanu97@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Folha de revisão colada no caderno.",
-      "descricao": "Folha de revisão colada no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -104,6 +78,32 @@
       "data_evento": "2026-08-11",
       "prazo": "2026-08-18",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Independência)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Independência)",
+      "local": "",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -120,16 +120,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
+      "id": "6vv6av2r99btca1090rstanu97@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Folha de revisão colada no caderno.",
+      "descricao": "Folha de revisão colada no caderno.",
+      "resumo_original": "Mat 4A",
       "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
