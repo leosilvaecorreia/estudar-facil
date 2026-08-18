@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-18T13:45:44-03:00",
+  "gerado_em": "2026-08-18T14:38:33-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,6 +16,19 @@
   },
   "itens": [
     {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "6vv6av2r99btca1090rstanu97@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -29,32 +42,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Independência)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Independência)",
-      "local": "",
-      "data_evento": "2026-09-07",
-      "prazo": "2026-09-07",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-06",
-      "prazo": "2026-08-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "4632ho88i65cga6cin63lk46v4@google.com#2026-08-20",
       "tipo": "tarefa",
       "materia": "História",
@@ -65,32 +52,6 @@
       "data_evento": "2026-08-07",
       "prazo": "2026-08-20",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6754s4oqrq4v8s2moj5rjvnsr7@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Contas no caderno.",
-      "descricao": "Contas no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-18",
-      "prazo": "2026-08-19",
-      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -133,6 +94,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "03pffjvluq8bsblovo9r5fd6ts@google.com#2026-08-20",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
+      "descricao": "📚PLIC - 06/08/2026 👀 Leitura do livro - 2º semestre ✍🏻 Bloco (Parte pautada) * Atividades 1. Desenhe a cena marcante do livro onde o valor agostiniano escolhido fica evidente (com o registro da legenda). 2. Escreva uma legenda curta com o valor encontrado durante a leitura do livro. (Parte sem pauta) 1 . Registro do valor agostiniano encontrado durante a leitura. 2. Escrita de uma legenda curta explicando a cena escolhida. 📂 Para a próxima aula (13/08/2026): * Trazer a pasta e o bloco do PLIC * Envelopes com as imagens solicitadas anteriormente. * Livro \" A Grande Assembleia\" ⚠️ Atenção – Nova troca de livros (20/08/2026): * Trazer a pasta, o bloco e o livro variado do Projeto PLIC para realizar a troca de títulos.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-08-06",
+      "prazo": "2026-08-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "6idoetj9bfm75bbf30fuahe2ol@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -146,16 +120,42 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "titulo": "FERIADO (Independência)",
       "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "resumo_original": "FERIADO (Independência)",
       "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
+      "data_evento": "2026-09-07",
+      "prazo": "2026-09-07",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6754s4oqrq4v8s2moj5rjvnsr7@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Contas no caderno.",
+      "descricao": "Contas no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-18",
+      "prazo": "2026-08-19",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     }
   ]
