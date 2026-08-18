@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-08-18T12:43:18-03:00",
+  "gerado_em": "2026-08-18T13:45:44-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,26 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 9,
-    "tarefas": 7,
+    "total_itens": 11,
+    "tarefas": 9,
     "provas": 0,
     "avisos": 0,
     "eventos": 2
   },
   "itens": [
+    {
+      "id": "6vv6av2r99btca1090rstanu97@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Folha de revisão colada no caderno.",
+      "descricao": "Folha de revisão colada no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
     {
       "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
@@ -55,6 +68,32 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-17",
+      "prazo": "2026-08-18",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6754s4oqrq4v8s2moj5rjvnsr7@google.com",
+      "tipo": "tarefa",
+      "materia": "Matemática",
+      "titulo": "Contas no caderno.",
+      "descricao": "Contas no caderno.",
+      "resumo_original": "Mat 4A",
+      "local": "",
+      "data_evento": "2026-08-18",
+      "prazo": "2026-08-19",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-20",
       "tipo": "tarefa",
       "materia": "Projeto de Leitura",
@@ -81,32 +120,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "6vv6av2r99btca1090rstanu97@google.com",
-      "tipo": "tarefa",
-      "materia": "Matemática",
-      "titulo": "Folha de revisão colada no caderno.",
-      "descricao": "Folha de revisão colada no caderno.",
-      "resumo_original": "Mat 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "60om6chm70s68b9gc8pm2b9kc4p62bb270rjcb9l6di62or669j3ep1k60@google.com",
-      "tipo": "tarefa",
-      "materia": "Português",
-      "titulo": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "descricao": "✍️🏼 Finalizar a folha 35 para correção amanhã (só quem não terminou em aula).",
-      "resumo_original": "LP- 4A",
-      "local": "",
-      "data_evento": "2026-08-17",
-      "prazo": "2026-08-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "22u6rd3tdt6st76bg5eq6kogpd@google.com#2026-08-18",
       "tipo": "tarefa",
       "materia": "Ensino Religioso",
@@ -117,6 +130,19 @@
       "data_evento": "2026-08-11",
       "prazo": "2026-08-18",
       "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "6idoetj9bfm75bbf30fuahe2ol@google.com",
+      "tipo": "tarefa",
+      "materia": "Português",
+      "titulo": "✍️🏼 Finalizar a folha 37 para amanhã. Atenção! Os conteúdos do Miniteste de Ortografia (24.08) foram disponibilizados na plataforma.",
+      "descricao": "✍️🏼 Finalizar a folha 37 para amanhã. Atenção! Os conteúdos do Miniteste de Ortografia (24.08) foram disponibilizados na plataforma.",
+      "resumo_original": "LP- 4A",
+      "local": "",
+      "data_evento": "2026-08-18",
+      "prazo": "2026-08-19",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
