@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-08-26T01:52:21-03:00",
+  "gerado_em": "2026-08-26T02:46:58-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,58 +16,6 @@
   },
   "itens": [
     {
-      "id": "33k74cho5tp932uano2p1rgi97@google.com",
-      "tipo": "tarefa",
-      "materia": "Inglês",
-      "titulo": "Favor trazer o trabalho de Inglês para nota na quarta-feira, dia 26/08/2026.",
-      "descricao": "Favor trazer o trabalho de Inglês para nota na quarta-feira, dia 26/08/2026.",
-      "resumo_original": "Eng 4A: Trabalho de Inglês para nota (26/08/2026)",
-      "local": "",
-      "data_evento": "2026-08-24",
-      "prazo": "2026-08-26",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Festividades de Santo Agostinho (dia letivo)",
-      "descricao": "",
-      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
-      "local": "",
-      "data_evento": "2026-08-28",
-      "prazo": "2026-08-28",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "441k6n4aob7ar1a2s8ohdoo9j6@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª chamada: Redação, Matemática e Língua Portuguesa",
-      "descricao": "",
-      "resumo_original": "2ª chamada: Redação, Matemática e Língua Portuguesa",
-      "local": "",
-      "data_evento": "2026-09-21",
-      "prazo": "2026-09-21",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5c025jfmojtg0fhmv8uul535eu@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "PROVA de LÍNGUA PORTUGUESA",
-      "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
-      "local": "",
-      "data_evento": "2026-09-16",
-      "prazo": "2026-09-16",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "08bopdpti8aol5dpubf9tjpgf9@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -81,28 +29,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
-      "tipo": "tarefa",
-      "materia": "Projeto de Leitura",
-      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
-      "resumo_original": "PLIC 4A",
-      "local": "",
-      "data_evento": "2026-08-13",
-      "prazo": "2026-08-27",
-      "urgencia": "amanha",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "72jjpph5vlh9m1c09ddv05v4r1@google.com",
+      "id": "441k6n4aob7ar1a2s8ohdoo9j6@google.com",
       "tipo": "prova",
-      "materia": "Inglês",
-      "titulo": "PROVA de LÍNGUA INGLESA",
+      "materia": "Português",
+      "titulo": "2ª chamada: Redação, Matemática e Língua Portuguesa",
       "descricao": "",
-      "resumo_original": "PROVA de LÍNGUA INGLESA",
+      "resumo_original": "2ª chamada: Redação, Matemática e Língua Portuguesa",
       "local": "",
-      "data_evento": "2026-09-09",
-      "prazo": "2026-09-09",
+      "data_evento": "2026-09-21",
+      "prazo": "2026-09-21",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -133,32 +68,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2pf7k7q84r1oof6givv0f730ro@google.com",
-      "tipo": "prova",
-      "materia": "História",
-      "titulo": "2ª chamada: História, Ciências Naturais e Geografia",
-      "descricao": "",
-      "resumo_original": "2ª chamada: História, Ciências Naturais e Geografia",
-      "local": "",
-      "data_evento": "2026-09-22",
-      "prazo": "2026-09-22",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "056692j9h4nuk8ebkqclc0aq9h@google.com",
-      "tipo": "prova",
-      "materia": "Ciências",
-      "titulo": "PROVA de CIÊNCIAS NATURAIS",
-      "descricao": "",
-      "resumo_original": "PROVA de CIÊNCIAS NATURAIS",
-      "local": "",
-      "data_evento": "2026-09-14",
-      "prazo": "2026-09-14",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "5u41cuas880du69ou28g5rueo8@google.com",
       "tipo": "tarefa",
       "materia": "Matemática",
@@ -169,19 +78,6 @@
       "data_evento": "2026-08-25",
       "prazo": "2026-08-26",
       "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "6dvq4oqdo117p9b9rph6u9oalb@google.com",
-      "tipo": "prova",
-      "materia": "Redação",
-      "titulo": "PROVA de REDAÇÃO",
-      "descricao": "",
-      "resumo_original": "PROVA de REDAÇÃO",
-      "local": "",
-      "data_evento": "2026-09-04",
-      "prazo": "2026-09-04",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -198,6 +94,58 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "3t20v0eh06b4tj7c2s41dq9jgu@google.com#2026-08-27",
+      "tipo": "tarefa",
+      "materia": "Projeto de Leitura",
+      "titulo": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "descricao": "📚 PLIC - 13/08/2026 🌎 Trabalhando com o livro \" A Grande Assembleia \" ✍🏻 Bloco - (Parte pautada) * Atividades: 1. Qual é o motivo da realização da grande assembleia? E quem estava participando de tão importante evento? 2. Na vida real tem alguma coisa a ver com a situação narrada na história? Explique. 3. O que você acha que acontece com o lixo que sai de sua casa? 4. Cite duas ações em relação à preservação do meio ambiente. 5. Pesquise o significado da palavra BIOSFERA e faça uma bela ilustração. ( Parte sem pauta) - Ilustração sobre a atividade 5 📂 Para a próxima aula (20/08/2026) * Trazer a pasta, o bloco do PLIC e o livro variado. ⚠️ Atenção! * Concluir a atividade proposta de hoje até o dia 27/08/2026.",
+      "resumo_original": "PLIC 4A",
+      "local": "",
+      "data_evento": "2026-08-13",
+      "prazo": "2026-08-27",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "72jjpph5vlh9m1c09ddv05v4r1@google.com",
+      "tipo": "prova",
+      "materia": "Inglês",
+      "titulo": "PROVA de LÍNGUA INGLESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA INGLESA",
+      "local": "",
+      "data_evento": "2026-09-09",
+      "prazo": "2026-09-09",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5c025jfmojtg0fhmv8uul535eu@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "PROVA de LÍNGUA PORTUGUESA",
+      "descricao": "",
+      "resumo_original": "PROVA de LÍNGUA PORTUGUESA",
+      "local": "",
+      "data_evento": "2026-09-16",
+      "prazo": "2026-09-16",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2pf7k7q84r1oof6givv0f730ro@google.com",
+      "tipo": "prova",
+      "materia": "História",
+      "titulo": "2ª chamada: História, Ciências Naturais e Geografia",
+      "descricao": "",
+      "resumo_original": "2ª chamada: História, Ciências Naturais e Geografia",
+      "local": "",
+      "data_evento": "2026-09-22",
+      "prazo": "2026-09-22",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "5ueej1099mgh702aeqilth5892@google.com",
       "tipo": "prova",
       "materia": "Inglês",
@@ -208,6 +156,19 @@
       "data_evento": "2026-09-24",
       "prazo": "2026-09-24",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1iei49oggc1vehe1n9590i37qo@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Festividades de Santo Agostinho (dia letivo)",
+      "descricao": "",
+      "resumo_original": "Festividades de Santo Agostinho (dia letivo)",
+      "local": "",
+      "data_evento": "2026-08-28",
+      "prazo": "2026-08-28",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -237,6 +198,19 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "6dvq4oqdo117p9b9rph6u9oalb@google.com",
+      "tipo": "prova",
+      "materia": "Redação",
+      "titulo": "PROVA de REDAÇÃO",
+      "descricao": "",
+      "resumo_original": "PROVA de REDAÇÃO",
+      "local": "",
+      "data_evento": "2026-09-04",
+      "prazo": "2026-09-04",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "33n9ciec8isee4hvomrbgge61r@google.com",
       "tipo": "tarefa",
       "materia": "Português",
@@ -245,6 +219,45 @@
       "resumo_original": "LP- 4A",
       "local": "",
       "data_evento": "2026-08-25",
+      "prazo": "2026-08-26",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "056692j9h4nuk8ebkqclc0aq9h@google.com",
+      "tipo": "prova",
+      "materia": "Ciências",
+      "titulo": "PROVA de CIÊNCIAS NATURAIS",
+      "descricao": "",
+      "resumo_original": "PROVA de CIÊNCIAS NATURAIS",
+      "local": "",
+      "data_evento": "2026-09-14",
+      "prazo": "2026-09-14",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "33k74cho5tp932uano2p1rgi97@google.com",
+      "tipo": "tarefa",
+      "materia": "Inglês",
+      "titulo": "Favor trazer o trabalho de Inglês para nota na quarta-feira, dia 26/08/2026.",
+      "descricao": "Favor trazer o trabalho de Inglês para nota na quarta-feira, dia 26/08/2026.",
+      "resumo_original": "Eng 4A: Trabalho de Inglês para nota (26/08/2026)",
+      "local": "",
+      "data_evento": "2026-08-24",
+      "prazo": "2026-08-26",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "5eipn6a6fdu9rdurl58fjp657t@google.com",
+      "tipo": "prova",
+      "materia": "Geral",
+      "titulo": "2ª chamada da Avaliação Multidisciplinar",
+      "descricao": "",
+      "resumo_original": "2ª chamada da Avaliação Multidisciplinar",
+      "local": "",
+      "data_evento": "2026-08-26",
       "prazo": "2026-08-26",
       "urgencia": "hoje",
       "fonte": "google_calendar"
@@ -260,19 +273,6 @@
       "data_evento": "2026-08-31",
       "prazo": "2026-08-31",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5eipn6a6fdu9rdurl58fjp657t@google.com",
-      "tipo": "prova",
-      "materia": "Geral",
-      "titulo": "2ª chamada da Avaliação Multidisciplinar",
-      "descricao": "",
-      "resumo_original": "2ª chamada da Avaliação Multidisciplinar",
-      "local": "",
-      "data_evento": "2026-08-26",
-      "prazo": "2026-08-26",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
