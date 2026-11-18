@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-11-17T19:15:47-03:00",
+  "gerado_em": "2026-11-18T01:13:25-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,9 +8,9 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 24,
-    "tarefas": 17,
-    "provas": 2,
+    "total_itens": 22,
+    "tarefas": 16,
+    "provas": 1,
     "avisos": 0,
     "eventos": 5
   },
@@ -25,110 +25,6 @@
       "local": "",
       "data_evento": "2026-11-24",
       "prazo": "2026-11-23",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-25",
-      "prazo": "2026-12-25",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "5d1c5cg0bhj92fmdimgob3j9mq@google.com",
-      "tipo": "tarefa",
-      "materia": "Emocionar",
-      "titulo": "Para casa 📗 Realizar em família o LIVRO DE ATIVIDADES. “Uma Verdade sobre mim”",
-      "descricao": "Para casa 📗 Realizar em família o LIVRO DE ATIVIDADES. “Uma Verdade sobre mim”",
-      "resumo_original": "EMO 4A",
-      "local": "",
-      "data_evento": "2026-11-16",
-      "prazo": "2026-11-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-24",
-      "tipo": "tarefa",
-      "materia": "Geral",
-      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "resumo_original": "Conselho pedagógico",
-      "local": "",
-      "data_evento": "2026-11-19",
-      "prazo": "2026-11-24",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-23",
-      "tipo": "tarefa",
-      "materia": "Geral",
-      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "resumo_original": "Conselho pedagógico",
-      "local": "",
-      "data_evento": "2026-11-19",
-      "prazo": "2026-11-23",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-19",
-      "tipo": "tarefa",
-      "materia": "Geral",
-      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
-      "resumo_original": "Conselho pedagógico",
-      "local": "",
-      "data_evento": "2026-11-19",
-      "prazo": "2026-11-19",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Ano Letivo",
-      "descricao": "",
-      "resumo_original": "Encerramento do Ano Letivo",
-      "local": "",
-      "data_evento": "2026-12-18",
-      "prazo": "2026-12-18",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "XLVI Exposição Multidisciplinar",
-      "descricao": "",
-      "resumo_original": "XLVI Exposição Multidisciplinar",
-      "local": "",
-      "data_evento": "2026-11-28",
-      "prazo": "2026-11-28",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2snmjfm2bot3gbogsq5jjip2ln@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia da Consciência Negra)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia da Consciência Negra)",
-      "local": "",
-      "data_evento": "2026-11-20",
-      "prazo": "2026-11-20",
       "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
@@ -168,7 +64,7 @@
       "local": "",
       "data_evento": "2026-11-05",
       "prazo": "2026-11-25",
-      "urgencia": "proximos_dias",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -198,6 +94,71 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "2snmjfm2bot3gbogsq5jjip2ln@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "FERIADO (Dia da Consciência Negra)",
+      "descricao": "",
+      "resumo_original": "FERIADO (Dia da Consciência Negra)",
+      "local": "",
+      "data_evento": "2026-11-20",
+      "prazo": "2026-11-20",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-24",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "resumo_original": "Conselho pedagógico",
+      "local": "",
+      "data_evento": "2026-11-19",
+      "prazo": "2026-11-24",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-23",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "resumo_original": "Conselho pedagógico",
+      "local": "",
+      "data_evento": "2026-11-19",
+      "prazo": "2026-11-23",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-19",
+      "tipo": "tarefa",
+      "materia": "Geral",
+      "titulo": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "descricao": "Assunto: Conselho pedagógico Informamos que no dia 19 de novembro será realizado o Conselho Pedagógico do Ensino Fundamental – Anos Iniciais. Os professores avaliarão o desempenho dos alunos no 4º período, revisarão as atividades desenvolvidas ao longo do ano e planejarão o Período de Reavaliação Final, definindo estratégias de apoio para esta reta final do ano letivo. Atenção aos detalhes da rotina escolar nesse dia: Aulas regulares: não haverá aula para as turmas do Ensino Fundamental – Anos Iniciais. Atividades extracurriculares: ocorrerão normalmente nos horários habituais. O boletim do 4º período estará disponível no dia 24 de novembro, às 16h. Agradecemos, desde já, pela compreensão e pela constante parceria.",
+      "resumo_original": "Conselho pedagógico",
+      "local": "",
+      "data_evento": "2026-11-19",
+      "prazo": "2026-11-19",
+      "urgencia": "amanha",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Ano Letivo",
+      "descricao": "",
+      "resumo_original": "Encerramento do Ano Letivo",
+      "local": "",
+      "data_evento": "2026-12-18",
+      "prazo": "2026-12-18",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -207,6 +168,19 @@
       "local": "",
       "data_evento": "2026-12-24",
       "prazo": "2026-12-24",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "XLVI Exposição Multidisciplinar",
+      "descricao": "",
+      "resumo_original": "XLVI Exposição Multidisciplinar",
+      "local": "",
+      "data_evento": "2026-11-28",
+      "prazo": "2026-11-28",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -285,7 +259,7 @@
       "local": "",
       "data_evento": "2026-11-24",
       "prazo": "2026-11-25",
-      "urgencia": "proximos_dias",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -302,19 +276,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4r0ggk5mftpmtncb77s7lt4e83@google.com",
-      "tipo": "prova",
-      "materia": "Matemática",
-      "titulo": "2ª chamada: Ensino Religioso, Ciências Naturais e Matemática",
-      "descricao": "",
-      "resumo_original": "2ª chamada: Ensino Religioso, Ciências Naturais e Matemática",
-      "local": "",
-      "data_evento": "2026-11-17",
-      "prazo": "2026-11-17",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "4o5orsmc2j9cu9q1taa3f7l3hs@google.com",
       "tipo": "prova",
       "materia": "Português",
@@ -324,7 +285,20 @@
       "local": "",
       "data_evento": "2026-11-18",
       "prazo": "2026-11-18",
-      "urgencia": "amanha",
+      "urgencia": "hoje",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-25",
+      "prazo": "2026-12-25",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
