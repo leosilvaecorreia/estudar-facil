@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-11-18T01:13:25-03:00",
+  "gerado_em": "2026-11-18T10:53:27-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -26,6 +26,19 @@
       "data_evento": "2026-11-24",
       "prazo": "2026-11-23",
       "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-24",
+      "prazo": "2026-12-24",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -94,19 +107,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2snmjfm2bot3gbogsq5jjip2ln@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia da Consciência Negra)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia da Consciência Negra)",
-      "local": "",
-      "data_evento": "2026-11-20",
-      "prazo": "2026-11-20",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-24",
       "tipo": "tarefa",
       "materia": "Geral",
@@ -146,29 +146,16 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
+      "id": "2snmjfm2bot3gbogsq5jjip2ln@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Encerramento do Ano Letivo",
+      "titulo": "FERIADO (Dia da Consciência Negra)",
       "descricao": "",
-      "resumo_original": "Encerramento do Ano Letivo",
+      "resumo_original": "FERIADO (Dia da Consciência Negra)",
       "local": "",
-      "data_evento": "2026-12-18",
-      "prazo": "2026-12-18",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-24",
-      "prazo": "2026-12-24",
-      "urgencia": "proximos_dias",
+      "data_evento": "2026-11-20",
+      "prazo": "2026-11-20",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     },
     {
@@ -181,6 +168,19 @@
       "local": "",
       "data_evento": "2026-11-28",
       "prazo": "2026-11-28",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Encerramento do Ano Letivo",
+      "descricao": "",
+      "resumo_original": "Encerramento do Ano Letivo",
+      "local": "",
+      "data_evento": "2026-12-18",
+      "prazo": "2026-12-18",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -276,19 +276,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "4o5orsmc2j9cu9q1taa3f7l3hs@google.com",
-      "tipo": "prova",
-      "materia": "Português",
-      "titulo": "2ª chamada: História e Língua Portuguesa",
-      "descricao": "",
-      "resumo_original": "2ª chamada: História e Língua Portuguesa",
-      "local": "",
-      "data_evento": "2026-11-18",
-      "prazo": "2026-11-18",
-      "urgencia": "hoje",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -299,6 +286,19 @@
       "data_evento": "2026-12-25",
       "prazo": "2026-12-25",
       "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "4o5orsmc2j9cu9q1taa3f7l3hs@google.com",
+      "tipo": "prova",
+      "materia": "Português",
+      "titulo": "2ª chamada: História e Língua Portuguesa",
+      "descricao": "",
+      "resumo_original": "2ª chamada: História e Língua Portuguesa",
+      "local": "",
+      "data_evento": "2026-11-18",
+      "prazo": "2026-11-18",
+      "urgencia": "hoje",
       "fonte": "google_calendar"
     }
   ]
