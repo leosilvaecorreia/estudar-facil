@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-11-21T14:25:20-03:00",
+  "gerado_em": "2026-11-21T20:07:42-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -15,6 +15,58 @@
     "eventos": 6
   },
   "itens": [
+    {
+      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-24",
+      "prazo": "2026-12-24",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "XLVI Exposição Multidisciplinar",
+      "descricao": "",
+      "resumo_original": "XLVI Exposição Multidisciplinar",
+      "local": "",
+      "data_evento": "2026-11-28",
+      "prazo": "2026-11-28",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2j61284jsv4psjkgh726h4fje4@google.com#2026-11-30",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Celebração Natalina",
+      "descricao": "Assunto: Celebrações Natalinas Com muita alegria, convidamos nossos alunos e seus familiares para um momento especial de gratidão e preparação para o Natal. Será uma oportunidade para nos reunirmos, agradecermos a Deus por todas as conquistas do ano letivo e abrirmos nossos corações para o espírito natalino, celebrando o grande mistério de Deus feito homem. Confira a programação por ano: - 30/11 - 2ª feira (3º ano): às 13h - 30/11 - 2ª feira (4º ano): às 17h - 03/12 - 5ª feira (1º ano): às 13h - 03/12 - 5ª feira (2º ano): às 17h Informações importantes: - Rotina de aulas: Nos dias dos encontros, as aulas ocorrerão normalmente. - Participação exclusiva na celebração: Os alunos que optarem por vir apenas para o momento da celebração deverão se juntar ao grupo com 10 minutos de antecedência . - Acesso aos responsáveis: A entrada será feita pelo Portão dos Alunos ( Acesso pela Rua Rino Levi, 485 ). A presença de cada família tornará esta celebração ainda mais abençoada e inesquecível. Contamos com vocês!",
+      "resumo_original": "Celebração Natalina",
+      "local": "",
+      "data_evento": "2026-11-30",
+      "prazo": "2026-11-30",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "2j61284jsv4psjkgh726h4fje4@google.com#2026-12-03",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Celebração Natalina",
+      "descricao": "Assunto: Celebrações Natalinas Com muita alegria, convidamos nossos alunos e seus familiares para um momento especial de gratidão e preparação para o Natal. Será uma oportunidade para nos reunirmos, agradecermos a Deus por todas as conquistas do ano letivo e abrirmos nossos corações para o espírito natalino, celebrando o grande mistério de Deus feito homem. Confira a programação por ano: - 30/11 - 2ª feira (3º ano): às 13h - 30/11 - 2ª feira (4º ano): às 17h - 03/12 - 5ª feira (1º ano): às 13h - 03/12 - 5ª feira (2º ano): às 17h Informações importantes: - Rotina de aulas: Nos dias dos encontros, as aulas ocorrerão normalmente. - Participação exclusiva na celebração: Os alunos que optarem por vir apenas para o momento da celebração deverão se juntar ao grupo com 10 minutos de antecedência . - Acesso aos responsáveis: A entrada será feita pelo Portão dos Alunos ( Acesso pela Rua Rino Levi, 485 ). A presença de cada família tornará esta celebração ainda mais abençoada e inesquecível. Contamos com vocês!",
+      "resumo_original": "Celebração Natalina",
+      "local": "",
+      "data_evento": "2026-11-30",
+      "prazo": "2026-12-03",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "0a513vh847ppnl16usjqrdf3qp@google.com#2026-11-23",
       "tipo": "tarefa",
@@ -146,28 +198,15 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "2j61284jsv4psjkgh726h4fje4@google.com#2026-11-30",
+      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Celebração Natalina",
-      "descricao": "Assunto: Celebrações Natalinas Com muita alegria, convidamos nossos alunos e seus familiares para um momento especial de gratidão e preparação para o Natal. Será uma oportunidade para nos reunirmos, agradecermos a Deus por todas as conquistas do ano letivo e abrirmos nossos corações para o espírito natalino, celebrando o grande mistério de Deus feito homem. Confira a programação por ano: - 30/11 - 2ª feira (3º ano): às 13h - 30/11 - 2ª feira (4º ano): às 17h - 03/12 - 5ª feira (1º ano): às 13h - 03/12 - 5ª feira (2º ano): às 17h Informações importantes: - Rotina de aulas: Nos dias dos encontros, as aulas ocorrerão normalmente. - Participação exclusiva na celebração: Os alunos que optarem por vir apenas para o momento da celebração deverão se juntar ao grupo com 10 minutos de antecedência . - Acesso aos responsáveis: A entrada será feita pelo Portão dos Alunos ( Acesso pela Rua Rino Levi, 485 ). A presença de cada família tornará esta celebração ainda mais abençoada e inesquecível. Contamos com vocês!",
-      "resumo_original": "Celebração Natalina",
+      "titulo": "Encerramento do Ano Letivo",
+      "descricao": "",
+      "resumo_original": "Encerramento do Ano Letivo",
       "local": "",
-      "data_evento": "2026-11-30",
-      "prazo": "2026-11-30",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2j61284jsv4psjkgh726h4fje4@google.com#2026-12-03",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Celebração Natalina",
-      "descricao": "Assunto: Celebrações Natalinas Com muita alegria, convidamos nossos alunos e seus familiares para um momento especial de gratidão e preparação para o Natal. Será uma oportunidade para nos reunirmos, agradecermos a Deus por todas as conquistas do ano letivo e abrirmos nossos corações para o espírito natalino, celebrando o grande mistério de Deus feito homem. Confira a programação por ano: - 30/11 - 2ª feira (3º ano): às 13h - 30/11 - 2ª feira (4º ano): às 17h - 03/12 - 5ª feira (1º ano): às 13h - 03/12 - 5ª feira (2º ano): às 17h Informações importantes: - Rotina de aulas: Nos dias dos encontros, as aulas ocorrerão normalmente. - Participação exclusiva na celebração: Os alunos que optarem por vir apenas para o momento da celebração deverão se juntar ao grupo com 10 minutos de antecedência . - Acesso aos responsáveis: A entrada será feita pelo Portão dos Alunos ( Acesso pela Rua Rino Levi, 485 ). A presença de cada família tornará esta celebração ainda mais abençoada e inesquecível. Contamos com vocês!",
-      "resumo_original": "Celebração Natalina",
-      "local": "",
-      "data_evento": "2026-11-30",
-      "prazo": "2026-12-03",
+      "data_evento": "2026-12-18",
+      "prazo": "2026-12-18",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
@@ -181,45 +220,6 @@
       "local": "",
       "data_evento": "2026-12-25",
       "prazo": "2026-12-25",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "XLVI Exposição Multidisciplinar",
-      "descricao": "",
-      "resumo_original": "XLVI Exposição Multidisciplinar",
-      "local": "",
-      "data_evento": "2026-11-28",
-      "prazo": "2026-11-28",
-      "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-24",
-      "prazo": "2026-12-24",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Ano Letivo",
-      "descricao": "",
-      "resumo_original": "Encerramento do Ano Letivo",
-      "local": "",
-      "data_evento": "2026-12-18",
-      "prazo": "2026-12-18",
       "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
