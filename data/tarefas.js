@@ -1,5 +1,5 @@
 ﻿window.__TAREFAS_DATA = {
-  "gerado_em": "2026-11-20T22:26:35-03:00",
+  "gerado_em": "2026-11-21T06:41:10-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -8,13 +8,26 @@
     "dias_retroativos": 14
   },
   "resumo": {
-    "total_itens": 15,
+    "total_itens": 14,
     "tarefas": 10,
     "provas": 0,
     "avisos": 0,
-    "eventos": 5
+    "eventos": 4
   },
   "itens": [
+    {
+      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-25",
+      "prazo": "2026-12-25",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
     {
       "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-23",
       "tipo": "tarefa",
@@ -39,19 +52,6 @@
       "data_evento": "2026-11-19",
       "prazo": "2026-11-24",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "2snmjfm2bot3gbogsq5jjip2ln@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "FERIADO (Dia da Consciência Negra)",
-      "descricao": "",
-      "resumo_original": "FERIADO (Dia da Consciência Negra)",
-      "local": "",
-      "data_evento": "2026-11-20",
-      "prazo": "2026-11-20",
-      "urgencia": "hoje",
       "fonte": "google_calendar"
     },
     {
@@ -185,19 +185,6 @@
       "fonte": "google_calendar"
     },
     {
-      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-25",
-      "prazo": "2026-12-25",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
       "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
       "tipo": "evento",
       "materia": "Geral",
@@ -207,7 +194,7 @@
       "local": "",
       "data_evento": "2026-11-28",
       "prazo": "2026-11-28",
-      "urgencia": "proximos_dias",
+      "urgencia": "esta_semana",
       "fonte": "google_calendar"
     }
   ]
