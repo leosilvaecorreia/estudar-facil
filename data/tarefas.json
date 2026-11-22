@@ -1,5 +1,5 @@
 ﻿{
-  "gerado_em": "2026-11-21T20:07:42-03:00",
+  "gerado_em": "2026-11-22T00:07:05-03:00",
   "calendario": {
     "fonte": "google_calendar_public_ics",
     "nome": "4º ano - Turma A",
@@ -16,29 +16,16 @@
   },
   "itens": [
     {
-      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
+      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
       "tipo": "evento",
       "materia": "Geral",
-      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-24",
-      "prazo": "2026-12-24",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "XLVI Exposição Multidisciplinar",
+      "titulo": "Encerramento do Ano Letivo",
       "descricao": "",
-      "resumo_original": "XLVI Exposição Multidisciplinar",
+      "resumo_original": "Encerramento do Ano Letivo",
       "local": "",
-      "data_evento": "2026-11-28",
-      "prazo": "2026-11-28",
-      "urgencia": "esta_semana",
+      "data_evento": "2026-12-18",
+      "prazo": "2026-12-18",
+      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     },
     {
@@ -77,7 +64,7 @@
       "local": "",
       "data_evento": "2026-11-24",
       "prazo": "2026-11-23",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -172,6 +159,45 @@
       "fonte": "google_calendar"
     },
     {
+      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-25",
+      "prazo": "2026-12-25",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "7ma9n6bt9qhmsrukdvl8sdtlum@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "XLVI Exposição Multidisciplinar",
+      "descricao": "",
+      "resumo_original": "XLVI Exposição Multidisciplinar",
+      "local": "",
+      "data_evento": "2026-11-28",
+      "prazo": "2026-11-28",
+      "urgencia": "esta_semana",
+      "fonte": "google_calendar"
+    },
+    {
+      "id": "59mhfs1ubi7c7l3j11guaak1ns@google.com",
+      "tipo": "evento",
+      "materia": "Geral",
+      "titulo": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
+      "resumo_original": "Véspera do Natal de Nosso Senhor Jesus Cristo",
+      "local": "",
+      "data_evento": "2026-12-24",
+      "prazo": "2026-12-24",
+      "urgencia": "proximos_dias",
+      "fonte": "google_calendar"
+    },
+    {
       "id": "1ei3qnijsqjk8jcgo2p305p9fa@google.com#2026-11-23",
       "tipo": "tarefa",
       "materia": "Geral",
@@ -181,7 +207,7 @@
       "local": "",
       "data_evento": "2026-11-19",
       "prazo": "2026-11-23",
-      "urgencia": "esta_semana",
+      "urgencia": "amanha",
       "fonte": "google_calendar"
     },
     {
@@ -195,32 +221,6 @@
       "data_evento": "2026-11-19",
       "prazo": "2026-11-24",
       "urgencia": "esta_semana",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "10f74hvj6d6nt9nuf76qjciotj@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Encerramento do Ano Letivo",
-      "descricao": "",
-      "resumo_original": "Encerramento do Ano Letivo",
-      "local": "",
-      "data_evento": "2026-12-18",
-      "prazo": "2026-12-18",
-      "urgencia": "proximos_dias",
-      "fonte": "google_calendar"
-    },
-    {
-      "id": "1ucai1fhvuiqk8o4glv5i1aps4@google.com",
-      "tipo": "evento",
-      "materia": "Geral",
-      "titulo": "Natal de Nosso Senhor Jesus Cristo",
-      "descricao": "Confira os horários de Missa nas Redes Sociais do Colégio e da Paróquia Santo Agostinho e Santa Rita de Cássia.",
-      "resumo_original": "Natal de Nosso Senhor Jesus Cristo",
-      "local": "",
-      "data_evento": "2026-12-25",
-      "prazo": "2026-12-25",
-      "urgencia": "proximos_dias",
       "fonte": "google_calendar"
     }
   ]
